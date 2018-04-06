@@ -213,6 +213,40 @@ pre {
   border-bottom: 2px solid var(--main-color);
 }
 
+div[class*="titleBar-"] rect {
+	display: none;
+}
+
+div[class*="titleBar-"] div:nth-of-type(2) {
+	background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/close.svg) !important;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 24px;
+}
+
+div[class*="titleBar-"] div:nth-of-type(3) {
+	background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/fullscreen.svg) !important;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 24px;
+}
+
+div[class*="titleBar-"] div:nth-of-type(4) {
+	background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/remove.svg) !important;
+	background-repeat: no-repeat;
+	background-position: center 7px;
+	background-size: 24px;
+}
+
+div[class*="titleBar-"] div {
+	transform: scale(0.8) !important;
+}
+
+.wordmark-2L03Wr {
+	display: none;
+}
+
+
 .title-qAcLxz, .titleCall-3X0yGQ {
   height: 46px;
 }
@@ -1421,6 +1455,18 @@ pre {
   color: var(--main-color) !important;
 }
 
+.titleWrapper-3Vi_wz .title-qAcLxz { 
+	background: var(--quaternary-color) !important; 
+}
+
+.scroller-fzNley.content-region-scroller{ 
+	background: var(--primary-color) !important; 
+}
+
+.container-3NvGrL .header-1tSljs, .search-bar, .search-bar .search-bar-icon { 
+    background: var(--quaternary-color) !important;
+}
+
 .invite-CTGItT {
   background: rgba(0, 0, 0, 0.25);
   border-color: rgba(0, 0, 0, 0.25);
@@ -1617,9 +1663,10 @@ background: var(--tertiary-color) !important;
 }
 
 .theme-dark .message-group.is-local-bot-message {
-  background-image: transparent !important;
-  box-shadow: transparent !important;
-  background-color: var(--primary-color) !important;
+	background-image: var(--primary-color);
+	padding-left: 20px !important;
+	margin-left: 0px !important;
+	width: 100% !important;
 }
 
 .wrapper-FtzxDk.vertical-3X17r5.flex-3B1Tl4.directionColumn-2h-LPR.wrapper-1hQOWh.vertical-3X17r5.flex-3B1Tl4.directionColumn-2h-LPR.alignEnd-3PVyen.spacer-2Aeq3k {
@@ -2446,6 +2493,18 @@ form.modal-content.form.need-help-modal::after {
 
 .searchBar-YMJBu9 {
     background: var(--tertiary-color) !important;
+}
+
+.ui-standard-sidebar-view .custom-scroller{
+	background: var(--primary-color) !important;
+}
+
+.popoutList-2NT_IY {
+	background: var(--secondary-color) !important;
+}
+
+.selectableItem-3PW5_y:hover {
+	background: var(--quaternary-color) !important;
 }
 
 .guild-header.popout-open~.ui-scroller-wrap {
