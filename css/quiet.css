@@ -3014,3 +3014,7 @@ body, span:not(.spinner-item) {
 	font-size: 100%;
 	overflow: hidden;
 }
+
+.theme-dark .markup .hljs::before {
+    display: none !important;
+}
