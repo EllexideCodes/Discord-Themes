@@ -114,6 +114,7 @@
 29. Misc
 30. Keyframes
 31. Header Blocks
+32. Custom CSS
 
 */
 
@@ -3049,4 +3050,62 @@ body, span:not(.spinner-item) {
 
 .theme-dark .markup .hljs::before {
     display: none !important;
+}
+
+/* 32. Custom CSS */
+.bd-detached-editor .chat .title-qAcLxz > div:last-child,
+.bd-detached-editor .headerBar-cxbhPD > div:last-child {
+    margin-right: 0 !important;
+}
+#bd-customcss-detach-container #bd-customcss-attach-controls{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+#bd-customcss-attach-controls {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+#bd-customcss-detach-controls-button > span {
+    font-size: 0 !important;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+#bd-customcss-attach-controls .checkbox-group {
+    order: 1;
+}
+
+/* Main CSS Box */
+.ace-monokai {
+  background-color: var(--tertiary-color);
+  color: white;
+}
+
+/* Gutter Line */
+.ace-monokai .ace_gutter {
+  background: var(--quaternary-color);
+  color: var(--rs-streaming-color);
+}
+/* Shorter Highlight Line */
+.ace-monokai .ace_gutter-active-line {
+  background-color: var(--secondary-color);
+}
+/* When Clicking and Dragging through the codes to highlight them */
+.ace-monokai .ace_marker-layer .ace_selection {
+  background: var(--main-color);
+}
+/* Long Highlight Line */
+.ace-monokai .ace_marker-layer .ace_active-line {
+  background: #121212;
+}
+/* Bracket Border */
+.ace-monokai .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid var(--hover-color);
+}
+/* Comment Code */
+.ace-monokai .ace_comment {
+  color: var(--rs-online-color);
 }
