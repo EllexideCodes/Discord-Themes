@@ -1064,7 +1064,7 @@ div[class*="titleBar-"] div {
 
 /* 10. Avatars */
 
-.avatar-small, .avatar-large { border-radius: 1px !important;}
+.avatar-small, .avatar-large, .avatar-xsmall, .avatar-xxlarge { border-radius: 1px !important;}
 
 .member-2FrNV0 [class*="status-"] { transition: all ease .05s }
 
@@ -1093,6 +1093,16 @@ div[class*="titleBar-"] div {
     transition-duration: .5s !important;
 }
 
+.autocomplete-1TnWNR [class*="avatar-"] [class*="status"] {
+    height: 100% !important;
+    width: 100% !important;
+    border-radius: 0 !important;
+    border: 2px solid !important;
+    bottom: -2px !important; right: -2px !important;
+    background: transparent !important;
+}
+
+.autocomplete-1TnWNR [class*="avatar-"] .statusOnline-1Mp2_H,
 .avatar-small [class*="online"],
 .member-2FrNV0 [class*="status-"].statusOnline-1Mp2_H,
 .userPopout-11hFKo [class*="status-"].statusOnline-1Mp2_H,
@@ -1101,6 +1111,7 @@ div[class*="titleBar-"] div {
     border-color: var(--rs-online-color) !important;
 }
 
+.autocomplete-1TnWNR [class*="avatar-"] .statusIdle-2AQdvu,
 .avatar-small [class*="idle"],
 .member-2FrNV0 [class*="status-"].statusIdle-2AQdvu,
 .userPopout-11hFKo [class*="status-"].statusIdle-2AQdvu,
@@ -1109,6 +1120,7 @@ div[class*="titleBar-"] div {
     border-color: var(--rs-idle-color) !important;
 }
 
+.autocomplete-1TnWNR [class*="avatar-"] .statusDnd-35xAXU,
 .avatar-small [class*="dnd"],
 .member-2FrNV0 [class*="status-"].statusDnd-35xAXU,
 .userPopout-11hFKo [class*="status-"].statusDnd-35xAXU,
@@ -1117,6 +1129,7 @@ div[class*="titleBar-"] div {
     border-color: var(--rs-dnd-color) !important;
 }
 
+.autocomplete-1TnWNR [class*="avatar-"] .statusStreaming-1bZ3Hq,
 .avatar-small [class*="streaming"],
 .member-2FrNV0 [class*="status-"].statusStreaming-1bZ3Hq,
 .userPopout-11hFKo [class*="status-"].statusStreaming-1bZ3Hq,
@@ -1125,6 +1138,7 @@ div[class*="titleBar-"] div {
     border-color: var(--rs-streaming-color) !important;
 }
 
+.autocomplete-1TnWNR [class*="avatar-"] .statusOffline-jZXr_u,
 .avatar-small [class*="offline"],
 .member-2FrNV0 [class*="status-"].statusOffline-jZXr_u,
 .userPopout-11hFKo [class*="status-"].statusOffline-jZXr_u,
@@ -1133,6 +1147,7 @@ div[class*="titleBar-"] div {
     border-color: var(--rs-offline-color) !important;
 }
 
+.autocomplete-1TnWNR [class*="avatar-"] .statusInvisible-2ci18Q,
 .avatar-small [class*="invisible"],
 .member-2FrNV0 [class*="status-"].statusInvisible-2ci18Q,
 .userPopout-11hFKo [class*="status-"].statusInvisible-2ci18Q,
@@ -1343,33 +1358,49 @@ div[class*="titleBar-"] div {
 
 /* -- MORE CLASS NAME CHANGES -- */
 
+.avatar-small .status{
+    transition: all 0.2s ease;
+}
 
-.member-2FrNV0 [class*="status-"].statusTyping-lRly31 .pulsingEllipsisItem-1oPdBE {
+.avatar-small .status.status-typing {
+    border-radius: 25% !important;
+    background: rgba(0,0,0,0.6) !important;
+    transition: all 0.2s ease;
+}
+
+.member-2FrNV0 [class*="status-"].statusTyping-lRly31 .pulsingEllipsisItem-1oPdBE,
+.avatar-small .spinner .spinner-item {
   height: 3px;
   width: 3px;
   border-radius: 0px !important;
 }
 
+.avatar-small .status-online .spinner .spinner-item,
 .member-2FrNV0 [class*="status-"].statusOnline-1Mp2_H.statusTyping-lRly31 .pulsingEllipsisItem-1oPdBE {
   background-color: var(--rs-online-color);
 }
 
+.avatar-small .status-idle .spinner .spinner-item,
 .member-2FrNV0 [class*="status-"].statusIdle-2AQdvu.statusTyping-lRly31 .pulsingEllipsisItem-1oPdBE {
   background-color: var(--rs-idle-color);
 }
 
+.avatar-small .status-dnd .spinner .spinner-item,
 .member-2FrNV0 [class*="status-"].statusDnd-35xAXU.statusTyping-lRly31 .pulsingEllipsisItem-1oPdBE {
   background-color: var(--rs-dnd-color);
 }
 
+.avatar-small .status-streaming .spinner .spinner-item,
 .member-2FrNV0 [class*="status-"].statusStreaming-1bZ3Hq.statusTyping-lRly31 .pulsingEllipsisItem-1oPdBE {
   background-color: var(--rs-streaming-color);
 }
 
+.avatar-small .status-offline .spinner .spinner-item,
 .member-2FrNV0 [class*="status-"].statusOffline-jZXr_u.statusTyping-lRly31 .pulsingEllipsisItem-1oPdBE {
   background-color: var(--rs-offline-color);
 }
 
+.avatar-small .status-invisible .spinner .spinner-item
 .member-2FrNV0 [class*="status-"].statusInvisible-2ci18Q.statusTyping-lRly31 .pulsingEllipsisItem-1oPdBE {
   background-color: var(--rs-invisible-color);
 }
@@ -1411,6 +1442,7 @@ div[class*="titleBar-"] div {
   border-radius: 3px;
   width: 145px;
   margin-left: 15px;
+  margin-bottom: 10px !important;
 }
 
 .channel-members h2:first-of-type, .membersGroup-3_dP5E:first-of-type {
