@@ -1509,7 +1509,7 @@ div[class*="titleBar-"] div {
 	background: var(--primary-color) !important; 
 }
 
-.container-3NvGrL .header-1tSljs, .search-bar, .search .search-bar-icon { 
+.container-3NvGrL .header-1tSljs, .search-bar { 
     background: var(--quaternary-color) !important;
 }
 
@@ -1825,7 +1825,7 @@ background: var(--tertiary-color) !important;
 
 .search .search-bar-icon {
   width: 35px;
-  background-color: var(--primary-color) !important;
+  background-color: var(--quaternary-color) !important;
 }
 
 .search-popout {
