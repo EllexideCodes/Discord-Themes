@@ -1355,6 +1355,19 @@ div[class*="titleBar-"] div {
   background: transparent !important;
 }
 
+.content-3JzEqq {
+    flex-grow: 0 !important;
+    height: 40px !important;
+}
+
+.username-MwOsla {
+  clear: left;
+  width: 100px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
 /* -- NO NEED TO IDENTIFY SPINNER, IT'S THE SAME AS THE STATUS CIRCLE IN "AVATARS" -- */
 
 /* -- MORE CLASS NAME CHANGES -- */
@@ -1496,7 +1509,7 @@ div[class*="titleBar-"] div {
 	background: var(--primary-color) !important; 
 }
 
-.container-3NvGrL .header-1tSljs, .search-bar, .search-bar .search-bar-icon { 
+.container-3NvGrL .header-1tSljs, .search-bar, .search .search-bar-icon { 
     background: var(--quaternary-color) !important;
 }
 
