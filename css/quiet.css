@@ -1827,6 +1827,32 @@ background: var(--tertiary-color) !important;
   background-color: var(--primary-color) !important;
 }
 
+
+.search-popout .results-group {
+  animation: popoutanim-inner 200ms cubic-bezier(.4, 0, 0, 1), opacity 100ms ease 100ms backwards;
+}
+
+body:active .search-popout:not(:active) {
+  transform: scale(0) !important;
+  transform-origin: 50% 30%;
+  transition: transform 200ms cubic-bezier(.5, 0, 0, .3) !important;
+}
+
+body:active .search-popout:not(:active) .results-group:not(:active) {
+  transform: scale(1.5);
+  opacity: 0;
+  transition: 200ms cubic-bezier(.5, 0, 0, .3), opacity 100ms ease;
+}
+
+.search-popout {
+  animation: popoutanim 200ms cubic-bezier(.4, 0, 0, 1);
+  margin: 0px;
+  -ms-transform: none !important;
+  transform: none !important;
+  pointer-events: none;
+  z-index: 99 !important;
+}
+
 .search-popout .option {
   border-left: 2px solid transparent;
   border-radius: 0px;
