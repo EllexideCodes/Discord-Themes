@@ -1829,7 +1829,7 @@ background: var(--tertiary-color) !important;
 
 
 .search-popout .results-group {
-  animation: popoutanim-inner 200ms cubic-bezier(.4, 0, 0, 1), opacity 100ms ease 100ms backwards;
+  animation: popoutanim-inner 150ms cubic-bezier(.4, 0, 0, 1), opacity 100ms ease 100ms backwards;
 }
 
 body:active .search-popout:not(:active) {
@@ -1845,7 +1845,7 @@ body:active .search-popout:not(:active) .results-group:not(:active) {
 }
 
 .search-popout {
-  animation: popoutanim 200ms cubic-bezier(.4, 0, 0, 1);
+  animation: popoutanim 150ms cubic-bezier(.4, 0, 0, 1);
   margin: 0px;
   -ms-transform: none !important;
   transform: none !important;
