@@ -1849,7 +1849,6 @@ body:active .search-popout:not(:active) .results-group:not(:active) {
   margin: 0px;
   -ms-transform: none !important;
   transform: none !important;
-  pointer-events: none;
   z-index: 99 !important;
 }
 
