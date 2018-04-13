@@ -1352,6 +1352,10 @@ div[class*="titleBar-"] div {
   color: #fff;
 }
 
+.member-2FrNV0.popout-open .content-3JzEqq, .recent-mentions-popout .header { 
+    background-color: var(--quaternary-color) !important; 
+}
+
 .message-group .mentioned .message-text:after {
   display: none !important;
 }
