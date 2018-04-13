@@ -1381,7 +1381,6 @@ div[class*="titleBar-"] div {
 
 .username-MwOsla {
   clear: left;
-  width: 100px;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
