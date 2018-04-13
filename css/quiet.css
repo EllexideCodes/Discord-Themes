@@ -315,7 +315,16 @@ div[class*="titleBar-"] div {
 
 .popout .themed-popout .header {
   border-radius: 0px;
-  background-color: var(--quaternary-color);
+  background-color: var(--quaternary-color) !important;
+}
+
+.theme-dark .popout .messages-popout-wrap {
+  border-radius: 0 !important;
+  border-left: 2px solid var(--main-color);
+  border-right: 2px solid var(--main-color);
+  border-bottom: 2px solid var(--main-color);
+  animation: popoutanim 300ms cubic-bezier(.4, 0, 0, 1), opacity 100ms ease 100ms backwards;
+  transform-origin: 50% -10%;
 }
 
 .messages-popout-wrap .messages-popout .message-group {
@@ -1827,10 +1836,17 @@ background: var(--tertiary-color) !important;
   background-color: var(--quaternary-color) !important;
 }
 
-.searchPopout-38pRYh {
-  background-color: var(--primary-color) !important;
+.popout.popout-bottom.no-shadow {
+  margin-top: 0px !important;
 }
 
+.theme-dark .searchPopout-38pRYh {
+  background-color: var(--primary-color) !important;
+  border-radius: 0 !important;
+  border-left: 2px solid var(--main-color);
+  border-right: 2px solid var(--main-color);
+  border-bottom: 2px solid var(--main-color);
+}
 
 .searchPopout-38pRYh .resultsGroup-2qzvNj, .searchPopout-38pRYh {
     animation: popoutanim 300ms cubic-bezier(.4, 0, 0, 1), opacity 100ms ease 100ms backwards;
