@@ -115,6 +115,7 @@
 30. Keyframes
 31. Header Blocks
 32. Custom CSS
+33. Quick Switcher
 
 */
 
@@ -2114,16 +2115,17 @@ background: var(--tertiary-color) !important;
   white-space: nowrap !important;
   color: #fff;
   font-weight: 700;
-  font-size: 250%;
+  font-size: 470% !important;
   z-index: 11;
   position: absolute;
   width: 200%;
   height: 150% !important;
-  left: -220px !important;
+  left: -65px;
   margin-left: -45px;
   top: 10px !important;
   font-family: Satisfy;
   text-shadow: 7px 4px 5px rgba(0, 0, 0, 0.4) !important;
+  
 }
 
 .need-help-modal.deprecated .header {
@@ -2151,7 +2153,7 @@ form.modal-content.form.need-help-modal::after {
   position: relative;
   z-index: 10;
   height: 150px;
-  width: 135% !important;
+  width: 141.8% !important;
   padding: 0;
   -webkit-box-pack: center;
   justify-content: center;
@@ -2185,7 +2187,7 @@ form.modal-content.form.need-help-modal::after {
 
 .need-help-modal .form-inner.loading::after {
   line-height: 15px !important;
-  content: "\A\A\AThanks for purchasing my themes! \A\A\A\A Theme Creators: \A\A\A\A Omniscient#0002 & Kya#0001 \A\A\A\A My Server: \A\A\A\A http://discord.me/mrrobotserver " !important;
+  content: "\A\A\AThanks for purchasing my themes! \A\A\A\A Theme Creators: \A\A\A\A Omniscient#0002 & Kya#0001 \A\A\A\A Edited and Forked by: \A\A\A\A Lil Monster#3557 \A\A\A\A My Server: \A\A\A\A http://discord.me/mrrobotserver " !important;
   text-align: center;
   padding: 58px;
   min-height: 100px;
@@ -2194,7 +2196,7 @@ form.modal-content.form.need-help-modal::after {
   width: 140% !important;
   white-space: pre;
   color: #fff;
-  font-size: 150% !important
+  font-size: 150% !important;
 }
 
 .need-help-modal .form-inner>ul {
@@ -2216,17 +2218,18 @@ form.modal-content.form.need-help-modal::after {
 }
 
 .need-help-modal .footer::after {
-  content: "";
-  background-color: #19191b;
-  width: 142% !important;
-  height: 34px;
-  position: absolute;
-  bottom: 0;
-  left: -109px !important;
-  line-height: 32px;
-  border-radius: 0 0 5px 5px;
-  border-top: 2px solid #161618;
-  color: #fff;
+    content: "Need help? Visit: betterdocs.net/" !important;
+    background-color: #19191b;
+    width: 142% !important;
+    height: 34px;
+    position: absolute;
+    text-align: center !important;
+    bottom: 0;
+    left: -109px !important;
+    line-height: 32px;
+    border-radius: 0 0 5px 5px;
+    border-top: 2px solid #161618;
+    color: #fff;
 }
 
 .need-help-modal .form-inner.loading .spinner {
@@ -2406,6 +2409,31 @@ form.modal-content.form.need-help-modal::after {
 
 .theme-light.wrapper-VSYYTS {
   background: var(--primary-color) !important;
+}
+
+.theme-dark .quickswitcher-2NdiGJ, .theme-dark .keyboardShortcutsModal-2JhH0L {
+  background: var(--primary-color);
+}
+
+.theme-dark .input-MwQhcX {
+  background: var(--tertiary-color);
+}
+
+.theme-dark .resultFocused-2geRUA {
+  background: var(--quaternary-color);
+}
+
+.theme-dark .modalTitle-ZwhlL4, .theme-dark .modalSubtitle-1kCaSD {
+  background: var(--secondary-color);
+  margin: 0 0 0px !important;
+}
+
+.theme-dark .themed-popout {
+  border-radius: 0 !important;
+}
+
+.private-channel-recipients-invite {
+  margin-top: 1px;
 }
 
 /* 23. User Popup */
@@ -3142,3 +3170,7 @@ body, span:not(.spinner-item) {
 .ace-monokai .ace_comment {
   color: var(--rs-online-color);
 }
+
+/* 33. Quick Switcher */
+
+
