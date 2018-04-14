@@ -115,6 +115,7 @@
 30. Keyframes
 31. Header Blocks
 32. Custom CSS
+33. Roundness
 
 */
 
@@ -3189,4 +3190,27 @@ body, span:not(.spinner-item) {
 /* Comment Code */
 .ace-monokai .ace_comment {
   color: var(--rs-online-color);
+}
+
+/* 33. Roundness */
+
+.chat .avatar-large, 
+.container-iksrDt .avatar-small, 
+.private-channel-recipients-invite .friend .avatar-small, 
+[class*="avatar-"] .status, 
+.channel-members [class*="avatar-"] .status, 
+.private-channels .channel .avatar-small, 
+.messages-popout .message-group .avatar-large, 
+.guilds-wrapper .guilds .guild .guild-inner a, 
+.guilds-wrapper .guild.guilds-add::after, 
+.mask-2vyqAW, 
+.image-EVRGPw, 
+.member-2FrNV0 [class*="status-"], 
+.userPopout-11hFKo [class*="status-"], 
+.modal-2LIEKY [class*="status-"], 
+.theme-dark [class*="switch"][class*="valueUnchecked"], 
+.themeDefault-3M0dJU.sizeDefault-rZbSBU:after, 
+.themeDefault-3M0dJU.valueChecked-3Bzkbm, 
+.valueChecked-3Bzkbm.sizeDefault-rZbSBU:after {
+  border-radius: var(--roundness) !important;
 }
