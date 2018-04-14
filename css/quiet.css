@@ -115,7 +115,6 @@
 30. Keyframes
 31. Header Blocks
 32. Custom CSS
-33. Quick Switcher
 
 */
 
@@ -1944,6 +1943,27 @@ background: var(--tertiary-color) !important;
   padding: 0px 6px 1px 0px;
 }
 
+.theme-dark .calendarPicker-16Q6sl .react-datepicker, 
+.theme-dark .calendarPicker-16Q6sl .react-datepicker__header {
+  border-radius: 0px !important;
+  background: var(--primary-color) !important;
+}
+
+.theme-dark .calendarPicker-16Q6sl .react-datepicker__current-month,
+.theme-dark .datePicker-1RD4eT .datePickerHint-1iW7Wz {
+  border-color: var(--tertiary-color);
+}
+
+.theme-dark .calendarPicker-16Q6sl .react-datepicker__day {
+  border-color: var(--tertiary-color);
+  background: var(--secondary-color);
+}
+
+.theme-dark .calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--disabled, 
+.theme-dark .calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--disabled:hover {
+  background: var(--quaternary-color);
+}
+
 /* 17. Search Results */
 
 .search-results-wrap .search-header {
@@ -3170,7 +3190,3 @@ body, span:not(.spinner-item) {
 .ace-monokai .ace_comment {
   color: var(--rs-online-color);
 }
-
-/* 33. Quick Switcher */
-
-
