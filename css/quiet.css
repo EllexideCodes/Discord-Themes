@@ -3192,7 +3192,7 @@ body, span:not(.spinner-item) {
   color: var(--rs-online-color);
 }
 
-/* 33. Roundness */
+/* 33. Roundness 
 
 .chat .avatar-large, 
 .container-iksrDt .avatar-small, 
@@ -3214,3 +3214,4 @@ body, span:not(.spinner-item) {
 .valueChecked-3Bzkbm.sizeDefault-rZbSBU:after {
   border-radius: var(--roundness) !important;
 }
+*/
