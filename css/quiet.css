@@ -1951,7 +1951,9 @@ background: var(--tertiary-color) !important;
 }
 
 .theme-dark .calendarPicker-16Q6sl .react-datepicker__current-month,
-.theme-dark .datePicker-1RD4eT .datePickerHint-1iW7Wz {
+.theme-dark .datePicker-1RD4eT .datePickerHint-1iW7Wz,
+.theme-dark .calendarPicker-16Q6sl .react-datepicker__navigation.react-datepicker__navigation--next, 
+.theme-dark .calendarPicker-16Q6sl .react-datepicker__navigation.react-datepicker__navigation--previous {
   border-color: var(--tertiary-color);
 }
 
