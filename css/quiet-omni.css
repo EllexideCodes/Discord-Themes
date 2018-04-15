@@ -3329,6 +3329,7 @@ background: var(--primary-color) !important;
 .theme-dark [class*="switch"][class*="valueUnchecked"], 
 .themeDefault-3M0dJU.sizeDefault-rZbSBU:after, 
 .themeDefault-3M0dJU.valueChecked-3Bzkbm, 
-.valueChecked-3Bzkbm.sizeDefault-rZbSBU:after {
+.valueChecked-3Bzkbm.sizeDefault-rZbSBU:after,
+.avatar-xxlarge {
     border-radius: var(--roundness) !important;
 }
