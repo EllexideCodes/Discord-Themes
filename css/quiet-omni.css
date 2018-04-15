@@ -3320,7 +3320,7 @@ background: var(--primary-color) !important;
 .channel-members [class*="avatar-"] .status, 
 .private-channels .channel .avatar-small, 
 .messages-popout .message-group .avatar-large, 
-.guilds-wrapper .guilds .guild .guild-inner, 
+.guilds [class*="avatar-"], 
 .guilds-wrapper .guild.guilds-add::after, 
 .mask-2vyqAW, .image-EVRGPw, 
 .member-2FrNV0 [class*="status-"], 
