@@ -156,8 +156,28 @@ div[class*="winButton-"] {
   left: 1% !important;
 }
 
-.guilds-wrapper .guilds .guild:first-child {
-  top: 0px !important; 
-  margin-top: 0 !important;
-  position: absolute !important;
+.guilds-wrapper .guilds>div.guild:first-child {
+  margin-top: -48px;
+  width: 70px;
+  margin-left: -10px;
+  border-bottom: 2px solid var(--main-color);
+  position: absolute;
+  z-index: 2;
+}
+
+.guilds-wrapper .guilds>div.guild:first-child .guild-inner a {
+  height: 46px;
+}
+
+.guilds-wrapper .guilds>div.guild:first-child {
+  height: 46px;
+}
+
+.guilds-wrapper .guilds>div.guild:first-child .guild-inner {
+  background-color: var(--quaternary-color) !important;
+  border-radius: 0px !important;
+}
+
+.guilds-wrapper .guilds>div.guild:first-child .guild-inner a, .guilds-wrapper .guilds>div.guild:first-child .friends-icon {
+  width: 70px;
 }
