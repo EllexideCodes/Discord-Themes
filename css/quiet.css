@@ -344,6 +344,10 @@ div[class*="titleBar-"] div {
   box-shadow: 0 0 0px 0px transparent !important;
 }
 
+.messages-popout-wrap.themed-popout{
+  margin-top: 1px !important;
+}
+
 .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button {
   background-color: var(--main-color) !important;
   color: #fff !important;
