@@ -115,7 +115,8 @@
 30. Keyframes
 31. Header Blocks
 32. Custom CSS
-33. Roundness
+33. Server Settings
+34. Roundness
 
 */
 
@@ -3198,7 +3199,50 @@ body, span:not(.spinner-item) {
   color: var(--rs-online-color);
 }
 
-/* 33. Roundness 
+/* 33. Server Settings */
+
+.auditLog-1XsYCj, .customHeader-1TIEfA,
+.ui-standard-sidebar-view .guild-settings-members-header {
+  width: 150%;
+}
+
+.customHeader-1TIEfA,
+.ui-standard-sidebar-view .guild-settings-members-header {
+  padding-bottom: 15px;
+}
+
+.sidebarScrollable-3YmeW_+.content-1orzGj {
+  max-width: 100%;
+}
+
+.theme-dark .guild-settings-members-member, 
+.card-11ynQk,
+.theme-dark .description-3MVziF, 
+.theme-dark .labelDescriptor-1BebCl,
+.wrapper-1-BJK5 {
+  width: 86%;
+  min-width: 0% !important;
+  max-width: 100% !important;
+}
+
+.ui-standard-sidebar-view .custom-scroller>div {
+  margin-right: 10px;
+}
+
+.justifyBetween-1d1Hto,
+ {
+  max-width: 400% !important;
+  min-width: 0% !important;
+  width: 149%;
+}
+
+.theme-dark .emoji-row {
+  width: 98%;
+  max-width: 400% !important;
+}
+
+
+/* 34. Roundness 
 
 .chat .avatar-large, 
 .container-iksrDt .avatar-small, 
