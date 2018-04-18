@@ -3099,6 +3099,7 @@ body:active .popout-bottom[style*="overflow: hidden; visibility: visible;"]:not(
 body, span:not(.spinner-item) {
   -webkit-font-smoothing: antialiased;
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 [style*="left: 70px; top: 29.5px;"] {
   display: none !important;
@@ -3308,8 +3309,6 @@ background: var(--primary-color) !important;
     transform: scale(1);
   }
 }
-
-31.
 
 /* 31. Roundness */
 
