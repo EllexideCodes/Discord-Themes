@@ -2464,6 +2464,11 @@ form.modal-content.form.need-help-modal::after {
   margin-top: 1px;
 }
 
+.Select-menu {
+  background: var(--secondary-color);
+}
+
+
 /* 23. User Popup */
 
 .rolesList-2RhjNd {
