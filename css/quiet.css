@@ -3047,7 +3047,7 @@ body, span:not(.spinner-item) {
 }
 
 .tooltip.tooltip-top:after {
-  border-bottom-color: black !important;
+  border-top-color: black !important;
 }
 
 .create-guild-container.deprecated .action {
