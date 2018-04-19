@@ -829,22 +829,22 @@ div[class*="titleBar-"] div {
   line-height: 18px;
 }
 
-.channel-members-wrap, .guilds-wrapper, .channels-wrap .flexChild-1KGW5q, .container-iksrDt, .container-3lnMWU, #friends .friends-header, .chat .title-wrap, .popout.popout-bottom-right.no-arrow.no-shadow, .chat form .channel-text-area-default, .search-results-wrap, .embed-2diOCQ, .emojiPicker-3g68GS, .channels-3g2vYe .scrollerWrap-2uBjct, .channels-3g2vYe .flexChild-1KGW5q, .wrapper-uAa07y, .cardPrimary-ZVL9Jr, .cardPrimaryEditable-2IQ7-V, .authedApp-2JX_oI, .modal-3HOjGZ .message-25xg43, .theme-dark .autocomplete-1TnWNR, .menu-3BZuDT {
+.channel-members-wrap, .guilds-wrapper, .channels-wrap .flexChild-1KGW5q, .container-iksrDt, .container-3lnMWU, #friends .friends-header, .chat .title-wrap, .popout-2RRwAO.popoutBottomRight-3JmvG2.noArrow-2iqI6w.noShadow-31NiLA, .chat form .channel-text-area-default, .search-results-wrap, .embed-2diOCQ, .emojiPicker-3g68GS, .channels-3g2vYe .scrollerWrap-2uBjct, .channels-3g2vYe .flexChild-1KGW5q, .wrapper-uAa07y, .cardPrimary-ZVL9Jr, .cardPrimaryEditable-2IQ7-V, .authedApp-2JX_oI, .modal-3HOjGZ .message-25xg43, .theme-dark .autocomplete-1TnWNR, .menu-3BZuDT {
   box-shadow: 0 0px 0px rgba(0,0,0,0.0) !important;
 }
 /* 9. Emoji Picker */
 
-.popout.no-shadow .emojiPicker-3g68GS, .popout.no-shadow #bda-qem-favourite-container, .popouts-1TN9u9.no-shadow #bda-qem-twitch-container {
+.popout-2RRwAO.noShadow-31NiLA .emojiPicker-3g68GS, .popout-2RRwAO.noShadow-31NiLA #bda-qem-favourite-container, .popouts-1TN9u9.noShadow-31NiLA #bda-qem-twitch-container {
   background: var(--primary-color) !important;
   border: 1px solid var(--primary-color);
   border-radius: 3px !important;
 }
 
-.popout:not(.no-shadow) .emojiPicker-3g68GS {
+.popout-2RRwAO:not(.noShadow-31NiLA) .emojiPicker-3g68GS {
   display: block !important;
 }
 
-.popout .emojiPicker-3g68GS, .popout #bda-qem-favourite-container, .popouts-1TN9u9 #bda-qem-twitch-container {
+.popout-2RRwAO .emojiPicker-3g68GS, .popout-2RRwAO #bda-qem-favourite-container, .popouts-1TN9u9 #bda-qem-twitch-container {
   background: var(--primary-color) !important;
   border: 1px solid var(--primary-color);
   border-radius: 0 0 3px 3px !important;
@@ -1071,11 +1071,11 @@ div[class*="titleBar-"] div {
   border-radius: 0 !important
 }
 
-.popouts-1TN9u9.no-shadow {
+.popouts-1TN9u9.noShadow-31NiLA {
   box-shadow: none !important;
 }
 
-.popouts-1TN9u9:not(.no-shadow) #bda-qem, .popouts-1TN9u9:not(.no-shadow) #bda-qem-twitch-container, .popouts-1TN9u9:not(.no-shadow) #bda-qem-favourite-container {
+.popouts-1TN9u9:not(.noShadow-31NiLA) #bda-qem, .popouts-1TN9u9:not(.noShadow-31NiLA) #bda-qem-twitch-container, .popouts-1TN9u9:not(.noShadow-31NiLA) #bda-qem-favourite-container {
   display: none !important;
 }
 
