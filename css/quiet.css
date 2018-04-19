@@ -9,7 +9,7 @@
 
 /* Dark Mode Settings */
 
-.app.theme-dark, .theme-dark, .theme-dark .theme-light, .theme-dark.popouts, .theme-light.popouts+.tooltips, .tooltips+.theme-dark {
+.app.theme-dark, .theme-dark, .theme-dark .theme-light, .theme-dark.popouts-1TN9u9, .theme-light.popouts-1TN9u9+.tooltips, .tooltips+.theme-dark {
   --primary-color: #19191b;
   /* primary background color */
   --secondary-color: #1E1E21;
@@ -834,7 +834,7 @@ div[class*="titleBar-"] div {
 }
 /* 9. Emoji Picker */
 
-.popout-2RRwAO.noShadow-31NiLA .emojiPicker-3g68GS, .popout-2RRwAO.noShadow-31NiLA #bda-qem-favourite-container, .popouts-1TN9u9.noShadow-31NiLA #bda-qem-twitch-container {
+.popout-2RRwAO.noShadow-31NiLA .emojiPicker-3g68GS, .popout-2RRwAO.noShadow-31NiLA #bda-qem-favourite-container, .popout-2RRwAO.noShadow-31NiLA #bda-qem-twitch-container {
   background: var(--primary-color) !important;
   border: 1px solid var(--primary-color);
   border-radius: 3px !important;
@@ -1071,7 +1071,7 @@ div[class*="titleBar-"] div {
   border-radius: 0 !important
 }
 
-.popouts-1TN9u9.noShadow-31NiLA {
+.popout-2RRwAO.noShadow-31NiLA {
   box-shadow: none !important;
 }
 
@@ -1209,7 +1209,7 @@ div[class*="titleBar-"] div {
   background: var(--secondary-color);
 }
 
-.popouts-1TN9u9.popoutTop-iQTpl5, .popouts-1TN9u9.popoutTopLeft-2XMqOB {
+.popout-2RRwAO.popoutTop-iQTpl5, .popout-2RRwAO.popoutTopLeft-2XMqOB {
   overflow: visible !important;
 }
 
