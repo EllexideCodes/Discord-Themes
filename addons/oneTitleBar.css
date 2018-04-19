@@ -142,8 +142,12 @@ div[class*="winButton-"] {
   background: var(--primary-color) !important;
 }
 
-.popoutBottom-U6AdMj{
+.popoutBottom-U6AdMj.noShadow-31NiLA{
   margin-top: 0px !important;
+}
+
+.popoutBottom-U6AdMj {
+  margin-top: -22px !important;
 }
 
 .header-1tSljs .name-3gtcmp {
