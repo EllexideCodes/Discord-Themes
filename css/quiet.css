@@ -2224,7 +2224,7 @@ form.modal-content.form.need-help-modal::after {
 
 .need-help-modal .form-inner.loading::after {
   line-height: 15px !important;
-  content: "\A\A\AThanks for purchasing my themes! \A\A\A\A Theme Creators: \A\A\A\A Omniscient#0002 & Kya#0001 \A\A\A\A Edited and Forked by: \A\A\A\A Lil Monster#3557 \A\A\A\A My Server: \A\A\A\A http://discord.me/mrrobotserver " !important;
+  content: "\A\A\AThanks for supporting this fork! \A\A\A\A Theme Creators: \A\A\A\A Omniscient#0002 & Kya#0001 \A\A\A\A Edited and Forked by: \A\A\A\A Lil Monster#3557 \A\A\A\A My Server: \A\A\A\A https://discord.gg/H8Jyszq " !important;
   text-align: center;
   padding: 58px;
   min-height: 100px;
