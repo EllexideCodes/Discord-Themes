@@ -2626,6 +2626,11 @@ form.modal-content.form.need-help-modal::after {
   background: var(--main-color);
 }
 
+.tab-bar.TOP .tab-bar-item.selected {
+  color: var(--main-color) !important;
+  border-color: var(--main-color) !important;
+}
+
 /* 25. Server Settings Pop out */
 
 .searchBar-YMJBu9 {
