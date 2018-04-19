@@ -3036,6 +3036,10 @@ body, span:not(.spinner-item) {
   border-radius: 0px !important;
 }
 
+.tooltip.tooltip-black {
+  background: black !important;
+}
+
 .create-guild-container.deprecated .action {
   background: var(--secondary-color); 
 }
