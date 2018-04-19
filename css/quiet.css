@@ -1113,6 +1113,7 @@ div[class*="titleBar-"] div {
     background: transparent !important;
     border:2px solid !important;
     transition-duration: .5s !important;
+    box-shadow: none !important
 }
 
 .avatar-1BXaQj .status-3jUEha {
@@ -3025,11 +3026,11 @@ body, span:not(.spinner-item) {
 }
 
 .bd-blue .tooltip {
-  background-color: var(--main-color) !important;
+  background-color: black !important;
 }
 
 .bd-blue .tooltip.tooltip-right:after {
-  border-right-color: var(--main-color) !important;
+  border-right-color: black !important;
 }
 
 .tooltip {
