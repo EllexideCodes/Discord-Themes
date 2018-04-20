@@ -185,3 +185,7 @@ div[class*="winButton-"] {
 .guilds-wrapper .guilds>div.guild:first-child .guild-inner a, .guilds-wrapper .guilds>div.guild:first-child .friends-icon {
   width: 70px;
 }
+
+.notice-3I4-y_ {
+  top: 48px !important;
+}
