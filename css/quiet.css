@@ -1200,6 +1200,11 @@ div[class*="titleBar-"] div {
   top: 46px !important;
   left: 0px !important;
 }
+
+.profile-3z9uol .statusProfile-29OBzn{
+  pointer-events: none;
+}
+
 /* 11. Popout Menu -> User Status */
 
 .headerPlaying-2Q7mBy {
