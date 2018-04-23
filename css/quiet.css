@@ -340,7 +340,7 @@ div[class*="titleBar-"] div {
   border-color: var(--main-color) !important;
 }
 
-.messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group:hover .action-buttons {
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group:hover .actionButtons-LKmOj2 {
   background-color: transparent !important;
   box-shadow: 0 0 0px 0px transparent !important;
 }
@@ -349,7 +349,7 @@ div[class*="titleBar-"] div {
   margin-top: 1px !important;
 }
 
-.messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group .action-buttons .jump-button {
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group .actionButtons-LKmOj2 .jumpButton-1CVJpO {
   background-color: var(--main-color) !important;
   color: #fff !important;
   padding: 2px 7px 3px 7px;
@@ -3051,7 +3051,7 @@ body, span:not(.spinner-item) {
   background: black !important;
 }
 
-.tooltip.tooltip-top:after {
+.tooltip.tooltip-top:after, .tooltip.tooltip-black.tooltip-bottom:after, .tooltip.tooltip-black.tooltip-right:after {
   border-top-color: black !important;
 }
 
