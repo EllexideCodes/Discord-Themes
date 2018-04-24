@@ -1534,7 +1534,7 @@ div[class*="titleBar-"] div {
 }
 
 .container-3NvGrL .header-1tSljs, .search-bar { 
-    background: var(--quaternary-color) !important;
+    background: transparent !important;
 }
 
 .invite-CTGItT {
