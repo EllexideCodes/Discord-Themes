@@ -218,6 +218,10 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
     background: transparent !important; 
 }
 
+.container-3NvGrL .header-1tSljs, .search-bar {
+    background: transparent !important;
+}
+
 .header-1tSljs {
     box-shadow: 0px 0px transparent;
     border-bottom: 2px solid var(--main-color) !important;

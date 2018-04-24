@@ -1478,7 +1478,7 @@ div[class*="titleBar-"] div {
   font-weight: 600;
   text-align: center;
   border-radius: 3px;
-  width: 215px;
+  width: 175px;
   padding-right: 16px;
   margin-left: 15px;
   margin-bottom: 10px !important;
@@ -1535,7 +1535,7 @@ div[class*="titleBar-"] div {
 }
 
 .container-3NvGrL .header-1tSljs, .search-bar { 
-    background: transparent !important;
+    background: var(--quaternary-color) !important;
 }
 
 .invite-CTGItT {
