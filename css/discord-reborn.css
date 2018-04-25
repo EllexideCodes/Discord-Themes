@@ -84,6 +84,7 @@
 
 .theme-dark .chat form {
     -webkit-box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
+    box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
     background-color: rgba(0,0,0,0.4) !important;
 }
 
@@ -306,6 +307,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 
 .create-guild-container.deprecated, .create-guild-container.deprecated .action {
     -webkit-box-sizing: border-box;
+    box-sizing: border-box;
     background-color: transparent !important;
 }
 
@@ -424,6 +426,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 
 .theme-dark .title-qAcLxz {
     -webkit-box-shadow: 0 0px 0 rgba(0,0,0,.2), 0 0px 0 rgba(0,0,0,.06);
+    box-shadow: 0 0px 0 rgba(0,0,0,.2), 0 0px 0 rgba(0,0,0,.06);
     background: rgba(0,0,0,0.75) !important;
 }
 
@@ -555,6 +558,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 }
 
 .ghostPill-1yup5q {
+    flex: 0 0 auto;
     -ms-flex: 0 0 auto;
     -webkit-box-flex: 0;
     background-color: transparent !important;

@@ -2936,6 +2936,7 @@ body:active .popoutBottom-U6AdMj[style*="overflow: hidden; visibility: visible;"
 body, span:not(.spinner-item) {
   -webkit-font-smoothing: antialiased;
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 [style*="left: 70px; top: 29.5px;"] {
   display: none !important;
