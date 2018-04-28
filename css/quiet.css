@@ -3183,7 +3183,7 @@ body, span:not(.spinner-item) {
   margin: 0;
 }
 
-.notice-2FJMB4 {
+.notice-3I4-y_, .notice-2FJMB4 {
   font-size: 0px !important;
   height: 4px;
   line-height: 18px;
@@ -3193,7 +3193,7 @@ body, span:not(.spinner-item) {
   transition: all .2s linear;
 }
 
-.notice-2FJMB4:hover {
+.notice-3I4-y_:hover, .notice-2FJMB4:hover {
   font-size: 14px !important;
   height: 38px;
   line-height: 38px;
@@ -3202,11 +3202,11 @@ body, span:not(.spinner-item) {
   width: 100%;
 }
 
-.notice-2FJMB4:hover .dismiss-SCAH9H {
+.notice-3I4-y_:hover dismiss-1QjyJW, .notice-2FJMB4:hover .dismiss-SCAH9H {
   height: 36px;
 }
 
-.dismiss-SCAH9H {
+dismiss-1QjyJW, .dismiss-SCAH9H {
   height: 0px;
   right: 100px;
   transition: all .2s linear;
