@@ -2364,8 +2364,8 @@ form.modal-content.form.need-help-modal::after {
 }
 
 .need-help-modal .form-inner.loading::after {
-  line-height: 15px !important;
-  content: "\A Thanks for supporting this fork! \A\A\A Theme Creators: \A\A Omniscient#0002 & Kya#0001 \A\A\A Edited/Forked/Maintained: \A\A Lil Monster#3557 \A\A\A My Server: \A\A https://discord.gg/H8Jyszq \A\A\A Support Me: \A\A https://paypal.me/Ellexide \A\A\A My Website: \A\A https://ellexidecodes.github.io" !important;
+  line-height: 7px !important;
+  content: "\A Thanks for supporting this fork! \A\A\A\A Theme Creators: \A\A\A\A Omniscient#0002 & Kya#0001 \A\A\A\A\A\A Edited/Forked/Maintained: \A\A\A\A Lil Monster#3557 \A\A\A\A\A\A My Server: \A\A\A\A https://discord.gg/H8Jyszq \A\A\A\A\A\A Support Me: \A\A\A\A https://paypal.me/Ellexide \A\A\A\A\A\A My Website: \A\A\A\A https://ellexidecodes.github.io" !important;
   text-align: center;
   padding: 58px;
   min-height: 100px;
