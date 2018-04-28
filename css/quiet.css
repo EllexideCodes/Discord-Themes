@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
-@import url("https://rawgit.com/0mniscient/Discord-Themes/master/css/Tags.css");
+@import url("https://rawgit.com/EllexideCodes/Discord-Themes/master/css/Tags.css");
 
 /* User Settings */
 :root {
@@ -2365,7 +2365,7 @@ form.modal-content.form.need-help-modal::after {
 
 .need-help-modal .form-inner.loading::after {
   line-height: 7px !important;
-  content: "\A Thanks for supporting this fork! \A\A\A\A Theme Creators: \A\A\A\A Omniscient#0002 & Kya#0001 \A\A\A\A\A\A Edited/Forked/Maintained: \A\A\A\A Lil Monster#3557 \A\A\A\A\A\A My Server: \A\A\A\A https://discord.gg/H8Jyszq \A\A\A\A\A\A Support Me: \A\A\A\A https://paypal.me/Ellexide \A\A\A\A\A\A My Website: \A\A\A\A https://ellexidecodes.github.io" !important;
+  content: "\A Thanks for supporting this fork! \A\A\A\A Theme Creators: \A\A\A\A Omniscient#0002 & Kya#0001 \A\A\A\A\A\A Edited/Forked/Maintained: \A\A\A\A Lil Monster#3557 \A\A\A\A\A\A My Server: \A\A\A\A https://discord.gg/g7nf298 \A\A\A\A\A\A Support Me: \A\A\A\A https://paypal.me/Ellexide \A\A\A\A\A\A My Website: \A\A\A\A https://ellexidecodes.github.io" !important;
   text-align: center;
   padding: 58px;
   min-height: 100px;
@@ -2396,7 +2396,7 @@ form.modal-content.form.need-help-modal::after {
 }
 
 .need-help-modal .footer::after {
-    content: "Need help? Visit: https:/derealised.xyz/" !important;
+    content: "Need help? Visit: https:/derealised.xyz/ or DM Lil Monster#3557" !important;
     background-color: #19191b;
     width: 142% !important;
     height: 34px;
@@ -2530,8 +2530,21 @@ form.modal-content.form.need-help-modal::after {
   color: #fff !important;
 }
 
-.selectorSelected-1_M1WV {
+.selectorSelected-1_M1WV,
+.regionSelectModal-12e-57,
+.regionSelectModal-12e-57 .regionSelectModalOptions-2TWQOB {
   background-color: var(--primary-color) !important;
+}
+
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3,
+.form.deprecated .control-group input[type=text] {
+  background-color: var(--tertiary-color) !important;
+}
+
+.form.deprecated .control-group input[type=text] {
+  padding-left: 5px;
+  color: #ccc !important;
+  border-color: var(--secondary-color) !important;
 }
 
 .selector-2IcQBU {
@@ -3229,7 +3242,7 @@ body, span:not(.spinner-item) {
   border-top-color: black !important;
 }
 
-.create-guild-container.deprecated .action {
+.create-guild-container.deprecated .form-actions {
   background: var(--secondary-color); 
 }
 
