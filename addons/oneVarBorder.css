@@ -14,8 +14,9 @@
 .userPopout-3XzG_A [class*="status-"], 
 .modal-1UGdnR [class*="status-"], 
 .theme-dark [class*="switch"][class*="valueUnchecked"], 
+.theme-dark [class*="switch"][class*="valueUnchecked"]::after,
 .themeDefault-24hCdX.sizeDefault-2YlOZr:after, 
-.themeDefault-24hCdX.valueChecked-m-4IJZ, 
+.valueChecked-m-4IJZ, 
 .valueChecked-m-4IJZ.sizeDefault-2YlOZr:after {
   border-radius: var(--roundness) !important;
 }
