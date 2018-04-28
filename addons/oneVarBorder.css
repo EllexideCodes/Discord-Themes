@@ -1,5 +1,5 @@
 .chat .avatar-large, 
-.container-iksrDt .avatar-small, 
+.container-2Thooq .avatar-small, 
 .private-channel-recipients-invite .friend .avatar-small, 
 [class*="avatar-"] .status, 
 .channel-members [class*="avatar-"] .status, 
@@ -8,14 +8,14 @@
 .guilds [class*="avatar-"], 
 .guilds .guild-placeholder,
 .guilds-wrapper .guild.guilds-add::after, 
-.mask-2vyqAW, 
-.image-EVRGPw, 
-.member-2FrNV0 [class*="status-"], 
-.userPopout-11hFKo [class*="status-"], 
-.modal-2LIEKY [class*="status-"], 
+.mask-3OgeRz, 
+.image-33JSyf, 
+.member-3W1lQa [class*="status-"], 
+.userPopout-3XzG_A [class*="status-"], 
+.modal-1UGdnR [class*="status-"], 
 .theme-dark [class*="switch"][class*="valueUnchecked"], 
-.themeDefault-3M0dJU.sizeDefault-rZbSBU:after, 
-.themeDefault-3M0dJU.valueChecked-3Bzkbm, 
-.valueChecked-3Bzkbm.sizeDefault-rZbSBU:after {
+.themeDefault-24hCdX.sizeDefault-2YlOZr:after, 
+.themeDefault-24hCdX.valueChecked-m-4IJZ, 
+.valueChecked-m-4IJZ.sizeDefault-2YlOZr:after {
   border-radius: var(--roundness) !important;
 }
