@@ -705,3 +705,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 }
 
 .guilds [class*="avatar-"] {border-radius: var(--roundness) !important;}
+
+.titleBar-AC4pGV {
+    background: var(--primary-color) !important;
+}
