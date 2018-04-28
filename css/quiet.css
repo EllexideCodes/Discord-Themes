@@ -3193,20 +3193,6 @@ body, span:not(.spinner-item) {
   transition: all .2s linear;
 }
 
-.notice-3I4-y_ {
-  -ms-flex-negative: 0;
-  -ms-flex-positive: 0;
-  -webkit-box-flex: 0;
-  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
-  border-radius: 0 5px 0 0;
-  box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
-  flex-grow: 0;
-  flex-shrink: 0;
-  position: relative;
-  text-align: center;
-  z-index: 101
-}
-
 .notice-3I4-y_:hover, .notice-2FJMB4:hover {
   font-size: 14px !important;
   height: 38px;
