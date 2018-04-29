@@ -1,0 +1,13 @@
+.guilds-wrapper .guilds .guild {
+  height: 48px !important;
+  width: 48px !important;
+}
+
+.guilds-wrapper .guilds .guild .avatar-small {
+background-size: 48px 48px !important;
+background-position: center !important;
+}
+
+.guild-wrapper {
+  width: 86px !important;
+}
