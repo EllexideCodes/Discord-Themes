@@ -1,0 +1,109 @@
+/*Two column server list*/
+.guilds-wrapper{width: 140px;}
+.theme-dark .guilds-wrapper  .scroller-wrap .scroller::-webkit-scrollbar {
+  background: transparent !important; border: 0px !important;
+  width: 0px;
+}
+
+
+.guilds-wrapper .scroller-wrap{width: 0px;}
+.guilds-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    padding-left: 0;
+    align-content: flex-start;
+    padding-right: 0 !important;
+}
+
+.guilds-wrapper .guilds .guild {
+    margin-left: 3px;
+    margin-right: 3px ; 
+    margin-top: 3px;
+}
+
+.guilds-wrapper .guilds .guild.unread::before {
+    left: 0px;
+    top: 4px;
+    z-index:9000;
+    background-color: var(--main-color);
+}
+
+.guilds-wrapper .guilds .guild.unread:hover::before {
+  top: 20px;
+  height: 50px;
+}
+.guilds-wrapper .guilds .guild:first-child {
+    position: flex-start ; 
+    left: 0;
+    margin: auto;
+    margin-top: 15px;
+    width: 140px !important;
+}
+
+#bd-pub-li {
+    position: inherit;
+    top: 0;
+    left: 0;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#bd-pub-li #bd-pub-button {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.guilds-wrapper .guilds .guild-separator {
+    position: relative;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.guilds-wrapper .guilds .friends-online {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.guilds-wrapper .guilds .guild.selected:before {
+    display: none;
+}
+
+.guilds-wrapper .guilds .guild {
+    position: relative;
+}
+
+.guilds-wrapper .guilds .dms {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.guilds-wrapper .guilds .dms .guild {
+    left: 0;
+}
+.guilds-wrapper .guilds .guild:first-child {
+    position: auto ;
+    left: 0;
+    margin: auto ;
+    margin-top: 20px;
+    width: 140px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.guilds-wrapper .guilds .guild:first-child .friends-icon {
+  margin-left: 0px !important;
+  width: 140px !important;
+}
+
+.guilds-wrapper .guild.guilds-add {
+  margin-left: 30px !important;
+}
+
+.guilds-wrapper .guild.guilds-add::before {
+  width: 140px !important;
+}
