@@ -1688,16 +1688,9 @@ border-color: var(--tertiary-color);
 background: var(--tertiary-color) !important;
 }
 
-.message-group .comment .markup .mention {
-  background-color: var(--quaternary-color) !important;
-}
-
-.mention {
-  color: var(--main-color) !important;
-}
-
-.message-group .comment .markup .mention:hover, .mention:hover {
-  background-color: var(--main-color) !important;
+.message-group .comment .markup .mention:hover, 
+.mention:hover {
+  background-color: transparent !important;
   color: #fff !important;
 }
 

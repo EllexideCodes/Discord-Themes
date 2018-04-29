@@ -183,6 +183,14 @@
   transition: background-color .2s linear;
 }
 
+.chat .messages.scroller::-webkit-scrollbar-thumb {
+  background-color: var(--main-color) !important;
+}
+
+.chat .messages.scroller::-webkit-scrollbar {
+  width: 10px;
+}
+
 .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
   background-color: transparent !important;
   border-color: transparent !important;
