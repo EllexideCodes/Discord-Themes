@@ -398,20 +398,6 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
     font-weight: 100;
 }
 
-#bd-settingspane-container .bd-pfbtn {
-    position: static;
-    margin-bottom: 0;
-    border-radius: 5px;
-    display: inline-block;
-    margin-left: 100px;
-}
-
-#bd-settingspane-container .bd-pfbtn {
-    position: static;
-    margin-bottom: 0px;
-    display: none;
-    border-radius: 5px;
-}
 .ui-standard-sidebar-view .bda-slist .bda-right button {
     background: var(--rs-transparency) !important;
     color: #FFF;

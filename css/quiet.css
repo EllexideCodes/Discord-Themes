@@ -675,10 +675,6 @@ div[class*="titleBar-"] div {
   transition: all ease .2s;
 }
 
-.guilds-wrapper .guilds .guild .guild-inner {
-  border-radius: 2px !important;
-}
-
 .guilds-wrapper .guilds .guild .guild-inner a[style*="font-size: 16px;"] {
   background-color: var(--primary-color) !important;
 }
@@ -752,6 +748,11 @@ div[class*="titleBar-"] div {
 .guilds-wrapper .guilds>div.guild:first-child .guild-inner a,
 .guilds-wrapper .guilds>div.guild:first-child .friends-icon {
   width: 70px;
+}
+
+.guilds-wrapper .guilds .guild .guild-inner {
+  border-radius: 2px !important;
+  background-color: transparent !important;
 }
 
 .friends-icon {
@@ -2799,6 +2800,15 @@ form.modal-content.form.need-help-modal::after {
 .tab-bar.TOP .tab-bar-item.selected {
   color: var(--main-color) !important;
   border-color: var(--main-color) !important;
+  font-weight: bold;
+}
+
+.topSectionPlaying-1J5E4n .tab-bar.TOP .tab-bar-item.selected,
+.topSectionStreaming-1Tpf5X .tab-bar.TOP .tab-bar-item.selected,
+.topSectionSpotify-1lI0-P .tab-bar.TOP .tab-bar-item.selected,
+.topSectionXbox-3fWLjS .tab-bar.TOP .tab-bar-item.selected {
+  color: #ccc !important;
+  border-color: #ccc !important;
 }
 
 /* 25. Server Settings Pop out */
@@ -3239,7 +3249,7 @@ dismiss-1QjyJW, .dismiss-SCAH9H {
 .tooltip.tooltip-top:after, 
 .tooltip.tooltip-black.tooltip-bottom:after, 
 .tooltip.tooltip-black.tooltip-right:after {
-  border-top-color: black !important;
+  border-color: black !important;
 }
 
 .create-guild-container.deprecated .form-actions {
