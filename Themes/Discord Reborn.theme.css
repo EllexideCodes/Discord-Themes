@@ -1,7 +1,7 @@
-//META{"name":"Discord_Reborn","description":"A nice sleek transparent theme.","author":"Omniscient","version":"0.0"}*//
+//META{"name":"Discord Reborn","description":"A nice sleek transparent theme.","author":"Omniscient (Edited by Lil Monster)","version":"3.0"}*//
 
 /* IMPORT CSS FROM GITHUB */
-@import url("https://rawgit.com/0mniscient/Discord-Themes/master/css/Discord%20Reborn.css");
+@import url("https://rawgit.com/EllexideCodes/Discord-Themes/master/css/discord-reborn-plain.css");
 /*
 ===== IMPORTANT =====
 CHANGE DISCORDS THEME TO DARK THEME IN APPEARANCE SETTINGS FOR THIS THEME TO WORK!
@@ -18,8 +18,18 @@ RECOMMENDATIONS: EVERY URL AT THE BOTTOM SHOULD BE THE SAME TO MAKE THE THEME MA
 --------------------------------------------------------------------------------------------------------------------------------------------
 /*Change the url in .app to change the background behind chat */
 
-.app, .callout-backdrop, .userPopout-11hFKo::before,.topSectionStreaming-3rIBIm, .topSectionPlaying-3jAH9b,.topSectionSpotify-3744IX, .topSectionNormal-2LlRG1 { background-image: url("https://imgur.com/RG03PyX.png") !important; background-size: cover !important;background-position:center!important }
- /*
+.app, .callout-backdrop, 
+.userPopout-3XzG_A::before,
+.topSectionStreaming-1Tpf5X, 
+.topSectionPlaying-1J5E4n,
+.topSectionSpotify-1lI0-P, 
+.topSectionNormal-2-vo2m,
+.topSectionXbox-3fWLjS { 
+  background-image: url("https://imgur.com/RG03PyX.png") !important; 
+  background-size: cover !important;background-position:center!important 
+}
+
+/*
 ---------------------------------------------------------------------------------------------------------------------------------------------
 ===== CREDITS =====
 URI
@@ -27,6 +37,6 @@ BEARDDESIGN
 ZERTHOX
 THESE PEOPLE HAVE HELPED CREATE THIS THEME IN ONE WAY OR THE OTHER.
 ===== TROUBLESHOOTING =====
-IF YOU NEED ANY HELP GO TO HTTPS://BETTERDOCS.NET
+IF YOU NEED ANY HELP GO TO https://discord.gg/g7nf298
 ---------------------------------------------------------------------------------------------------------------------------------------------
 */
