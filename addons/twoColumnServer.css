@@ -23,15 +23,21 @@
 
 .guilds-wrapper .guilds .guild.unread::before {
     left: 0px;
-    top: 4px;
+    top: 0px;
+    margin-top: 0;
     z-index:9000;
     background-color: var(--main-color);
 }
 
 .guilds-wrapper .guilds .guild.unread:hover::before {
-  top: 20px;
-  height: 50px;
-}
+    height: 10px;
+    top: 0px;
+    margin-top: 0px;
+    border-radius: 50%;
+    background-color: #ccc !important;
+    box-shadow: 0 0 5px #ccc !important;
+  }
+
 .guilds-wrapper .guilds .guild:first-child {
     position: flex-start ; 
     left: 0;
@@ -76,7 +82,7 @@
 }
 
 .guilds-wrapper .guilds .dms {
-    width: 100%;
+    width: 0%;
     display: flex;
     flex-flow: row wrap;
 }
