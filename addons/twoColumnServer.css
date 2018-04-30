@@ -6,19 +6,28 @@
   width: 0px;
 }
 .guilds-wrapper .scroller-wrap{width:140px;}
-.guilds-wrapper {
+.guilds-wrapper,
+.guilds-wrapper .guilds .dms {
     display: flex !important;
     flex-direction: row !important;
     flex-flow: row wrap !important;
+    justify-content: space-evenly;
     padding-left: 0;
     align-content: flex-start;
 }
 
-.guilds-wrapper .guilds .guild {
+.guilds-wrapper .guilds .guild,
+.guilds-wrapper .guilds .dms .guild {
     margin-left: 3px;
     margin-right: 3px; 
     margin-top: 8px;
     float: left;
+}
+
+.guilds-wrapper .guilds .dms .guild:first-child {
+  margin-top: 8px !important;
+  width: 50px !important;
+  overflow: visible;
 }
 
 .guilds-wrapper .guilds .guild.unread::before {
