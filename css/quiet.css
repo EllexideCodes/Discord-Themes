@@ -3251,8 +3251,10 @@ dismiss-1QjyJW, .dismiss-SCAH9H {
   border-bottom-color: black !important;
 }
 
-.create-guild-container.deprecated .form-actions {
-  background: var(--secondary-color); 
+.create-guild-container.deprecated .form-inner .action,
+.create-guild-container.deprecated .form-actions .btn-default {
+  background-color: var(--secondary-color); 
+  border-bottom: none !important;
 }
 
 /* 30. Keyframes */
