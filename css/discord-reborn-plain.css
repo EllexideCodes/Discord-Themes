@@ -468,7 +468,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 .theme-dark .title-3qD0b- {
     -webkit-box-shadow: 0 0px 0 rgba(0,0,0,.2), 0 0px 0 rgba(0,0,0,.06);
     box-shadow: 0 0px 0 rgba(0,0,0,.2), 0 0px 0 rgba(0,0,0,.06);
-    background: rgba(0,0,0,0.75) !important;
+    background-color: rgba(0,0,0,0.75) !important;
 }
 
 .accountDetails-3k9g4n .username {
@@ -705,5 +705,10 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 .guilds [class*="avatar-"] {border-radius: var(--roundness) !important;}
 
 .titleBar-AC4pGV {
-    background: var(--primary-color) !important;
+    background-color: var(--primary-color) !important;
+}
+
+.theme-dark .topSectionNormal-2-vo2m .header-QKLPzZ,
+.theme-dark .topSectionNormal-2-vo2m .tabBarContainer-1s1u-z {
+  background-color: rgba(0,0,0,0.8) !important;
 }

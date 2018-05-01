@@ -702,3 +702,9 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 }
 
 .guilds [class*="avatar-"] {border-radius: var(--roundness) !important;}
+
+
+.theme-dark .topSectionNormal-2-vo2m .header-QKLPzZ,
+.theme-dark .topSectionNormal-2-vo2m .tabBarContainer-1s1u-z {
+  background-color: rgba(0,0,0,0.8) !important;
+}
