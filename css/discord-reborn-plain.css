@@ -399,11 +399,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 }
 
 .ui-standard-sidebar-view #bd-settingspane-container .content-column.default .ui-form-title.h2+.bd-pfbtn {
-    top: 20px;
-    position: absolute;
-    left: -1200px;
     background: var(--secondary-color) !important;
-    font-weight: 100;
 }
 
 .ui-standard-sidebar-view .bda-slist .bda-right button {
@@ -491,7 +487,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
     background: var(--secondary-color);
     border-top: 0px;
 }
-
+/*
 .ui-standard-sidebar-view #bd-settingspane-container .content-column.default .ui-form-title.h2+.bd-pfbtn {
     top: 20px;
     position: absolute;
@@ -514,6 +510,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
     display: none;
     border-radius: 5px;
 }
+*/
 .ui-standard-sidebar-view .bda-slist .bda-right button {
     background: var(--rs-transparency) !important;
     color: #FFF;
