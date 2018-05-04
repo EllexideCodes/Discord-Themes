@@ -4,6 +4,8 @@
 
 /* Hides Channels, Server Guilds and minimizes member list. Brings them back on hover. */
 
+/* CURRENTLY NOT FUNCTIONING -- DO NOT USE
+
 .guilds-wrapper{position:absolute;z-index:5;left:-80px;transition: left ease .5s;height:100%;background:transparent;border-right:solid transparent 50px;}
  .guilds-wrapper:hover {left: 0;}
  .channel-members{transform:translate(145px);z-index:2;transition:all 300ms ease;}
