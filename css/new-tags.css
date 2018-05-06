@@ -1,0 +1,159 @@
+@charset "UTF-8";
+.message-group .username-wrapper::after,
+.username-1cB_5E::after,
+.message-group .username-wrapper::before,
+.username-1cB_5E::before {
+  color: #fff;
+  background-color: #202225;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 16px;
+  text-transform: uppercase;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex-shrink: 1;
+  min-width: 8px;
+  margin-left: 6px;
+  padding: 1px 4px;
+  border-radius: 3px;
+  vertical-align: bottom;
+  overflow: hidden; }
+
+
+[data-user-id="169176612640653322"] .username-MwOsla::after,
+[style*="avatars/169176612640653322"] ~ .comment .username-wrapper::after {
+  display: none; }
+
+[data-user-id="350414531098312715"] .username-MwOsla::after,
+[style*="avatars/350414531098312715"] ~ .comment .username-wrapper::after {
+  content: "MemeGaming 😃";
+  background: #18b1c7;
+  color: #000; }
+
+[data-user-id="1303278335858932736"] .username-MwOsla::after,
+[style*="avatars/1303278335858932736"] ~ .comment .username-wrapper::after {
+  content: "edge lord";
+  background: #922b21;
+  color: #fff; }
+
+[data-user-id="258020906805362688"] .username-MwOsla::after,
+[style*="avatars/258020906805362688"] ~ .comment .username-wrapper::after {
+  content: "Supreme Ice Wizard";
+  background: #F5A9E1;
+  color: #fff; }
+
+[data-user-id="236863914078371842"] .username-MwOsla::after,
+[style*="avatars/236863914078371842"] ~ .comment .username-wrapper::after {
+  content: "Immortal Hero";
+  background-image: url(https://i.imgur.com/sZJzzNW.gif);
+  color: #fff; }
+
+[data-user-id="172218388880293888"] .username-MwOsla::after,
+[style*="avatars/172218388880293888"] ~ .comment .username-wrapper::after {
+  content: "Developer";
+  background: #7289da;
+  color: #fff; }
+
+[data-user-id="81388395867156480"] .username-MwOsla::after,
+[style*="avatars/81388395867156480"] ~ .comment .username-wrapper::after {
+  content: "Salty Developer";
+  background: var(--main-color);
+  color: #fff; }
+
+[data-user-id="73929251660763136"] .username-MwOsla::after,
+[style*="avatars/73929251660763136"] ~ .comment .username-wrapper::after {
+  content: "The OG Mew";
+  background: black;
+  color: var(--main-color); 
+  border: 2px solid;
+  border-image: url(https://cdn.discordapp.com/attachments/226489209488277504/385314151343325185/tumblr_oa80vpI46H1uruo10o1_5001.gif) 10% repeat;
+  -webkit-filter: hue-rotate(360deg) invert();animation: hue-rotate 1.5s linear infinite; }
+
+[data-user-id="231827402102276096"] .username-MwOsla::after,
+[style*="avatars/231827402102276096"] ~ .comment .username-wrapper::after {
+  content: "King of Hell";
+  background-image: url(https://i.imgur.com/ZDMAxfy.gif);
+  color: #fff; }
+
+[data-user-id="135824276535115776"] .username-MwOsla::after,
+[style*="avatars/135824276535115776"] ~ .comment .username-wrapper::after {
+  content: "Village Idiot";
+  background: black;
+  color: #fff; }
+
+[data-user-id="290519881944662016"] .username-MwOsla::after,
+[style*="avatars/290519881944662016"] ~ .comment .username-wrapper::after {
+  content: "Legend";
+  background: white;
+  color: black; }
+
+[data-user-id="133845128480686081"] .username-MwOsla::after,
+[style*="avatars/133845128480686081"] ~ .comment .username-wrapper::after {
+  content: "Strawberry";
+  background: #ed1f73;
+  color: #f39494; }
+
+@keyframes hue-rotate{from{-webkit-filter:hue-rotate();}to{-webkit-filter:hue-rotate(360deg);}}
+
+
+/* -- special tags -- */
+
+.message-group:not(.compact) .avatar-large[style*="310719627292573697"] ~ .comment .message h2 span.username-wrapper::before{
+  content: ".";
+  color: transparent !important;
+  background-image: url(https://discordapp.com/assets/0aae6033ad41cdda515a62cf72075afa.svg);
+  background-size: 25px;
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  width: 0px;
+  left: -3px;
+  padding: 0px 10px;
+  text-transform: uppercase;
+  vertical-align: bottom;
+  line-height: 16px !important;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  position: relative;
+  margin-left: 0px;
+}
+.message-group .avatar-large[style*="310719627292573697"]{
+  box-shadow: 0px 0px 0px 0px !important;
+}
+.message-group:not(.compact) .avatar-large[style*="310719627292573697"] ~ .comment .message h2 .timestamp {
+  margin-left: 4px;
+}
+.chat .avatar-large[style*="131903461771051009"] ~ .comment .message h2 {
+  transform: translateX(30px);
+}
+
+/*cube_guy's Triforce Tag*/
+
+.message-group:not(.compact) .avatar-large[style*="131903461771051009"] ~ .comment .message h2 span.username-wrapper::before{
+  content: "`";
+  background-image: url(https://rawgit.com/cubeguy/cube_repo/master/icons/Discord_Tag.gif);
+  background-size: 25px;
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  width: 0px;
+  left: -3px;
+  padding: 0px 10px;
+  text-transform: uppercase;
+  vertical-align: bottom;
+  line-height: 16px !important;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  position: relative;
+  margin-left: -28px;
+}
+.message-group .avatar-large[style*="131903461771051009"]{
+  box-shadow: 0px 0px 0px 0px !important;
+}
+.message-group:not(.compact) .avatar-large[style*="131903461771051009"] ~ .comment .message h2 .timestamp {
+  margin-left: 4px;
+}
+.chat .avatar-large[style*="131903461771051009"] ~ .comment .message h2 {
+  transform: translateX(30px);
+}

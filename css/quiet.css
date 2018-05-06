@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
-@import url("https://rawgit.com/EllexideCodes/Discord-Themes/master/css/Tags.css");
+@import url("https://rawgit.com/EllexideCodes/Discord-Themes/master/css/new-tags.css");
+@import "https://intrnl.github.io/derealised/dist/tags.css";
 
 /* User Settings */
 :root {
