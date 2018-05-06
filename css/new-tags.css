@@ -22,10 +22,16 @@
   vertical-align: bottom;
   overflow: hidden; }
 
-
+/* -- unicorn tag -- */
 [data-user-id="169176612640653322"] .username-MwOsla::after,
 [style*="avatars/169176612640653322"] ~ .comment .username-wrapper::after {
   display: none; }
+
+/* -- my tag -- */
+[data-user-id="402272736665272320"] .username-MwOsla::after,
+[style*="avatars/402272736665272320"] ~ .comment .username-wrapper::after {
+    display: none; }
+
 
 [data-user-id="350414531098312715"] .username-MwOsla::after,
 [style*="avatars/350414531098312715"] ~ .comment .username-wrapper::after {

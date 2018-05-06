@@ -64,7 +64,7 @@
     transform: translateX(30px);
 }
 
-/* --- MONSTER CROWN --- 
+/* --- MONSTER CROWN --- */
 .message-group:not(.compact) .avatar-large[style*="402272736665272320"] ~ .comment .message h2 span.username-wrapper::before{
     content: "`";
     background-image: url(https://rawgit.com/EllexideCodes/Discord-Themes/master/assets/crown.svg);
@@ -93,4 +93,3 @@
   .chat .avatar-large[style*="131903461771051009"] ~ .comment .message h2 {
     transform: translateX(30px);
   }
-*/
