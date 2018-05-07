@@ -99,7 +99,7 @@
 }
 .callout-backdrop, 
 .appMount-3VJmYg {
-  background-image: url("https://imgur.com/RG03PyX.png") !important;
+  background-image: var(--popup-background) !important;
 }
 
 .chat, 
