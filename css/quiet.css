@@ -3484,7 +3484,7 @@ dismiss-1QjyJW, .dismiss-SCAH9H {
 }
 
 
-/* 34. Roundness 
+/* 34. Roundness */
 
 .chat .avatar-large, 
 .container-2Thooq .avatar-small, 
@@ -3493,7 +3493,8 @@ dismiss-1QjyJW, .dismiss-SCAH9H {
 .channel-members [class*="avatar-"] .status, 
 .private-channels .channel .avatar-small, 
 .messages-popout .message-group .avatar-large, 
-.guilds-wrapper .guilds .guild .guild-inner a, 
+.guilds [class*="avatar-"], 
+.guilds .guild-placeholder,
 .guilds-wrapper .guild.guilds-add::after, 
 .mask-3OgeRz, 
 .image-33JSyf, 
@@ -3501,9 +3502,9 @@ dismiss-1QjyJW, .dismiss-SCAH9H {
 .userPopout-3XzG_A [class*="status-"], 
 .modal-1UGdnR [class*="status-"], 
 .theme-dark [class*="switch"][class*="valueUnchecked"], 
-.themeDefault-3M0dJU.sizeDefault-rZbSBU:after, 
-.themeDefault-3M0dJU.valueChecked-m-4IJZ, 
-.valueChecked-m-4IJZ.sizeDefault-rZbSBU:after {
+.theme-dark [class*="switch"][class*="valueUnchecked"]::after,
+.themeDefault-24hCdX.sizeDefault-2YlOZr:after, 
+.valueChecked-m-4IJZ, 
+.valueChecked-m-4IJZ.sizeDefault-2YlOZr:after {
   border-radius: var(--roundness) !important;
 }
-*/
