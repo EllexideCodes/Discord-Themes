@@ -105,7 +105,7 @@
 @keyframes hue-rotate{from{-webkit-filter:hue-rotate();}to{-webkit-filter:hue-rotate(360deg);}}
 
 
-/* -- special tags -- */
+/* -- special tags -- 
 
 .message-group:not(.compact) .avatar-large[style*="310719627292573697"] ~ .comment .message h2 span.username-wrapper::before{
   content: ".";
@@ -135,7 +135,7 @@
   transform: translateX(30px);
 }
 
-/*cube_guy's Triforce Tag*/
+/*cube_guy's Triforce Tag
 
 .message-group:not(.compact) .avatar-large[style*="131903461771051009"] ~ .comment .message h2 span.username-wrapper::before{
   content: "`";
@@ -158,6 +158,36 @@
   box-shadow: 0px 0px 0px 0px !important;
 }
 .message-group:not(.compact) .avatar-large[style*="131903461771051009"] ~ .comment .message h2 .timestamp {
+  margin-left: 4px;
+}
+.chat .avatar-large[style*="131903461771051009"] ~ .comment .message h2 {
+  transform: translateX(30px);
+}
+
+/* --- MONSTER CROWN --- */
+.message-group:not(.compact) .avatar-large[style*="402272736665272320"] ~ .comment .message h2 span.username-wrapper::before{
+  content: "`";
+  background-image: url(https://rawgit.com/EllexideCodes/Discord-Themes/master/assets/crown.svg);
+  background-size: 20px;
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  width: 0px;
+  top: 2px;
+  left: -3px;
+  padding: 0px 7px;
+  text-transform: uppercase;
+  vertical-align: bottom;
+  line-height: 16px !important;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  position: relative;
+  margin-left: 0px;
+  color: transparent !important;
+}
+.message-group .avatar-large[style*="402272736665272320"]{
+  box-shadow: 0px 0px 0px 0px !important;
+}
+.message-group:not(.compact) .avatar-large[style*="402272736665272320"] ~ .comment .message h2 .timestamp {
   margin-left: 4px;
 }
 .chat .avatar-large[style*="131903461771051009"] ~ .comment .message h2 {
