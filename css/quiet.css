@@ -651,6 +651,10 @@ div[class*="titleBar-"] div {
   color: #5d5d5d;
 }
 
+.channelNotices-41mJbj .channelNotice-1-XFjC {
+  background-color: var(--tertiary-color);
+}
+
 /* 7. Guilds Area */
 
 .theme-light .guilds-wrapper .guilds .friends-online {
