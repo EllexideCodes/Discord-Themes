@@ -91,7 +91,7 @@
 }
 
 .guilds-wrapper .guilds .dms {
-    width: 0%;
+    width: 140px;
     display: flex;
     flex-flow: row wrap;
 }
