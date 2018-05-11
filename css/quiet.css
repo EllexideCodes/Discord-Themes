@@ -1741,7 +1741,6 @@ background: var(--tertiary-color) !important;
 }
 
 .mentioned .mention {
-  color: var(--main-color) !important;
   transition: all .2s linear;
   background: var(--tertiary-color) !important;
 }
