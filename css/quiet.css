@@ -1542,34 +1542,34 @@ div[class*="titleBar-"] div {
   border-radius: 0px !important;
 }
 
-.avatar-small .status-typing.status-online .spinner-2enMB9 .spinner-inner .spinner-item,
+.avatar-small .status-typing.status-online .spinner-item,
 .member-3W1lQa [class*="status-"].statusOnline-1FlpW_.statusTyping-2ed9jJ .pulsingEllipsisItem-32hhWL {
-  background-color: var(--rs-online-color);
+  background-color: var(--rs-online-color) !important;
 }
 
-.avatar-small .status-typing.status-idle .spinner-2enMB9 .spinner-inner .spinner-item,
+.avatar-small .status-typing.status-idle .spinner-item,
 .member-3W1lQa [class*="status-"].statusIdle-1XoSCz.statusTyping-2ed9jJ .pulsingEllipsisItem-32hhWL {
-  background-color: var(--rs-idle-color);
+  background-color: var(--rs-idle-color) !important;
 }
 
-.avatar-small .status-typing.status-dnd .spinner-2enMB9 .spinner-inner .spinner-item,
+.avatar-small .status-typing.status-dnd .spinner-item,
 .member-3W1lQa [class*="status-"].statusDnd-2DDKST.statusTyping-2ed9jJ .pulsingEllipsisItem-32hhWL {
-  background-color: var(--rs-dnd-color);
+  background-color: var(--rs-dnd-color) !important;
 }
 
-.avatar-small .status-typing.status-streaming .spinner-2enMB9 .spinner-inner .spinner-item,
+.avatar-small .status-typing.status-streaming .spinner-item,
 .member-3W1lQa [class*="status-"].statusStreaming-2eqoUF.statusTyping-2ed9jJ .pulsingEllipsisItem-32hhWL {
-  background-color: var(--rs-streaming-color);
+  background-color: var(--rs-streaming-color) !important;
 }
 
-.avatar-small .status-typing.status-offline .spinner-2enMB9 .spinner-inner .spinner-item,
+.avatar-small .status-typing.status-offline .spinner-item,
 .member-3W1lQa [class*="status-"].statusOffline-3R-4Bv.statusTyping-2ed9jJ .pulsingEllipsisItem-32hhWL {
-  background-color: var(--rs-offline-color);
+  background-color: var(--rs-offline-color) !important;
 }
 
-.avatar-small .status-typing.status-invisible .spinner-2enMB9 .spinner-inner .spinner-item,
+.avatar-small .status-typing.status-invisible .spinner-item,
 .member-3W1lQa [class*="status-"].statusInvisible-23hZKw.statusTyping-2ed9jJ .pulsingEllipsisItem-32hhWL {
-  background-color: var(--rs-invisible-color);
+  background-color: var(--rs-invisible-color) !important;
 }
 
 .channel-members,
