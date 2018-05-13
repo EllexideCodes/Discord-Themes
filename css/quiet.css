@@ -2655,6 +2655,7 @@ form.modal-content.form.need-help-modal::after {
 .rolesList-22qj2L {
   overflow: hidden;
   overflow-y: auto;
+  max-height: 150px;
 }
 
 .bodyTitle-Y0qMQz, 
