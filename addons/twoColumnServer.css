@@ -91,7 +91,7 @@
 }
 
 .guilds-wrapper .guilds .dms {
-    width: 140px;
+    width: 140px !important;
     display: flex;
     flex-flow: row wrap;
 }
@@ -104,7 +104,7 @@
     left: 0;
     margin: auto ;
     margin-top: 20px;
-    width: 140px;
+    width: 140px ;
     margin-left: 0 !important;
     margin-right: 0 !important;
 }
