@@ -2430,7 +2430,7 @@ form.modal-content.form.need-help-modal::after {
 }
 
 .form-deprecated .form-header, .form.deprecated .form-header, .form-deprecated .form-inner, .form.deprecated .form-inner {
-    background-color: var(--main-color) !important;
+  background-color: var(--main-color) !important;
 }
 
 /* 22. Modals */
@@ -2551,6 +2551,12 @@ form.modal-content.form.need-help-modal::after {
   padding-left: 5px;
   color: #ccc !important;
   border-color: var(--secondary-color) !important;
+}
+
+.create-guild-container.deprecated .form-inner .action,
+.create-guild-container.deprecated .form-actions .btn-default {
+  background-color: var(--secondary-color); 
+  border-bottom: none !important;
 }
 
 .selector-2IcQBU {
