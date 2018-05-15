@@ -3111,6 +3111,13 @@ body:active .popoutBottom-1YbShG[style*="overflow: hidden; visibility: visible;"
   color: var(--main-color) !important;
 }
 
+.mediaBarGrabber-1FqnbN, 
+.mediaBarProgress-1xaPtl, 
+.mediaBarProgress-1xaPtl:after, 
+.mediaBarProgress-1xaPtl:before {
+  background-color: var(--main-color) !important;
+}
+
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
   background-color: var(--hover-color) !important;
 }
