@@ -308,6 +308,10 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
     z-index: 2;
 }
 
+.guilds-wrapper .guilds { padding: 0px 0px 70px 10px !important;}
+
+.guilds-wrapper .scroller-wrap { margin-top: 48px !important;}
+
 .private-channels .search-bar {
     border-bottom: 2px solid var(--main-color) !important;
 }
