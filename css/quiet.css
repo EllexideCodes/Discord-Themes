@@ -3510,7 +3510,9 @@ dismiss-1QjyJW, .dismiss-SCAH9H {
 /* 34. Roundness */
 
 .chat .avatar-large, 
-.container-2Thooq .avatar-small, 
+.container-2Thooq .avatar-small,
+.avatar-xxlarge, 
+.avatar-large,
 .private-channel-recipients-invite .friend .avatar-small, 
 [class*="avatar-"] .status, 
 .channel-members [class*="avatar-"] .status, 
