@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
-@import url("https://rawgit.com/EllexideCodes/Discord-Themes/master/css/new-tags.css");
-@import url("https://rawgit.com/EllexideCodes/Discord-Themes/master/addons/oneTitleBar.css");
-@import url('https://rawgit.com/EllexideCodes/Discord-Themes/master/addons/oneVarBorder.css');
+@import url("https://ellexidecodes.github.io/Discord-Themes/css/new-tags.css");
+@import url("https://ellexidecodes.github.io/Discord-Themes/addons/oneTitleBar.css");
+@import url('https://ellexidecodes.github.io/Discord-Themes/addons/oneVarBorder.css');
 @import "https://intrnl.github.io/derealised/dist/tags.css";
 
 /* User Settings */
@@ -764,7 +764,7 @@ div[class*="titleBar-"] div {
 }
 
 .friends-icon {
-  background-image: url(https://rawgit.com/EllexideCodes/Discord-Themes/master/assets/chatIcon.svg) !important;
+  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/chatIcon.svg) !important;
 }
 
 .theme-light .friends-icon {
