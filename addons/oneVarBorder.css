@@ -1,5 +1,7 @@
 .chat .avatar-large, 
-.container-2Thooq .avatar-small, 
+.container-2Thooq .avatar-small,
+.avatar-xxlarge, 
+.avatar-large,
 .private-channel-recipients-invite .friend .avatar-small, 
 [class*="avatar-"] .status, 
 .channel-members [class*="avatar-"] .status, 
