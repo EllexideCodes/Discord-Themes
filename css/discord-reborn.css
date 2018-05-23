@@ -271,8 +271,8 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
   background: rgba(0,0,0,0.4);
 }
 
-[class*="barFill-"] {
-    background: transparent !important; 
+.userSettingsVoice-iwdUCU .inputSensitivityToggle-2LKb8o.manual-36Evg9 .microphone-2rtdHw .fill-3eUagR {
+    background-color: var(--main-color) !important; 
 }
 
 .container-2Rl01u .header-2o-2hj, .search-bar {
@@ -597,7 +597,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 }
 
 .bar-2Qqk5Z {
-    background: var(--main-color) !important;
+    background: var(--primary-color) !important;
 }
 
 .theme-dark .checked-3_4uQ9 {
