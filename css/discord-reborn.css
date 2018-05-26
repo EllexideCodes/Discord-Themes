@@ -85,11 +85,11 @@
 .theme-dark .chat form {
     -webkit-box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
     box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
-    background-color: rgba(0,0,0,0.4) !important;
+    background-color: var(--tertiary-color) !important;
 }
 
 .guilds-wrapper {
-    background-color: rgba(0,0,0,0.75) !important;
+    background-color: var(--primary-color) !important;
 }
 
 .callout-backdrop, 
@@ -204,7 +204,7 @@
 }
 
 .theme-dark .member-3W1lQa:hover .content-OzHfo4 {
-  background-color: rgba(0,0,0,0.4) !important;
+  background-color: var(--tertiary-color) !important;
   color: #fff;
 }
 
@@ -217,14 +217,14 @@
 }
 
 .contentSelectedText-3wUhMi {
-  background-color: rgba(0,0,0,0.4);
+  background-color: var(--tertiary-color);
   border-left: 0px;
 }
 
 .contentHoveredText-2D9B-x, 
 .contentHoveredVoice-3p_NEO:active, 
 .contentSelectedVoice-1WDIBM:active {
-  background-color: rgba(0,0,0,0.4);
+  background-color: var(--tertiary-color);
   border-left: 0px;
 }
 
@@ -255,12 +255,12 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 }
 
 .theme-dark .card-FDVird:before {
-  background-color: rgba(0,0,0,0.4);
+  background-color: var(--tertiary-color);
   border-color: rgba(0,0,0,0.8);
 }
 
 .theme-dark #friends .friends-table .friends-row:hover {
-  background: rgba(0,0,0,0.4);
+  background: var(--tertiary-color);
 }
 
 .friends-table{
@@ -268,7 +268,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 }
 
 .guilds-wrapper .guild.guilds-add::after {
-  background: rgba(0,0,0,0.4);
+  background: var(--tertiary-color);
 }
 
 .userSettingsVoice-iwdUCU .inputSensitivityToggle-2LKb8o.manual-36Evg9 .microphone-2rtdHw .fill-3eUagR {
