@@ -1945,6 +1945,10 @@ background: var(--tertiary-color) !important;
   line-height: 2em !important;
 }
 
+.chat .textArea-2Spzkt.textAreaEnabledNoAttach-1WxUwj {
+  line-height: 1.25em !important;
+}
+
 .chat .inner-zqa7da {
   background-color: var(--secondary-color) !important;
 }
