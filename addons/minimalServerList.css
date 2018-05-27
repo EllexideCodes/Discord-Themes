@@ -22,7 +22,7 @@
 
 .guilds-wrapper:hover,
 .guilds-wrapper:hover .guild.guilds-add::before {
-  width: 70px !important;
+  width: var(--list-size) !important;
 }
 
 .guilds-wrapper:hover .guild.guilds-add::after {
