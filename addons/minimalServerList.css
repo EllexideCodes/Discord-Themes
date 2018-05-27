@@ -1,6 +1,6 @@
 .guilds-wrapper,
 .guilds-wrapper .guild.guilds-add::before {
-  width: 10px !important;
+  width: 4px !important;
   transition: all .5s ease-in-out;
   transition-delay: 0 !important;
 }
