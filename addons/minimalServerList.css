@@ -5,16 +5,17 @@
   transition-delay: 0 !important;
 }
 
-.guilds-wrapper .guild.guilds-add::after,
-.guilds-wrapper .guilds .guild {
+.guilds-wrapper .guild.guilds-add::after {
   transform: scale(0) !important;
+  margin-left: -25px !important;
   transition: all .5s ease-in-out;
-  transition-delay: 0 !important;
 }
 
-.guilds-wrapper .guilds .guild.unread::before {
+.guilds-wrapper .guilds .guild.unread::before,
+.guilds-wrapper .unread-mentions-indicator-bottom, 
+.guilds-wrapper .unread-mentions-indicator-top {
   opacity: 0;
-  transition: all .5s ease-in-out;
+  transition: all .2s ease-in-out;
   transition-delay: 0 !important;
 }
 
@@ -23,16 +24,13 @@
   width: 70px !important;
 }
 
-.guilds-wrapper:hover .guild.guilds-add::after,
-.guilds-wrapper:hover .guilds .guild {
+.guilds-wrapper:hover .guild.guilds-add::after {
   transform: scale(1) !important;
 }
 
-.guilds-wrapper:hover .guild.guilds-add::after {
-  margin-left: -25px !important;
-}
-
-.guilds-wrapper:hover .guilds .guild.unread::before {
+.guilds-wrapper:hover .guilds .guild.unread::before,
+.guilds-wrapper:hover .unread-mentions-indicator-bottom, 
+.guilds-wrapper:hover .unread-mentions-indicator-top {
   opacity: 1;
   transition: all .5s ease-in-out;
 }
