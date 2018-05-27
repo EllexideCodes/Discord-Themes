@@ -12,6 +12,7 @@
 }
 
 .guilds-wrapper .guilds .guild.unread::before,
+.guilds-wrapper .guilds .guild.selected::before,
 .guilds-wrapper .unread-mentions-indicator-bottom, 
 .guilds-wrapper .unread-mentions-indicator-top {
   opacity: 0;
@@ -29,6 +30,7 @@
 }
 
 .guilds-wrapper:hover .guilds .guild.unread::before,
+.guilds-wrapper:hover .guilds .guild.selected::before,
 .guilds-wrapper:hover .unread-mentions-indicator-bottom, 
 .guilds-wrapper:hover .unread-mentions-indicator-top {
   opacity: 1;
