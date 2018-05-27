@@ -7,7 +7,7 @@
 /* User Settings */
 :root {
 	--theme-name: "Quiet";
-	--theme-version: "3.0";
+	--theme-version: "3.5";
 }
 
 /* Dark Mode Settings */
@@ -2375,7 +2375,7 @@ form.modal-content.form.need-help-modal::after {
 
 .need-help-modal .form-inner.loading::after {
   line-height: 7px !important;
-  content: "\A Thanks for supporting this fork! \A\A\A\A Theme Creators: \A\A\A\A Omniscient#0002 & Kya#0001 \A\A\A\A\A\A Edited/Forked/Maintained: \A\A\A\A Lil Monster#3557 \A\A\A\A\A\A My Server: \A\A\A\A https://discord.gg/g7nf298 \A\A\A\A\A\A Support Me: \A\A\A\A https://paypal.me/Ellexide \A\A\A\A\A\A My Website: \A\A\A\A https://ellexidecodes.github.io" !important;
+  content: "\A Thanks for supporting this fork! \A\A\A\A Theme Creators: \A\A\A\A Omniscient#0002 & Lil Monster#3557 \A\A\A\A\A\A My Server: \A\A\A\A https://discord.gg/g7nf298 \A\A\A\A\A\A Support Me: \A\A\A\A https://paypal.me/Ellexide \A\A\A\A\A\A My Website: \A\A\A\A https://ellexidecodes.github.io" !important;
   text-align: center;
   padding: 58px;
   min-height: 100px;
