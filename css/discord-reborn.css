@@ -10,13 +10,13 @@
 /* Dark Mode Settings */
 
 .app.theme-dark, .theme-dark, .theme-dark .theme-light, .theme-dark.popouts-3dRSmE, .theme-light.popouts-3dRSmE+.tooltips, .tooltips+.theme-dark {
-  --primary-color: rgba(0,0,0,0.75);
+  --rb-primary: rgba(0,0,0,0.75);
   /* primary background color */
-  --secondary-color: rgba(0,0,0,0.6);
+  --rb-secondary: rgba(0,0,0,0.6);
   /* secondary background color */
-  --tertiary-color: rgba(0,0,0,0.4);
+  --rb-tertiary: rgba(0,0,0,0.4);
   /* tertiary background color */
-  --quaternary-color: rgba(0,0,0,0.7);
+  --rb-quaternary: rgba(0,0,0,0.7);
   /* quaternary background color */
   --rs-spacing: 2px;
   /* spacing between avatar and status */
@@ -42,18 +42,22 @@
   /* color for invisible status - Note this will only show for your own invisibility */
   --rs-streaming-color: #643da7;
   /* color for streaming status */
+  --primary-color: var(--rb-primary);
+  --secondary-color: var(--rb-secondary);
+  --tertiary-color: var(--rb-tertiary);
+  --quaternary-color: var(--rb-quaternary);
 }
 
 /* Light Mode Settings */
 
 .app.theme-light, .theme-light, .theme-light .theme-light, .theme-light.popouts-3dRSmE, .theme-light.popouts-3dRSmE+.tooltips, .tooltips+.theme-light {
-    --primary-color: rgba(0,0,0,0.55);
+    --rb-primary: rgba(0,0,0,0.55);
     /* primary background color */
-    --secondary-color: rgba(0,0,0,0.4);
+    --rb-secondary: rgba(0,0,0,0.4);
     /* secondary background color */
-    --tertiary-color: rgba(0,0,0,0.2);
+    --rb-tertiary: rgba(0,0,0,0.2);
     /* tertiary background color */
-    --quaternary-color: rgba(0,0,0,0.5);
+    --rb-quaternary: rgba(0,0,0,0.5);
     /* quaternary background color */
     --rs-spacing: 2px;
     /* spacing between avatar and status */
@@ -79,17 +83,21 @@
     /* color for invisible status - Note this will only show for your own invisibility */
     --rs-streaming-color: #643da7;
     /* color for streaming status */
+    --primary-color: var(--rb-primary);
+    --secondary-color: var(--rb-secondary);
+    --tertiary-color: var(--rb-tertiary);
+    --quaternary-color: var(--rb-quaternary);
   }
 
 .theme-dark .chat form,
 .theme-light .chat form  {
     -webkit-box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
     box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
-    background-color: var(--tertiary-color) !important;
+    background-color: var(--rb-tertiary) !important;
 }
 
 .guilds-wrapper {
-    background-color: var(--primary-color) !important;
+    background-color: var(--rb-primary) !important;
 }
 
 .callout-backdrop, 
@@ -136,19 +144,19 @@
 }
 
 .messages-wrapper {
-  background-color: var(--primary-color);
+  background-color: var(--rb-primary) !important;
 }
 
 .theme-dark .ui-standard-sidebar-view .sidebar-region, 
 .theme-dark .ui-standard-sidebar-view,
 .theme-light .ui-standard-sidebar-view .sidebar-region, 
 .theme-light .ui-standard-sidebar-view {
-  background: var(--quaternary-color) !important;
+  background: var(--rb-quaternary) !important;
 }
 
 .menu-Sp6bN1.alt-3btY0e, 
 .listeningAlong-2UPsxf {
-    background: var(--primary-color) !important;
+    background: var(--rb-primary) !important;
 }
 
 .private-channels .search-bar .search-bar-inner {
@@ -211,7 +219,7 @@
 
 .theme-dark .member-3W1lQa:hover .content-OzHfo4,
 .theme-light .member-3W1lQa:hover .content-OzHfo4 {
-  background-color: var(--tertiary-color) !important;
+  background-color: var(--rb-tertiary) !important;
   color: #fff;
 }
 
@@ -224,19 +232,19 @@
 }
 
 .contentSelectedText-3wUhMi {
-  background-color: var(--tertiary-color);
+  background-color: var(--rb-tertiary) !important;
   border-left: 0px;
 }
 
 .contentHoveredText-2D9B-x, 
 .contentHoveredVoice-3p_NEO:active, 
 .contentSelectedVoice-1WDIBM:active {
-  background-color: var(--tertiary-color);
+  background-color: var(--rb-tertiary) !important;
   border-left: 0px;
 }
 
 .citar-btn {
-  background-color: var(--rs-transparency);
+  background-color: var(--rs-transparency) !important;
 }
 
 /* Better Formatting Redux Re-Skin */
@@ -251,25 +259,25 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 .bf-toolbar.bf-visible div:not(.bf-arrow), .bf-toolbar.bf-hover:hover div:not(.bf-arrow){z-index:2;}
 .bf-toolbar.bf-visible:before, .bf-toolbar.bf-hover:hover:before{-webkit-transform:translate(0,-4px)!important;-ms-transform:translate(0,-4px)!important;transform:translate(0,-4px) !important;z-index:1;}
 .upload-modal .bf-toolbar {background: var(--rs-transparency) !important;}
-.theme-dark .upload-modal .inner-3if5cm, .theme-light .upload-modal .inner-3if5cm {background-color: var(--tertiary-color) !important;}
+.theme-dark .upload-modal .inner-3if5cm, .theme-light .upload-modal .inner-3if5cm {background-color: var(--rb-tertiary) !important;}
 .bf-toolbar.bf-visible div:not(.bf-arrow), .bf-toolbar.bf-hover:hover div:not(.bf-arrow){z-index:2;}
 .bf-toolbar.bf-visible:before, .bf-toolbar.bf-hover:hover:before{-webkit-transform:translate(0,-4px)!important;-ms-transform:translate(0,-4px)!important;transform:translate(0,-4px) !important;z-index:1;}
 .upload-modal .bf-toolbar {background: var(--rs-transparency) !important;}
 
 .theme-dark .cardPrimary-1Hv-to,
 .theme-light .cardPrimary-1Hv-to {
-  background: var(--quaternary-color) !important;
+  background: var(--rb-quaternary) !important;
 }
 
 .theme-dark .card-FDVird:before,
 .theme-light .card-FDVird:before {
-  background-color: var(--tertiary-color);
+  background-color: var(--rb-tertiary) !important;
   border-color: rgba(0,0,0,0.8);
 }
 
 .theme-dark #friends .friends-table .friends-row:hover,
 .theme-light #friends .friends-table .friends-row:hover {
-  background: var(--tertiary-color);
+  background: var(--rb-tertiary) !important;
 }
 
 .friends-table{
@@ -277,7 +285,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 }
 
 .guilds-wrapper .guild.guilds-add::after {
-  background: var(--tertiary-color);
+  background: var(--rb-tertiary) !important;
 }
 
 .userSettingsVoice-iwdUCU .inputSensitivityToggle-2LKb8o.manual-36Evg9 .microphone-2rtdHw .fill-3eUagR {
@@ -295,7 +303,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 
 .headerBar-UHpsPw {
   box-shadow: 0px 0px transparent !important;
-  background: var(--primary-color) !important;
+  background: var(--rb-primary) !important;
   border-bottom: 2px solid var(--main-color) !important;
   height: 46px !important;
 }
@@ -327,7 +335,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 }
 
 .messages-popout-wrap .messages-popout .message-group:hover {
-  background-color: var(--quaternary-color) !important;
+  background-color: var(--rb-quaternary) !important;
   border-color: transparent !important;
 }
 
@@ -338,7 +346,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 }
 
 .private-channels .channel.selected a {
-  background-color: var(--quaternary-color);
+  background-color: var(--rb-quaternary) !important;
   border-left: 0px solid transparent !important;
 }
 
@@ -347,7 +355,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 }
 
 .contentSelectedText-3wUhMi {
-  background-color: var(--quaternary-color);
+  background-color: var(--rb-quaternary) !important;
   border-left: 0px solid transparent;
 }
 
@@ -404,18 +412,18 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 }
 
 .ui-standard-sidebar-view .bda-slist li {
-    background: var(--secondary-color);
+    background: var(--rb-secondary) !important;
     border-bottom: 0px;
     margin-top: 15px;
 }
 
 .ui-standard-sidebar-view .bda-slist li:nth-child(odd) {
-    background: var(--secondary-color);
+    background: var(--rb-secondary) !important;
     border-top: 0px;
 }
 
 .ui-standard-sidebar-view #bd-settingspane-container .content-column.default .ui-form-title.h2+.bd-pfbtn {
-    background: var(--secondary-color) !important;
+    background: var(--rb-secondary) !important;
 }
 
 .ui-standard-sidebar-view .bda-slist .bda-right button {
@@ -478,7 +486,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 .theme-dark .title-3qD0b- {
     -webkit-box-shadow: 0 0px 0 rgba(0,0,0,.2), 0 0px 0 rgba(0,0,0,.06);
     box-shadow: 0 0px 0 rgba(0,0,0,.2), 0 0px 0 rgba(0,0,0,.06);
-    background: var(--primary-color) !important;
+    background: var(--rb-primary) !important;
 }
 
 .accountDetails-3k9g4n .username {
@@ -490,13 +498,13 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 }
 
 .ui-standard-sidebar-view .bda-slist li {
-    background: var(--secondary-color);
+    background: var(--rb-secondary) !important;
     border-bottom: 0px;
     margin-top: 15px;
 }
 
 .ui-standard-sidebar-view .bda-slist li:nth-child(odd) {
-    background: var(--secondary-color);
+    background: var(--rb-secondary) !important;
     border-top: 0px;
 }
 /*
@@ -504,7 +512,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
     top: 20px;
     position: absolute;
     left: -1200px;
-    background: var(--secondary-color) !important;
+    background: var(--rb-secondary) !important;
     font-weight: 100;
 }
 
@@ -605,7 +613,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 }
 
 .bar-2Qqk5Z {
-    background: var(--primary-color) !important;
+    background: var(--rb-primary) !important;
 }
 
 .theme-dark .checked-3_4uQ9 {
@@ -645,7 +653,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 }
 
 .channel-members, .theme-dark .members-1998pB, .theme-light .members-1998pB {
-    background-color: var(--primary-color) !important;
+    background-color: var(--rb-primary) !important;
     box-shadow: 0 0px 0px rgba(0,0,0,.4) !important;
 }
 
@@ -677,7 +685,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 }
 
 .theme-dark .popout .messages-popout-wrap .header {
-    background-color: var(--primary-color) !important;
+    background-color: var(--rb-primary) !important;
 }
 
 .need-help-modal .header h1::after {
@@ -717,7 +725,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 .topSectionSpotify-1lI0-P, 
 .topSectionNormal-2-vo2m,
 .topSectionXbox-3fWLjS {
-    background-color: var(--primary-color) !important;
+    background-color: var(--rb-primary) !important;
 }
 
 .root-SR8cQa {
@@ -733,7 +741,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 }
   
 .userPopout-3XzG_A .header-2BwW8b {
-  background-color: var(--primary-color) !important;
+  background-color: var(--rb-primary) !important;
 }
   
 .userPopout-3XzG_A .body-3iLsc4,
