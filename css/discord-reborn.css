@@ -73,8 +73,16 @@
     background-color: var(--rb-tertiary) !important;
 }
 
-.guilds-wrapper {
+.chat .inner-zqa7da {
+    background-color: var(--rb-secondary) !important;
+}
+
+.guilds-wrapper, .channels-Ie2l6A {
     background-color: var(--rb-primary) !important;
+}
+
+.guilds-wrapper .guild.guilds-add::before {
+    background: linear-gradient(to bottom, rgba(48, 48, 48, 0) 0%, var(--rb-quaternary) 60%, var(--rb-quaternary) 100%) !important;
 }
 
 .callout-backdrop, 
@@ -242,7 +250,8 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 .upload-modal .bf-toolbar {background: var(--rs-transparency) !important;}
 
 .theme-dark .cardPrimary-1Hv-to,
-.theme-light .cardPrimary-1Hv-to {
+.theme-light .cardPrimary-1Hv-to,
+.cardPrimaryOutline-29Ujqw {
   background: var(--rb-quaternary) !important;
 }
 
