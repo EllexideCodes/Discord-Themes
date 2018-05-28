@@ -6,6 +6,10 @@
 /* User Settings */
 :root {
     --theme-name: "Discord Reborn";
+}
+/* Dark Mode Settings */
+
+:root {
   --primary-color: rgba(0,0,0,0.75);
   /* primary background color */
   --secondary-color: rgba(0,0,0,0.6);
@@ -39,6 +43,44 @@
   --rs-streaming-color: #643da7;
   /* color for streaming status */
 }
+
+/* Light Mode Settings */
+
+.app.theme-light, .theme-light, .theme-light .theme-light, .theme-light.popouts-3dRSmE, .theme-light.popouts-3dRSmE+.tooltips, .tooltips+.theme-light {
+  --primary-color: rgba(0,0,0,0.55);
+  /* primary background color */
+  --secondary-color: rgba(0,0,0,0.4);
+  /* secondary background color */
+  --tertiary-color: rgba(0,0,0,0.2);
+  /* tertiary background color */
+  --quaternary-color: rgba(0,0,0,0.5);
+  /* quaternary background color */
+  --rs-spacing: 2px;
+  /* spacing between avatar and status */
+  --rs-width: 2px;
+  /* width of the status */
+  --rs-popout-spacing: 3px;
+  /* spacing between avatar and status for user popouts */
+  --rs-popout-width: 4px;
+  /* width of the status for user popouts */
+  --rs-profile-spacing: 3px;
+  /* spacing between avatar and status on modals/profiles */
+  --rs-profile-width: 4px;
+  /* width of the status on modals/profiles */
+  --rs-online-color: #43b581;
+  /* color for online status */
+  --rs-idle-color: #faa61a;
+  /* color for idle status */
+  --rs-dnd-color: #f04747;
+  /* color for dnd status */
+  --rs-offline-color: #636b75;
+  /* color for offline status */
+  --rs-invisible-color: #747f8d;
+  /* color for invisible status - Note this will only show for your own invisibility */
+  --rs-streaming-color: #643da7;
+  /* color for streaming status */
+}
+
 
 .theme-dark .chat form {
     -webkit-box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
