@@ -1,5 +1,6 @@
 .guilds-wrapper,
-.guilds-wrapper .guild.guilds-add::before {
+.guilds-wrapper .guild.guilds-add::before,
+.guilds-wrapper .guild:first-child .friends-icon {
   width: 4px !important;
   transition: all .5s ease-in-out;
   transition-delay: 0 !important;
@@ -21,7 +22,8 @@
 }
 
 .guilds-wrapper:hover,
-.guilds-wrapper:hover .guild.guilds-add::before {
+.guilds-wrapper:hover .guild.guilds-add::before,
+.guilds-wrapper:hover .guild:first-child .friends-icon {
   width: var(--list-size) !important;
 }
 
