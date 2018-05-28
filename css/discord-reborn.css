@@ -118,8 +118,6 @@
 .container-PNkimc, 
 .container-2lgZY8, 
 .theme-dark .ui-standard-sidebar-view .content-region, .theme-light .ui-standard-sidebar-view .content-region, 
-.ui-standard-sidebar-view .sidebar-region .sidebar, 
-.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller, 
 .layer, 
 .layers, 
 .content, 
@@ -586,10 +584,6 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 
 .theme-dark .typing-2GQL18 {
     background-color: transparent !important;
-}
-
-.scroller-2FKFPG.content-region-scroller {
-    background: transparent !important;
 }
 
 .theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn, 
