@@ -9,12 +9,20 @@
 }
 /* Dark Mode Settings */
 
+:root {
+    --primary-color: var(--rb-primary);
+}
+
 .app.theme-dark, 
 .theme-dark, 
 .theme-dark .theme-light, 
 .theme-dark.popouts-3dRSmE, 
 .theme-light.popouts-3dRSmE+.tooltips, 
 .tooltips+.theme-dark {
+  --primary-color: var(--rb-primary);
+  --secondar-color: var(--rb-secondary);
+  --tertiary-color: var(--rb-tertiary);
+  --quaternary-color: var(--rb-quaternary);
   --rb-primary: rgba(0,0,0,0.75);
   /* primary background color */
   --rb-secondary: rgba(0,0,0,0.6);
@@ -56,6 +64,10 @@
 .theme-light.popouts-3dRSmE, 
 .theme-light.popouts-3dRSmE+.tooltips, 
 .tooltips+.theme-light {
+    --primary-color: var(--rb-primary);
+    --secondar-color: var(--rb-secondary);
+    --tertiary-color: var(--rb-tertiary);
+    --quaternary-color: var(--rb-quaternary);
     --rb-primary: rgba(0,0,0,0.55);
     /* primary background color */
     --rb-secondary: rgba(0,0,0,0.4);
@@ -130,8 +142,14 @@
   background-color: transparent !important;
 }
 
-.messages-wrapper {
+.messages-wrapper,
+pre.inline, code.inline {
   background-color: var(--rb-primary) !important;
+}
+
+.embedInner-1-fpTo {
+    background-color: var(--rb-quaternary) !important;
+    border-color: var(--rb-quaternary) !important;
 }
 
 .theme-dark .ui-standard-sidebar-view .sidebar-region, 
