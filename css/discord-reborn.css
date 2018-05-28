@@ -9,7 +9,12 @@
 }
 /* Dark Mode Settings */
 
-:root {
+.app.theme-dark, 
+.theme-dark, 
+.theme-dark .theme-light, 
+.theme-dark.popouts-3dRSmE, 
+.theme-light.popouts-3dRSmE+.tooltips, 
+.tooltips+.theme-dark {
   --primary-color: var(--rb-primary);
   --secondar-color: var(--rb-secondary);
   --tertiary-color: var(--rb-tertiary);
@@ -48,7 +53,7 @@
   /* color for streaming status */
 }
 
-/* Light Mode Settings 
+/* Light Mode Settings */
 .app.theme-light, 
 .theme-light, 
 .theme-light .theme-light, 
@@ -60,15 +65,15 @@
     --tertiary-color: var(--rb-tertiary);
     --quaternary-color: var(--rb-quaternary);
     --rb-primary: rgba(0,0,0,0.55);
-    /* primary background color 
+    /* primary background color */
     --rb-secondary: rgba(0,0,0,0.4);
-    /* secondary background color 
+    /* secondary background color */
     --rb-tertiary: rgba(0,0,0,0.2);
-    /* tertiary background color 
+    /* tertiary background color */
     --rb-quaternary: rgba(0,0,0,0.3);
-    /* quaternary background color 
+    /* quaternary background color */
 }
-*/
+
 .theme-dark .chat form,
 .theme-light .chat form  {
     -webkit-box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
