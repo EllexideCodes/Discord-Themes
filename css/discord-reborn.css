@@ -118,6 +118,7 @@
 .container-PNkimc, 
 .container-2lgZY8, 
 .theme-dark .ui-standard-sidebar-view .content-region, .theme-light .ui-standard-sidebar-view .content-region, 
+.ui-standard-sidebar-view .sidebar-region .sidebar,
 .layer, 
 .layers, 
 .content, 
@@ -137,6 +138,8 @@
   background-color: transparent !important;
 }
 
+.ui-standard-sidebar-view .sidebar-region
+
 .guilds-wrapper .guilds>div.guild:first-child .guild-inner, 
 .chat>.content, 
 .container-2Thooq{
@@ -147,11 +150,9 @@
   background-color: var(--primary-color) !important;
 }
 
-.theme-dark .ui-standard-sidebar-view .sidebar-region, 
-.theme-dark .ui-standard-sidebar-view,
-.theme-light .ui-standard-sidebar-view .sidebar-region, 
-.theme-light .ui-standard-sidebar-view {
-  background: var(--rb-quaternary) !important;
+.ui-standard-sidebar-view .sidebar-region .scrollerWrap-2lJEkd,
+.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller {
+  background: var(--quaternary-color) !important;
 }
 
 .menu-Sp6bN1.alt-3btY0e, 
@@ -266,7 +267,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 
 .theme-dark .cardPrimary-1Hv-to,
 .theme-light .cardPrimary-1Hv-to {
-  background: var(--rb-quaternary) !important;
+  background: var(--quaternary-color) !important;
 }
 
 .theme-dark .card-FDVird:before,
@@ -335,7 +336,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 }
 
 .messages-popout-wrap .messages-popout .message-group:hover {
-  background-color: var(--rb-quaternary) !important;
+  background-color: var(--quaternary-color) !important;
   border-color: transparent !important;
 }
 
@@ -346,7 +347,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 }
 
 .private-channels .channel.selected a {
-  background-color: var(--rb-quaternary) !important;
+  background-color: var(--quaternary-color) !important;
   border-left: 0px solid transparent !important;
 }
 
@@ -355,7 +356,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 }
 
 .contentSelectedText-3wUhMi {
-  background-color: var(--rb-quaternary) !important;
+  background-color: var(--quaternary-color) !important;
   border-left: 0px solid transparent;
 }
 
