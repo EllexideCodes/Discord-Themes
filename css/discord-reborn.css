@@ -9,7 +9,8 @@
 }
 /* Dark Mode Settings */
 
-.app.theme-dark, .theme-dark, .theme-dark .theme-light, .theme-dark.popouts-3dRSmE, .theme-light.popouts-3dRSmE+.tooltips, .tooltips+.theme-dark {
+.app.theme-dark, .theme-dark, .theme-dark .theme-light, .theme-dark.popouts-3dRSmE, .theme-light.popouts-3dRSmE+.tooltips, .tooltips+.theme-dark,
+.app.theme-light, .theme-light, .theme-light .theme-light, .theme-light.popouts-3dRSmE, .theme-light.popouts-3dRSmE+.tooltips, .tooltips+.theme-light {
   --primary-color: rgba(0,0,0,0.75);
   /* primary background color */
   --secondary-color: rgba(0,0,0,0.6);
@@ -44,45 +45,9 @@
   /* color for streaming status */
 }
 
-/* Light Mode Settings */
 
-.app.theme-light, .theme-light, .theme-light .theme-light, .theme-light.popouts-3dRSmE, .theme-light.popouts-3dRSmE+.tooltips, .tooltips+.theme-light {
-  --primary-color: rgba(0,0,0,0.55);
-  /* primary background color */
-  --secondary-color: rgba(0,0,0,0.4);
-  /* secondary background color */
-  --tertiary-color: rgba(0,0,0,0.2);
-  /* tertiary background color */
-  --quaternary-color: rgba(0,0,0,0.5);
-  /* quaternary background color */
-  --rs-spacing: 2px;
-  /* spacing between avatar and status */
-  --rs-width: 2px;
-  /* width of the status */
-  --rs-popout-spacing: 3px;
-  /* spacing between avatar and status for user popouts */
-  --rs-popout-width: 4px;
-  /* width of the status for user popouts */
-  --rs-profile-spacing: 3px;
-  /* spacing between avatar and status on modals/profiles */
-  --rs-profile-width: 4px;
-  /* width of the status on modals/profiles */
-  --rs-online-color: #43b581;
-  /* color for online status */
-  --rs-idle-color: #faa61a;
-  /* color for idle status */
-  --rs-dnd-color: #f04747;
-  /* color for dnd status */
-  --rs-offline-color: #636b75;
-  /* color for offline status */
-  --rs-invisible-color: #747f8d;
-  /* color for invisible status - Note this will only show for your own invisibility */
-  --rs-streaming-color: #643da7;
-  /* color for streaming status */
-}
-
-
-.theme-dark .chat form {
+.theme-dark .chat form,
+.theme-light .chat form  {
     -webkit-box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
     box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
     background-color: var(--tertiary-color) !important;
@@ -97,15 +62,17 @@
   background-size: cover !important;
   background-position: center !important;
 }
-.callout-backdrop, 
-.appMount-3VJmYg {
-  background-image: var(--background-image) !important;
-}
+
+.app, .callout-backdrop, .appMount-3VJmYg { 
+    background-image: var(--background-image) !important; 
+    background-size: cover !important;
+    background-position:center!important 
+  }
 
 .chat, 
 .container-PNkimc, 
 .container-2lgZY8, 
-.theme-dark .ui-standard-sidebar-view .content-region, 
+.theme-dark .ui-standard-sidebar-view .content-region, .theme-light .ui-standard-sidebar-view .content-region, 
 .ui-standard-sidebar-view .sidebar-region .sidebar, 
 .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller, 
 .layer, 
@@ -121,7 +88,8 @@
 .body-1SVoBw, 
 .newsLink-38Naqi:hover, 
 .newsLink-38Naqi, 
-.news-2GDtLJ .theme-dark .popout.popout-bottom:not(.no-arrow)[style*="z-index: 1000; overflow: hidden; visibility: visible;"] {
+.news-2GDtLJ .theme-dark .popout.popout-bottom:not(.no-arrow)[style*="z-index: 1000; overflow: hidden; visibility: visible;"],
+.news-2GDtLJ .theme-light .popout.popout-bottom:not(.no-arrow)[style*="z-index: 1000; overflow: hidden; visibility: visible;"] {
   background: transparent !important;
   background-color: transparent !important;
 }
@@ -137,7 +105,9 @@
 }
 
 .theme-dark .ui-standard-sidebar-view .sidebar-region, 
-.theme-dark .ui-standard-sidebar-view {
+.theme-dark .ui-standard-sidebar-view,
+.theme-light .ui-standard-sidebar-view .sidebar-region, 
+.theme-light .ui-standard-sidebar-view {
   background: var(--quaternary-color) !important;
 }
 
@@ -175,6 +145,7 @@
 .authedApp-mj2Hmd, 
 .modal-3HD5ck .message-2qRu38, 
 .theme-dark .autocomplete-1vrmpx, 
+.theme-light .autocomplete-1vrmpx, 
 .menu-Sp6bN1 {
   box-shadow: 0 0px 0px rgba(0,0,0,0) !important;
 }
@@ -203,7 +174,8 @@
   border-color: transparent !important;
 }
 
-.theme-dark .member-3W1lQa:hover .content-OzHfo4 {
+.theme-dark .member-3W1lQa:hover .content-OzHfo4,
+.theme-light .member-3W1lQa:hover .content-OzHfo4 {
   background-color: var(--tertiary-color) !important;
   color: #fff;
 }
@@ -244,22 +216,24 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 .bf-toolbar.bf-visible div:not(.bf-arrow), .bf-toolbar.bf-hover:hover div:not(.bf-arrow){z-index:2;}
 .bf-toolbar.bf-visible:before, .bf-toolbar.bf-hover:hover:before{-webkit-transform:translate(0,-4px)!important;-ms-transform:translate(0,-4px)!important;transform:translate(0,-4px) !important;z-index:1;}
 .upload-modal .bf-toolbar {background: var(--rs-transparency) !important;}
-.theme-dark .upload-modal .inner-3if5cm {background-color: var(--tertiary-color) !important;}
+.theme-dark .upload-modal .inner-3if5cm, .theme-light .upload-modal .inner-3if5cm {background-color: var(--tertiary-color) !important;}
 .bf-toolbar.bf-visible div:not(.bf-arrow), .bf-toolbar.bf-hover:hover div:not(.bf-arrow){z-index:2;}
 .bf-toolbar.bf-visible:before, .bf-toolbar.bf-hover:hover:before{-webkit-transform:translate(0,-4px)!important;-ms-transform:translate(0,-4px)!important;transform:translate(0,-4px) !important;z-index:1;}
 .upload-modal .bf-toolbar {background: var(--rs-transparency) !important;}
-.theme-dark .upload-modal .inner-3if5cm {background-color: var(--tertiary-color) !important;}
 
-.theme-dark .cardPrimary-1Hv-to {
+.theme-dark .cardPrimary-1Hv-to,
+.theme-light .cardPrimary-1Hv-to {
   background: var(--quaternary-color) !important;
 }
 
-.theme-dark .card-FDVird:before {
+.theme-dark .card-FDVird:before,
+.theme-light .card-FDVird:before {
   background-color: var(--tertiary-color);
   border-color: rgba(0,0,0,0.8);
 }
 
-.theme-dark #friends .friends-table .friends-row:hover {
+.theme-dark #friends .friends-table .friends-row:hover,
+.theme-light #friends .friends-table .friends-row:hover {
   background: var(--tertiary-color);
 }
 
@@ -291,7 +265,8 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
   height: 46px !important;
 }
 
-.theme-dark .themed-popout {
+.theme-dark .themed-popout,
+.theme-light .themed-popout {
   background-color: 0px solid transparent !important;
   border-left: 0px solid var(--main-color) !important;
   border-right: 0px solid var(--main-color) !important;
@@ -349,7 +324,8 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
     background-color: rgba(0,0,0,0.2) !important;
 }
 
-.theme-dark .user-settings-games .now-playing, .theme-light .user-settings-games .now-playing {
+.theme-dark .user-settings-games .now-playing, .theme-light .user-settings-games .now-playing,
+.theme-light .user-settings-games .now-playing, .theme-light .user-settings-games .now-playing {
     background-color: rgba(0,0,0,0.4) !important;
 }
 
@@ -357,7 +333,8 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
     background: var(--main-color) !important;
 }
 
-.theme-dark .note-3kmerW textarea:focus {
+.theme-dark .note-3kmerW textarea:focus,
+.theme-light .note-3kmerW textarea:focus {
     background-color: rgba(0,0,0,0.9) !important;
 }
 
@@ -704,9 +681,20 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 .guilds [class*="avatar-"] {border-radius: var(--roundness) !important;}
 
 
-.theme-dark .topSectionNormal-2-vo2m .header-QKLPzZ,
-.theme-dark .topSectionNormal-2-vo2m .tabBarContainer-1s1u-z {
-  background-color: rgba(0,0,0,0.8) !important;
+.topSectionStreaming-1Tpf5X, 
+.topSectionPlaying-1J5E4n,
+.topSectionSpotify-1lI0-P, 
+.topSectionNormal-2-vo2m,
+.topSectionXbox-3fWLjS {
+    background-color: var(--primary-color) !important;
+}
+
+.root-SR8cQa {
+    background-image: var(--popup-background) !important;
+}
+
+.root-SR8cQa .scroller-2FKFPG {
+    background-color: rgba(0,0,0,9) !important;
 }
 
 .userPopout-3XzG_A {
