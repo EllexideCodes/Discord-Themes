@@ -9,7 +9,7 @@
 }
 /* Dark Mode Settings */
 
-:root {
+.app.theme-dark, .theme-dark, .theme-dark .theme-light, .theme-dark.popouts-3dRSmE, .theme-light.popouts-3dRSmE+.tooltips, .tooltips+.theme-dark {
   --primary-color: rgba(0,0,0,0.75);
   /* primary background color */
   --secondary-color: rgba(0,0,0,0.6);
