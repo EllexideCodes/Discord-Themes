@@ -9,10 +9,6 @@
 }
 /* Dark Mode Settings */
 
-:root {
-    --primary-color: var(--rb-primary);
-}
-
 .app.theme-dark, 
 .theme-dark, 
 .theme-dark .theme-light, 
