@@ -719,33 +719,23 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 
 .guilds [class*="avatar-"] {border-radius: var(--roundness) !important;}
 
-
+.userPopout-3XzG_A,
+.root-SR8cQa {
+    background-image: var(--popup-background) !important;
+}
+  
+.userPopout-3XzG_A .header-2BwW8b,
 .topSectionStreaming-1Tpf5X, 
 .topSectionPlaying-1J5E4n,
 .topSectionSpotify-1lI0-P, 
 .topSectionNormal-2-vo2m,
 .topSectionXbox-3fWLjS {
-    background-color: var(--rb-primary) !important;
-}
-
-.root-SR8cQa {
-    background-image: var(--popup-background) !important;
-}
-
-.root-SR8cQa .scroller-2FKFPG {
-    background-color: rgba(0,0,0,9) !important;
-}
-
-.userPopout-3XzG_A {
-    background-image: var(--popup-background) !important;
-}
-  
-.userPopout-3XzG_A .header-2BwW8b {
   background-color: var(--rb-primary) !important;
 }
   
 .userPopout-3XzG_A .body-3iLsc4,
-.userPopout-3XzG_A .footer-1fjuF6 {
+.userPopout-3XzG_A .footer-1fjuF6,
+.root-SR8cQa .scroller-2FKFPG {
   background-color: rgba(0,0,0,9) !important;
 }
   
