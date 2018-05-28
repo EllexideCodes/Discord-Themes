@@ -15,10 +15,6 @@
 .theme-dark.popouts-3dRSmE, 
 .theme-light.popouts-3dRSmE+.tooltips, 
 .tooltips+.theme-dark {
-  --primary-color: var(--rb-primary);
-  --secondar-color: var(--rb-secondary);
-  --tertiary-color: var(--rb-tertiary);
-  --quaternary-color: var(--rb-quaternary);
   --rb-primary: rgba(0,0,0,0.75);
   /* primary background color */
   --rb-secondary: rgba(0,0,0,0.6);
@@ -51,6 +47,10 @@
   /* color for invisible status - Note this will only show for your own invisibility */
   --rs-streaming-color: #643da7;
   /* color for streaming status */
+  --primary-color: var(--rb-primary);
+  --secondar-color: var(--rb-secondary);
+  --tertiary-color: var(--rb-tertiary);
+  --quaternary-color: var(--rb-quaternary);
 }
 
 /* Light Mode Settings */
@@ -60,10 +60,6 @@
 .theme-light.popouts-3dRSmE, 
 .theme-light.popouts-3dRSmE+.tooltips, 
 .tooltips+.theme-light {
-    --primary-color: var(--rb-primary);
-    --secondar-color: var(--rb-secondary);
-    --tertiary-color: var(--rb-tertiary);
-    --quaternary-color: var(--rb-quaternary);
     --rb-primary: rgba(0,0,0,0.55);
     /* primary background color */
     --rb-secondary: rgba(0,0,0,0.4);
@@ -72,6 +68,10 @@
     /* tertiary background color */
     --rb-quaternary: rgba(0,0,0,0.3);
     /* quaternary background color */
+    --primary-color: var(--rb-primary);
+    --secondar-color: var(--rb-secondary);
+    --tertiary-color: var(--rb-tertiary);
+    --quaternary-color: var(--rb-quaternary);
 }
 
 .theme-dark .chat form,
