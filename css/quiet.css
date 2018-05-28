@@ -12,12 +12,7 @@
 
 /* Dark Mode Settings */
 
-.app.theme-dark, 
-.theme-dark, 
-.theme-dark .theme-light,
-.theme-dark.popouts-3dRSmE,
-.theme-light.popouts-3dRSmE+.tooltips,
-.tooltips+.theme-dark {
+:root {
   --primary-color: #19191b;
   /* primary background color */
   --secondary-color: #1E1E21;
@@ -52,7 +47,7 @@
   /* color for streaming status */
 }
 
-/* Light Mode Settings */
+/* Light Mode Settings 
 
 .app.theme-light,
 .theme-light,
@@ -61,37 +56,37 @@
 .theme-light.popouts-3dRSmE+.tooltips,
 .tooltips+.theme-light {
   --primary-color: #ffffff;
-  /* primary background color */
+  /* primary background color 
   --secondary-color: #f3f3f3;
-  /* secondary background color */
+  /* secondary background color 
   --tertiary-color: #eeeeee;
-  /* tertiary background color */
+  /* tertiary background color 
   --quaternary-color: #dbdbdb;
-  /* quaternary background color */
+  /* quaternary background color 
   --rs-spacing: 2px;
-  /* spacing between avatar and status */
+  /* spacing between avatar and status 
   --rs-width: 2px;
-  /* width of the status */
+  /* width of the status 
   --rs-popout-spacing: 3px;
-  /* spacing between avatar and status for user popouts */
+  /* spacing between avatar and status for user popouts 
   --rs-popout-width: 4px;
-  /* width of the status for user popouts */
+  /* width of the status for user popouts 
   --rs-profile-spacing: 3px;
-  /* spacing between avatar and status on modals/profiles */
+  /* spacing between avatar and status on modals/profiles 
   --rs-profile-width: 4px;
-  /* width of the status on modals/profiles */
+  /* width of the status on modals/profiles 
   --rs-online-color: #43b581;
-  /* color for online status */
+  /* color for online status 
   --rs-idle-color: #faa61a;
-  /* color for idle status */
+  /* color for idle status 
   --rs-dnd-color: #f04747;
-  /* color for dnd status */
+  /* color for dnd status 
   --rs-offline-color: #636b75;
-  /* color for offline status */
+  /* color for offline status 
   --rs-invisible-color: #747f8d;
-  /* color for invisible status - Note this will only show for your own invisibility */
+  /* color for invisible status - Note this will only show for your own invisibility 
   --rs-streaming-color: #643da7;
-  /* color for streaming status */
+  /* color for streaming status 
 }
 
 /* Table of Contents
