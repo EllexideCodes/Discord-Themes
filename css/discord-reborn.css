@@ -609,7 +609,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
     background-color: var(--main-color) !important;
 }
 
-.channel-members, .theme-dark .members-1998pB {
+.channel-members, .theme-dark .members-1998pB, .theme-light .members-1998pB {
     background-color: var(--primary-color) !important;
     box-shadow: 0 0px 0px rgba(0,0,0,.4) !important;
 }
