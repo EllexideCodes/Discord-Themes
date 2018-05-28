@@ -202,6 +202,10 @@
   transition: background-color .2s linear;
 }
 
+.autocompleteInner-zh20B_ .marginLeft8-1YseBe {
+    color: #ccc;
+}
+
 .chat .messages.scroller::-webkit-scrollbar-thumb {
   background-color: var(--main-color) !important;
 }
