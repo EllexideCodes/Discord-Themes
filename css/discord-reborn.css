@@ -73,7 +73,9 @@
     background-color: var(--rb-tertiary) !important;
 }
 
-.chat .inner-zqa7da {
+.chat .inner-zqa7da,
+.chat .divider.divider-red>span
+ {
     background-color: var(--rb-secondary) !important;
 }
 
