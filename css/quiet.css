@@ -351,7 +351,7 @@ div[class*="titleBar-"] div {
   animation: popoutanim 300ms cubic-bezier(.4, 0, 0, 1), opacity 100ms ease 100ms backwards;
   transform-origin: 50% -10%;
   box-shadow: 0 2px 20px rgba(0,0,0,.4) !important;
-  margin-top: 11px !important;
+  margin-top: 1px !important;
 }
 
 .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group {
