@@ -1222,8 +1222,8 @@ div[class*="titleBar-"] div {
     width: 100% !important;
     border-radius: 0% !important;
     margin: 0;
-    top: -2px !important;
-    left: -2px !important;
+    top: -1px !important;
+    left: -1px !important;
     background: transparent !important;
     border:2px solid !important;
     transition-duration: .5s !important;
