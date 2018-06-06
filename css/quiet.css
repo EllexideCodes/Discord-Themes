@@ -1911,6 +1911,7 @@ background: var(--tertiary-color) !important;
   background-color: var(--secondary-color) !important;
   box-shadow: 0px 0px transparent !important;
   margin: 0 0;
+  height: 3.37em !important;
 }
 
 .chat .attachButtonDivider-3Glu60 {
@@ -1918,7 +1919,7 @@ background: var(--tertiary-color) !important;
 }
 
 .chat .attachButton-1UjEWA {
-  margin: 15px 10px;
+  margin: 5px 5px;
 }
 
 .chat .attachButtonPlus-rUdX-B {
