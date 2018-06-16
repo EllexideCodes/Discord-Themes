@@ -1965,11 +1965,11 @@ background: var(--tertiary-color) !important;
 .chat .channelTextAreaEnabledNoAttach-3tPFmT.channelTextArea-1LDbYG.channelTextArea-rNsIhG {
   margin: 4px 0 6px !important;
 }
-
+/*
 .chat .textAreaEnabled-3vQ5WZ {
   padding: 17px 38px 10px 10px;
 }
-
+*/
 .chat .emojiButton-2wRZts {
   top: 15px;
 }
@@ -2652,8 +2652,15 @@ form.modal-content.form.need-help-modal::after {
   border-radius: 0 !important;
 }
 
-.private-channel-recipients-invite {
-  margin-top: 1px;
+.modal-3HD5ck.popout-3Nppv9 {
+  border-radius: 0 !important;
+  border-left: 2px solid var(--main-color);
+  border-right: 2px solid var(--main-color);
+  border-bottom: 2px solid var(--main-color);
+  animation: popoutanim 300ms cubic-bezier(.4, 0, 0, 1), opacity 100ms ease 100ms backwards;
+  transform-origin: 50% -10%;
+  box-shadow: 0 2px 20px rgba(0,0,0,.4) !important;
+  margin-top: 1px !important;
 }
 
 .Select-menu {
@@ -3516,6 +3523,7 @@ dismiss-1QjyJW, .dismiss-SCAH9H {
 
 .chat .avatar-large, 
 .container-2Thooq .avatar-small,
+.avatar-small,
 .avatar-xxlarge, 
 .avatar-large,
 .private-channel-recipients-invite .friend .avatar-small, 
@@ -3523,7 +3531,7 @@ dismiss-1QjyJW, .dismiss-SCAH9H {
 .channel-members [class*="avatar-"] .status, 
 .private-channels .channel .avatar-small, 
 .messages-popout .message-group .avatar-large, 
-.guilds [class*="avatar-"], 
+.guilds .guild-icon, 
 .guilds .guild-placeholder,
 .guilds-wrapper .guild.guilds-add::after, 
 .mask-3OgeRz, 
