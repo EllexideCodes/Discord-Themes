@@ -7,7 +7,7 @@
 .channel-members [class*="avatar-"] .status, 
 .private-channels .channel .avatar-small, 
 .messages-popout .message-group .avatar-large, 
-.guilds [class*="avatar-"], 
+.guilds .guilds-icon, 
 .guilds .guild-placeholder,
 .guilds-wrapper .guild.guilds-add::after, 
 .mask-3OgeRz, 
