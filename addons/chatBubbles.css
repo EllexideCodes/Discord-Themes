@@ -6,7 +6,7 @@
   margin-bottom: 5px;
 }
 
-.chat .avatar-large:after {
+.chat .avatar-large:not(.wrapper-2F3Zv8):after {
   content: ' ';
   height: 0;
   width: 0;
