@@ -1456,8 +1456,8 @@ div[class*="titleBar-"] div {
   content: " ";
   display: block;
   position: absolute;
-  width: 15px;
-  height: 15px;
+  width: 14px;
+  height: 14px;
   top: 0;
   left: 0;
   right: 0;
@@ -1465,6 +1465,7 @@ div[class*="titleBar-"] div {
   margin: auto !important;
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  background-position: center;
   opacity: 0;
   visibility: hidden;
   transition: 200ms ease-in-out;
