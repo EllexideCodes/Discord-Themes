@@ -164,6 +164,13 @@
   transform: translateX(30px);
 }
 
+/* since I can't have a tag */
+.message-group:not(.compact) .avatar-large[style*="402272736665272320"] {
+  border: 3px solid;
+  border-image: url(https://i.gifer.com/IlA.gif);
+  border-image-slice: 1;
+}
+
 /* --- MONSTER CROWN --- */
 .message-group:not(.compact) .avatar-large[style*="402272736665272320"] ~ .comment .message .old-h2 span.username-wrapper::before{
   content: "`";
