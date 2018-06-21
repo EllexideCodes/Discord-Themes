@@ -150,14 +150,17 @@
 }
 
 #friends .friends-table .friends-row .friends-column-name .avatar-small {
-  top: 25px;
-  left: 15px;
   width: 85px;
   height: 85px;
   background-size: 85px 85px;
   opacity: 0.6;
   transition: opacity 500ms, transform .2s linear, box-shadow .2s linear;
   transform: scale(0.97) perspective(1px);
+}
+
+#friends .friends-table .friends-row .friends-column-name .wrapper-2F3Zv8.avatar-small {
+  top: 25px;
+  left: 15px;
 }
 
 #friends .friends-table .friends-row:hover .friends-column-name .avatar-small {
@@ -204,6 +207,7 @@
 #friends .friends-table .friends-row .friends-column-status .status {
   width: 100%;
   height: 20px;
+  margin-right: 0;
   border-radius: 5px 5px 0 0 !important;
   position: absolute;
   top: 0;
