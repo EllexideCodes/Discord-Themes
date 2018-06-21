@@ -165,7 +165,7 @@
 }
 
 /* --- MONSTER CROWN --- */
-.message-group:not(.compact) .avatar-large[style*="402272736665272320"] ~ .comment .message h2 span.username-wrapper::before{
+.message-group:not(.compact) .avatar-large[style*="402272736665272320"] ~ .comment .message .old-h2 span.username-wrapper::before{
   content: "`";
   background-color: transparent;
   background-image: url(https://rawgit.com/EllexideCodes/Discord-Themes/master/assets/crown.svg);
