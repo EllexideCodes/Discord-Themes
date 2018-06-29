@@ -2419,7 +2419,7 @@ form.modal-content.form.need-help-modal::after {
 
 .need-help-modal .form-inner.loading::after {
   line-height: 7px !important;
-  content: "\A Thanks for supporting this fork! \A\A\A\A Theme Creators: \A\A\A\A Omniscient#0002 & Lil Monster#3557 \A\A\A\A\A\A My Server: \A\A\A\A https://discord.gg/g7nf298 \A\A\A\A\A\A Support Me: \A\A\A\A https://paypal.me/Ellexide \A\A\A\A\A\A My Website: \A\A\A\A https://ellexidecodes.github.io" !important;
+  content: "\A Thanks for using this fork! \A\A\A\A Developer: \A\A\A\A Lil Monster#3557 \A\A\A\A\A\A My Server: \A\A\A\A https://discord.gg/g7nf298 \A\A\A\A\A\A Support Me: \A\A\A\A https://paypal.me/Ellexide \A\A\A\A\A\A My Website: \A\A\A\A https://ellexidecodes.github.io" !important;
   text-align: center;
   padding: 58px;
   min-height: 100px;
@@ -2450,7 +2450,7 @@ form.modal-content.form.need-help-modal::after {
 }
 
 .need-help-modal .footer::after {
-    content: "Need help? Visit: https:/derealised.xyz/ or DM Lil Monster#3557" !important;
+    content: "Need help? Visit: https:/discord.gg/TeRQEPb or DM Lil Monster#3557" !important;
     background-color: #19191b;
     width: 142% !important;
     height: 34px;
