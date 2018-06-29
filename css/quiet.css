@@ -130,7 +130,7 @@
 32. Custom CSS
 33. Server Settings
 34. Roundness
-
+35. Games Tab
 */
 
 /* 1. User Settings */
@@ -3565,6 +3565,18 @@ dismiss-1QjyJW, .dismiss-SCAH9H {
 .valueChecked-m-4IJZ, 
 .valueChecked-m-4IJZ.sizeDefault-2YlOZr:after {
   border-radius: var(--roundness) !important;
+}
+
+/* 35. Games Tab */
+
+.articles-FleDq5,
+.theme-dark .body-SKIE6r {
+  background-color: var(--secondary-color);
+}
+
+
+.theme-dark .header-1RC2Wb {
+  background-color: var(--tertiary-color);
 }
 
 
