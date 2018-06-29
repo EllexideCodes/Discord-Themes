@@ -758,7 +758,7 @@ div[class*="titleBar-"] div {
 }
 
 .guilds-wrapper .guilds>div.guild:first-child .guild-inner a,
-.guilds-wrapper .guilds>div.guild:first-child .friends-icon {
+.guilds-wrapper .guilds>div.guild:first-child .home-icon {
   width: 70px;
 }
 
@@ -767,12 +767,16 @@ div[class*="titleBar-"] div {
   background-color: transparent !important;
 }
 
-.friends-icon {
-  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/chatIcon.svg) !important;
+.home-icon {
+  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/home.svg) !important;
+  background-size: 24px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.theme-light .friends-icon {
-  filter: invert();
+.guilds .home-icon defs,
+.guilds .home-icon g {
+  display: none;
 }
 
 .guilds-wrapper .guilds {
@@ -1220,7 +1224,7 @@ div[class*="titleBar-"] div {
 .avatar-small [class*="status-"],
 .member-3W1lQa [class*="status-"], 
 .userPopout-3XzG_A [class*="status-"], 
-.modal-1UGdnR [class*="status-"]
+.modal-1UGdnR [class*="status-"],
 .wrapper-2F3Zv8.da-xsmall [class*="status-"]
 {
     height: 100% !important;
