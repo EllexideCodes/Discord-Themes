@@ -1209,7 +1209,8 @@ div[class*="titleBar-"] div {
   transition: all ease .05s
 }
 
-.member-3W1lQa [class*="status-"].typing-1KJk_j {
+.member-3W1lQa [class*="status-"].typing-1KJk_j,
+.avatar-small [class*="status-"].typing-1KJk_j {
   border-radius: 20% !important;
   background: rgba(10, 10, 10, 0.50) !important
 }
@@ -1550,43 +1551,44 @@ div[class*="titleBar-"] div {
 
 /* -- MORE CLASS NAME CHANGES -- */
 
-.member-3W1lQa [class*="status-"].typing-1KJk_j .spinner-2enMB9 {
+.member-3W1lQa [class*="status-"].typing-1KJk_j .spinner-2enMB9,
+.avatar-small [class*="status-"].typing-1KJk_j .spinner-2enMB9 {
   width: 100%;
 }
 
 .member-3W1lQa [class*="status-"].typing-1KJk_j .pulsingEllipsisItem-32hhWL,
-.avatar-small .spinner-2enMB9 .spinner-item {
+.avatar-small .spinner-2enMB9 .pulsingEllipsisItem-32hhWL {
   height: 3px;
   width: 3px;
   border-radius: 0px !important;
 }
 
-.avatar-small .status-typing.status-online .spinner-item,
+.avatar-small .typing-1KJk_j.online-2S838R .pulsingEllipsisItem-32hhWL,
 .member-3W1lQa [class*="status-"].online-2S838R.typing-1KJk_j .pulsingEllipsisItem-32hhWL {
   background-color: var(--rs-online-color) !important;
 }
 
-.avatar-small .status-typing.status-idle .spinner-item,
+.avatar-small .typing-1KJk_j.idle-3DEnRT .pulsingEllipsisItem-32hhWL,
 .member-3W1lQa [class*="status-"].idle-3DEnRT.typing-1KJk_j .pulsingEllipsisItem-32hhWL {
   background-color: var(--rs-idle-color) !important;
 }
 
-.avatar-small .status-typing.status-dnd .spinner-item,
+.avatar-small .typing-1KJk_j.dnd-1_xrcq .pulsingEllipsisItem-32hhWL,
 .member-3W1lQa [class*="status-"].dnd-1_xrcq.typing-1KJk_j .pulsingEllipsisItem-32hhWL {
   background-color: var(--rs-dnd-color) !important;
 }
 
-.avatar-small .status-typing.status-streaming .spinner-item,
+.avatar-small .typing-1KJk_j.streaming-2_dnHe .pulsingEllipsisItem-32hhWL,
 .member-3W1lQa [class*="status-"].streaming-2_dnHe.typing-1KJk_j .pulsingEllipsisItem-32hhWL {
   background-color: var(--rs-streaming-color) !important;
 }
 
-.avatar-small .status-typing.status-offline .spinner-item,
+.avatar-small .typing-1KJk_j.offline-3qoTek .pulsingEllipsisItem-32hhWL,
 .member-3W1lQa [class*="status-"].offline-3qoTek.typing-1KJk_j .pulsingEllipsisItem-32hhWL {
   background-color: var(--rs-offline-color) !important;
 }
 
-.avatar-small .status-typing.status-invisible .spinner-item,
+.avatar-small .typing-1KJk_j.invisible-1kp8Z0 .pulsingEllipsisItem-32hhWL,
 .member-3W1lQa [class*="status-"].invisible-1kp8Z0.typing-1KJk_j .pulsingEllipsisItem-32hhWL {
   background-color: var(--rs-invisible-color) !important;
 }
