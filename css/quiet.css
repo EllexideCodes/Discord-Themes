@@ -772,6 +772,7 @@ div[class*="titleBar-"] div {
   background-size: 24px;
   background-position: center;
   background-repeat: no-repeat;
+  filter: invert(95%)
 }
 
 .guilds .home-icon defs,
