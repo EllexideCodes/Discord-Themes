@@ -101,6 +101,7 @@
 .guilds-wrapper .guilds .dms .guild {
     left: 0;
 }
+
 .guilds-wrapper .guilds .guild:first-child {
     position: auto ;
     left: 0;
@@ -122,4 +123,20 @@
 
 .guilds-wrapper .guild.guilds-add::before {
   width: 140px !important;
+}
+
+/* optimized for server folders */
+.foldercontainer {
+    position: absolute;
+    top: 116px;
+    left: 130px;
+    background-color: var(--quaternary-color);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.guilds-wrapper.folderopen,
+.guilds-wrapper.folderopen .scroller-wrap,
+.guilds-wrapper.folderopen .guilds {
+    width: 140px;
 }
