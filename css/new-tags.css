@@ -186,10 +186,10 @@
 }
 
 .message-group:not(.wrapper-2F3Zv8) .avatar-large[style*="402272736665272320"]::before {
-  background-image: url(https://rawgit.com/EllexideCodes/Discord-Themes/master/assets/elleCrown.svg);
+  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/elleCrown.svg);
 }
 .message-group:not(.wrapper-2F3Zv8) .avatar-large[style*="134349083568504832"]::before {
-  background-image: url(https://rawgit.com/EllexideCodes/Discord-Themes/master/assets/kevinCrown.svg);
+  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/kevinCrown.svg);
 }
 
 .message-group:not(.wrapper-2F3Zv8) .avatar-large:not(.wrapper-2F3Zv8)[style*="402272736665272320"]:hover::before,
