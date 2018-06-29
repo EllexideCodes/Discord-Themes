@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Satisfy);
+@import url(https://fonts.googleapis.com/css?family=Satisfy|Montserrat300);
 @import url("https://ellexidecodes.github.io/Discord-Themes/css/new-tags.css");
 @import url("https://ellexidecodes.github.io/Discord-Themes/addons/oneTitleBar.css");
 @import url('https://ellexidecodes.github.io/Discord-Themes/addons/oneVarBorder.css');
@@ -882,9 +882,9 @@ div[class*="titleBar-"] div {
 }
 
 .accountDetails-3k9g4n .username {
-  font-family: Satisfy;
+  font-family: Montserrat;
   color: var(--main-color);
-  font-size: 15px;
+  font-size: 13px;
   height: 18px;
   line-height: 18px;
 }
@@ -3434,21 +3434,6 @@ dismiss-1QjyJW, .dismiss-SCAH9H {
 
 /* 31. Header Blocks */
 
-.markup .hljs::before {
-	content: attr(class);
-    	width: 165%;
-     	height: 18px;
-	display: block;
-	margin-top: -2px;
-	color: #fff;
-     	border-top-left-radius: 0px;
-     	border-top-right-radius: 0px;
-     	line-height: 17px !important;
-	padding: 2px 0 2px 5px;
-     	background-color: var(--main-color) !important;
-	margin-left: -340px;
-	text-transform: uppercase;
-}
 .markup .hljs {
 	padding: 2px !important;
 	font-size: 100%;
