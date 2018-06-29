@@ -2844,6 +2844,10 @@ form.modal-content.form.need-help-modal::after {
   background-color: var(--primary-color) !important;
 }
 
+.body-3ND3kc .listRow-hutiT_ .iconInactive-98JN5i {
+  border-radius: var(--roundness) !important
+}
+
 .connectedAccount-36nQx7, 
 .userInfoSection-2acyCx+.userInfoSection-2acyCx {
   border-color: transparent !important;
