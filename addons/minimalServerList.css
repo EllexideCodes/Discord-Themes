@@ -1,14 +1,14 @@
 .guilds-wrapper,
 .guilds-wrapper .guild.guilds-add::before,
-.guilds-wrapper .guild .friends-icon {
+.guilds-wrapper .guild .home-icon {
   width: 4px !important;
   transition: all .5s ease-in-out;
   transition-delay: 0 !important;
 }
 
-.friends-icon {opacity: 0;}
+.home-icon {opacity: 0;}
 
-.guilds-wrapper:hover .friends-icon {opacity: 1}
+.guilds-wrapper:hover .home-icon {opacity: 1}
 
 .guilds-wrapper .guild.guilds-add::after {
   transform: scale(0) !important;
@@ -27,7 +27,7 @@
 
 .guilds-wrapper:hover,
 .guilds-wrapper:hover .guild.guilds-add::before,
-.guilds-wrapper:hover .guild:first-child .friends-icon {
+.guilds-wrapper:hover .guild:first-child .home-icon {
   width: var(--list-size) !important;
 }
 

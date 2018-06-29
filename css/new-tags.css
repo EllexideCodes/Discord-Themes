@@ -165,10 +165,31 @@
 }
 
 /* since I can't have a tag */
-.message-group:not(.compact) .avatar-large[style*="402272736665272320"] {
-  border: 3px solid;
+.message-group:not(.wrapper-2F3Zv8) .avatar-large[style*="402272736665272320"] {
+  border: 2px solid;
   border-image: url(https://i.gifer.com/IlA.gif);
   border-image-slice: 1;
+}
+
+.message-group:not(.wrapper-2F3Zv8) .avatar-large[style*="402272736665272320"]::before {
+  content: '';
+  color: transparent;
+  height: 15px;
+  width: 15px;
+  background-image: url(https//rawgit.com/EllexideCodes/Discord-Themes/master/assets/crown.svg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  bottom: -8px;
+  right: -8px;
+  pointer-events: none;
+}
+
+.message-group:not(.wrapper-2F3Zv8) .avatar-large:not(.wrapper-2F3Zv8)[style*="402272736665272320"]:hover::before {
+  display: block;
+  content: '' !important;
+  padding: none !important;
+  background-color: transparent !important;
 }
 
 /* --- MONSTER CROWN --- */
