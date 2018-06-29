@@ -1224,7 +1224,7 @@ div[class*="titleBar-"] div {
 
 /* -- just selecting "class*="status-"] ends up giving the voice connection status a border too -- */
 .avatar-small [class*="status-"],
-.avatar-large [class*="status-"],
+.avatar-xmN5qb [class*="status-"],
 .member-3W1lQa [class*="status-"], 
 .userPopout-3XzG_A [class*="status-"], 
 .modal-1UGdnR [class*="status-"],
@@ -1252,7 +1252,7 @@ div[class*="titleBar-"] div {
 }
 
 .avatar-16XVId [class*="status-"].online-2S838R,
-.avatar-large [class*="status-"].online-2S838R,
+.avatar-xmN5qb [class*="status-"].online-2S838R,
 .avatar-small [class*="online"],
 .da-xsmall[class*="status-"].online-2S838R,
 .member-3W1lQa [class*="status-"].online-2S838R,
@@ -1263,7 +1263,7 @@ div[class*="titleBar-"] div {
 }
 
 .avatar-16XVId [class*="status-"].idle-3DEnRT,
-.avatar-large [class*="status-"].idle-3DEnRT,
+.avatar-xmN5qb [class*="status-"].idle-3DEnRT,
 .avatar-small [class*="idle"],
 .member-3W1lQa [class*="status-"].idle-3DEnRT,
 .userPopout-3XzG_A [class*="status-"].idle-3DEnRT,
@@ -1274,7 +1274,7 @@ div[class*="titleBar-"] div {
 }
 
 .avatar-16XVId [class*="status-"].dnd-1_xrcq,
-.avatar-large [class*="status-"].dnd-1_xrcq,
+.avatar-xmN5qb [class*="status-"].dnd-1_xrcq,
 .avatar-small [class*="dnd"],
 .member-3W1lQa [class*="status-"].dnd-1_xrcq,
 .userPopout-3XzG_A [class*="status-"].dnd-1_xrcq,
@@ -1285,7 +1285,7 @@ div[class*="titleBar-"] div {
 }
 
 .avatar-16XVId [class*="status-"].streaming-2_dnHe,
-.avatar-large [class*="status-"].streaming-2_dnHe,
+.avatar-xmN5qb [class*="status-"].streaming-2_dnHe,
 .avatar-small [class*="streaming"],
 .member-3W1lQa [class*="status-"].streaming-2_dnHe,
 .userPopout-3XzG_A [class*="status-"].streaming-2_dnHe,
@@ -1296,7 +1296,7 @@ div[class*="titleBar-"] div {
 }
 
 .avatar-16XVId [class*="status-"].offline-3qoTek,
-.avatar-large [class*="status-"].offline-3qoTek,
+.avatar-xmN5qb [class*="status-"].offline-3qoTek,
 .avatar-small [class*="offline"],
 .member-3W1lQa [class*="status-"].offline-3qoTek,
 .userPopout-3XzG_A [class*="status-"].offline-3qoTek,
@@ -1307,7 +1307,7 @@ div[class*="titleBar-"] div {
 }
 
 .avatar-16XVId [class*="status-"].invisible-1kp8Z0,
-.avatar-large [class*="status-"].invisible-1kp8Z0,
+.avatar-xmN5qb [class*="status-"].invisible-1kp8Z0,
 .avatar-small [class*="invisible"],
 .member-3W1lQa [class*="status-"].invisible-1kp8Z0,
 .userPopout-3XzG_A [class*="status-"].invisible-1kp8Z0,
@@ -3601,6 +3601,15 @@ dismiss-1QjyJW, .dismiss-SCAH9H {
   background-color: var(--tertiary-color);
 }
 
+.theme-dark .player-1kJMbj .da-flex::after {
+  margin-left: 5px
+}
+
+
+
+
+
+/* change screen size */
 
 @media only screen and (max-width: 915px) {
 
