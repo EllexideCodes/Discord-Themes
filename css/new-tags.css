@@ -189,7 +189,7 @@
   bottom: -8px;
   right: -8px;
   pointer-events: none;
-  filter: drop-shadow(0 0 1px var(--primary-color)) drop-shadow(0 0 1px var(--primary-color)) drop-shadow(0 0 1px var(--primary-color))
+  filter: drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color))
 }
 
 .message-group:not(.wrapper-2F3Zv8) .avatar-large[style*="402272736665272320"]::before {
