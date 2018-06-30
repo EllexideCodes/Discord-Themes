@@ -555,7 +555,8 @@ div[class*="titleBar-"] div {
   border: 2px solid var(--quaternary-color);
 }
 
-.channels-Ie2l6A .scroller-2FKFPG>[class*=container-]>div:first-of-type>[class*=container] {
+.channels-Ie2l6A .scroller-2FKFPG>[class*=container-]>div:first-of-type>[class*=container],
+.channels-Ie2l6A .scroller-2FKFPG>[class*=container-]>[class*=container]:first-of-type {
   padding-top: 0;
   margin-top: 12px;
   margin-bottom: 6px;
