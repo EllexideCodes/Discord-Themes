@@ -2686,6 +2686,10 @@ form.modal-content.form.need-help-modal::after {
   background: var(--secondary-color);
 }
 
+.theme-dark .modal-1UGdnR .contentWrapper-3WC1ID {
+  background: var(--primary-color)
+}
+
 
 /* 23. User Popup */
 
