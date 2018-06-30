@@ -1652,9 +1652,12 @@ background: var(--tertiary-color) !important;
   background-color: var(--hover-color) !important;
 }
 
-.message-group:not(:last-child),
+.message-group:not(:last-child) {
+  padding: 10px 0 !important
+}
+
 .message-group:last-child {
-  padding: 10px 0 !important;
+  padding-top: 10px 0 !important;
 }
 
 .message-group .mentioned .message-text:after,
