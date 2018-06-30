@@ -581,6 +581,11 @@ div[class*="titleBar-"] div {
   background-color: var(--quaternary-color);
 }
 
+.channels-Ie2l6A .scroller-2FKFPG>[class*=container-]>div:first-of-type>[class*=container]>[class*=wrapper]>div>div>[class*=icon],
+.channels-Ie2l6A .scroller-2FKFPG>[class*=container-]>[class*=container]:first-of-type>[class*=wrapper]>div>div>[class*=icon] {	
+  height: 31.11px;	
+}
+
 .channels-Ie2l6A .scroller-2FKFPG>[class*=container-]>[class*=container]:first-of-type>[class*=wrapper]>[class*=icon],
 .channels-Ie2l6A .scroller-2FKFPG>[class*=container-]>div:first-of-type>[class*=container]>[class*=wrapper]>[class*=icon] {
   height: 31.11px;
