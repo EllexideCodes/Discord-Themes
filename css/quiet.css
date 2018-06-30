@@ -26,18 +26,6 @@
   /* tertiary background color */
   --quaternary-color: #101011;
   /* quaternary background color */
-  --rs-spacing: 2px;
-  /* spacing between avatar and status */
-  --rs-width: 2px;
-  /* width of the status */
-  --rs-popout-spacing: 3px;
-  /* spacing between avatar and status for user popouts */
-  --rs-popout-width: 4px;
-  /* width of the status for user popouts */
-  --rs-profile-spacing: 3px;
-  /* spacing between avatar and status on modals/profiles */
-  --rs-profile-width: 4px;
-  /* width of the status on modals/profiles */
   --rs-online-color: #43b581;
   /* color for online status */
   --rs-idle-color: #faa61a;
@@ -68,18 +56,6 @@
   /* tertiary background color */
   --quaternary-color: #dbdbdb;
   /* quaternary background color */
-  --rs-spacing: 2px;
-  /* spacing between avatar and status */
-  --rs-width: 2px;
-  /* width of the status */
-  --rs-popout-spacing: 3px;
-  /* spacing between avatar and status for user popouts */
-  --rs-popout-width: 4px;
-  /* width of the status for user popouts */
-  --rs-profile-spacing: 3px;
-  /* spacing between avatar and status on modals/profiles */
-  --rs-profile-width: 4px;
-  /* width of the status on modals/profiles */
   --rs-online-color: #43b581;
   /* color for online status */
   --rs-idle-color: #faa61a;
@@ -295,7 +271,7 @@ div[class*="titleBar-"] div {
 }
 
 .titleCall-_b9o8p .search .search-bar {
-  background-color: transparent;
+  background-color: transparent !important;
 }
 
 .search .DraftEditor-root {
