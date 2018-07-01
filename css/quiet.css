@@ -3382,7 +3382,7 @@ dismiss-1QjyJW, .dismiss-SCAH9H {
 
 /* 34. Games Tab */
 
-.articles-FleDq5,
+.article-FleDq5,
 .theme-dark .body-SKIE6r {
   background-color: var(--secondary-color);
 }
@@ -3396,8 +3396,9 @@ dismiss-1QjyJW, .dismiss-SCAH9H {
   margin-left: 5px
 }
 
-
-
+.paginationItem-3-MBTL:before {
+  background: var(--main-color);
+}
 
 
 /* change screen size */
