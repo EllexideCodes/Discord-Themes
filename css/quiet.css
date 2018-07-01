@@ -7,7 +7,19 @@
 /* User Settings */
 :root {
 	--theme-name: "Quiet";
-	--theme-version: "3.5";
+  --theme-version: "4.2";
+  --rs-online-color: #43b581;
+  /* color for online status */
+  --rs-idle-color: #faa61a;
+  /* color for idle status */
+  --rs-dnd-color: #f04747;
+  /* color for dnd status */
+  --rs-offline-color: #636b75;
+  /* color for offline status */
+  --rs-invisible-color: #747f8d;
+  /* color for invisible status - Note this will only show for your own invisibility */
+  --rs-streaming-color: #643da7;
+  /* color for streaming status */
 }
 
 /* Dark Mode Settings */
@@ -26,18 +38,6 @@
   /* tertiary background color */
   --quaternary-color: #101011;
   /* quaternary background color */
-  --rs-online-color: #43b581;
-  /* color for online status */
-  --rs-idle-color: #faa61a;
-  /* color for idle status */
-  --rs-dnd-color: #f04747;
-  /* color for dnd status */
-  --rs-offline-color: #636b75;
-  /* color for offline status */
-  --rs-invisible-color: #747f8d;
-  /* color for invisible status - Note this will only show for your own invisibility */
-  --rs-streaming-color: #643da7;
-  /* color for streaming status */
 }
 
 /* Light Mode Settings */
@@ -56,18 +56,6 @@
   /* tertiary background color */
   --quaternary-color: #dbdbdb;
   /* quaternary background color */
-  --rs-online-color: #43b581;
-  /* color for online status */
-  --rs-idle-color: #faa61a;
-  /* color for idle status */
-  --rs-dnd-color: #f04747;
-  /* color for dnd status */
-  --rs-offline-color: #636b75;
-  /* color for offline status */
-  --rs-invisible-color: #747f8d;
-  /* color for invisible status - Note this will only show for your own invisibility */
-  --rs-streaming-color: #643da7;
-  /* color for streaming status */
 }
 
 /* Table of Contents
@@ -242,7 +230,9 @@ div[class*="titleBar-"] div {
 	transform: scale(0.8) !important;
 }
 
-.wordmark-2iDDfm {
+.wordmark-2iDDfm,
+.topic-2QX7LI:before,
+.divider-2PMBlV {
 	display: none;
 }
 
@@ -256,10 +246,6 @@ div[class*="titleBar-"] div {
   left: 8.2%;
   position: fixed;
   pointer-events: none;
-}
-
-.topic-2QX7LI:before {
-  display: none;
 }
 
 .search .search-bar {
@@ -290,10 +276,6 @@ div[class*="titleBar-"] div {
 .search .search-bar-icon {
   width: 35px;
   background-color: var(--secondary-color);
-}
-
-.divider-2PMBlV {
-  display: none;
 }
 
 .headerBar-UHpsPw {
@@ -810,8 +792,8 @@ div[class*="titleBar-"] div {
 }
 
 .theme-light .accountDetails-3k9g4n .discriminator {
-    opacity: .7;
-    font-weight: 600;
+  opacity: .7;
+  font-weight: 600;
 }
 
 .theme-light .container-2Thooq .button-2b6hmh svg path {
@@ -859,6 +841,7 @@ div[class*="titleBar-"] div {
 .menu-Sp6bN1 {
   box-shadow: 0 0px 0px rgba(0,0,0,0.0) !important;
 }
+
 /* 9. Emoji Picker */
 
 .popout-3sVMXz.noShadow-321ZPm .emojiPicker-3m1S-j,
