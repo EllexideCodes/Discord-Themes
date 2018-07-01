@@ -3386,6 +3386,10 @@ dismiss-1QjyJW, .dismiss-SCAH9H {
   margin-left: 5px
 }
 
+[class*='activityFeed-'] [class*='flex-'] .da-partyAvatars [class*='flex-']:last-of-type.horizontal-1ae9ci {
+  margin-right: 0px !important;
+}
+
 .paginationItem-3-MBTL:before {
   background: var(--main-color);
 }
