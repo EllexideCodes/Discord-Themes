@@ -1848,7 +1848,9 @@ background: var(--tertiary-color) !important;
 
 .chat .textArea-2Spzkt {
   background-color: transparent !important;
-  line-height: 1.25rem !important;
+  line-height: 2.35rem !important;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .chat .textArea-2Spzkt.textAreaEnabledNoAttach-1WxUwj {
