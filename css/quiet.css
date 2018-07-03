@@ -8,17 +8,17 @@
 :root {
 	--theme-name: "Quiet";
   --theme-version: "4.2";
-  --rs-online-color: #43b581;
+  --online: #43b581;
   /* color for online status */
-  --rs-idle-color: #faa61a;
+  --idle: #faa61a;
   /* color for idle status */
-  --rs-dnd-color: #f04747;
+  --dnd: #f04747;
   /* color for dnd status */
-  --rs-offline-color: #636b75;
+  --offline: #636b75;
   /* color for offline status */
-  --rs-invisible-color: #747f8d;
+  --invisible: #747f8d;
   /* color for invisible status - Note this will only show for your own invisibility */
-  --rs-streaming-color: #643da7;
+  --streaming: #643da7;
   /* color for streaming status */
 }
 
@@ -1191,7 +1191,7 @@ div[class*="titleBar-"] div {
 .userPopout-3XzG_A [class*="status-"].online-2S838R,
 .modal-1UGdnR [class*="status-"].online-2S838R
 {
-    border-color: var(--rs-online-color) !important;
+    border-color: var(--online) !important;
 }
 
 .avatar-16XVId [class*="status-"].idle-3DEnRT,
@@ -1203,7 +1203,7 @@ div[class*="titleBar-"] div {
 .modal-1UGdnR [class*="status-"].idle-3DEnRT,
 .da-xsmall[class*="status-"].idle-3DEnRT
 {
-    border-color: var(--rs-idle-color) !important;
+    border-color: var(--idle) !important;
 }
 
 .avatar-16XVId [class*="status-"].dnd-1_xrcq,
@@ -1215,7 +1215,7 @@ div[class*="titleBar-"] div {
 .modal-1UGdnR [class*="status-"].dnd-1_xrcq,
 .da-xsmall [class*="status-"].dnd-1_xrcq
 {
-    border-color: var(--rs-dnd-color) !important;
+    border-color: var(--dnd) !important;
 }
 
 .avatar-16XVId [class*="status-"].streaming-2_dnHe,
@@ -1227,7 +1227,7 @@ div[class*="titleBar-"] div {
 .modal-1UGdnR [class*="status-"].streaming-2_dnHe,
 .da-xsmall [class*="status-"].streaming-2_dnHe
 {
-    border-color: var(--rs-streaming-color) !important;
+    border-color: var(--streaming) !important;
 }
 
 .avatar-16XVId [class*="status-"].offline-3qoTek,
@@ -1239,7 +1239,7 @@ div[class*="titleBar-"] div {
 .modal-1UGdnR [class*="status-"].offline-3qoTek,
 .da-xsmall [class*="status-"].offline-3qoTek
 {
-    border-color: var(--rs-offline-color) !important;
+    border-color: var(--offline) !important;
 }
 
 .avatar-16XVId [class*="status-"].invisible-1kp8Z0,
@@ -1251,7 +1251,7 @@ div[class*="titleBar-"] div {
 .modal-1UGdnR [class*="status-"].invisible-1kp8Z0,
 .da-xsmall [class*="status-"].invisible-1kp8Z0
 {
-    border-color: var(--rs-invisible-color) !important;
+    border-color: var(--invisible) !important;
 }
 
 .container-2Thooq [class*="avatar-"]:hover {
@@ -1503,32 +1503,32 @@ div[class*="titleBar-"] div {
 
 .avatar-small .typing-1KJk_j.online-2S838R .pulsingEllipsisItem-32hhWL,
 .member-3W1lQa [class*="status-"].online-2S838R.typing-1KJk_j .pulsingEllipsisItem-32hhWL {
-  background-color: var(--rs-online-color) !important;
+  background-color: var(--online) !important;
 }
 
 .avatar-small .typing-1KJk_j.idle-3DEnRT .pulsingEllipsisItem-32hhWL,
 .member-3W1lQa [class*="status-"].idle-3DEnRT.typing-1KJk_j .pulsingEllipsisItem-32hhWL {
-  background-color: var(--rs-idle-color) !important;
+  background-color: var(--idle) !important;
 }
 
 .avatar-small .typing-1KJk_j.dnd-1_xrcq .pulsingEllipsisItem-32hhWL,
 .member-3W1lQa [class*="status-"].dnd-1_xrcq.typing-1KJk_j .pulsingEllipsisItem-32hhWL {
-  background-color: var(--rs-dnd-color) !important;
+  background-color: var(--dnd) !important;
 }
 
 .avatar-small .typing-1KJk_j.streaming-2_dnHe .pulsingEllipsisItem-32hhWL,
 .member-3W1lQa [class*="status-"].streaming-2_dnHe.typing-1KJk_j .pulsingEllipsisItem-32hhWL {
-  background-color: var(--rs-streaming-color) !important;
+  background-color: var(--streaming) !important;
 }
 
 .avatar-small .typing-1KJk_j.offline-3qoTek .pulsingEllipsisItem-32hhWL,
 .member-3W1lQa [class*="status-"].offline-3qoTek.typing-1KJk_j .pulsingEllipsisItem-32hhWL {
-  background-color: var(--rs-offline-color) !important;
+  background-color: var(--offline) !important;
 }
 
 .avatar-small .typing-1KJk_j.invisible-1kp8Z0 .pulsingEllipsisItem-32hhWL,
 .member-3W1lQa [class*="status-"].invisible-1kp8Z0.typing-1KJk_j .pulsingEllipsisItem-32hhWL {
-  background-color: var(--rs-invisible-color) !important;
+  background-color: var(--invisible) !important;
 }
 
 .channel-members,
@@ -3310,7 +3310,7 @@ dismiss-1QjyJW, .dismiss-SCAH9H {
 /* Gutter Line */
 .ace-monokai .ace_gutter {
   background: var(--quaternary-color);
-  color: var(--rs-streaming-color);
+  color: var(--streaming);
 }
 
 /* Shorter Highlight Line */
@@ -3336,7 +3336,7 @@ dismiss-1QjyJW, .dismiss-SCAH9H {
 
 /* Comment Code */
 .ace-monokai .ace_comment {
-  color: var(--rs-online-color);
+  color: var(--online);
 }
 
 /* 33. Roundness */
