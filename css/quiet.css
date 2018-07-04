@@ -709,9 +709,7 @@ div[class*="titleBar-"] div {
   background-size: 24px;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #eee;
-  -webkit-mask: url(https://ellexidecodes.github.io/Discord-Themes/assets/home.svg) no-repeat;
-  -webkit-mask-size: 24px;
+  filter: invert(95%)
 }
 
 .guilds .home-icon defs,
