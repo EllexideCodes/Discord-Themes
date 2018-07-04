@@ -1858,6 +1858,11 @@ background: var(--tertiary-color) !important;
   margin-top: 8px;
 }
 
+.chat .textArea-2Spzkt.textAreaDisabled-2_o-kZ {
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
 .chat .textArea-2Spzkt.textAreaEnabledNoAttach-1WxUwj {
   line-height: 1.25rem !important;
   margin-top: 2px;
