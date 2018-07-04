@@ -1859,7 +1859,8 @@ background: var(--tertiary-color) !important;
 }
 
 .chat .textArea-2Spzkt.textAreaEnabledNoAttach-1WxUwj {
-  line-height: 1.25em !important;
+  line-height: 1.25rem !important;
+  margin-top: 2px;
 }
 
 .chat .inner-zqa7da {
