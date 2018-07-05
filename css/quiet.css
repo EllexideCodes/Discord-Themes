@@ -705,11 +705,15 @@ div[class*="titleBar-"] div {
 }
 
 .home-icon {
-  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/home.svg) !important;
-  background-size: 24px;
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: invert(95%)
+  background-color: #eee;
+  -webkit-mask: url(https://ellexidecodes.github.io/Discord-Themes/assets/home.svg);
+  mask: url(https://ellexidecodes.github.io/Discord-Themes/assets/home.svg);
+  -webkit-mask-size: 24px;
+  mask-size: 24px;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
 }
 
 .guilds .home-icon defs,
