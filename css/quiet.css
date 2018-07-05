@@ -791,7 +791,7 @@ div[class*="titleBar-"] div {
 }
 
 .guilds-wrapper .guilds-error {
-  border-radius: var(--roundness) !important;
+  border-radius: calc(var(--roundness) + 1px) !important;
 }
 
 /* 8. Account Area */
