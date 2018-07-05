@@ -790,6 +790,10 @@ div[class*="titleBar-"] div {
 	border-radius: 0 !important;
 }
 
+.guilds-wrapper .guilds-error {
+  border-radius: var(--roundness) !important;
+}
+
 /* 8. Account Area */
 
 .container-2Thooq {
