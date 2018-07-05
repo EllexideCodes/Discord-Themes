@@ -20,6 +20,10 @@
   /* color for invisible status - Note this will only show for your own invisibility */
   --streaming: #643da7;
   /* color for streaming status */
+  --home-color: #eee;
+  /* home icon color */
+  --home-size: 24px;
+  /* home icon size */
 }
 
 /* Dark Mode Settings */
@@ -705,9 +709,9 @@ div[class*="titleBar-"] div {
 }
 
 .home-icon {
-  background-color: #eee;
+  background-color: var(--home-color);
   -webkit-mask: url(https://ellexidecodes.github.io/Discord-Themes/assets/home.svg);
-  -webkit-mask-size: 24px;
+  -webkit-mask-size: var(--home-size);
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
 }
