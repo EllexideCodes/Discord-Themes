@@ -2445,7 +2445,9 @@ form.modal-content.form.need-help-modal::after {
 
 .selectorSelected-1_M1WV,
 .regionSelectModal-12e-57,
-.regionSelectModal-12e-57 .regionSelectModalOptions-2TWQOB {
+.regionSelectModal-12e-57 .regionSelectModalOptions-2TWQOB,
+.theme-dark .gamePreview-9weYR2,
+.news-2KwXHF {
   background-color: var(--primary-color) !important;
 }
 
@@ -2519,6 +2521,7 @@ form.modal-content.form.need-help-modal::after {
   color: var(--main-color);
 }
 
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6,
 .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
   border-color: var(--main-color);
 }
