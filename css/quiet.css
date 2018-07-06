@@ -2384,7 +2384,8 @@ form.modal-content.form.need-help-modal::after {
   color: var(--main-color);
 }
 
-.wrapper-O5i5-0 .instantInviteModal-3vhcvC .copy-3nFbq8 {
+.wrapper-O5i5-0 .instantInviteModal-3vhcvC .copy-3nFbq8,
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:disabled {
   background-color: var(--main-color);
 }
 
@@ -2430,7 +2431,8 @@ form.modal-content.form.need-help-modal::after {
   color: #e2e2e2;
 }
 
-.autocomplete-1vrmpx {
+.autocomplete-1vrmpx,
+.theme-dark .header-2B7Ri8 {
   background-color: var(--quaternary-color) !important;
 }
 
@@ -2451,12 +2453,14 @@ form.modal-content.form.need-help-modal::after {
 .regionSelectModal-12e-57,
 .regionSelectModal-12e-57 .regionSelectModalOptions-2TWQOB,
 .theme-dark .gamePreview-9weYR2,
-.news-2KwXHF {
+.news-2KwXHF,
+.theme-dark .body-1SVoBw {
   background-color: var(--primary-color) !important;
 }
 
 .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3,
-.form.deprecated .control-group input[type=text] {
+.form.deprecated .control-group input[type=text],
+.theme-dark .content-2KAjC9 {
   background-color: var(--tertiary-color) !important;
 }
 
@@ -3415,6 +3419,18 @@ dismiss-1QjyJW, .dismiss-SCAH9H {
 
 .paginationItem-3-MBTL:before {
   background: var(--main-color);
+}
+
+.theme-dark .activityFeed-28jde9::before {
+  content: '';
+  position: fixed;
+  height: 48px;
+  width: 1px;
+  border-left: 2px solid var(--main-color)
+}
+
+.theme-dark .activityFeed-28jde9 {
+  box-shadow: inset 0 2px 20px 2px rgba(0,0,0,.4) !important;
 }
 
 
