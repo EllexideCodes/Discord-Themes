@@ -46,6 +46,8 @@
     top: 0;
     left: 0;
     background-image: var(--popup-background);
+    background-image-position: center;
+    background-image-size: 100%;
     border-radius: 15px;
 }
 
