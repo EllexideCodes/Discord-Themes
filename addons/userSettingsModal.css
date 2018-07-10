@@ -1,5 +1,5 @@
 :root {
-	--popup-background: var(--BG);
+	--size: 70%;
 }
 
 .tools .btn-close, .tools .esc-text {position: absolute;}
@@ -16,8 +16,8 @@
 }
 
 .layer-3QrUeG[layer-id*="user-setting"] .ui-standard-sidebar-view {
-	max-height: 70%;
-	max-width: 70%;
+	max-height: var(--size);
+	max-width: var(--size);
 	top: 15%;
 	left: 15%;
 }
