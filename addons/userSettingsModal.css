@@ -19,9 +19,8 @@
 .layer-3QrUeG[layer-id*="user-setting"] .ui-standard-sidebar-view {
 	max-height: var(--size);
 	max-width: var(--size);
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	top: calc( (100% - var(--size))/2);
+	left: calc( (100% - var(--size))/2);
 }
 
 .theme-dark .ui-standard-sidebar-view,
@@ -48,8 +47,8 @@
     top: 0;
     left: 0;
     background-image: var(--popup-background);
-    background-image-position: center;
-    background-image-size: 100%;
+    background-position: center;
+    background-size: 100%;
     border-radius: 15px;
 }
 
