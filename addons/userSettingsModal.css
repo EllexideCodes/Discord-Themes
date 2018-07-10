@@ -1,0 +1,32 @@
+.tools .btn-close, .tools .esc-text {position: absolute;}
+
+.layer-3QrUeG:nth-child(1) {
+    animation: none !important;
+	transition: none !important;
+	opacity: 1 !important;
+	transform: scale(1) !important;
+}
+
+.layer-3QrUeG[layer-id*="user-setting"] {
+	background-color: rgba(0,0,0,0.8) !important;
+}
+
+.layer-3QrUeG[layer-id*="user-setting"] .ui-standard-sidebar-view {
+	max-height: 70%;
+	max-width: 70%;
+	top: 15%;
+	left: 15%;
+	border-top-right-radius: 10px !important;
+}
+
+.theme-dark .ui-standard-sidebar-view,
+.theme-dark .ui-standard-sidebar-view .sidebar-region {
+    background: transparent;
+}
+
+.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller,
+.ui-standard-sidebar-view .content-region,
+.scroller-2FKPG.content-region-scroller {
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
