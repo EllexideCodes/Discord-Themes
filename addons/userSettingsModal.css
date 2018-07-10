@@ -19,8 +19,9 @@
 .layer-3QrUeG[layer-id*="user-setting"] .ui-standard-sidebar-view {
 	max-height: var(--size);
 	max-width: var(--size);
-	top: 15%;
-	left: 15%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .theme-dark .ui-standard-sidebar-view,
