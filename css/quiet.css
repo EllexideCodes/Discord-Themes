@@ -2933,7 +2933,8 @@ body:active .popoutBottom-1YbShG[style*="overflow: hidden; visibility: visible;"
 }
 
 .typing-2GQL18 .text-1y-e8- {
-  line-height: 26px
+  line-height: 26px;
+  text-overflow: ellipsis;
 }
 
 .typing-2GQL18 .ellipsis-19qdx6 {
