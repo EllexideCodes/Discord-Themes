@@ -2928,7 +2928,7 @@ body:active .popoutBottom-1YbShG[style*="overflow: hidden; visibility: visible;"
   box-shadow: 0 -3px 20px rgba(0, 0, 0, .1);
   opacity: 1;
   transition: all 200ms ease;
-  overflow-y: visible !important;
+  text-overflow: ellipsis;
   z-index: 5;
 }
 
