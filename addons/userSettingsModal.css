@@ -55,3 +55,8 @@
 .scroller-2FKFPG.content-region-scroller{
     background-color: var(--primary-color) !important;
 }
+
+/* light theme */
+.theme-light .ui-standard-sidebar-view {
+  background: transparent !important;
+}
