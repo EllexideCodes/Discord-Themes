@@ -20,6 +20,8 @@
   /* color for invisible status - Note this will only show for your own invisibility */
   --streaming: #643da7;
   /* color for streaming status */
+  --home-color: #eee;
+  /* home icon color */
   --home-size: 24px;
   /* home icon size */
 }
@@ -40,8 +42,6 @@
   /* tertiary background color */
   --quaternary-color: #101011;
   /* quaternary background color */
-  --home-color: #eee;
-  /* home icon color */
 }
 
 /* Light Mode Settings */
@@ -60,8 +60,6 @@
   /* tertiary background color */
   --quaternary-color: #dbdbdb;
   /* quaternary background color */
-  --home-color: #111;
-  /* home icon color */
 }
 
 /* Table of Contents
