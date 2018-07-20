@@ -215,7 +215,56 @@ div[class*="titleBar-"] rect {
 	display: none;
 }
 
-div[class*="titleBar-"] div:nth-of-type(2) {
+div[class*="titleBar-"] {
+  height: 0px;
+  margin-top: 0px !important;
+}
+
+div[class*="titleBar-"]:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 6px;
+  height: 14px;
+  z-index: 3002;
+  -webkit-app-region: drag !important;
+}
+
+div[class*="titleBar-"]:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 6px;
+  z-index: 3002 !important;
+}
+
+div[class*="wordmark-"], div[class*="winButton-"] svg {
+  display: none !important;
+}
+
+div[class*="winButton-"] {
+  top: 9px;
+  height: 30px;
+  width: 30px;
+  right: 8px;
+  background-position: center;
+  opacity: .6;
+  transition: .2s ease !important;
+}
+
+div[class*="winButton-"]:hover {
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  background-color: var(--hover-color) !important;
+  border-radius: 3px;
+  opacity: 1 !important;
+}
+
+
+div[class*="titleBar-"] div[class*="ButtonClose-"] {
 	background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/close.svg) !important;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -236,8 +285,24 @@ div[class*="titleBar-"] div:nth-of-type(4) {
 	background-size: 24px;
 }
 
+.typeMacOS-3EmCyP[class*="titleBar-"] { transform: none; position: relative; }
+
+.typeMacOS-3EmCyP[class*="titleBar-"] [class*="macButton"] { background-image: none !important; } 
+
 div[class*="titleBar-"] div {
 	transform: scale(0.8) !important;
+}
+
+.chat [class*='titleWrapper-'] [class*='flex-'] [class*='flex-'], #friends [class*='flex-'] [class*='flex-']:last-of-type, [class*='activityFeed-'] [class*='flex-'] [class*='flex-']:last-of-type {
+  margin-right: 98px !important;
+}
+
+div[class*="titleBar-"] {
+  transform: translateY(-6px);
+}
+
+div[class*="winButton-"] {
+  height: 36px !important;
 }
 
 .wordmark-2iDDfm,
@@ -246,15 +311,14 @@ div[class*="titleBar-"] div {
 	display: none;
 }
 
-
 .title-3qD0b-,
 .titleCall-_b9o8P {
   height: 46px;
 }
 
 .chat:not(.private) .channelName-3stJzi {
-  left: 8.2%;
-  position: fixed;
+  left: 1%;
+  position: relative;
   pointer-events: none;
 }
 
@@ -488,9 +552,9 @@ div[class*="titleBar-"] div {
 
 .header-2o-2hj .name-3YKhmS {
   line-height: unset;
-  position: fixed;
+  position: relative;
   top: 4px;
-  left: 45%;
+  left: 2%;
 }
 
 .popout-open .header-2o-2hj {
@@ -536,6 +600,15 @@ div[class*="titleBar-"] div {
 
 .wrapperHoveredText-2geN_M .unread-1Dp-OI~.contentHoveredText-2D9B-x {
   border-left: 2px solid transparent !important;
+}
+
+.guilds-wrapper .guilds>div.guild:first-child {
+  margin-top: -48px;
+  width: 70px;
+  margin-left: -10px;
+  border-bottom: 2px solid var(--main-color);
+  position: absolute;
+  z-index: 2;
 }
 
 .guilds-wrapper .guilds>div.guild:first-child .badge {
@@ -3134,7 +3207,7 @@ body, span:not(.spinner-item) {
   height: 4px;
   line-height: 18px;
   position: fixed;
-  top: 70px;
+  top: 46px;
   width: 100%;
   transition: all .2s linear;
 }
