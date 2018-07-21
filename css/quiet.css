@@ -288,7 +288,7 @@ div[class*="titleBar-"] div:nth-of-type(4) {
 
 .typeMacOS-3EmCyP[class*="titleBar-"] [class*="macButton"] { background-image: none !important; } 
 
-.platform-osx .guilds-wrapper { margin-top: 0px; }
+.platform-osx .guilds-wrapper { margin-top: 0px !important; }
 
 div[class*="titleBar-"] div {
 	transform: scale(0.8) !important;
