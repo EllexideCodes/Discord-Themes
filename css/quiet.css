@@ -228,6 +228,7 @@ div[class*="titleBar-"]:before {
   height: 14px;
   z-index: 3002;
   -webkit-app-region: drag !important;
+	pointer-events: none;
 }
 
 div[class*="titleBar-"]:after {
@@ -238,6 +239,7 @@ div[class*="titleBar-"]:after {
   top: 0;
   height: 6px;
   z-index: 3002 !important;
+	pointer-events: none;
 }
 
 div[class*="wordmark-"], div[class*="winButton-"] svg {
