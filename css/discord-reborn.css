@@ -158,10 +158,20 @@
 }
 
 .menu-Sp6bN1.alt-3btY0e, 
-.listeningAlong-2UPsxf,
-.typeMacOS-3EmCyP.titleBar-AC4pGV {
+.listeningAlong-2UPsxf {
     background: var(--primary-color) !important;
 }
+
+.typeMacOS-3EmCyP.titleBar-AC4pGV {
+    background: var(--dark-primary) !important;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.macButton-c_Adir {
+    margin-right: 3px;
+}
+    
 
 .private-channels .search-bar .search-bar-inner {
   background: transparent;
