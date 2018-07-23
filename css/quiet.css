@@ -286,13 +286,13 @@ div[class*="titleBar-"] div:nth-of-type(4) {
 	background-size: 24px;
 }
 
-.typeMacOS-3EmCyP[class*="titleBar-"] { 
+.typeMacOS-3EmCyP.titleBar-AC4pGV { 
 	transform: none; 
 	position: relative; 
 	background: var(--primary-color) !important;
 }
 
-.typeMacOS-3EmCyP[class*="titleBar-"] [class*="macButton"] { background-image: none !important; } 
+.typeMacOS-3EmCyP.titleBar-AC4pGV [class*="macButton"] { background-image: none !important; } 
 
 .platform-osx .guilds-wrapper { margin-top: 0px !important; }
 
