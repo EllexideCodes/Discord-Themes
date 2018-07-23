@@ -286,7 +286,7 @@ div[class*="titleBar-"] div:nth-of-type(4) {
 	background-size: 24px;
 }
 
-.typeMacOS-3EmCyP[class*="titleBar-"] { transform: none; position: relative; }
+.typeMacOS-3EmCyP[class*="titleBar-"] { transform: none; position: relative; background-color: var(--primary-color) !important;}
 
 .typeMacOS-3EmCyP[class*="titleBar-"] [class*="macButton"] { background-image: none !important; } 
 
