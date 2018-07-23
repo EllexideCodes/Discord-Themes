@@ -108,7 +108,7 @@
   background-position: center !important;
 }
 
-.app, .callout-backdrop, .appMount-3VJmYg { 
+.appMount-3VJmYg { 
     background-image: var(--background-image) !important; 
     background-size: cover !important;
     background-position:center!important 
@@ -169,7 +169,7 @@
 }
 
 .macButton-c_Adir {
-    margin-right: 3px;
+    margin-right: 6px;
 }
     
 
