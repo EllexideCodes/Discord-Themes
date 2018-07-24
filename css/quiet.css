@@ -609,24 +609,6 @@ div[class*="winButton-"] {
   border-left: 2px solid transparent !important;
 }
 
-.guilds-wrapper .guilds>div.guild:first-child {
-  margin-top: -48px;
-  width: 70px;
-  margin-left: -10px;
-  border-bottom: 2px solid var(--main-color);
-  position: absolute;
-  z-index: 2;
-}
-
-.guilds-wrapper .guilds>div.guild:first-child .badge {
-  border-radius: 50%;
-  padding: 5px;
-  background-color: var(--main-color);
-  margin-bottom: 22px;
-  margin-right: 15px;
-  border: 2px solid var(--quaternary-color);
-}
-
 .channels-Ie2l6A .scroller-2FKFPG>[class*=container-]>div:first-of-type>[class*=container],
 .channels-Ie2l6A .scroller-2FKFPG>[class*=container-]>[class*=container]:first-of-type {
   padding-top: 0;
