@@ -1533,14 +1533,6 @@ div[class*="winButton-"] {
   background-color: var(--quaternary-color) !important;
 }
 
-.message-group .mentioned .message-text:after {
-  display: none !important;
-}
-
-.theme-dark .message-group .comment .mentioned .message-text {
-  background: transparent !important;
-}
-
 .content-OzHfo4 {
     flex-grow: 0 !important;
     height: 40px !important;
@@ -1700,7 +1692,7 @@ border-color: var(--tertiary-color);
 background: var(--tertiary-color) !important;
 }
 
-.message-group .isMentioned-N-h9aa .mention:hover, 
+.containerCozy-jafyvG .isMentioned-N-h9aa .mention:hover, 
 .mention:hover {
   background-color: transparent !important;
   color: #fff !important;
