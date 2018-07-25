@@ -1718,7 +1718,7 @@ background: var(--tertiary-color) !important;
 }
 
 .containerCozy-jafyvG .isMentioned-N-h9aa {
-  background: var(--quaternary-color);
+  background: transparent;
   border-left: 3px solid var(--main-color);
   padding: 0px 0px 0px 3px;
   border-radius: 0px;
