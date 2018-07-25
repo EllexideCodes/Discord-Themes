@@ -6,7 +6,7 @@
 /* User Settings */
 :root {
 	--theme-name: "Quiet";
-  --theme-version: "4.2";
+  --theme-version: "4.3";
   --online: #43b581;
   /* color for online status */
   --idle: #faa61a;
@@ -393,26 +393,22 @@ div[class*="winButton-"] {
   animation: popoutanim 300ms cubic-bezier(.4, 0, 0, 1), opacity 100ms ease 100ms backwards;
   transform-origin: 50% -10%;
   box-shadow: 0 2px 20px rgba(0,0,0,.4) !important;
-  margin-top: 1px !important;
+  margin-top: 0px;
 }
 
-.messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group {
+.messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G {
   background-color: var(--quaternary-color) !important;
   border-color: var(--quaternary-color) !important;
 }
 
-.messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover {
+.messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G:hover {
   background-color: var(--quaternary-color) !important;
   border-color: var(--main-color) !important;
 }
 
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover .actionButtons-1sUUug {
+.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {
   background-color: transparent !important;
   box-shadow: 0 0 0px 0px transparent !important;
-}
-
-.messagesPopoutWrap-1MQ1bW.themedPopout-25DgLi{
-  margin-top: 1px !important;
 }
 
 .theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group .actionButtons-1sUUug .jumpButton-3DTcS_ {
@@ -1197,7 +1193,7 @@ div[class*="winButton-"] {
 /* 10. Avatars */
 
 .avatar-small,
-.avatar-large,
+.large-3ChYtB,
 .avatar-16XVId,
 .avatar-xxlarge,
 .da-xsmall {
@@ -1704,7 +1700,7 @@ border-color: var(--tertiary-color);
 background: var(--tertiary-color) !important;
 }
 
-.message-group .comment .markup .mention:hover, 
+.message-group .isMentioned-N-h9aa .mention:hover, 
 .mention:hover {
   background-color: transparent !important;
   color: #fff !important;
@@ -1714,34 +1710,34 @@ background: var(--tertiary-color) !important;
   background-color: var(--hover-color) !important;
 }
 
-.message-group:not(:last-child) {
+.containerCozy-jafyvG:not(:last-child) {
   padding: 10px 0 !important
 }
 
-.message-group:last-child {
-  padding-top: 10px 0 !important;
+.containerCozy-jafyvG:last-child {
+  padding-bottom: 20px !important;
 }
 
-.message-group .mentioned .message-text:after,
-.chat .divider:before,
+.message-group .isMentionedCozy-3isp7y:after,
+.containerCozy-jafyvG .divider-32i8lo,
 .jump-to-present-bar button:first-of-type {
   display: none;
 }
 
-.message-group .mentioned .message-text {
+.message-group .isMentioned-N-h9aa {
   background: var(--quaternary-color);
   border-left: 3px solid var(--main-color);
   padding: 0px 0px 0px 3px;
-  border-radius: 0px !important;
+  border-radius: 0px;
 }
 
-.mentioned .mention:hover {
+.isMentioned-N-h9aa .mention:hover {
   color: #fff !important;
   text-decoration: none;
-  background: var(--main-color) !important;
+  background: var(--main-color);
 }
 
-.mentioned .mention {
+.isMentioned-N-h9aa .mention {
   transition: all .2s linear;
   background: var(--tertiary-color) !important;
 }
@@ -1752,10 +1748,6 @@ background: var(--tertiary-color) !important;
 
 .chat>.content, .messages-wrapper {
   background-color: var(--primary-color) !important;
-}
-
-.message-group:not(.has-divider) {
-  border-color: transparent !important;
 }
 
 .wrapper-35wsBm {
@@ -1851,7 +1843,7 @@ background: var(--tertiary-color) !important;
   padding: 0px;
 }
 
-.theme-dark .message-group.is-local-bot-message {
+.theme-dark .isLocalBot-38G0P0 {
   background-image: var(--primary-color);
   padding-left: 20px !important;
   margin-left: 0px !important;
@@ -1860,6 +1852,27 @@ background: var(--tertiary-color) !important;
 
 .wrapper-FtzxDk.vertical-V37hAW.flex-101GKY.directionColumn-35P_nr.wrapper-2h3Puq.vertical-V37hAW.flex-101GKY.directionColumn-35P_nr.alignEnd-1D6PQi.spacer-1fA9zc {
   margin-top: 55px !important;
+}
+
+	/* @everyone popup */
+.theme-dark .everyonePopout-nEbJY3,
+.theme-light .everyonePopout-nEbJY3{
+	background-color: var(--secondary-color);
+}
+
+.theme-dark .everyonePopout-nEbJY3 .footer-2aTx0s,
+.theme-light .everyonePopout-nEbJY3 .footer-2aTx0s{
+	background-color: var(--tertiary-color);
+}
+
+.everyonePopout-nEbJY3 .lookOutlined-3sRXeN.colorBrand-3pXr91 {
+	color: var(--main-color);
+	border-color: var(--main-color);
+	transition: all .2s ease-in-out;
+}
+
+.everyonePopout-nEbJY3 .lookOutlined-3sRXeN.colorBrand-3pXr91:hover {
+	filter: grayscale(50%);
 }
 
 /* 14. Friends List */
@@ -3355,13 +3368,13 @@ dismiss-1QjyJW, .dismiss-SCAH9H {
 
 /* 31. Header Blocks */
 
-.markup .hljs {
+.markup-2BOw-j .hljs {
 	padding: 2px !important;
 	font-size: 100%;
 	overflow: hidden;
 }
 
-.theme-dark .markup .hljs::before {
+.theme-dark .markup-2BOw-j .hljs::before {
     display: none !important;
 }
 
@@ -3431,16 +3444,16 @@ dismiss-1QjyJW, .dismiss-SCAH9H {
 
 /* 33. Roundness */
 
-.chat .avatar-large, 
+.chat .large-3ChYtB, 
 .container-2Thooq .avatar-3JE4B3,
 .avatar-small,
 .avatar-xxlarge, 
-.avatar-large,
+.large-3ChYtB,
 .private-channel-recipients-invite .friend .avatar-small, 
 [class*="avatar-"] .status, 
 .channel-members [class*="avatar-"] .status, 
 .private-channels .channel .avatar-small, 
-.messages-popout .message-group .avatar-large, 
+.messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G .large-3ChYtB, 
 .guilds .guild-icon, 
 .guilds .guild-placeholder,
 .guilds-wrapper .guild.guilds-add::after, 
