@@ -9,11 +9,16 @@
     width: calc(100% - 116px);
 }
 
-.containerCozy-jafyvG .markup-2BOw-j{
+.containerCozy-jafyvG .markup-2BOw-j,
+.containerCozy-B4noqO:not(:empty){
   background-color: var(--quaternary-color);
   padding: 13px;
   border-radius: 10px;
   margin-top: -1.5em;
+}
+
+.containerCozy-B4noqO:not(:empty) {
+    width: calc(100% - 26px);
 }
 
 .containerCozy-jafyvG .large-3ChYtB:not(.wrapper-2F3Zv8):after {
