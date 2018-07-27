@@ -1703,11 +1703,11 @@ background: var(--tertiary-color) !important;
 }
 
 .containerCozy-jafyvG:not(:last-child) {
-  padding: 10px 0 !important
+  padding: 5px 0px !important;
 }
 
 .containerCozy-jafyvG:last-child {
-  padding-top: 10px !important;
+  padding-top: 5px !important;
 }
 
 .containerCozy-jafyvG .isMentionedCozy-3isp7y:after,
@@ -3229,6 +3229,18 @@ dismiss-1QjyJW, .dismiss-SCAH9H {
 .divider-3573oO,
 .button-1MICoQ {
   display: none !important;
+}
+
+.notice-3I4-y_ .button-1MICoQ, .notice-2FJMB4 .button-1MICoQ {
+  transform: scale(0);
+  opacity: 0;
+  display: inline-block !important;
+  transition: transform .1s linear, opacity .2s linear;
+}
+
+.notice-3I4-y_:hover .button-1MICoQ, .notice-2FJMB4:hover .button-1MICoQ {
+  transform: none;
+  opacity: 1;
 }
 
 .spinner-wandering-cubes .spinner-item {
