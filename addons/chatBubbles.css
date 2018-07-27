@@ -1,14 +1,17 @@
 .messageCozy-2JPAPA:nth-child(1):before {
     content: '';
     position: absolute;
-    top: 0px;
+    top: -5px;
     height: 100%;
     width: calc(100% - 80px);
     left: 80px;
     background-color: var(--quaternary-color);
     z-index: -1;
     border-radius: 10px;
-    padding: 0.3em 0px;
+}
+
+.containerCozy-jafyvG:last-child .messageCozy-2JPAPA:nth-child(1):before {
+  padding-bottom: .3em;
 }
 
 .headerCozyMeta-rdohGq {
