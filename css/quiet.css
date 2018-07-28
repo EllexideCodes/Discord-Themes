@@ -653,6 +653,10 @@ div[class*="winButton-"] {
   line-height: 32px;
 }
 
+.channels-Ie2l6A .scroller-2FKFPG>[class*=container-] .horizontal-1ae9ci>.flex-1xMQg5:last-child {
+  margin-top: 6px;
+}
+
 .theme-light .nameSelectedText-sp_EUw,
 .theme-light .nameSelectedVoice-1qSph5 {
   color: #5d5d5d;
