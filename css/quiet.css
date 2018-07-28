@@ -1872,6 +1872,9 @@ background: var(--tertiary-color) !important;
 	filter: grayscale(50%);
 }
 
+  /* guild video call */
+  .videoHeight-Qp_9vC.noChat-3nt48u {height: calc(100% + 2px)}
+
 /* 14. Friends List */
 
 .theme-dark #friends .friends-table .friends-row:hover {
