@@ -2654,6 +2654,16 @@ form.modal-content.form.need-help-modal::after {
   background: var(--primary-color)
 }
 
+  /* other popouts */
+  .theme-dark .attachPopout-1n-ZKM, 
+  .theme-light .attachPopout-1n-ZKM {
+    background-color: var(--secondary-color)
+  }
+
+  .theme-dark .attachPopoutRow-KrE-f6:hover,
+  .theme-light .attachPopoutRow-KrE-f6:hover {
+    background-color: var(--tertiary-color)
+  }
 
 /* 23. User Popup */
 
