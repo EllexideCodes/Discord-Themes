@@ -1710,7 +1710,7 @@ background: var(--tertiary-color) !important;
   padding: 5px 0px !important;
 }
 
-.containerCozy-jafyvG:last-child {
+.messages-wrapper .containerCozy-jafyvG:last-child {
   padding-top: 5px !important;
 }
 
