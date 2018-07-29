@@ -3537,6 +3537,15 @@ dismiss-1QjyJW, .dismiss-SCAH9H {
   box-shadow: inset 0 2px 20px 2px rgba(0,0,0,.4) !important;
 }
 
+.theme-dark .partyMemberOverflow-3VhFIX,
+.theme-light .partyMemberOverflow-3VhFIX {
+  background-color: var(--secondary-color);
+  border-radius: var(--roundness)
+}
+
+.card-7JP0BX .body-SKIE6r .activity-12-S1I .body-ZAhrcj {
+  margin-right: 0px !important
+}
 
 /* change screen size */
 
