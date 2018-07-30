@@ -301,8 +301,8 @@ div[class*="titleBar-"] div {
 }
 
 .chat [class*='titleWrapper-'] [class*='flex-'] [class*='flex-'], 
-#friends [class*='flex-'] [class*='flex-']:last-of-type/*, 
-[class*='activityFeed-'] [class*='flex-'] [class*='flex-']:last-of-type*/ {
+#friends [class*='flex-'] [class*='flex-']:last-of-type, 
+[class*='activityFeed-'] [class*='flex-'] [class*='flex-']:last-of-type {
   margin-right: 98px !important;
 }
 
@@ -3545,9 +3545,9 @@ dismiss-1QjyJW, .dismiss-SCAH9H {
   border-radius: var(--roundness)
 }
 
-/*.card-7JP0BX .body-SKIE6r .activity-12-S1I .body-ZAhrcj {
+.card-7JP0BX .body-SKIE6r .activity-12-S1I .body-ZAhrcj {
   margin-right: 0px !important
-}*/
+}
 
 /* change screen size */
 
