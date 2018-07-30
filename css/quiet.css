@@ -3540,9 +3540,19 @@ dismiss-1QjyJW, .dismiss-SCAH9H {
 }
 
 .theme-dark .partyMemberOverflow-3VhFIX,
-.theme-light .partyMemberOverflow-3VhFIX {
+.theme-light .partyMemberOverflow-3VhFIX,
+.theme-dark .partyMemberBackground-aSF9mc,
+.theme-light .partyMemberBackground-aSF9mc {
   background-color: var(--secondary-color);
   border-radius: var(--roundness)
+}
+
+.theme-dark .partyMemberUnknownIcon-2zv8ar {
+  color: white;
+}
+
+.theme-white .partyMemberUnknownIcon-2zv8ar {
+  color: #191919;
 }
 
 .card-7JP0BX .body-SKIE6r .activity-12-S1I .body-ZAhrcj,
