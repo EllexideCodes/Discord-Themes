@@ -748,7 +748,7 @@ div[class*="winButton-"] {
   width: 70px;
   margin-left: -10px;
   border-bottom: 2px solid var(--main-color);
-  position: fixed;
+  position: absolute;
   z-index: 2;
   height: 46px;
 }
@@ -3529,7 +3529,7 @@ dismiss-1QjyJW, .dismiss-SCAH9H {
 
 .theme-dark .activityFeed-28jde9::before {
   content: '';
-  position: fixed;
+  position: absolute;
   height: 48px;
   width: 1px;
   border-left: 2px solid var(--main-color)
@@ -3545,7 +3545,8 @@ dismiss-1QjyJW, .dismiss-SCAH9H {
   border-radius: var(--roundness)
 }
 
-.card-7JP0BX .body-SKIE6r .activity-12-S1I .body-ZAhrcj {
+.card-7JP0BX .body-SKIE6r .activity-12-S1I .body-ZAhrcj,
+.activityFeed-28jde9 .flex-1xMQg5 .flex-1xMQg5:nth-child(2) {
   margin-right: 0px !important
 }
 
