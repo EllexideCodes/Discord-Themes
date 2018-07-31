@@ -218,7 +218,7 @@
 
 .private-channels .search-bar .search-bar-inner,
 .search .search-bar, 
-.search .search-bar-ico {
+.search .search-bar-icon {
     background: transparent;
 }
 
@@ -546,10 +546,6 @@
   padding: 2px 7px 3px 7px;
 }
 
-.headerPlaying-j0WQBV {
-    background: var(--main-color) !important;
-}
-
 .theme-dark .note-3kmerW textarea:focus,
 .theme-light .note-3kmerW textarea:focus {
     background-color: rgba(0,0,0,0.9) !important;
@@ -585,6 +581,7 @@
 }
   
 .userPopout-3XzG_A .header-2BwW8b,
+.headerPlaying-j0WQBV,
 .topSectionStreaming-1Tpf5X, 
 .topSectionPlaying-1J5E4n,
 .topSectionSpotify-1lI0-P, 
@@ -605,7 +602,25 @@
   border: 1px solid #222 !important;
 }
 
-
+.autocomplete-1vrmpx {
+    background-image: var(--background-image);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   border-bottom: 2px solid var(--main-color);
+}
+ 
+ .autocomplete-1vrmpx::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   background-color: var(--primary-color);
+   z-index: -5;
+   pointer-events: none;
+ }
 
 
 
@@ -637,10 +652,6 @@
 .theme-dark .attachment-33OFj0 {
     background-color: rgba(0,0,0,0.4) !important;
     border-color: transparent !important;
-}
-
-.theme-dark .headerNormal-T_seeN {
-    background-color: var(--main-color) !important;
 }
 
 .theme-dark .popout .messages-popout-wrap .header {
