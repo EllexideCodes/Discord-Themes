@@ -13,6 +13,7 @@
   cursor: pointer;
   font-family: BMTicons;
   pointer-events: none;
+  display: inline-block !important;
 }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8):hover::before {
@@ -136,7 +137,6 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/211315836626010113"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/211895683123249153"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/213220786805145600"]::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/214318588331294720"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/216382288378724352"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/216683534742454272"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/217956193602109440"]::before,
@@ -231,7 +231,6 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/97787466110472192"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/98241610826911744"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/98458069532426240"]::before {
-  display: inline-block !important;
   content: "}" !important;
 }
 
@@ -590,10 +589,6 @@
   background-color: #000 !important;
 }
 
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/214318588331294720"]:hover::before {
-  content: "GREEN?" !important;
-}
-
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/216382288378724352"]:hover::before {
   content: "Element" !important;
 }
@@ -835,7 +830,7 @@
   content: "Kat" !important;
 }
 
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/348110308931403776"]:hover::before 
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/348110308931403776"]:hover::before {
   content: "Beasted" !important;
 }
 
@@ -985,21 +980,32 @@
 
 /* ======= SPECIAL TAGS ========= */
 
+/* Green's Zelda Triangle */
+
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="214318588331294720"]::before {
+  content: '';
+  background-image: url(https://i.imgur.com/tsr97cA.gif);
+  background-size: 21px;
+  background-repeat: no-repeat;
+}
+
 /* My friends and my borders */
-.containerCozy-jafyvG .large-3ChYtB[style*="402272736665272320"] {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="402272736665272320"] {
   border: 2px solid;
   border-image: url(https://i.imgur.com/FdXrSXf.gif);
   border-image-slice: 1;
 }
 
-.containerCozy-jafyvG .large-3ChYtB[style*="182064839827521536"] {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="182064839827521536"] {
   border: 2px solid;
   border-image: url(https://cdn.discordapp.com/attachments/402299470844395530/462532097215692820/giphy.gif);
   border-image-slice: 1;
   }
 
-.containerCozy-jafyvG .large-3ChYtB[style*="402272736665272320"]::before,
-.containerCozy-jafyvG .large-3ChYtB[style*="134349083568504832"]::before {
+/* badges */
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="402272736665272320"]::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="134349083568504832"]::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="214318588331294720"]::before {
   content: '';
   color: transparent;
   height: 15px;
@@ -1013,16 +1019,37 @@
   filter: drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color))
 }
 
-.containerCozy-jafyvG .large-3ChYtB[style*="402272736665272320"]::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="402272736665272320"]::before {
   background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/elleCrown.svg);
 }
-.containerCozy-jafyvG .large-3ChYtB[style*="134349083568504832"]::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="134349083568504832"]::before {
   background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/kevinCrown.svg);
 }
 
-.containerCozy-jafyvG .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="402272736665272320"]:hover::before,
-.containerCozy-jafyvG .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="134349083568504832"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="214318588331294720"]::before {
+  background-image: url(https://i.imgur.com/tsr97cA.gif);
+}
+
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/214318588331294720"]:hover::before {
+  content: "GREEN?";
+  background: url(https://i.imgur.com/sZJzzNW.gif);
+  background-size: cover;
+  width: calc(100% + 4px);
+  color: #fff;
+  font-size:11px;
+  font-weight: 700;
+  padding: 2px 2px;
+  left: -2px;
+  bottom: -20px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="402272736665272320"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="134349083568504832"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="214318588331294720"]:hover::before {
   display: block;
+  background-color: transparent !important;
+  box-shadow: none !important;
   content: '' !important;
   padding: none !important;
   background-color: transparent !important;
