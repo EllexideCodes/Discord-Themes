@@ -2140,7 +2140,9 @@ background: var(--tertiary-color) !important;
 }
 
 .theme-dark .datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z,
-.theme-light .datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z {
+.theme-light .datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z,
+.theme-dark .datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z:hover,
+.theme-light .datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z:hover {
   background-color: var(--main-color);
 }
 
