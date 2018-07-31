@@ -1047,10 +1047,9 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="402272736665272320"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="134349083568504832"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="214318588331294720"]:hover::before {
-  display: block;
+  display: block !important;
   background-color: transparent !important;
   box-shadow: none !important;
-  content: '' !important;
   padding: none !important;
   background-color: transparent !important;
 }
