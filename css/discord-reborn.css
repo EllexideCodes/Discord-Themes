@@ -219,7 +219,7 @@
 .private-channels .search-bar .search-bar-inner,
 .search .search-bar, 
 .search .search-bar-icon {
-    background: transparent;
+    background-color: transparent !important;
 }
 
 .menu-Sp6bN1.alt-3btY0e, 
