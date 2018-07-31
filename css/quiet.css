@@ -2126,8 +2126,13 @@ background: var(--tertiary-color) !important;
   background: var(--quaternary-color);
 }
 
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--selected:hover, 
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day:hover {
   background-color: var(--hover-color);
+}
+
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--selected:after {
+  background-color: var(--main-color);
 }
 
 /* 17. Search Results */
