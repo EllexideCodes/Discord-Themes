@@ -159,7 +159,7 @@ div[class*="winButton-"] {
   z-index: 2;
 }
 
-.guildsWrapper-5TJh6A .guilds>div.guild-1EfMGQ:first-child .guild-inner a {
+.guildsWrapper-5TJh6A .guilds>div.guild-1EfMGQ:first-child .guildInner-3DSoA4 a {
   height: 46px;
 }
 
@@ -167,12 +167,12 @@ div[class*="winButton-"] {
   height: 46px;
 }
 
-.guildsWrapper-5TJh6A .guilds>div.guild-1EfMGQ:first-child .guild-inner {
+.guildsWrapper-5TJh6A .guilds>div.guild-1EfMGQ:first-child .guildInner-3DSoA4 {
   background-color: var(--quaternary-color) !important;
   border-radius: 0px !important;
 }
 
-.guildsWrapper-5TJh6A .guilds>div.guild-1EfMGQ:first-child .guild-inner a, 
+.guildsWrapper-5TJh6A .guilds>div.guild-1EfMGQ:first-child .guildInner-3DSoA4 a, 
 .guildsWrapper-5TJh6A .guilds>div.guild-1EfMGQ:first-child .home-icon {
   width: 70px;
 }

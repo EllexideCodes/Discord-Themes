@@ -695,16 +695,16 @@ div[class*="winButton-"] {
   transition: all ease .2s;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ .guild-inner a[style*="font-size: 16px;"] {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ .guildInner-3DSoA4 a[style*="font-size: 16px;"] {
   background-color: var(--primary-color) !important;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected .guild-inner a[style*="font-size: 16px;"],
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected:hover .guild-inner a[style*="font-size: 16px;"] {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected .guildInner-3DSoA4 a[style*="font-size: 16px;"],
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected:hover .guildInner-3DSoA4 a[style*="font-size: 16px;"] {
   background-color: var(--main-color) !important;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:hover .guild-inner a[style*="font-size: 16px;"] {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:hover .guildInner-3DSoA4 a[style*="font-size: 16px;"] {
   background-color: var(--hover-color) !important;
 }
 
@@ -753,21 +753,21 @@ div[class*="winButton-"] {
   height: 46px;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH>div.guild-1EfMGQ:first-child .guild-inner a {
+.guildsWrapper-5TJh6A .guilds-1q_RqH>div.guild-1EfMGQ:first-child .guildInner-3DSoA4 a {
   height: 46px;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH>div.guild-1EfMGQ:first-child .guild-inner {
+.guildsWrapper-5TJh6A .guilds-1q_RqH>div.guild-1EfMGQ:first-child .guildInner-3DSoA4 {
   background-color: var(--quaternary-color) !important;
   border-radius: 0px !important;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH>div.guild-1EfMGQ:first-child .guild-inner a,
+.guildsWrapper-5TJh6A .guilds-1q_RqH>div.guild-1EfMGQ:first-child .guildInner-3DSoA4 a,
 .guildsWrapper-5TJh6A .guilds-1q_RqH>div.guild-1EfMGQ:first-child .home-icon {
   width: 70px;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ .guild-inner {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ .guildInner-3DSoA4 {
   border-radius: 2px !important;
   background-color: transparent !important;
 }
