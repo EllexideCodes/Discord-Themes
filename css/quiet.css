@@ -773,6 +773,11 @@ div[class*="winButton-"] {
   background-color: transparent !important;
 }
 
+.theme-dark .guildSeparator-1X4GQ1:after,
+.theme-dark .guildSeparator-1X4GQ1 {
+  background-color: var(--primary-color);
+}
+
 .homeIcon-1FoKUJ {
   background-color: var(--home-color);
   -webkit-mask: url(https://ellexidecodes.github.io/Discord-Themes/assets/home.svg);
