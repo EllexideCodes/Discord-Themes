@@ -26,25 +26,25 @@
   padding: 15px;
 }
 #friends .friends-table .friends-row .friends-column-actions .friends-action:hover:nth-child(1) {
-  background-color: rgb(73, 152, 76) !important;
+  background-color: rgb(73, 152, 76);
 }
 
 #friends .friends-table .friends-row .friends-column-actions .friends-action:nth-child(2) {
-  background-color: rgba(73, 152, 76, 0.7) !important;
-  transition-delay: 200ms;
+  background-color: rgba(73, 152, 76, 0.7);
+  transition-delay: 100ms;
 }
 
 #friends .friends-table .friends-row .friends-column-actions .friends-action:hover:nth-child(2) {
-  background-color: rgb(73, 152, 76) !important;
+  background-color: rgb(73, 152, 76);
 }
 
 #friends .friends-table .friends-row .friends-column-actions .friends-action:nth-child(3) {
-  background-color: rgba(199, 0, 67, 0.7) !important;
+  background-color: rgba(199, 0, 67, 0.7);
   transition-delay: 200ms;
 }
 
 #friends .friends-table .friends-row .friends-column-actions .friends-action:hover:nth-child(3) {
-  background-color: rgba(199, 0, 67, 1) !important;
+  background-color: rgba(199, 0, 67, 1);
 }
 
 #friends .friends-table .friends-row .friends-column-actions {
@@ -255,10 +255,10 @@
 }
 
 #friends .friends-table .friends-row .friends-column-status .status {
-  width: 100%;
-  height: 20px;
+  width: 100% !important;
+  height: 20px !important;
   border-radius: 5px 5px 0 0 !important;
-  position: absolute;
+  position: absolute !important;
   top: 0;
   margin-right: 0;
   opacity: 0.5;
