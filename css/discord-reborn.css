@@ -155,13 +155,13 @@
   }
 
 
-.guildsWrapper-5TJh6A .guilds>div.guild-1EfMGQ:first-child .guildInner-3DSoA4, 
+.guildsWrapper-5TJh6A .guilds-1q_RqH>div.guild-1EfMGQ:first-child .guildInner-3DSoA4, 
 .chat>.content, 
 .container-2Thooq{
   background-color: transparent !important;
 }
 
-.guildsWrapper-5TJh6A .guilds>div.guild-1EfMGQ:first-child {
+.guildsWrapper-5TJh6A .guilds-1q_RqH>div.guild-1EfMGQ:first-child {
     margin-top: -48px;
     width: 70px;
     margin-left: -10px;
@@ -192,8 +192,8 @@
     background-color: rgba(0,0,0,0.4) !important;
 }
 
-.guildsWrapper-5TJh6A .guilds .guild-1EfMGQ.audio .guildInner-3DSoA4:after, 
-.guildsWrapper-5TJh6A .guilds .guild-1EfMGQ.video .guildInner-3DSoA4:after {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.audio .guildInner-3DSoA4:after, 
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.video .guildInner-3DSoA4:after {
     background-color: transparent;
     background-position: 50%;
     background-repeat: no-repeat;
