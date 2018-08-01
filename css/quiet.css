@@ -1519,8 +1519,8 @@ div[class*="winButton-"] {
   content: " ";
   display: block;
   position: absolute;
-  width: 14px;
-  height: 14px;
+  width: 26px;
+  height: 26px;
   top: 0;
   left: 0;
   right: 0;
@@ -1555,12 +1555,12 @@ div[class*="winButton-"] {
 }
 
 .menu-Sp6bN1.alt-3btY0e .item-1GzJrl .statusIconText-3b4TkH .status-oxiHuE {
-  position: absolute;
+  position: absolute !important;
   top: 0;
   left: 0;
-  height: 100%;
-  width: 100%;
-  margin-right: 0px;
+  height: 100% !important;
+  width: 100% !important;
+  margin-right: 0px !important;
   transition: all 200ms ease-in-out;
 }
 
