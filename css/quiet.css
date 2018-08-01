@@ -3267,7 +3267,6 @@ body, span:not(.spinner-item) {
   height: 38px;
   line-height: 38px;
   position: fixed;
-  top: 70px;
   width: 100%;
 }
 
