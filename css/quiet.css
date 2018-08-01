@@ -741,7 +741,7 @@ div[class*="winButton-"] {
 
 .guildsWrapper-5TJh6A {
   z-index: 6;
-  background-color: var(--quaternary-color);
+  background-color: var(--quaternary-color) !important;
 }
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH>div.guild-1EfMGQ:first-child {
@@ -3514,7 +3514,7 @@ dismiss-1QjyJW, .dismiss-SCAH9H {
 .channel-members [class*="avatar-"] .status, 
 .private-channels .channel .avatar-small, 
 .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G .large-3ChYtB, 
-.guilds-1q_RqH .guild-icon, 
+.guilds-1q_RqH .guildIcon-CT-ZDq, 
 .guilds-1q_RqH .guildPlaceholder-1ioaid,
 .guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK::after, 
 .mask-3OgeRz, 
