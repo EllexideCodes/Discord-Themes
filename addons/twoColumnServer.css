@@ -40,7 +40,7 @@
     background-color: var(--main-color);
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:before {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:hover:before {
     height: 10px;
     top: 0px;
     margin-top: 0px;
@@ -77,7 +77,7 @@
     margin-top: 0px;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH .friends-online {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .friendsOnline-_wi_fM {
     position: relative;
     width: 100%;
     margin: auto;
