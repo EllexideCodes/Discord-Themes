@@ -294,7 +294,7 @@ div[class*="titleBar-"] div:nth-of-type(4) {
 
 .typeMacOS-3EmCyP.titleBar-AC4pGV [class*="macButton"] { background-image: none !important; } 
 
-.platform-osx .guilds-wrapper { margin-top: 0px !important; }
+.platform-osx .guildsWrapper-5TJh6A { margin-top: 0px !important; }
 
 div[class*="titleBar-"] div {
 	transform: scale(0.8) !important;
@@ -670,11 +670,11 @@ div[class*="winButton-"] {
 
 /* 7. Guilds Area */
 
-.theme-light .guilds-wrapper .guilds .friends-online {
+.theme-light .guildsWrapper-5TJh6A .guilds .friends-online {
     color: #000;
 }
 
-.guilds-wrapper .guilds>div.guild:first-child .badge {
+.guildsWrapper-5TJh6A .guilds>div.guild:first-child .badge {
   border-radius: 50%;
   padding: 5px;
   background-color: var(--main-color);
@@ -683,7 +683,7 @@ div[class*="winButton-"] {
   border: 2px solid var(--quaternary-color);
 }
 
-.guilds-wrapper .guilds .guild.unread:hover:before {
+.guildsWrapper-5TJh6A .guilds .guild.unread:hover:before {
   background: #fff;
   border-radius: 20px;
   height: 40px;
@@ -691,24 +691,24 @@ div[class*="winButton-"] {
   border-radius: 0px;
 }
 
-.guilds-wrapper .guilds .guild.unread:before {
+.guildsWrapper-5TJh6A .guilds .guild.unread:before {
   transition: all ease .2s;
 }
 
-.guilds-wrapper .guilds .guild .guild-inner a[style*="font-size: 16px;"] {
+.guildsWrapper-5TJh6A .guilds .guild .guild-inner a[style*="font-size: 16px;"] {
   background-color: var(--primary-color) !important;
 }
 
-.guilds-wrapper .guilds .guild.selected .guild-inner a[style*="font-size: 16px;"],
-.guilds-wrapper .guilds .guild.selected:hover .guild-inner a[style*="font-size: 16px;"] {
+.guildsWrapper-5TJh6A .guilds .guild.selected .guild-inner a[style*="font-size: 16px;"],
+.guildsWrapper-5TJh6A .guilds .guild.selected:hover .guild-inner a[style*="font-size: 16px;"] {
   background-color: var(--main-color) !important;
 }
 
-.guilds-wrapper .guilds .guild:hover .guild-inner a[style*="font-size: 16px;"] {
+.guildsWrapper-5TJh6A .guilds .guild:hover .guild-inner a[style*="font-size: 16px;"] {
   background-color: var(--hover-color) !important;
 }
 
-.guilds-wrapper .guilds .guild::before {
+.guildsWrapper-5TJh6A .guilds .guild::before {
   border-radius: 20px;
   content: " ";
   height: 40px;
@@ -722,28 +722,28 @@ div[class*="winButton-"] {
   margin-top: -3px;
 }
 
-.guilds-wrapper .guilds .guild.selected::before {
+.guildsWrapper-5TJh6A .guilds .guild.selected::before {
   border-radius: 0px;
   background: var(--main-color) !important;
   margin-top: -20px;
 }
 
-.guilds-wrapper .guilds .guild.unread:before {
+.guildsWrapper-5TJh6A .guilds .guild.unread:before {
   background: var(--main-color) !important;
   box-shadow: 0 0 12px var(--main-color) !important;
   margin-top: -4px;
 }
 
-.guilds-wrapper .guilds .guild.selected.unread::before {
+.guildsWrapper-5TJh6A .guilds .guild.selected.unread::before {
   margin-top: -20px !important;
 }
 
-.guilds-wrapper {
+.guildsWrapper-5TJh6A {
   z-index: 6;
   background-color: var(--quaternary-color);
 }
 
-.guilds-wrapper .guilds>div.guild:first-child {
+.guildsWrapper-5TJh6A .guilds>div.guild:first-child {
   margin-top: -48px;
   width: 70px;
   margin-left: -10px;
@@ -753,21 +753,21 @@ div[class*="winButton-"] {
   height: 46px;
 }
 
-.guilds-wrapper .guilds>div.guild:first-child .guild-inner a {
+.guildsWrapper-5TJh6A .guilds>div.guild:first-child .guild-inner a {
   height: 46px;
 }
 
-.guilds-wrapper .guilds>div.guild:first-child .guild-inner {
+.guildsWrapper-5TJh6A .guilds>div.guild:first-child .guild-inner {
   background-color: var(--quaternary-color) !important;
   border-radius: 0px !important;
 }
 
-.guilds-wrapper .guilds>div.guild:first-child .guild-inner a,
-.guilds-wrapper .guilds>div.guild:first-child .home-icon {
+.guildsWrapper-5TJh6A .guilds>div.guild:first-child .guild-inner a,
+.guildsWrapper-5TJh6A .guilds>div.guild:first-child .home-icon {
   width: 70px;
 }
 
-.guilds-wrapper .guilds .guild .guild-inner {
+.guildsWrapper-5TJh6A .guilds .guild .guild-inner {
   border-radius: 2px !important;
   background-color: transparent !important;
 }
@@ -785,11 +785,11 @@ div[class*="winButton-"] {
   display: none;
 }
 
-.guilds-wrapper .guilds {
+.guildsWrapper-5TJh6A .guilds {
   padding: 48px 0px 70px 10px !important;
 }
 
-.guilds-wrapper .guild.guilds-add {
+.guildsWrapper-5TJh6A .guild.guilds-add {
   border: 0px;
   background: transparent;
   transition: all 200ms ease !important;
@@ -807,7 +807,7 @@ div[class*="winButton-"] {
   z-index: 1000;
 }
 
-.guilds-wrapper .guild.guilds-add::after {
+.guildsWrapper-5TJh6A .guild.guilds-add::after {
   background: var(--main-color);
   transition: all 200ms ease !important;
   position: absolute;
@@ -827,16 +827,16 @@ div[class*="winButton-"] {
   line-height: 53px;
 }
 
-.guilds-wrapper .guild.guilds-add:hover::after {
+.guildsWrapper-5TJh6A .guild.guilds-add:hover::after {
   box-shadow: 0 10px 15px rgba(0, 0, 0, .4), 0 -1px 0px rgba(0, 0, 0, 0.2) inset, 0 2px 1px rgba(255, 255, 255, 0.2) inset;
   background-color: var(--main-color);
 }
 
-.guilds-wrapper .guilds .guild.guilds-add:hover {
+.guildsWrapper-5TJh6A .guilds .guild.guilds-add:hover {
   opacity: 1 !important
 }
 
-.guilds-wrapper .guild.guilds-add::before {
+.guildsWrapper-5TJh6A .guild.guilds-add::before {
   content: "";
   width: 69px;
   height: 120px;
@@ -854,7 +854,7 @@ div[class*="winButton-"] {
 	border-radius: 0 !important;
 }
 
-.guilds-wrapper .guilds-error {
+.guildsWrapper-5TJh6A .guilds-error {
   border-radius: calc(var(--roundness) + 1px) !important;
 }
 
@@ -897,7 +897,7 @@ div[class*="winButton-"] {
 }
 
 .channel-members-wrap,
-.guilds-wrapper,
+.guildsWrapper-5TJh6A,
 .channels-wrap .flexChild-faoVW3,
 .container-2Thooq,
 .container-1UB9sr,
@@ -3117,7 +3117,7 @@ body:active .popoutBottom-1YbShG[style*="overflow: hidden; visibility: visible;"
 /* 28. Shadows */
 
 .channel-members-wrap,
-.guilds-wrapper,
+.guildsWrapper-5TJh6A,
 .channels-wrap .flexChild-faoVW3,
 .container-2Thooq,
 .container-1UB9sr,
@@ -3510,7 +3510,7 @@ dismiss-1QjyJW, .dismiss-SCAH9H {
 .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G .large-3ChYtB, 
 .guilds .guild-icon, 
 .guilds .guild-placeholder,
-.guilds-wrapper .guild.guilds-add::after, 
+.guildsWrapper-5TJh6A .guild.guilds-add::after, 
 .mask-3OgeRz, 
 .image-33JSyf, 
 .avatar-16XVId .status-oxiHuE,

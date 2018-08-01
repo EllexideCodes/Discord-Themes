@@ -130,12 +130,12 @@
     background-color: var(--tertiary-color) !important;
 }
 
-.guilds-wrapper,
+.guildsWrapper-5TJh6A,
 .messages-wrapper {
     background-color: var(--primary-color) !important;
 }
 
-.guilds-wrapper .guild.guilds-add::after {
+.guildsWrapper-5TJh6A .guild.guilds-add::after {
     background: var(--tertiary-color) !important;
 }
 
@@ -155,13 +155,13 @@
   }
 
 
-.guilds-wrapper .guilds>div.guild:first-child .guild-inner, 
+.guildsWrapper-5TJh6A .guilds>div.guild:first-child .guild-inner, 
 .chat>.content, 
 .container-2Thooq{
   background-color: transparent !important;
 }
 
-.guilds-wrapper .guilds>div.guild:first-child {
+.guildsWrapper-5TJh6A .guilds>div.guild:first-child {
     margin-top: -48px;
     width: 70px;
     margin-left: -10px;
@@ -170,9 +170,9 @@
     z-index: 2;
 }
 
-.guilds-wrapper .guilds { padding: 0px 0px 70px 10px !important;}
+.guildsWrapper-5TJh6A .guilds { padding: 0px 0px 70px 10px !important;}
 
-.guilds-wrapper .scroller-wrap { margin-top: 48px !important;}
+.guildsWrapper-5TJh6A .scroller-wrap { margin-top: 48px !important;}
 
 .private-channels .search-bar {
     border-bottom: 2px solid var(--main-color) !important;
@@ -192,8 +192,8 @@
     background-color: rgba(0,0,0,0.4) !important;
 }
 
-.guilds-wrapper .guilds .guild.audio .guild-inner:after, 
-.guilds-wrapper .guilds .guild.video .guild-inner:after {
+.guildsWrapper-5TJh6A .guilds .guild.audio .guild-inner:after, 
+.guildsWrapper-5TJh6A .guilds .guild.video .guild-inner:after {
     background-color: transparent;
     background-position: 50%;
     background-repeat: no-repeat;
@@ -702,7 +702,7 @@
 /* 11. Shadows */
 
 .channel-members-wrap, 
-.guilds-wrapper, 
+.guildsWrapper-5TJh6A, 
 .channels-wrap .flexChild-faoVW3, 
 .container-2Thooq, 
 .container-1UB9sr, 

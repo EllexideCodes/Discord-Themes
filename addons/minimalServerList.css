@@ -1,6 +1,6 @@
-.guilds-wrapper,
-.guilds-wrapper .guild.guilds-add::before,
-.guilds-wrapper .guild .home-icon {
+.guildsWrapper-5TJh6A,
+.guildsWrapper-5TJh6A .guild.guilds-add::before,
+.guildsWrapper-5TJh6A .guild .home-icon {
   width: 4px !important;
   transition: all .5s ease-in-out;
   transition-delay: 0 !important;
@@ -8,37 +8,37 @@
 
 .home-icon {opacity: 0;}
 
-.guilds-wrapper:hover .home-icon {opacity: 1}
+.guildsWrapper-5TJh6A:hover .home-icon {opacity: 1}
 
-.guilds-wrapper .guild.guilds-add::after {
+.guildsWrapper-5TJh6A .guild.guilds-add::after {
   transform: scale(0) !important;
   margin-left: -25px !important;
   transition: all .5s ease-in-out;
 }
 
-.guilds-wrapper .guilds .guild.unread::before,
-.guilds-wrapper .guilds .guild.selected::before,
-.guilds-wrapper .unread-mentions-indicator-bottom, 
-.guilds-wrapper .unread-mentions-indicator-top {
+.guildsWrapper-5TJh6A .guilds .guild.unread::before,
+.guildsWrapper-5TJh6A .guilds .guild.selected::before,
+.guildsWrapper-5TJh6A .unread-mentions-indicator-bottom, 
+.guildsWrapper-5TJh6A .unread-mentions-indicator-top {
   opacity: 0;
   transition: all .2s ease-in-out;
   transition-delay: 0 !important;
 }
 
-.guilds-wrapper:hover,
-.guilds-wrapper:hover .guild.guilds-add::before,
-.guilds-wrapper:hover .guild:first-child .home-icon {
+.guildsWrapper-5TJh6A:hover,
+.guildsWrapper-5TJh6A:hover .guild.guilds-add::before,
+.guildsWrapper-5TJh6A:hover .guild:first-child .home-icon {
   width: var(--list-size) !important;
 }
 
-.guilds-wrapper:hover .guild.guilds-add::after {
+.guildsWrapper-5TJh6A:hover .guild.guilds-add::after {
   transform: scale(1) !important;
 }
 
-.guilds-wrapper:hover .guilds .guild.unread::before,
-.guilds-wrapper:hover .guilds .guild.selected::before,
-.guilds-wrapper:hover .unread-mentions-indicator-bottom, 
-.guilds-wrapper:hover .unread-mentions-indicator-top {
+.guildsWrapper-5TJh6A:hover .guilds .guild.unread::before,
+.guildsWrapper-5TJh6A:hover .guilds .guild.selected::before,
+.guildsWrapper-5TJh6A:hover .unread-mentions-indicator-bottom, 
+.guildsWrapper-5TJh6A:hover .unread-mentions-indicator-top {
   opacity: 1;
   transition: all .5s ease-in-out;
 }
