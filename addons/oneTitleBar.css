@@ -150,7 +150,7 @@ div[class*="winButton-"] {
   left: 1% !important;
 }
 
-.guildsWrapper-5TJh6A .guilds>div.guild:first-child {
+.guildsWrapper-5TJh6A .guilds>div.guild-1EfMGQ:first-child {
   margin-top: -48px;
   width: 70px;
   margin-left: -10px;
@@ -159,21 +159,21 @@ div[class*="winButton-"] {
   z-index: 2;
 }
 
-.guildsWrapper-5TJh6A .guilds>div.guild:first-child .guild-inner a {
+.guildsWrapper-5TJh6A .guilds>div.guild-1EfMGQ:first-child .guild-inner a {
   height: 46px;
 }
 
-.guildsWrapper-5TJh6A .guilds>div.guild:first-child {
+.guildsWrapper-5TJh6A .guilds>div.guild-1EfMGQ:first-child {
   height: 46px;
 }
 
-.guildsWrapper-5TJh6A .guilds>div.guild:first-child .guild-inner {
+.guildsWrapper-5TJh6A .guilds>div.guild-1EfMGQ:first-child .guild-inner {
   background-color: var(--quaternary-color) !important;
   border-radius: 0px !important;
 }
 
-.guildsWrapper-5TJh6A .guilds>div.guild:first-child .guild-inner a, 
-.guildsWrapper-5TJh6A .guilds>div.guild:first-child .home-icon {
+.guildsWrapper-5TJh6A .guilds>div.guild-1EfMGQ:first-child .guild-inner a, 
+.guildsWrapper-5TJh6A .guilds>div.guild-1EfMGQ:first-child .home-icon {
   width: 70px;
 }
 

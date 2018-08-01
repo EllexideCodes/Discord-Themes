@@ -9,7 +9,7 @@
 .guildsWrapper-5TJh6A .scroller-wrap{width:140px !important;}
 
 .guildsWrapper-5TJh6A,
-.guildsWrapper-5TJh6A .guilds .dms {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .dms {
     display: flex !important;
     flex-direction: row !important;
     flex-flow: row wrap !important;
@@ -18,21 +18,21 @@
     align-content: flex-start;
 }
 
-.guildsWrapper-5TJh6A .guilds .guild,
-.guildsWrapper-5TJh6A .guilds .dms .guild {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild,
+.guildsWrapper-5TJh6A .guilds-1q_RqH .dms .guild-1EfMGQ {
     margin-left: 3px;
     margin-right: 3px; 
     margin-top: 8px;
     float: left;
 }
 
-.guildsWrapper-5TJh6A .guilds .dms .guild:first-child {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .dms .guild-1EfMGQ:first-child {
   margin-top: 8px !important;
   width: 50px !important;
   overflow: visible;
 }
 
-.guildsWrapper-5TJh6A .guilds .guild.unread::before {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread::before {
     left: 0px;
     top: 0px;
     margin-top: 0;
@@ -40,7 +40,7 @@
     background-color: var(--main-color);
 }
 
-.guildsWrapper-5TJh6A .guilds .guild.unread:hover::before {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread:hover::before {
     height: 10px;
     top: 0px;
     margin-top: 0px;
@@ -49,7 +49,7 @@
     box-shadow: 0 0 5px #ccc !important;
   }
 
-.guildsWrapper-5TJh6A .guilds .guild:first-child {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:first-child {
     position: flex-start ; 
     left: 0;
     margin: auto;
@@ -71,38 +71,38 @@
     text-align: center;
 }
 
-.guildsWrapper-5TJh6A .guilds .guild-separator {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-separator {
     position: relative;
     width: 100%;
     margin-top: 0px;
 }
 
-.guildsWrapper-5TJh6A .guilds .friends-online {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .friends-online {
     position: relative;
     width: 100%;
     margin: auto;
     margin-top: 33px;
 }
 
-.guildsWrapper-5TJh6A .guilds .guild.selected:before {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected:before {
     display: none;
 }
 
-.guildsWrapper-5TJh6A .guilds .guild {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ {
     position: relative;
 }
 
-.guildsWrapper-5TJh6A .guilds .dms {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .dms {
     width: 140px !important;
     display: flex;
     flex-flow: row wrap;
 }
 
-.guildsWrapper-5TJh6A .guilds .dms .guild {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .dms .guild-1EfMGQ {
     left: 0;
 }
 
-.guildsWrapper-5TJh6A .guilds .guild:first-child {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:first-child {
     position: auto ;
     left: 0;
     margin: auto ;
@@ -112,16 +112,16 @@
     margin-right: 0 !important;
 }
 
-.guildsWrapper-5TJh6A .guilds .guild:first-child .home-icon {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:first-child .home-icon {
   margin-left: 0px !important;
   width: 140px !important;
 }
 
-.guildsWrapper-5TJh6A .guild.guilds-add {
+.guildsWrapper-5TJh6A .guild-1EfMGQ.guilds-add {
   margin-left: 30px !important;
 }
 
-.guildsWrapper-5TJh6A .guild.guilds-add::before {
+.guildsWrapper-5TJh6A .guild-1EfMGQ.guilds-add::before {
   width: 140px !important;
 }
 
@@ -137,6 +137,6 @@
 
 .guildsWrapper-5TJh6A.folderopen,
 .guildsWrapper-5TJh6A.folderopen .scroller-wrap,
-.guildsWrapper-5TJh6A.folderopen .guilds {
+.guildsWrapper-5TJh6A.folderopen .guilds-1q_RqH {
     width: 140px;
 }
