@@ -219,6 +219,11 @@
     background-color: transparent !important;
   }
 
+  .theme-dark .guildSeparator-1X4GQ1:after,
+  .theme-dark .guildSeparator-1X4GQ1 {
+    background-color: transparent;
+  }
+
 .private-channels .search-bar .search-bar-inner,
 .search .search-bar, 
 .search .searchBarIcon-1J6sKG {
