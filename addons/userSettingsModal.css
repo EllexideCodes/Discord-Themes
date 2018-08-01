@@ -2,7 +2,7 @@
 	--size: 70%;
 }
 
-.tools .btn-close, .tools .esc-text {position: absolute;}
+.tools .btn-close, .tools .esc-text {position: fixed;}
 
 .layer-3QrUeG:nth-child(1) {
     animation: none !important;
