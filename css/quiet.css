@@ -774,7 +774,7 @@ div[class*="winButton-"] {
 
 .theme-dark .guildSeparator-1X4GQ1:after,
 .theme-dark .guildSeparator-1X4GQ1 {
-  background-color: var(--primary-color);
+  background-color: transparent;
 }
 
 .homeIcon-1FoKUJ {
