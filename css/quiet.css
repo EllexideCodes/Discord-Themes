@@ -763,7 +763,7 @@ div[class*="winButton-"] {
 }
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:first-child .guildInner-3DSoA4 {
-  background-color: var(--quaternary-color);
+  background-color: var(--quaternary-color) !important;
   border-radius: 0px !important;
 }
 

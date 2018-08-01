@@ -215,6 +215,10 @@
 
 .guilds-1q_RqH [class*="avatar-"] {border-radius: var(--roundness) !important;}
 
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:first-child .guildInner-3DSoA4 {
+    background-color: transparent !important;
+  }
+
 .private-channels .search-bar .search-bar-inner,
 .search .search-bar, 
 .search .searchBarIcon-1J6sKG {
