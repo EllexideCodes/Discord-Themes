@@ -3626,6 +3626,14 @@ dismiss-1QjyJW, .dismiss-SCAH9H {
   color: #191919;
 }
 
+.theme-dark .dockItem-2kQDqg:hover {
+  background-color: var(--secondary-color);
+  transition: all 200ms ease-in-out;
+}
+
+
+
+
 /* change screen size */
 
 @media only screen and (max-width: 915px) {
