@@ -758,11 +758,6 @@ div[class*="winButton-"] {
   height: 46px;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH>div.guild-1EfMGQ:first-child .guildInner-3DSoA4 {
-  background-color: var(--quaternary-color) !important;
-  border-radius: 0px !important;
-}
-
 .guildsWrapper-5TJh6A .guilds-1q_RqH>div.guild-1EfMGQ:first-child .guildInner-3DSoA4 a,
 .guildsWrapper-5TJh6A .guilds-1q_RqH>div.guild-1EfMGQ:first-child .homeIcon-1FoKUJ {
   width: 70px;
