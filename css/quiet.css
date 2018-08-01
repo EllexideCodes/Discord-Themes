@@ -851,7 +851,7 @@ div[class*="winButton-"] {
 }
 
 .guilds-1q_RqH .guildPlaceholder-1ioaid {
-	border-radius: 0 !important;
+	border-radius: var(--roundness) !important;
 }
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH-error {
