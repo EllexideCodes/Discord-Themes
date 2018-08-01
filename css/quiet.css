@@ -1074,6 +1074,11 @@ div[class*="winButton-"] {
   width: 0px
 }
 
+.search .searchBar-2_Yu-C .icon-3cZ1F_ {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .emojiPicker-3m1S-j .search-bar input {
   color: #fff !important;
   border-bottom: 2px solid rgba(255, 255, 255, .1);
