@@ -57,6 +57,9 @@
     background-color: var(--primary-color) !important;
 }
 
+.scroller-2FKFPG::-webkit-scrollbar-thumb, 
+.scroller-2FKFPG::-webkit-scrollbar-track { margin: 5px 0px; }
+
 /* light theme */
 .theme-light .ui-standard-sidebar-view {
   background: transparent !important;
