@@ -699,8 +699,8 @@ div[class*="winButton-"] {
   background-color: var(--primary-color) !important;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected .guildInner-3DSoA4 a[style*="font-size: 16px;"],
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected:hover .guildInner-3DSoA4 a[style*="font-size: 16px;"] {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq .guildInner-3DSoA4 a[style*="font-size: 16px;"],
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq:hover .guildInner-3DSoA4 a[style*="font-size: 16px;"] {
   background-color: var(--main-color) !important;
 }
 
@@ -722,7 +722,7 @@ div[class*="winButton-"] {
   margin-top: -3px;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected::before {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq::before {
   border-radius: 0px;
   background: var(--main-color) !important;
   margin-top: -20px;
@@ -734,7 +734,7 @@ div[class*="winButton-"] {
   margin-top: -4px;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected.unread-qLkInr::before {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq.unread-qLkInr::before {
   margin-top: -20px !important;
 }
 
@@ -763,7 +763,7 @@ div[class*="winButton-"] {
 }
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH>div.guild-1EfMGQ:first-child .guildInner-3DSoA4 a,
-.guildsWrapper-5TJh6A .guilds-1q_RqH>div.guild-1EfMGQ:first-child .home-icon {
+.guildsWrapper-5TJh6A .guilds-1q_RqH>div.guild-1EfMGQ:first-child .homeIcon-1FoKUJ {
   width: 70px;
 }
 
@@ -772,7 +772,7 @@ div[class*="winButton-"] {
   background-color: transparent !important;
 }
 
-.home-icon {
+.homeIcon-1FoKUJ {
   background-color: var(--home-color);
   -webkit-mask: url(https://ellexidecodes.github.io/Discord-Themes/assets/home.svg);
   -webkit-mask-size: var(--home-size);
@@ -780,8 +780,8 @@ div[class*="winButton-"] {
   -webkit-mask-position: center;
 }
 
-.guilds-1q_RqH .home-icon defs,
-.guilds-1q_RqH .home-icon g {
+.guilds-1q_RqH .homeIcon-1FoKUJ defs,
+.guilds-1q_RqH .homeIcon-1FoKUJ g {
   display: none;
 }
 

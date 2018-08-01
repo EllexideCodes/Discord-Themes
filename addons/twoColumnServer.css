@@ -40,7 +40,7 @@
     background-color: var(--main-color);
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:before:before {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:before {
     height: 10px;
     top: 0px;
     margin-top: 0px;
@@ -84,7 +84,7 @@
     margin-top: 33px;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected:before {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq:before {
     display: none;
 }
 
@@ -112,7 +112,7 @@
     margin-right: 0 !important;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:first-child .home-icon {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:first-child .homeIcon-1FoKUJ {
   margin-left: 0px !important;
   width: 140px !important;
 }
