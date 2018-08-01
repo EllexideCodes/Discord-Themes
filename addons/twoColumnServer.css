@@ -8,7 +8,7 @@
 
 .guildsWrapper-5TJh6A .scroller-wrap{width:140px !important;}
 
-.guildsWrapper-5TJh6A,
+.guildsWrapper-5TJh6A .guilds-1q_RqH,
 .guildsWrapper-5TJh6A .guilds-1q_RqH .dms {
     display: flex !important;
     flex-direction: row !important;
@@ -18,10 +18,10 @@
     align-content: flex-start;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild,
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ,
 .guildsWrapper-5TJh6A .guilds-1q_RqH .dms .guild-1EfMGQ {
-    margin-left: 3px;
-    margin-right: 3px; 
+    margin-left: 4px;
+    margin-right: 4px; 
     margin-top: 8px;
     float: left;
 }
