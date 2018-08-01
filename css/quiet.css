@@ -763,6 +763,10 @@ div[class*="winButton-"] {
   width: 70px;
 }
 
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:first-child .guildInner-3DSoA4 {
+  border-radius: 0px !important;
+}
+
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ .guildInner-3DSoA4 {
   border-radius: 2px !important;
   background-color: transparent !important;
