@@ -1,4 +1,3 @@
-
 /*Two column server list*/
 .guildsWrapper-5TJh6A{width: 140px;}
 .theme-dark .guildsWrapper-5TJh6A  .scroller-wrap .scroller::-webkit-scrollbar {
@@ -24,6 +23,21 @@
     margin-right: 4px; 
     margin-top: 8px;
     float: left;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:first-child {
+    position: auto ;
+    left: 0;
+    margin: auto ;
+    margin-top: 20px;
+    width: 140px ;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV .guild-1EfMGQ:first-child {
+    margin-left: 4px !important;
+    margin-right: 4px !important;
 }
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV .guild-1EfMGQ:first-child {
@@ -73,7 +87,7 @@
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guildSeparator-1X4GQ1 {
     position: relative;
-    width: 100%;
+    width: calc(100% - 8px);
     margin-top: 0px;
 }
 
@@ -100,16 +114,6 @@
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV .guild-1EfMGQ {
     left: 0;
-}
-
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:first-child {
-    position: auto ;
-    left: 0;
-    margin: auto ;
-    margin-top: 20px;
-    width: 140px ;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
 }
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:first-child .homeIcon-1FoKUJ {
