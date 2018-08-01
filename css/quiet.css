@@ -1465,11 +1465,12 @@ div[class*="winButton-"] {
   background: #111114 !important;
 }
 
-.menu-Sp6bN1.alt-3btY0e .item-1GzJrl:hover [class*="status"] {
+.menu-Sp6bN1.alt-3btY0e .item-1GzJrl:hover .statusIconText-3b4TkH {
   transform: scale(1.9);
+  transition: all 200ms ease-in-out;
 }
 
-.menu-Sp6bN1.alt-3btY0e .item-1GzJrl [class*="status"] {
+.menu-Sp6bN1.alt-3btY0e .item-1GzJrl .statusIconText-3b4TkH {
   position: absolute;
   width: 40px;
   height: 40px;
@@ -1480,7 +1481,27 @@ div[class*="winButton-"] {
   margin: auto !important;
   border-radius: 50%;
   transform: scale(1);
-  transition: 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+.menu-Sp6bN1.alt-3btY0e .item-1GzJrl:nth-child(1) .statusIconText-3b4TkH {
+  background-color: var(--online);
+  border-radius: 0;
+}
+
+.menu-Sp6bN1.alt-3btY0e .item-1GzJrl:nth-child(3) .statusIconText-3b4TkH {
+  background-color: var(--idle);
+  border-radius: 0;
+}
+
+.menu-Sp6bN1.alt-3btY0e .item-1GzJrl:nth-child(4) .statusIconText-3b4TkH {
+  background-color: var(--dnd);
+  border-radius: 0;
+}
+
+.menu-Sp6bN1.alt-3btY0e .item-1GzJrl:nth-child(5) .statusIconText-3b4TkH {
+  background-color: var(--invisible);
+  border-radius: 0;
 }
 
 .menu-Sp6bN1.alt-3btY0e .item-1GzJrl:hover [class*="status"].online-2S838R:after,
@@ -1510,7 +1531,7 @@ div[class*="winButton-"] {
   background-position: center;
   opacity: 0;
   visibility: hidden;
-  transition: 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
 }
 
 .menu-Sp6bN1.alt-3btY0e .item-1GzJrl [class*="status"].online-2S838R:after {
@@ -1531,6 +1552,16 @@ div[class*="winButton-"] {
 
 .menu-Sp6bN1.alt-3btY0e .item-1GzJrl .statusIconText-3b4TkH div {
   color: transparent;
+}
+
+.menu-Sp6bN1.alt-3btY0e .item-1GzJrl .statusIconText-3b4TkH .status-oxiHuE {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  margin-right: 0px;
+  transition: all 200ms ease-in-out;
 }
 
 /* 12. Members List Area */
