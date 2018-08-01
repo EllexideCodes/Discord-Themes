@@ -356,7 +356,7 @@ div[class*="winButton-"] {
   right: 9px;
 }
 
-.search .search-bar-icon {
+.search .searchBarIcon-1J6sKG {
   width: 35px;
   background-color: var(--secondary-color);
 }
@@ -1070,7 +1070,7 @@ div[class*="winButton-"] {
   color: var(--white10) !important
 }
 
-.search-bar-icon {
+.searchBarIcon-1J6sKG {
   width: 0px
 }
 
@@ -1990,7 +1990,7 @@ background: var(--tertiary-color) !important;
   background-color: var(--primary-color);
 }
 
-.search .search-bar-icon {
+.search .searchBarIcon-1J6sKG {
   width: 35px;
   background-color: var(--quaternary-color) !important;
 }
