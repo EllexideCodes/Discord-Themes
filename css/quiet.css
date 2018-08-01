@@ -683,7 +683,8 @@ div[class*="winButton-"] {
   border: 2px solid var(--quaternary-color);
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:hover:before {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:hover:before,
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq:before {
   background: #fff;
   border-radius: 20px;
   height: 40px;
@@ -789,7 +790,7 @@ div[class*="winButton-"] {
   padding: 48px 0px 70px 10px !important;
 }
 
-.guildsWrapper-5TJh6A .guild-1EfMGQ.guilds-1q_RqH-add {
+.guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK {
   border: 0px;
   background: transparent;
   transition: all 200ms ease !important;
@@ -807,7 +808,7 @@ div[class*="winButton-"] {
   z-index: 1000;
 }
 
-.guildsWrapper-5TJh6A .guild-1EfMGQ.guilds-1q_RqH-add::after {
+.guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK::after {
   background: var(--main-color);
   transition: all 200ms ease !important;
   position: absolute;
@@ -827,16 +828,16 @@ div[class*="winButton-"] {
   line-height: 53px;
 }
 
-.guildsWrapper-5TJh6A .guild-1EfMGQ.guilds-1q_RqH-add:hover::after {
+.guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK:hover::after {
   box-shadow: 0 10px 15px rgba(0, 0, 0, .4), 0 -1px 0px rgba(0, 0, 0, 0.2) inset, 0 2px 1px rgba(255, 255, 255, 0.2) inset;
   background-color: var(--main-color);
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.guilds-1q_RqH-add:hover {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.guildsAdd-21_IdK:hover {
   opacity: 1 !important
 }
 
-.guildsWrapper-5TJh6A .guild-1EfMGQ.guilds-1q_RqH-add::before {
+.guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK::before {
   content: "";
   width: 69px;
   height: 120px;
@@ -850,7 +851,7 @@ div[class*="winButton-"] {
   pointer-events: none;
 }
 
-.guilds-1q_RqH .guild-placeholder {
+.guilds-1q_RqH .guildPlaceholder-1ioaid {
 	border-radius: 0 !important;
 }
 
@@ -3514,8 +3515,8 @@ dismiss-1QjyJW, .dismiss-SCAH9H {
 .private-channels .channel .avatar-small, 
 .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G .large-3ChYtB, 
 .guilds-1q_RqH .guild-icon, 
-.guilds-1q_RqH .guild-placeholder,
-.guildsWrapper-5TJh6A .guild-1EfMGQ.guilds-1q_RqH-add::after, 
+.guilds-1q_RqH .guildPlaceholder-1ioaid,
+.guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK::after, 
 .mask-3OgeRz, 
 .image-33JSyf, 
 .avatar-16XVId .status-oxiHuE,
