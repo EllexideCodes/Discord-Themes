@@ -32,7 +32,7 @@
   overflow: visible;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:before::before {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:before {
     left: 0px;
     top: 0px;
     margin-top: 0;
@@ -40,7 +40,7 @@
     background-color: var(--main-color);
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:before:hover::before {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:before:before {
     height: 10px;
     top: 0px;
     margin-top: 0px;
