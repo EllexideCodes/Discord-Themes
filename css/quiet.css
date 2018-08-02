@@ -1217,7 +1217,11 @@ div[class*="winButton-"] {
 .member-3W1lQa [class*="status-"].typing-1KJk_j,
 .avatar-small [class*="status-"].typing-1KJk_j {
   border-radius: 20% !important;
-  background: rgba(10, 10, 10, 0.50) !important
+  background: rgba(10, 10, 10, 0.50) !important;
+  height: 100% !important;
+  width: 100% !important;
+  top: -2px;
+  left: -2px;
 }
 
 .mask-3OgeRz,
