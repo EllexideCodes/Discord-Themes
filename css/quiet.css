@@ -1208,13 +1208,6 @@ div[class*="winButton-"] {
 
 /* 10. Avatars */
 
-.avatar-small,
-.large-3ChYtB,
-.avatar-16XVId,
-.avatar-xxlarge,
-.da-xsmall {
-  border-radius: 1px !important;
-}
 
 .member-3W1lQa [class*="status-"],
 .avatar-small [class*="status-"] {
@@ -1229,7 +1222,6 @@ div[class*="winButton-"] {
 
 .mask-3OgeRz,
 .image-33JSyf {
-  border-radius: 0% !important;
   -webkit-mask: none;
   mask: none;
 }
