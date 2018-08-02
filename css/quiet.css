@@ -7,6 +7,8 @@
 :root {
 	--theme-name: "Quiet";
   --theme-version: "4.3";
+  --main-color: #007dbd;
+  --hover-color: #03679b;
   --online: #43b581;
   /* color for online status */
   --idle: #faa61a;
@@ -673,8 +675,8 @@ div[class*="winButton-"] {
     color: #000;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH>div.guild-1EfMGQ:first-child .badge {
-  border-radius: 50%;
+.guildsWrapper-5TJh6A .guilds-1q_RqH>div.guild-1EfMGQ:first-child .badge-1GsMF2 {
+  border-radius: 40px;
   padding: 5px;
   background-color: var(--main-color);
   margin-bottom: 22px;
