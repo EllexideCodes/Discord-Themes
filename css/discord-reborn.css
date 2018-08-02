@@ -649,6 +649,7 @@
     background-position: center;
     z-index: -1;
     pointer-events: none;
+    border-radius: 5px;
   }
 
 .form-deprecated .btn-primary:hover, 
