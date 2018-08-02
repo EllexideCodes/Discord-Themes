@@ -590,12 +590,12 @@ div[class*="winButton-"] {
   opacity: 80%;
 }
 
-.unread-qLkInr-1Dp-OI {
+.unread-1Dp-OI {
   background-color: var(--hover-color);
   transition: .1s all linear;
 }
 
-.wrapperHoveredText-2geN_M .unread-qLkInr-1Dp-OI {
+.wrapperHoveredText-2geN_M .unread-1Dp-OI {
   height: 32px;
   left: 0px;
   border-radius: 0px;
@@ -604,7 +604,7 @@ div[class*="winButton-"] {
   top: 1px;
 }
 
-.wrapperHoveredText-2geN_M .unread-qLkInr-1Dp-OI~.contentHoveredText-2D9B-x {
+.wrapperHoveredText-2geN_M .unread-1Dp-OI~.contentHoveredText-2D9B-x {
   border-left: 2px solid transparent !important;
 }
 
