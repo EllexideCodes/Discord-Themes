@@ -3569,7 +3569,8 @@ dismiss-1QjyJW, .dismiss-SCAH9H {
 .theme-dark [class*="switch"][class*="valueUnchecked"]::after,
 .themeDefault-24hCdX.sizeDefault-2YlOZr:after, 
 .valueChecked-m-4IJZ, 
-.valueChecked-m-4IJZ.sizeDefault-2YlOZr:after {
+.valueChecked-m-4IJZ.sizeDefault-2YlOZr:after,
+.avatarDefault-35WC3R, .avatarSpeaking-1wJCNq {
   border-radius: var(--roundness) !important;
 }
 
