@@ -1241,11 +1241,11 @@ div[class*="winButton-"] {
 .modal-1UGdnR [class*="status-"],
 .wrapper-2F3Zv8.da-xsmall [class*="status-"]
 {
-    height: calc(100% - 2px);
-    width: calc(100% - 2px);
+    height: calc(100% - 1px);
+    width: calc(100% - 1px);
     margin: 0;
-    top: 0px;
-    left: 0px;
+    top: -1px;
+    left: -1px;
     background: transparent;
     border:2px solid;
     transition-duration: .5s;
