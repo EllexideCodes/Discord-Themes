@@ -636,6 +636,21 @@
     background-color: transparent !important;
 }
 
+.incomingCallInner-2VmFiR::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: var(--popup-background);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+    pointer-events: none;
+  }
+
 .form-deprecated .btn-primary:hover, 
 .form.deprecated .btn-primary:hover {
     background: #677bc4 !important;
