@@ -1247,7 +1247,7 @@ div[class*="winButton-"] {
     top: -1px;
     left: -1px;
     background: transparent;
-    border:2px solid;
+    border:2px solid !important;
     transition-duration: .5s;
     box-shadow: none
 }
