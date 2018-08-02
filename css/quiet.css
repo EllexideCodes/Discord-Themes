@@ -2485,6 +2485,11 @@ form.modal-content.form.need-help-modal::after {
 
 /* 22. Modals */
 
+.incomingCallInner-2VmFiR {
+  background: var(--primary-color) !important;
+  border-color: var(--quaternary-color) !important;
+}
+
 .theme-dark .theme-light .clipboardInputInner-1EXMA3 {
   background: var(--quaternary-color) !important;
   border: 1px solid var(--quaternary-color);
@@ -3553,7 +3558,7 @@ dismiss-1QjyJW, .dismiss-SCAH9H {
 .guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK::after, 
 .mask-3OgeRz, 
 .image-33JSyf, 
-.avatar-16XVId .status-oxiHuE,
+.status-oxiHuE,
 .avatar-16XVId,
 .member-3W1lQa [class*="status-"], 
 .userPopout-3XzG_A [class*="status-"], 
