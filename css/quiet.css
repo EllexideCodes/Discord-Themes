@@ -1243,16 +1243,15 @@ div[class*="winButton-"] {
 .modal-1UGdnR [class*="status-"],
 .wrapper-2F3Zv8.da-xsmall [class*="status-"]
 {
-    height: 100% !important;
-    width: 100% !important;
-    border-radius: 0% !important;
+    height: calc(100% - 2px);
+    width: calc(100% - 2px);
     margin: 0;
-    top: -2px !important;
-    left: -2px !important;
-    background: transparent !important;
-    border:2px solid !important;
-    transition-duration: .5s !important;
-    box-shadow: none !important
+    top: 0px;
+    left: 0px;
+    background: transparent;
+    border:2px solid;
+    transition-duration: .5s;
+    box-shadow: none
 }
 
 .avatar-16XVId .status-oxiHuE {
