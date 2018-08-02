@@ -5,6 +5,10 @@
 /* User Settings */
 :root {
     --theme-name: "Discord Reborn";
+    --main-color: #007dbd;
+  --hover-color: #03679b;
+  --background-image: url(https://s-media-cache-ak0.pinimg.com/originals/60/c4/bb/60c4bb55215c989b15b0fe144c73cf82.jpg);
+  --popup-background: url(https://s-media-cache-ak0.pinimg.com/originals/60/c4/bb/60c4bb55215c989b15b0fe144c73cf82.jpg);
     /* Dark Theme */
     --dark-primary: rgba(0,0,0,0.75);
     --dark-secondary: rgba(0,0,0,0.6);
@@ -605,27 +609,9 @@
   border: 1px solid #222 !important;
 }
 
-.autocomplete-1vrmpx {
-   background-image: var(--background-image);
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-position: center;
-   border-bottom: 2px solid var(--main-color);
+.selectorSelected-1_M1WV, .regionSelectModal-12e-57, .regionSelectModal-12e-57 .regionSelectModalOptions-2TWQOB, .theme-dark .gamePreview-9weYR2, .theme-light .gamePreview-9weYR2, .news-2KwXHF, .theme-dark .body-1SVoBw, .theme-light .body-1SVoBw {
+    border: 1px solid var(--main-color);
 }
- 
- .autocomplete-1vrmpx::before {
-   content: '';
-   position: absolute;
-   top: 0;
-   left: 0;
-   height: 100%;
-   width: 100%;
-   background-color: var(--primary-color);
-   z-index: -5;
-   pointer-events: none;
- }
-
-
 
 /* 9. Modals */
 
