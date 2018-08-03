@@ -1249,7 +1249,8 @@ div[class*="winButton-"] {
     background: transparent;
     border:2px solid !important;
     transition-duration: .5s;
-    box-shadow: none
+    box-shadow: none;
+    pointer-events: none;
 }
 
 .avatar-16XVId .status-oxiHuE {
@@ -1390,7 +1391,7 @@ div[class*="winButton-"] {
 .menu-Sp6bN1.alt-3btY0e {
   position: absolute;
   width: 240px !important;
-  top: -56px !important;
+  top: -52px !important;
   left: -10px !important;
   padding: 0;
   border-radius: 0 !important;
