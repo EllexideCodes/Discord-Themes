@@ -2341,6 +2341,16 @@ background: var(--tertiary-color) !important;
   z-index: 2;
 }
 
+.unread-1xRYoj {
+  background-color: var(--primary-color);
+  border: 1px solid var(--main-color);
+  transition: background-color .2s ease-in-out;
+}
+
+.unread-1xRYoj:hover {
+  background-color: var(--main-color);
+}
+
 /* 20. Rich Embeds */
 
 .embedPill-1Zntps {
