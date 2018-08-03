@@ -954,6 +954,8 @@ div[class*="winButton-"] {
   background: transparent !important;
 }
 
+.emojiPicker-3m1S-j .diversitySelector-tmmMv0 
+
 .emojiPicker-3m1S-j .scroller-2FKFPG .emojiItem-109bjA {
   background-size: contain !important;
   background-position: 50% !important;
@@ -1107,9 +1109,11 @@ div[class*="winButton-"] {
   opacity: 0.8;
 }
 
-.diversitySelector-tmmMv0 .popout-2nUePc {
+.bda-dark .emoji-picker .diversity-selector .popout-3sVMXz, 
+.bda-dark .emojiPicker-3m1S-j .diversitySelector-tmmMv0 .popout-2nUePc {
   background: var(--quaternary-color);
   border: 1px solid var(--primary-color);
+  z-index: 2;
 }
 
 .emote-container:hover,
