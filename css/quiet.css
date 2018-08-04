@@ -1725,7 +1725,7 @@ div[class*="winButton-"] {
 }
 
 .spinner-pulsing-ellipsis .spinner-item,
-.chat-3bRxxu .new-messages-bar {
+.chat-3bRxxu .newMessagesBar-mujexs {
   background-color: var(--main-color) !important;
 }
 
@@ -1748,7 +1748,7 @@ background: var(--tertiary-color) !important;
   color: #fff !important;
 }
 
-.chat-3bRxxu .new-messages-bar:hover {
+.chat-3bRxxu .newMessagesBar-mujexs:hover {
   background-color: var(--hover-color) !important;
 }
 
