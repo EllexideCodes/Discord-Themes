@@ -23,11 +23,11 @@
 
 .theme-dark .members-1998pB:hover .membersGroup-v9BXpm{font-size: 13px; width: 100% !important; padding: 4px; text-align: center;margin-left: 2px !important;}
 
-.chat.flex-vertical.flex-spacer>.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical{margin-right:-145px !important;z-index:1}
+.chat-3bRxxu .content-yTz4x3>.flex-spacer.flex-vertical{margin-right:-145px !important;z-index:1}
 
-.chat.flex-vertical.flex-spacer>.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical:only-child {margin-right:0px !important;z-index:1}
+.chat-3bRxxu .content-yTz4x3>.flex-spacer.flex-vertical:only-child {margin-right:0px !important;z-index:1}
     
-.chat.flex-vertical.flex-spacer.private>.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical{margin-right:0px;z-index:1}
+.chat-3bRxxu .content-yTz4x3.flex-spacer.flex-vertical{margin-right:0px;z-index:1}
 
 [class*="scroller-"].theme-dark .members-1998pB{
     height: 100%;

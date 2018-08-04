@@ -3681,9 +3681,9 @@ dismiss-1QjyJW, .dismiss-SCAH9H {
 
 .chat-3bRxxu .content-yTz4x3>.flex-spacer.flex-vertical{margin-right:-145px !important;z-index:1}
 
-.chat-3bRxxu .flex-vertical.flex-spacer>.content-yTz4x3 .flex-spacer.flex-horizontal>.flex-spacer.flex-vertical:only-child {margin-right:0px !important;z-index:1}
+.chat-3bRxxu .content-yTz4x3>.flex-spacer.flex-vertical:only-child {margin-right:0px !important;z-index:1}
     
-.chat-3bRxxu .flex-vertical.flex-spacer.private>.content-yTz4x3 .flex-spacer.flex-horizontal>.flex-spacer.flex-vertical{margin-right:0px;z-index:1}
+.chat-3bRxxu .content-yTz4x3.flex-spacer.flex-vertical{margin-right:0px;z-index:1}
 
 [class*="scroller-"].theme-dark .members-1998pB{
     height: 100%;
