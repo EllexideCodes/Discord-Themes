@@ -126,15 +126,15 @@
   
 /* 2. Chat Area and Guild Area */
 
-.theme-dark .chat form,
-.theme-light .chat form  {
+.theme-dark .chat-3bRxxu form,
+.theme-light .chat-3bRxxu form  {
     -webkit-box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
     box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
     background-color: var(--tertiary-color) !important;
 }
 
 .guildsWrapper-5TJh6A,
-.messages-wrapper {
+.messagesWrapper-3lZDfY {
     background-color: var(--primary-color) !important;
 }
 
@@ -159,7 +159,7 @@
 
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH>div.guild-1EfMGQ:first-child .guildInner-3DSoA4, 
-.chat>.content, 
+.chat-3bRxxu>.content-yTz4x3, 
 .container-2Thooq{
   background-color: transparent !important;
 }
@@ -240,16 +240,17 @@
 
 /* 3. Main Chat Area */
 
-.chat .messages.scroller::-webkit-scrollbar-thumb {
+.chat-3bRxxu .messages-3amgkR.scroller::-webkit-scrollbar-thumb {
     background-color: var(--main-color) !important;
+    border-radius: 40px;
 }
 
-.chat .messages.scroller::-webkit-scrollbar {
+.chat-3bRxxu .messages-3amgkR.scroller::-webkit-scrollbar {
     width: 10px;
   }
 
-.chat .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6,
-.chat .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6:hover {
+  .chat-3bRxxu .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6,
+  .chat-3bRxxu .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6:hover {
   background-color: transparent !important;
   transition: background-color .2s linear;
 }
@@ -262,29 +263,29 @@
     background-color: transparent !important;
 }
 
-.theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn, 
-.theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn {
+.theme-dark .friends-table .messages-3amgkR .message-group-blocked .message-group-blocked-btn, 
+.theme-dark .messagesWrapper-3lZDfY .messages-3amgkR .message-group-blocked .message-group-blocked-btn {
   background: rgba(0,0,0,0.8) !important;
   color: #8a8e94;
 }
 
-.theme-dark .friends-table .messages .message-group-blocked.revealed, 
-.theme-dark .messages-wrapper .messages .message-group-blocked.revealed {
+.theme-dark .friends-table .messages-3amgkR .message-group-blocked.revealed, 
+.theme-dark .messagesWrapper-3lZDfY .messages-3amgkR .message-group-blocked.revealed {
   background: rgba(0,0,0,0.6) !important;
   border-color: transparent !important;
 }
 
-.theme-dark .friends-table .messages .message-group-blocked, 
-.theme-dark .messages-wrapper .messages .message-group-blocked {
+.theme-dark .friends-table .messages-3amgkR .message-group-blocked, 
+.theme-dark .messagesWrapper-3lZDfY .messages-3amgkR .message-group-blocked {
   background: rgba(0,0,0,0.8) !important;
   border-color: transparent !important;
 }
 
-.chat form .typing-2GQL18 {
+.chat-3bRxxu form .typing-2GQL18 {
   background: transparent !important;
 }
 
-.chat .channelTextAreaEnabledNoAttach-3tPFmT.channelTextArea-1LDbYG.channelTextArea-rNsIhG {
+.chat-3bRxxu .channelTextAreaEnabledNoAttach-3tPFmT.channelTextArea-1LDbYG.channelTextArea-rNsIhG {
     margin: 0 !important;
 }
 
@@ -328,9 +329,9 @@
 /* 4. Friends Tab */
 
 .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, 
-.messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece,
+.messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece,
 .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, 
-.messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {
+.messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-thumb {
   background-color: transparent !important;
   border-color: transparent !important;
 }
@@ -673,7 +674,7 @@
 
 /* 10. Transparency */
 
-.chat, 
+.chat-3bRxxu, 
 .container-PNkimc, 
 .container-2lgZY8, 
 .theme-dark .ui-standard-sidebar-view .content-region, 
@@ -686,7 +687,7 @@
 .content, 
 .layer-3QrUeG, 
 .layers-3iHuyZ, 
-.messages-wrapper .message-group, 
+.messagesWrapper-3lZDfY .message-group, 
 .wrapper-O5i5-0, 
 .clipboardInputInner-1EXMA3, 
 #friends, 
@@ -706,13 +707,14 @@
 
 /* 11. Shadows */
 
+.chat-3bRxxu,
 .channel-members-wrap, 
 .guildsWrapper-5TJh6A, 
 .channels-wrap .flexChild-faoVW3, 
 .container-2Thooq, 
 .container-1UB9sr, 
 #friends .friends-header, 
-.chat .title-wrap, 
+.chat-3bRxxu .title-wrap, 
 .popout-3sVMXz.popoutBottomRight-2JrySt.noArrow-3BYQ0Z.noShadow-321ZPm, 
 .chat form .channel-text-area-default, 
 .search-results-wrap, 
