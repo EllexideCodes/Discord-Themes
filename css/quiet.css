@@ -1833,6 +1833,7 @@ background: var(--tertiary-color) !important;
   border-radius: 3px;
   text-align: center;
   left: 0px;
+  margin-bottom: 25px;
 }
 
 .theme-dark .chat-3bRxxu .has-more button,
