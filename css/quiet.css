@@ -1211,6 +1211,9 @@ div[class*="winButton-"] {
 
 /* 10. Avatars */
 
+.avatar-17mtNa:hover {
+  opacity: 1 !important;
+}
 
 .member-3W1lQa [class*="status-"],
 .avatar-small [class*="status-"] {
