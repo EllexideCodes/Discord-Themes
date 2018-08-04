@@ -1763,7 +1763,7 @@ background: var(--tertiary-color) !important;
 .containerCozy-jafyvG .isMentionedCozy-3isp7y:after,
 .containerCozy-jafyvG .divider-32i8lo,
 .chat-3bRxxu .divider-3gKybi:before,
-.jump-to-present-bar button:first-of-type {
+.jumpToPresentBar-9P20AM button:first-of-type {
   display: none;
 }
 
@@ -1836,8 +1836,8 @@ background: var(--tertiary-color) !important;
   margin-bottom: 25px;
 }
 
-.theme-dark .chat-3bRxxu .has-more button,
-.theme-light .chat-3bRxxu .has-more button,
+.theme-dark .chat-3bRxxu .hasMore-3e72_v button,
+.theme-light .chat-3bRxxu .hasMore-3e72_v button,
 .theme-dark .hasMoreButton-1MELpI,
 .theme-light .hasMoreButton-1MELpI {
   background: var(--quaternary-color);
@@ -1845,7 +1845,7 @@ background: var(--tertiary-color) !important;
   color: var(--main-color);
 }
 
-.chat-3bRxxu .jump-to-present-bar {
+.chat-3bRxxu .jumpToPresentBar-9P20AM {
   bottom: 15px;
   border-radius: 20px;
   right: 50px !important;
@@ -1855,7 +1855,7 @@ background: var(--tertiary-color) !important;
   animation: slide-up .7s cubic-bezier(.4, 0, 0, 1), opacity .7s ease;
 }
 
-.chat-3bRxxu .jump-to-present-bar:before {
+.chat-3bRxxu .jumpToPresentBar-9P20AM:before {
   content: "";
   width: 20px;
   background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSIxMiI+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxwYXRoIGQ9Ik0wIDEyVjBoMTJ2MTIiLz4KICAgIDxwYXRoIGZpbGw9IiNGRkYiIGQ9Ik01LjI0ODI5MTAyIDJ2NS4yMTg2ODg5NkwzIDUgMiA2bDQgNCA0LTQtMS0xLTIuMjg0MTE4NjUgMi4yMTg2ODg5NlYyIi8+CiAgPC9nPgo8L3N2Zz4=);
@@ -1865,12 +1865,12 @@ background: var(--tertiary-color) !important;
   padding-left: 10px;
 }
 
-.chat-3bRxxu .jump-to-present-bar button:last-child {
+.chat-3bRxxu .jumpToPresentBar-9P20AM button:last-child {
   width: 130px !important;
   text-align: center;
 }
 
-.chat-3bRxxu .jump-to-present-bar .spinner-2enMB9 {
+.chat-3bRxxu .jumpToPresentBar-9P20AM .spinner-2enMB9 {
   margin-left: 20px !important;
   margin-top: 10px;
   padding-right: 15px;
