@@ -1747,11 +1747,11 @@ div[class*="winButton-"] {
 }
 
 .containerCozy-jafyvG:not(:last-child) {
-  padding: 5px 0px !important;
+  padding: 10px 0px !important;
 }
 
 .messagesWrapper-3lZDfY .containerCozy-jafyvG:last-child {
-  padding-top: 5px !important;
+  padding-top: 10px !important;
 }
 
 .containerCozy-jafyvG .isMentionedCozy-3isp7y:after,
@@ -1827,7 +1827,7 @@ div[class*="winButton-"] {
   border-radius: 3px;
   text-align: center;
   left: 0px;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 
 .theme-dark .chat-3bRxxu .hasMore-3e72_v button,
@@ -2424,7 +2424,9 @@ form.modal-content.form.need-help-modal::after {
   font-weight: 700;
   margin: 38px 0 0;
   font-size: 18px;
-}.need-help-modal .header input[type=text] {
+}
+
+.need-help-modal .header input[type=text] {
   display: none;
 }
 
