@@ -1621,7 +1621,9 @@ pre {
 
 
 /* 12. Shadows */
-.popout-3sVMXz.popoutBottomRight-2JrySt.noArrow-3BYQ0Z.noShadow-321ZPm {
+.popout-3sVMXz.popoutBottomRight-2JrySt.noArrow-3BYQ0Z.noShadow-321ZPm,
+.title-3qD0b- {
+  -webkit-box-shadow: none !important;
   box-shadow: none !important;
 }
 
