@@ -1799,6 +1799,7 @@ div[class*="winButton-"] {
 .chat-3bRxxu .divider-3gKybi {
   height: 28px;
   background-color: transparent;
+  margin: 10px 0px;
 }
 
 .friends-table .messages-3amgkR .divider:not(.red) span,
@@ -1827,7 +1828,6 @@ div[class*="winButton-"] {
   border-radius: 3px;
   text-align: center;
   left: 0px;
-  margin-bottom: 10px;
 }
 
 .theme-dark .chat-3bRxxu .hasMore-3e72_v button,
@@ -1918,7 +1918,7 @@ div[class*="winButton-"] {
 }
 
   /* guild video call */
-  .videoHeight-Qp_9vC.noChat-3nt48u {height: calc(100% + 2px)}
+  .videoHeight-Qp_9vC.noChat-3nt48u {height: calc(100vh + 2px)}
 
 /* 14. Friends List */
 
