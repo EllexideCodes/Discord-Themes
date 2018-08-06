@@ -153,7 +153,9 @@
 .userPopout-3XzG_A,
 .create-guild-container.deprecated,
 .modal-3HD5ck,
-.inner-1JeGVc .root-SR8cQa {
+.inner-1JeGVc .root-SR8cQa,
+.quickswitcher-3JagVE,
+.keyboardShortcutsModal-3piNz7 {
   background-image: var(--popup-background) !important;
   background-size: cover;
   background-repeat: no-repeat;
@@ -172,7 +174,9 @@
 .themedPopout-25DgLi::before,
 .searchPopout-1vUlP3::before,
 .menu-Sp6bN1::before,
-.modal-3HD5ck::before {
+.modal-3HD5ck::before,
+.quickswitcher-3JagVE::before,
+.keyboardShortcutsModal-3piNz7::before {
   content: "";
   position: absolute;
   height: 100%;

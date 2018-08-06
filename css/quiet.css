@@ -202,6 +202,14 @@
   background-color: var(--quaternary-color) !important;
 }
 
+.keyboardShortcutsModal-3piNz7 {
+  background-color: var(--primary-color) !important;
+}
+
+.quickswitcher-3JagVE {
+  background-color: var(--primary-color) !important;
+}
+
 .need-help-modal .header h1::after {
   left: -65px;
 }
