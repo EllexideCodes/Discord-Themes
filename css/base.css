@@ -2119,7 +2119,6 @@ pre {
 .menu-Sp6bN1 {
   border-radius: 0px;
   width: 100%;
-  animation: show-status 300ms linear;
 }
 
 .menu-Sp6bN1 .separator-2zcjq8 {
@@ -2381,6 +2380,10 @@ pre {
 
 .popout-3sVMXz.popoutTopLeft-b5Eb3O {
   margin-left: -10px;
+}
+
+.menu-Sp6bN1.alt-3btY0e {
+animation: show-status 300ms linear;
 }
 
 .menu-Sp6bN1.alt-3btY0e .item-1GzJrl .statusIconText-3b4TkH div {
