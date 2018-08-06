@@ -1649,6 +1649,10 @@ pre {
 
 
 /* 13. Roundness */
+.guild-1EfMGQ .guildInner-3DSoA4 {
+  border-radius: 0 !important;
+}
+
 .guild-1EfMGQ .guildIcon-CT-ZDq,
 .guilds-1q_RqH .guildPlaceholder-1ioaid,
 .guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK::after,
