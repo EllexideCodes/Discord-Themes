@@ -618,8 +618,14 @@
   border: 2px solid var(--quaternary-color);
 }
 
+  /* 4.e. Unread Indicator */
+  .unreadMentionsIndicatorBottom-BXS58x {
+    z-index: 1000;
+  }
 
-
+  .unreadMentionsIndicatorTop-gA6RCh {
+    top: 46px;
+  }
 
 
 /* 5. Channels */
