@@ -17,7 +17,8 @@
   --streaming: #643da7;
   --home-color: #eee;
   --home-size: 24px;
-  --roundness: 0px
+  --roundness: 0px;
+  --shadow: rgba(0,0,0,.4);
 }
 /* Table of Contents
     ======== STATIC ==========
@@ -1643,7 +1644,7 @@ pre {
 .modal-3HD5ck .message-2qRu38,
 .theme-dark .autocomplete-1vrmpx,
 .menu-Sp6bN1 {
-    box-shadow: 0 2px 20px rgba(0,0,0,.4) !important;
+  box-shadow: 0 2px 20px var(--shadow) !important;
 }
 
 
@@ -1785,7 +1786,7 @@ pre {
 
 .theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {
   background-color: transparent !important;
-  box-shadow: 0 0 0px 0px transparent !important;
+  box-shadow: none !important;
 }
 
 .theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group .actionButtons-1sUUug .jumpButton-3DTcS_ {
