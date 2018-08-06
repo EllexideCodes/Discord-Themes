@@ -1,17 +1,12 @@
 /* Imports */
-  @import url(https://fonts.googleapis.com/css?family=Satisfy|Montserrat:300);
-  @import url("https://ellexidecodes.github.io/Discord-Themes/css/new-tags.css");
-  @import "https://intrnl.github.io/derealised/dist/tags.css";
-
-
-
+@import url(https://fonts.googleapis.com/css?family=Satisfy|Montserrat:300);
+@import url("https://ellexidecodes.github.io/Discord-Themes/css/new-tags.css");
+@import "https://intrnl.github.io/derealised/dist/tags.css";
 
 
 /* Variables */
-
 :root {
-  --theme-name: "Quiet";
-  --theme-version: "4.5";
+  --theme-version: 5.0;
   --main-color: #16356d;
   --hover-color: #1c4faf;
   --online: #43b581;
@@ -24,29 +19,6 @@
   --home-size: 24px;
   --roundness: 0px
 }
-
-  /* Dark Mode */
-  .app.theme-dark, 
-  .theme-dark * {
-    --primary-color: #19191b;
-    --secondary-color: #1E1E21;
-    --tertiary-color: #232327;
-    --quaternary-color: #101011;
-  }
-
-  /* Light Mode */
-  .app.theme-light,
-  .theme-light * {
-    --primary-color: #ffffff;
-    --secondary-color: #f3f3f3;
-    --tertiary-color: #eeeeee;
-    --quaternary-color: #dbdbdb;
-  }
-
-
-
-
-
 /* Table of Contents
     ======== STATIC ==========
  1. Title Bar
@@ -114,7 +86,7 @@
   9.a. Main Friends List
   9.b. Action Buttons
 
-11. Games Tab
+10. Games Tab
 
 11. Avatars
   11.a. Remove Mask
@@ -143,6 +115,7 @@
 16. Menus
   16.a. Context Menus
   16.b. Status Picker
+  16.c. Message Menu
 
 17. Modals
   17.a. Help Modal
@@ -213,7 +186,6 @@
 .typeMacOS-3EmCyP.titleBar-AC4pGV { 
 	transform: none; 
 	position: relative; 
-	background: var(--primary-color) !important;
 }
 
   /* 1.c. Windows Buttons */
@@ -281,7 +253,6 @@
 .title-3qD0b-,
 .header-2o-2hj,
 .headerBar-UHpsPw {
-  background: var(--quaternary-color) !important;
   box-shadow: none;
   border-bottom: 2px solid var(--main-color) !important;
 }
@@ -303,7 +274,6 @@
 }
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH>.guild-1EfMGQ:first-child .guildInner-3DSoA4 {
-  background-color: var(--quaternary-color) !important;
   border-bottom: 2px solid var(--main-color);
   border-radius: 0px !important;
 }
@@ -324,7 +294,6 @@
 }
 
 .search .search-bar.searchBar-2_Yu-C {
-  background-color: var(--quaternary-color) !important;
   height: 46px;
   border-radius: 0px;
 }
@@ -336,7 +305,6 @@
   /* 2.b. Search Bars */
 .search .searchBarIcon-1J6sKG {
   width: 35px;
-  background-color: var(--quaternary-color);
 }
 
 .search .searchBar-2_Yu-C .icon-3cZ1F_ {
@@ -381,7 +349,6 @@
 }
 
 .private-channels .search-bar .searchBarInner-1_Tg2R {
-  background: var(--quaternary-color);
   border: 0px solid transparent;
   border-radius: 0px;
   padding: 0px;
@@ -408,11 +375,6 @@
 /* 3. User Settings */
   /* 3.a. General Sidebar */
 
-.ui-standard-sidebar-view .sidebar-region .sidebar,
-.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller {
-  background-color: var(--quaternary-color) !important;
-}
-
 .ui-standard-sidebar-view .sidebar-region, 
 .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller {
   justify-content: flex-start;
@@ -426,10 +388,6 @@
 }
 
   /* 3.b. General Content Area */
-
-.ui-standard-sidebar-view .content-region {
-  background-color: var(--primary-color) !important;
-}
 
 .ui-standard-sidebar-view .content-column.default {
   padding: 20px 40px 80px;
@@ -453,10 +411,23 @@
   background-color: var(--main-color) !important;
 }
 
+.accountBtnInner-sj5jLs {
+  background-color: var(--primary-color) !important;
+  border-color: var(--tertiary-color) !important;
+}
+
+.accountBtn-2Nozo3 {
+  transition: transform .2s ease-in-out;
+}
+
+.accountBtn-2Nozo3:hover {
+  transform: scale(1.2);
+}
+
 .cardPrimary-1Hv-to,
 .cardPrimaryEditable-3KtE4g,
 .authedApp-mj2Hmd {
-  background: var(--quaternary-color);
+  background: var(--quaternary-color) !important;
   border: none;
 }
 
@@ -471,18 +442,22 @@
   background: var(--main-color)
 }
 
-.theme-dark .button-mM-y8i {
+.bda-slist li {
+  background-color: var(--tertiary-color);
+  border-color: var(--quaternary-color);
+}
+
+.button-mM-y8i {
   background-color: var(--secondary-color) !important
 }
 
-.theme-dark .user-settings-games .game-name-input:focus,
-.theme-dark .user-settings-games .game-name-input:hover {
+.user-settings-games .game-name-input:focus,
+.user-settings-games .game-name-input:hover {
 	background-color: var(--tertiary-color) !important 
 }
 
-.theme-dark .user-settings-games .not-detected, 
-.theme-light .user-settings-games .not-detected {
-  background-color: var(--tertiary-color);
+.user-settings-games .not-detected {
+  background-color: var(--tertiary-color) !important;
 }
 
   /* 3.d. Buttons, Switches, and Bars */
@@ -526,14 +501,17 @@
 
 
 /* 4. Guilds Wrapper */
-  /* 4.a Main Guilds Wrapper */
+  /* 4.a. Main Guilds Wrapper */
 .guildsWrapper-5TJh6A {
   z-index: 6;
-  background-color: var(--quaternary-color) !important;
 }
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH {
-  padding: 48px 0px 70px 10px;
+  padding: 0px 0px 70px 10px;
+}
+
+.guildsWrapper-5TJh6A .scroller-wrap { 
+  margin-top: 48px !important;
 }
 
 .theme-light .guildsWrapper-5TJh6A .guilds-1q_RqH .friendsOnline-_wi_fM {
@@ -548,17 +526,6 @@
   /* 4.b. Guilds */
 .guild-1EfMGQ .guildInner-3DSoA4 {
   background-color: transparent !important;
-}
-
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ::before {
-  border-radius: 20px;
-  content: " ";
-  height: 10px;
-  left: -15px;
-  position: absolute;
-  width: 10px;
-  background: transparent;
-  margin-top: -3px;
 }
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:hover:before,
@@ -656,12 +623,6 @@
 
 
 /* 5. Channels */
-  /* 5.a. Main Channels Area */
-
-.channels-Ie2l6A, 
-.container-PNkimc {
-  background-color: var(--primary-color)
-}
 
   /* 5.b. Light Theme Recolor*/
 
@@ -754,6 +715,10 @@
   background-color: var(--tertiary-color);
   border-color: var(--hover-color);
   opacity: 80%;
+}
+
+.userHovered-2_fT4Z:active {
+  background-color: var(--tertiary-color) !important;
 }
 
   /* 5.e. Unread Indicator */
@@ -863,7 +828,6 @@
 /* 6. Account Area */
   /* 6.a. Main Container */
 .container-2Thooq {
-  background: var(--secondary-color) !important;
   height: 53px !important;
   z-index: 1;
 }
@@ -943,10 +907,6 @@
 
 
 /* 7. Members List */
-  /* 7.a. Main Member List */
-.members-1998pB {
-  background-color: var(--primary-color) !important;
-}
 
 .member-3W1lQa {
   border-right: 2px solid transparent;
@@ -1003,14 +963,6 @@
 
 /* 8. Chat */
   /* 8.a Main Chat Area */
-.chat-3bRxxu, 
-.chat-3bRxxu form, 
-.content-yTz4x3,
-.messagesWrapper-3lZDfY,
-.noChannel-Z1DQK7 {
-  background-color: var(--primary-color) !important;
-}
-
 .noChannel-Z1DQK7::before {
   content: '';
   position: absolute;
@@ -1220,10 +1172,6 @@ pre {
 }
 
   /* 8.h. DM Chat */
-.private-channel-call,
-.video-1FfuMD {
-  background-color: var(--primary-color) !important;
-}
 
 .private-channel-call.minimum .private-channel-call-info,
 .private-channel-call.normal .private-channel-call-info,
@@ -1257,10 +1205,6 @@ pre {
 }
 
   /* 8.k. Text Area */
-.inner-zqa7da {
-  background-color: var(--secondary-color) !important;
-}
-
 .chat-3bRxxu .attachButtonDivider-3Glu60 {
   display: none;
 }
@@ -1384,10 +1328,6 @@ pre {
   background-color: var(--quaternary-color) !important;
 }
 
-.search-results-wrap {
-  background-color: var(--primary-color) !important;
-}
-
 .search-results-wrap .search-result:before {
   background-image: linear-gradient(0deg, rgba(47, 49, 54, 0), var(--primary-color)) !important;
 }
@@ -1469,9 +1409,6 @@ pre {
 
 /* 9. Friends List */
   /* 9.a. Main Friends List */
-#friends {
-  background-color: var(--primary-color) !important;
-}
 
 #friends .friends-table .friends-row:hover {
   background: var(--quaternary-color) !important;
@@ -1511,10 +1448,6 @@ pre {
 
 
 /* 10. Games Tab */
-.activityFeed-28jde9 {
-  background: var(--primary-color) !important;
-}
-
 .card-7JP0BX {
   background-color: transparent !important;
 }
@@ -1725,9 +1658,11 @@ pre {
 .avatarHint-1qgaV3,
 .partyMemberOverflow-3VhFIX
 .partyMemberBackground-aSF9mc,
-.iconInactive-98JN5i,
+.icon-3o6xvg,
 .avatar-uploader-inner,
-.avatar-uploader-indicator {
+.avatar-uploader-indicator,
+.avatarDefault-35WC3R, 
+.avatarSpeaking-1wJCNq {
   border-radius: var(--roundness) !important;
 }
 
@@ -1737,10 +1672,10 @@ pre {
 
 /* 14. Scrollbars */
 .emojiPicker-3m1S-j .premiumPromo-yVfLiA,
-#autocomplete-popout .scroller::-webkit-scrollbar-track,
-#bda-qem-favourite-container .scroller-wrap .scroller::-webkit-scrollbar-track,
-#bda-qem-twitch-container .scroller-wrap .scroller::-webkit-scrollbar-track,
-.emojiPicker-3m1S-j .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-track {
+#autocomplete-popout .scroller::-webkit-scrollbar,
+#bda-qem-favourite-container .scroller-wrap .scroller::-webkit-scrollbar,
+#bda-qem-twitch-container .scroller-wrap .scroller::-webkit-scrollbar,
+.emojiPicker-3m1S-j .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar {
   display: none;
 }
 
@@ -1811,7 +1746,6 @@ pre {
 /* 15. Popouts */
   /* 15.a. Pinned Messages and Recent Mentions*/
 .themedPopout-25DgLi {
-  background-color: var(--primary-color) !important;
   border-left: 2px solid var(--main-color);
   border-right: 2px solid var(--main-color);
   border-bottom: 2px solid var(--main-color);
@@ -1820,7 +1754,6 @@ pre {
 
 .popout-3sVMXz .themedPopout-25DgLi .header-SsaQ8X {
   border-radius: 0px;
-  background-color: var(--quaternary-color) !important;
 }
 
 .popout-3sVMXz .messagesPopoutWrap-1MQ1bW {
@@ -2184,7 +2117,6 @@ pre {
 }
 
 .menu-Sp6bN1 {
-  background: var(--primary-color) !important;
   border-radius: 0px;
   width: 100%;
 }
@@ -2580,6 +2512,16 @@ pre {
   transition: all 200ms ease-in-out;
 }
 
+  /* 16.c. Message Menu */
+.container-3cGP6G {
+  background-color: var(--tertiary-color) !important;
+}
+
+.item-2J1YMK:active, 
+.item-2J1YMK:hover {
+  background-color: var(--quaternary-color) !important;
+}
+
 
 
 
@@ -2627,7 +2569,6 @@ pre {
   position: absolute;
   width: 200%;
   height: 150% !important;
-  left: -65px;
   margin-left: -45px;
   top: 10px !important;
   font-family: Satisfy;
@@ -2836,10 +2777,14 @@ form.modal-content.form.need-help-modal::after {
 }
 
 .form-deprecated .form-actions, 
-.form.deprecated .form-actions,
+.form.deprecated .form-actions {
+  background-color: var(--quaternary-color);
+  border-color: var(--tertiary-color);
+}
+
 .form-deprecated .btn-default, 
 .form.deprecated .btn-default {
-  background-color: var(--quaternary-color);
+  background-color: transparent;
   border-color: var(--tertiary-color);
 }
 
@@ -2923,7 +2868,6 @@ form.modal-content.form.need-help-modal::after {
 
   /* 17.g. Generic Modal */
 .footer-2yfCgX {
-  background-color: var(--secondary-color) !important;
   box-shadow: inset 0 1px 0 var(--tertiary-color) !important;
 }
 
@@ -3092,6 +3036,9 @@ form.modal-content.form.need-help-modal::after {
   border-color: var(--main-color);
 }
 
+.message-2qRu38 {
+  background-color: var(--tertiary-color) !important;
+}
 
 
 
