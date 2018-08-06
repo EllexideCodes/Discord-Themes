@@ -7,6 +7,10 @@
   opacity: 1 !important;
 }
 
+.guild-settings-audit-logs .large-3ChYtB:not(.wrapper-2F3Zv8)::before {
+  display: none !important;
+}
+
 .large-3ChYtB:not(.wrapper-2F3Zv8)::before {
   color: rgba(255, 255, 255, 0.3);
   font-size: 13px;
