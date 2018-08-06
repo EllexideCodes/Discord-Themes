@@ -198,6 +198,10 @@
 
 
 /* 12. Modals */
+.topSectionNormal-2-vo2m {
+  background-color: var(--quaternary-color) !important;
+}
+
 .need-help-modal .header h1::after {
   left: -65px;
 }

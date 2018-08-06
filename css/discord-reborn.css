@@ -152,14 +152,16 @@
 
 .userPopout-3XzG_A,
 .create-guild-container.deprecated,
-.modal-3HD5ck {
+.modal-3HD5ck,
+.inner-1JeGVc .root-SR8cQa {
   background-image: var(--popup-background) !important;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.userPopout-3XzG_A .header-2BwW8b {
+.userPopout-3XzG_A .header-2BwW8b,
+[class*="topSection"] {
   background-color: var(--primary-color) !important;
 }
 

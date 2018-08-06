@@ -760,7 +760,7 @@
   margin-left: 0px;
   height: 31.11px;
   border-radius: 3px;
-  background-color: var(--quaternary-color);
+  background-color: transparent;
   padding: 0px;
 }
   
@@ -2119,6 +2119,7 @@ pre {
 .menu-Sp6bN1 {
   border-radius: 0px;
   width: 100%;
+  animation: show-status 300ms linear;
 }
 
 .menu-Sp6bN1 .separator-2zcjq8 {
@@ -2650,9 +2651,6 @@ form.modal-content.form.need-help-modal::after {
 }
 
   /* 17.b. User Profile Modal */
-.topSectionNormal-2-vo2m {
-  background-color: var(--quaternary-color) !important;
-}
 
 .tabBarContainer-1s1u-z {
   border-color: transparent;
