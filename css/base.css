@@ -132,6 +132,8 @@
 19. Keyframes
 
 20. Misc
+  20.a. Plugin Optimization
+    20.a.1. BetterFormatting
 
 21. Custom CSS
 
@@ -1647,23 +1649,22 @@ pre {
 
 
 /* 13. Roundness */
-.theme-dark .guild-1EfMGQ .guildInner-3DSoA4,
+.guild-1EfMGQ .guildIcon-CT-ZDq,
 .guilds-1q_RqH .guildPlaceholder-1ioaid,
 .guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK::after,
 #friends .friends-table .friends-column.friends-column-guilds .icon-3o6xvg,
-.status-oxiHuE, 
+.status-oxiHuE,
 .image-33JSyf,
 .avatar-small,
-.avatar-xxlarge, 
+.avatar-xxlarge,
 .wrapper-2F3Zv8,
 .status-oxiHuE.typing-1KJk_j .pulsingEllipsisItem-32hhWL,
 .avatarHint-1qgaV3,
-.partyMemberOverflow-3VhFIX
-.partyMemberBackground-aSF9mc,
-.icon-3o6xvg,
+.partyMemberOverflow-3VhFIX .partyMemberBackground-aSF9mc,
+.listAvatar-1N1Ahb,
 .avatar-uploader-inner,
 .avatar-uploader-indicator,
-.avatarDefault-35WC3R, 
+.avatarDefault-35WC3R,
 .avatarSpeaking-1wJCNq {
   border-radius: var(--roundness) !important;
 }
@@ -3043,6 +3044,11 @@ form.modal-content.form.need-help-modal::after {
   background-color: var(--tertiary-color) !important;
 }
 
+  /* 20.a. Plugin Optimization */
+    /* 20.a.1. BetterFormatting */
+.bf-toolbar:before {
+  background-color: var(--quaternary-color);
+}
 
 
 
