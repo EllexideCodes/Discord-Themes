@@ -1106,17 +1106,12 @@ pre, code {
   border-radius: 3px !important;
 }
 
-pre.inline, code.inline {
-  padding: 3px !important;
-  background: var(--primary-color) !important;
-}
-
 code:not(.inline) {
   background: repeating-linear-gradient(0deg, var(--secondary-color) 5px, var(--secondary-color) 25px, var(--tertiary-color) 0, var(--tertiary-color) 45px) !important;
 }
 
-pre:not(.inline) {
-  background: repeating-linear-gradient(0deg, var(--secondary-color) 6px, var(--secondary-color) 25px, var(--tertiary-color) 0, var(--tertiary-color) 45px) !important;
+pre {
+  background: transparent !important;
 }
 
 pre>*, code>* {
