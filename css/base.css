@@ -290,12 +290,12 @@
   height: 46px;
 }
 
-.search .search-bar.searchBar-2_Yu-C {
+.search .search-bar {
   height: 46px;
   border-radius: 0px;
 }
 
-.titleCall-_b9o8p .search .search-bar.searchBar-2_Yu-C {
+.titleCall-_b9o8p .search .search-bar {
   background-color: transparent !important;
 }
 
@@ -2891,8 +2891,8 @@ form.modal-content.form.need-help-modal::after {
 }
 
 .selected-P8xTeN {
-  border-color: var(--main-color);
-  color: var(--main-color);
+  border-color: var(--main-color) !important;
+  color: var(--main-color) !important;
 }
 
   /* 17.i. Generic Modal */
