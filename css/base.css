@@ -291,6 +291,7 @@
 }
 
 .search .search-bar {
+  background-color: transparent;
   height: 46px;
   border-radius: 0px;
 }
@@ -2071,6 +2072,7 @@ pre {
   border-left: 2px solid var(--main-color) !important;
   border-right: 2px solid var(--main-color) !important;
   border-bottom: 2px solid var(--main-color) !important;
+  margin-top: 9px;
 }
 
 .searchPopout-1vUlP3 .resultsGroup-r_nuzN,
@@ -2881,6 +2883,10 @@ form.modal-content.form.need-help-modal::after {
 }
 
   /* 17.h. Screenshare Modal */
+.tiles-2aXG_k {
+  background-color: var(--quaternary-color) !important;
+}
+
 .selectorButtonSelected-1j4DmC {
   background-color: var(--main-color);
 }

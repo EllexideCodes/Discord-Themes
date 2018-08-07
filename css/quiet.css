@@ -76,10 +76,6 @@
 }
 
   /* 2.b. Search Bars */
-.search .search-bar {
-  background-color: var(--quaternary-color) !important;
-}
-
 .search .searchBarIcon-1J6sKG {
   background-color: var(--quaternary-color);
 }
@@ -158,7 +154,7 @@
 
 .private-channel-call,
 .video-1FfuMD {
-  background-color: var(--primary-color) !important;
+  background-color: var(--quaternary-color) !important;
 }
 
 .inner-zqa7da {
