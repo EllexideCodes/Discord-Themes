@@ -296,6 +296,10 @@
   width: 35px;
 }
 
+.search-bar {
+  background-color: var(--quaternary-color);
+}
+
 .search .search-bar {
   background-color: transparent !important;
   height: 46px;
@@ -2156,12 +2160,12 @@ pre {
 }
 
 .item-1GzJrl.invite-271nFU .icon-2doZ3q {
-  -webkit-mask: url("/assets/d4ff0d2af68cd1119f0d16ef79d1369c.svg");
+  -webkit-mask: url("https://discordapp.com/assets/d4ff0d2af68cd1119f0d16ef79d1369c.svg");
   background-color: var(--main-color) !important;
 }
 
 .item-1GzJrl.leave-1DRJfn .icon-2doZ3q {
-  -webkit-mask: url("/assets/00de6b3cbb5c4dbcec817c91262f5f5b.svg");
+  -webkit-mask: url("https://discordapp.com/assets/00de6b3cbb5c4dbcec817c91262f5f5b.svg");
   background-color: var(--dnd) !important;
   opacity: 0.7;
 }
