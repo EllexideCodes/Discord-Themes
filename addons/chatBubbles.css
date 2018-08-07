@@ -25,13 +25,13 @@ padding: 0px 13px;
 
 .containerCozy-jafyvG {position: relative; margin-top: .5em;}
 
-.containerCozy-jafyvG .large-3ChYtB:not(.wrapper-2F3Zv8):after {
+.containerCozy-jafyvG .large-3ChYtB.wrapper-2F3Zv8:after {
 content: ' ';
 height: 0;
 width: 0;
 border: 9px solid transparent;
 border-right-color: var(--quaternary-color);
 position: absolute;
-margin-top: 25%;
+margin-top: 75%;
 margin-left: 105%;
 }
