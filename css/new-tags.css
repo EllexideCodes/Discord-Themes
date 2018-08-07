@@ -1037,7 +1037,9 @@
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="402272736665272320"]::before {
   background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/elleCrown.svg);
+  transition: filter .2s ease-in-out;
 }
+
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="134349083568504832"]::before {
   background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/kevinCrown.svg);
 }
@@ -1052,6 +1054,8 @@
   background-image: url(https://i.imgur.com/5zJxSbe.png);
   bottom: -8px;
   right: -8px;
+  filter: none;
+  transition: filter .2s ease-in-out;
 }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/214318588331294720"]:hover::before {
@@ -1077,6 +1081,15 @@
   box-shadow: none !important;
   padding: none !important;
   background-color: transparent !important;
+}
+
+
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="402272736665272320"]:hover::before {
+  filter: drop-shadow(0 0 3px #fddfaa);
+}
+
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="116243287936860167"]:hover::before {
+  filter: invert(95%);
 }
 
 @font-face {
