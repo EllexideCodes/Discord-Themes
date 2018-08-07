@@ -3097,7 +3097,7 @@ form.modal-content.form.need-help-modal::after {
   /* 20.a. Plugin Optimization */
     /* 20.a.1. BetterFormatting */
 .bf-toolbar:before {
-  background-color: var(--quaternary-color);
+  background: var(--quaternary-color) !important;
 }
 
 
