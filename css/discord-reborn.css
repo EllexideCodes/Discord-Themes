@@ -99,7 +99,8 @@
 .guildsWrapper-5TJh6A .guilds-1q_RqH>.guild-1EfMGQ:first-child .guildInner-3DSoA4,
 .container-2Thooq,
 .private-channels .search-bar,
-.wrapper-2NJDcI {
+.wrapper-2NJDcI,
+.wrapper-29NfPK {
   background: transparent !important;
 }
 
@@ -164,7 +165,8 @@
 }
 
 .userPopout-3XzG_A .header-2BwW8b,
-[class*="topSection"] {
+[class*="topSection"],
+.tiles-2aXG_k {
   background-color: var(--primary-color) !important;
 }
 
@@ -188,7 +190,8 @@
   pointer-events: none;
 }
 
-.menu-Sp6bN1 .label-1Y-LW5 {
+.menu-Sp6bN1 .label-1Y-LW5,
+.content-1_NQ-_ {
   z-index: 1;
 }
 

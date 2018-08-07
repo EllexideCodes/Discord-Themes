@@ -1403,11 +1403,6 @@ pre {
   background-color: var(--main-color) !important;
 }
 
-  /* 8.o. Video Call Reheight */
-.videoHeight-Qp_9vC.noChat-3nt48u {
-  height: calc(100vh + 2px);
-}
-
 
 
 /* 9. Friends List */
@@ -2885,7 +2880,22 @@ form.modal-content.form.need-help-modal::after {
   background-color: var(--tertiary-color) !important;
 }
 
-  /* 17.g. Generic Modal */
+  /* 17.h. Screenshare Modal */
+.selectorButtonSelected-1j4DmC {
+  background-color: var(--main-color);
+}
+
+.item-1TLUig:hover {
+  border-bottom: 2px solid var(--hover-color);
+  color: var(--hover-color);
+}
+
+.selected-P8xTeN {
+  border-color: var(--main-color);
+  color: var(--main-color);
+}
+
+  /* 17.i. Generic Modal */
 .footer-2yfCgX {
   box-shadow: inset 0 1px 0 var(--tertiary-color) !important;
 }
