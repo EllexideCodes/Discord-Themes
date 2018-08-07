@@ -69,7 +69,6 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/114975260436070408"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/114975260436070408"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/115995222999040000"]::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/116243287936860167"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/118580050458181632"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/120353989886869504"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/120873599254003712"]::before,
@@ -298,10 +297,6 @@
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/115995222999040000"]:hover::before {
   content: "Female" !important;
-}
-
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/116243287936860167"]:hover::before {
-  content: "Miezengang" !important;
 }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/118580050458181632"]:hover::before {
@@ -998,22 +993,35 @@
 }
 
 /* My friends and my borders */
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="402272736665272320"] {
-  border: 2px solid;
-  border-image: url(https://i.imgur.com/FdXrSXf.gif);
-  border-image-slice: 1;
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="402272736665272320"]::after,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="182064839827521536"]::after {
+  content: '';
+  position: absolute;
+  height: calc(100% + 4px);
+  width: calc(100% + 4px);
+  top: -2px;
+  left: -2px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  border-radius: var(--roundness);
+  z-index: -1;
 }
 
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="182064839827521536"] {
-  border: 2px solid;
-  border-image: url(https://cdn.discordapp.com/attachments/402299470844395530/462532097215692820/giphy.gif);
-  border-image-slice: 1;
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="402272736665272320"]::after {
+  background-image: url(https://i.imgur.com/FdXrSXf.gif);
+}
+
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="182064839827521536"]::after {
+  background-image: url(https://cdn.discordapp.com/attachments/402299470844395530/462532097215692820/giphy.gif);
   }
 
 /* badges */
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="402272736665272320"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="134349083568504832"]::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="214318588331294720"]::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="214318588331294720"]::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="116243287936860167"]::before {
   content: '';
   color: transparent;
   height: 15px;
@@ -1038,6 +1046,14 @@
   background-image: url(https://i.imgur.com/tsr97cA.gif);
 }
 
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="116243287936860167"]::before {
+  height: 20px;
+  width: 20px;
+  background-image: url(https://i.imgur.com/5zJxSbe.png);
+  bottom: -8px;
+  right: -8px;
+}
+
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/214318588331294720"]:hover::before {
   content: "GREEN?";
   background: url(https://i.imgur.com/sZJzzNW.gif);
@@ -1054,7 +1070,8 @@
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="402272736665272320"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="134349083568504832"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="214318588331294720"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="214318588331294720"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="116243287936860167"]:hover::before {
   display: block !important;
   background-color: transparent !important;
   box-shadow: none !important;
