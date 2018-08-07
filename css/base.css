@@ -307,7 +307,7 @@
 
 .search .search-bar .icon {
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-50%) !important;
 }
 
 .search-bar .search-bar-inner {
@@ -2076,7 +2076,6 @@ pre {
   border-left: 2px solid var(--main-color) !important;
   border-right: 2px solid var(--main-color) !important;
   border-bottom: 2px solid var(--main-color) !important;
-  margin-top: 9px;
 }
 
 .searchPopout-1vUlP3 .resultsGroup-r_nuzN,
