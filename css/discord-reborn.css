@@ -156,7 +156,8 @@
 .inner-1JeGVc .root-SR8cQa,
 .quickswitcher-3JagVE,
 .keyboardShortcutsModal-3piNz7,
-.container-2x5lvQ {
+.container-2x5lvQ,
+.incomingCall-14zLcL {
   background-image: var(--popup-background) !important;
   background-size: cover;
   background-repeat: no-repeat;
@@ -167,7 +168,8 @@
 [class*="topSection"],
 .tiles-2aXG_k,
 .container-2x5lvQ header,
-.container-2x5lvQ section {
+.container-2x5lvQ section,
+.incomingCallInner-2VmFiR {
   background-color: var(--primary-color) !important;
 }
 
