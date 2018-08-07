@@ -1698,7 +1698,8 @@ pre {
 
 .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, 
 .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece,
-.scrollerWrap-2lJEkd .scroller-2CvAgC::-webkit-scrollbar-track-piece {
+.scrollerWrap-2lJEkd .scroller-2CvAgC::-webkit-scrollbar-track-piece,
+.scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-track {
   background-color: transparent !important;
   border-color: transparent !important;
 }
