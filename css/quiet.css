@@ -197,6 +197,13 @@
   background: var(--primary-color) !important;
 }
 
+.container-2x5lvQ header {
+  background-color: var(--quaternary-color) !important;
+}
+
+.container-2x5lvQ section {
+  background-color: var(--primary-color) !important;
+}
 
 
 /* 12. Modals */

@@ -81,7 +81,7 @@
   8.l. Typing Bar
   8.m. Notification Bar
   8.n. Search Results
-  8.o. Video Call Reheight
+  8.o. Video Calling
 
  9. Friends List
   9.a. Main Friends List
@@ -112,6 +112,7 @@
   15.i. Tooltips
   15.j. @Everyone Popout
   15.k. Attach Popout
+  15.l. RTC Connection Popout
 
 16. Menus
   16.a. Context Menus
@@ -1408,6 +1409,10 @@ pre {
   background-color: var(--main-color) !important;
 }
 
+  /* 8.o. Video Calling */
+.callAvatarBorder-1D_KaE.video-3GgX2M.selected-2esnyn:not(.speaking-oCqYMI):not(.soundsharing-102bS9) {
+  box-shadow: inset 0 0 2px var(--main-color);
+}
 
 
 /* 9. Friends List */
@@ -1666,7 +1671,7 @@ pre {
 .status-oxiHuE.typing-1KJk_j .pulsingEllipsisItem-32hhWL,
 .avatarHint-1qgaV3,
 .partyMemberOverflow-3VhFIX .partyMemberBackground-aSF9mc,
-.listAvatar-1N1Ahb,
+.listRow-hutiT_ .listAvatar-1NlAhb,
 .avatar-uploader-inner,
 .avatar-uploader-indicator,
 .avatarDefault-35WC3R,
@@ -2290,6 +2295,11 @@ pre {
   background-color: var(--primary-color) !important;
 }
 
+  /* 15.l. RTC Connection Popout */
+.popoutTopRight-3BzFIE section:before, 
+.popoutTop-3uu9vG section:before {
+  border-top-color: var(--primary-color) !important;
+}
 
 
 /* 16. Menus */
@@ -3077,6 +3087,10 @@ form.modal-content.form.need-help-modal::after {
 
 .message-2qRu38 {
   background-color: var(--tertiary-color) !important;
+}
+
+.botTagRegular-2HEhHi {
+  background-color: var(--main-color);
 }
 
   /* 20.a. Plugin Optimization */
