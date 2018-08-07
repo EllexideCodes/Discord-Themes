@@ -290,12 +290,6 @@
   height: 46px;
 }
 
-.chat-3bRxxu:not(.private) .channelName-3stJzi {
-  left: 1%;
-  position: relative;
-  pointer-events: none;
-}
-
 .search .search-bar.searchBar-2_Yu-C {
   height: 46px;
   border-radius: 0px;
