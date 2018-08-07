@@ -1,0 +1,17 @@
+:root {
+  --shadow: transparent;
+}
+
+/* Modals */
+.body-3iLsc4, 
+.footer-1fjuF6,
+.body-3ND3kc {
+  border-top: 2px solid var(--main-color);
+  background-color: #010101 !important;
+}
+
+/* Guild Add Button */
+
+.guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK::after {
+  background: var(--primary-color) !important;
+}
