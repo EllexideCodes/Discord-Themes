@@ -55,6 +55,7 @@
   5.e. Unread Indicator
   5.f. Categories
   5.g. DM List
+  5.h. Unread Messages Popout
 
  6. Account Area
   6.a. Main Container
@@ -836,7 +837,20 @@
   border-left: 2px solid var(--main-color) !important;
 }
 
+  /* 5.h. Unread Messages Popout */
+.container-35XQWE {
+  z-index: 2;
+}
 
+.unread-1xRYoj {
+  background-color: var(--primary-color);
+  border: 1px solid var(--main-color);
+  transition: background-color .2s ease-in-out;
+}
+
+.unread-1xRYoj:hover {
+  background-color: var(--main-color);
+}
 
 
 
