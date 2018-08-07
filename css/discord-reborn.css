@@ -98,7 +98,8 @@
 .headerBar-UHpsPw,
 .guildsWrapper-5TJh6A .guilds-1q_RqH>.guild-1EfMGQ:first-child .guildInner-3DSoA4,
 .container-2Thooq,
-.private-channels .search-bar .searchBarInner-1_Tg2R {
+.private-channels .search-bar,
+.wrapper-2NJDcI {
   background: transparent !important;
 }
 

@@ -76,7 +76,7 @@
 }
 
   /* 2.b. Search Bars */
-.search .search-bar.searchBar-2_Yu-C {
+.search .search-bar {
   background-color: var(--quaternary-color) !important;
 }
 
@@ -84,7 +84,7 @@
   background-color: var(--quaternary-color);
 }
 
-.private-channels .search-bar .searchBarInner-1_Tg2R {
+.private-channels .search-bar {
   background: var(--quaternary-color);
 }
 
@@ -128,6 +128,9 @@
   background-color: var(--primary-color)
 }
 
+.wrapper-2NJDcI {
+  background-color: var(--primary-color) !important;
+}
 
 
 /* 6. Account Area */

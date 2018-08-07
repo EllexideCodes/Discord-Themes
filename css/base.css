@@ -309,8 +309,9 @@
   transform: translateY(-50%);
 }
 
-.search .DraftEditor-root {
-  line-height: 39px;
+.search-bar .search-bar-inner {
+  background: transparent;
+  border-color: transparent;
 }
 
 .search .DraftEditor-root .public-DraftEditorPlaceholder-root {
@@ -722,10 +723,6 @@
 
 .userHovered-2_fT4Z:active {
   background-color: var(--tertiary-color) !important;
-}
-
-.wrapper-2NJDcI {
-  background-color: var(--main-color) !important;
 }
 
   /* 5.e. Unread Indicator */
