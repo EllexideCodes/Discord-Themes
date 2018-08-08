@@ -32,6 +32,6 @@ width: 0;
 border: 9px solid transparent;
 border-right-color: var(--quaternary-color);
 position: absolute;
-margin-top: 75%;
+margin-top: -75%;
 margin-left: 105%;
 }
