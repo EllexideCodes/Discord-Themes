@@ -1233,6 +1233,11 @@ pre {
   background-color: var(--main-color) !important;
 }
 
+.wrapper-35wsBm {
+  background-color: var(--quaternary-color) !important;
+  border-color: transparent !important;
+}
+
   /* 8.k. Text Area */
 .chat-3bRxxu .attachButtonDivider-3Glu60 {
   display: none;
