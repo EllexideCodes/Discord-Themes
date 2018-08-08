@@ -12,17 +12,16 @@
     display: flex !important;
     flex-direction: row !important;
     flex-flow: row wrap !important;
-    justify-content: space-evenly;
+    justify-content: center;
     padding-left: 0;
     align-content: flex-start;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ,
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:not(.guildsAdd-21_IdK),
 .guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV .guild-1EfMGQ {
     margin-left: 4px;
     margin-right: 4px; 
     margin-top: 8px;
-    float: left;
 }
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:first-child {
@@ -102,10 +101,6 @@
     display: none;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ {
-    position: relative;
-}
-
 .guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV {
     width: 140px !important;
     display: flex;
@@ -122,12 +117,13 @@
 }
 
 .guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK {
-  margin-left: 30px !important;
+    left: 50%;
+    transform: translateX(-58%);
 }
 
 .guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK::before {
   width: 140px !important;
-  margin-left: 30px;
+  margin-left: -35px;
 }
 
 /* optimized for server folders */
