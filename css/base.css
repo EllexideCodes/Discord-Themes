@@ -719,7 +719,8 @@
   border-left: 2px solid transparent;
 }
 
-.contentSelectedText-3wUhMi {
+.contentSelectedText-3wUhMi, 
+.contentSelectedVoice-1WDIBM {
   background-color: var(--quaternary-color);
   border-color: var(--main-color);
 }
