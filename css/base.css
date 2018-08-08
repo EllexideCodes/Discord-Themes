@@ -1165,6 +1165,7 @@ pre {
 }
 
 .chat-3bRxxu .jumpToPresentBar-9P20AM {
+  background-color: var(--main-color) !important;
   bottom: 15px;
   border-radius: 20px;
   right: 50px !important;
@@ -3109,6 +3110,10 @@ form.modal-content.form.need-help-modal::after {
 
 .botTagRegular-2HEhHi {
   background-color: var(--main-color);
+}
+
+.elevationHigh-1PneE4 {
+  background-color: var(--primary-color) !important;
 }
 
   /* 20.a. Plugin Optimization */
