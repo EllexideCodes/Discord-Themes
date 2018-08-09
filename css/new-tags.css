@@ -7,7 +7,8 @@
   opacity: 1 !important;
 }
 
-.guild-settings-audit-logs .large-3ChYtB:not(.wrapper-2F3Zv8)::before {
+.guild-settings-audit-logs .large-3ChYtB:not(.wrapper-2F3Zv8)::before,
+.guild-settings-audit-logs .large-3ChYtB:not(.wrapper-2F3Zv8)::after {
   display: none !important;
 }
 

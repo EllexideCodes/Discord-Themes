@@ -12,44 +12,9 @@ IMPORTANT: CHANGE DISCORDS THEME TO DARK THEME IN APPEARANCE SETTINGS FOR THIS T
  --main-color: #8d2036;
  --hover-color: #6f182a;
  }
+
 /*
 ---------------------------------------------------------------------------------------------------------------------------------------------
 TROUBLESHOOTING: IF YOU NEED ANY HELP GO TO https://discord.gg/g7nf298
 ---------------------------------------------------------------------------------------------------------------------------------------------
 */ 
-
-/* ---- CUSTOM CSS ---- */
-
-/* -- BD EDITS -- */
-/* Main CSS Box */
-.ace-monokai {
-  background-color: var(--tertiary-color);
-  color: white;
-}
-
-/* Gutter Line */
-.ace-monokai .ace_gutter {
-  background: var(--quaternary-color);
-  color: var(--rs-streaming-color);
-}
-/* Shorter Highlight Line */
-.ace-monokai .ace_gutter-active-line {
-  background-color: var(--secondary-color);
-}
-/* When Clicking and Dragging through the codes to highlight them */
-.ace-monokai .ace_marker-layer .ace_selection {
-  background: var(--main-color);
-}
-/* Long Highlight Line */
-.ace-monokai .ace_marker-layer .ace_active-line {
-  background: #121212;
-}
-/* Bracket Border */
-.ace-monokai .ace_marker-layer .ace_bracket {
-  margin: -1px 0 0 -1px;
-  border: 1px solid var(--hover-color);
-}
-/* Comment Code */
-.ace-monokai .ace_comment {
-  color: var(--rs-online-color);
-}

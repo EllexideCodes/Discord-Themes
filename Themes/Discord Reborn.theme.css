@@ -5,29 +5,15 @@
 /*
 ===== IMPORTANT =====
 CHANGE DISCORDS THEME TO DARK THEME IN APPEARANCE SETTINGS FOR THIS THEME TO WORK!
-===== CUSTOMIZABLE COLORS =====
+===== CUSTOMIZABLE COLORS AND IMAGES =====
 */
 :root { 
 	--main-color: #007dbd;
-	--hover-color: #03679b;
+  --hover-color: #03679b;
+  --background-image: url(https://s-media-cache-ak0.pinimg.com/originals/60/c4/bb/60c4bb55215c989b15b0fe144c73cf82.jpg);
+  --popup-background: url(https://s-media-cache-ak0.pinimg.com/originals/60/c4/bb/60c4bb55215c989b15b0fe144c73cf82.jpg);
  }
- /*
-===== CUSTOMIZABLE IMAGES =====
-IMPORTANT: EVERY URL MUST BE HTTPS:// IN ORDER TO WORK IN DISCORD
-RECOMMENDATIONS: EVERY URL AT THE BOTTOM SHOULD BE THE SAME TO MAKE THE THEME MATCH. (YOUR CHOICE)
---------------------------------------------------------------------------------------------------------------------------------------------
-/*Change the url in .app to change the background behind chat */
 
-.app, .callout-backdrop, 
-.userPopout-3XzG_A::before,
-.topSectionStreaming-1Tpf5X, 
-.topSectionPlaying-1J5E4n,
-.topSectionSpotify-1lI0-P, 
-.topSectionNormal-2-vo2m,
-.topSectionXbox-3fWLjS { 
-  background-image: url("https://imgur.com/RG03PyX.png") !important; 
-  background-size: cover !important;background-position:center!important 
-}
 
 /*
 ---------------------------------------------------------------------------------------------------------------------------------------------
