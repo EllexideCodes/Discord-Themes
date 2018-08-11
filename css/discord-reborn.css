@@ -96,7 +96,8 @@
 .container-2Thooq,
 .private-channels .search-bar,
 .wrapper-2NJDcI,
-.wrapper-29NfPK {
+.wrapper-29NfPK,
+.incomingCall-14zLc {
   background: transparent !important;
 }
 
@@ -155,7 +156,7 @@
 .quickswitcher-3JagVE,
 .keyboardShortcutsModal-3piNz7,
 .container-2x5lvQ,
-.incomingCall-14zLcL {
+.incomingCallInner-2VmFiR {
   background-image: var(--popup-background) !important;
   background-size: cover;
   background-repeat: no-repeat;
@@ -166,8 +167,7 @@
 [class*="topSection"],
 .tiles-2aXG_k,
 .container-2x5lvQ header,
-.container-2x5lvQ section,
-.incomingCallInner-2VmFiR {
+.container-2x5lvQ section {
   background-color: var(--primary-color) !important;
 }
 
@@ -180,7 +180,8 @@
 .menu-Sp6bN1::before,
 .modal-3HD5ck::before,
 .quickswitcher-3JagVE::before,
-.keyboardShortcutsModal-3piNz7::before {
+.keyboardShortcutsModal-3piNz7::before,
+.incomingCallInner-2VmFiR::before {
   content: "";
   position: absolute;
   height: 100%;
@@ -192,7 +193,9 @@
 }
 
 .menu-Sp6bN1 .label-1Y-LW5,
-.content-1_NQ-_ {
+.content-1_NQ-_,
+.incomingCallInner-2VmFiR .members-2BNiuX,
+.incomingCallInner-2VmFiR .subtitle-1H8FPn {
   z-index: 1;
 }
 
