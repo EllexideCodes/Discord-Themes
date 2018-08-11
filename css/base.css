@@ -531,7 +531,9 @@
 
   .btn-close:active {
     -webkit-transform: translateY(1px);
-    transform: translateY(1px)
+    transform: translateY(1px);
+    border-color: var(--dnd) !important;
+    background-color: var(--dnd) !important;
   }
 
   .theme-light .btn-close {
