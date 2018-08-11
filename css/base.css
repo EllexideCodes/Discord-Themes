@@ -506,7 +506,73 @@
   background-color: var(--hover-color)
 }
 
+  /* 3.f. BetterDiscord Fixes */
+  .btn-close {
+    -ms-flex:0 0 36px;
+    -ms-flex-align:center;
+    -ms-flex-pack:center;
+    -webkit-box-align:center;
+    -webkit-box-flex:0;
+    -webkit-box-pack:center;
+    align-items:center;
+    border-radius:50%;
+    border-style:solid;
+    border-width:2px;
+    cursor:pointer;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    flex:0 0 36px;
+    height:36px;
+    justify-content:center;
+    width:36px
+  }
 
+  .btn-close:active {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px)
+  }
+
+  .theme-light .btn-close {
+    border-color: #dcddde
+  }
+
+  .theme-light .btn-close:hover {
+    background-color: #f6f6f7
+  }
+
+  .theme-dark .btn-close {
+    border-color: #72767d
+  }
+
+  .theme-dark .btn-close:hover {
+    background-color: rgba(114, 118, 125, .3)
+  }
+
+  .esc-text {
+    font-size:13px;
+    font-weight:600;
+    margin-top:8px;
+    text-align:center
+  }
+
+  .theme-light .esc-text{
+    color:#dcddde
+  }
+
+  .theme-dark .esc-text{
+    color:#72767d
+  }
+
+  #bd-settingspane-container .tools {
+    margin-right:21px;
+    -ms-flex:0 0 36px;
+    -webkit-box-flex:0;
+    flex:0 0 36px;
+    padding-top:60px;
+    position:relative;
+    width:60px
+  }
 
 
 
