@@ -1761,7 +1761,10 @@ pre {
 .avatar-uploader-inner,
 .avatar-uploader-indicator,
 .avatarDefault-35WC3R,
-.avatarSpeaking-1wJCNq {
+.avatarSpeaking-1wJCNq,
+.callAvatar-v-u4BM.voice-2D-tt_,
+.callAvatar-v-u4BM .callAvatarStatus-3y6S04,
+.callAvatarBorder-1D_KaE.voice-2D-tt_.speaking-oCqYMI {
   border-radius: var(--roundness) !important;
 }
 
