@@ -251,7 +251,8 @@
 /* 2. Chat Header */
   /* 2.a. Coloring and Spacing */
 .titleWrapper-1l0xT9 .flex-1xMQg5 .flex-1xMQg5,
-#friends .flex-1xMQg5 .flex-1xMQg5 {
+#friends .flex-1xMQg5 .flex-1xMQg5,
+.activityFeed-28jde9>.flex-1xMQg5>.horizontal-1ae9ci>.flex-1xMQg5:last-child {
   margin-right: 98px;
 }
 
@@ -484,7 +485,7 @@
 }
 
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
-  background-color: var(--hover-color);
+  background-color: var(--hover-color) !important;
 }
 
 .checkbox .checkbox-inner input[type=checkbox]:checked+span {
@@ -1590,14 +1591,6 @@ pre {
   background: var(--main-color);
 }
 
-.activityFeed-28jde9::before {
-  content: '';
-  position: absolute;
-  height: 48px;
-  width: 1px;
-  border-left: 2px solid var(--main-color)
-}
-
 .activityFeed-28jde9 {
   box-shadow: inset 0 2px 20px 2px rgba(0,0,0,.4) !important;
 }
@@ -2297,6 +2290,13 @@ pre {
   /* 15.h. Group DM Invite Popout */
 .modal-3HD5ck {
   background-color: var(--primary-color) !important;
+}
+
+.modal-3HD5ck.popout-3Nppv9 {
+  border-right: 2px solid var(--main-color);
+  border-left: 2px solid var(--main-color);
+  border-bottom: 2px solid var(--main-color);
+  border-radius: 0px;
 }
 
 .modal-3HD5ck .searchBar-2_Yu-C {
@@ -3161,6 +3161,32 @@ form.modal-content.form.need-help-modal::after {
 .form.deprecated .control-group textarea {
   background-color: var(--quaternary-color) !important;
   border-color: var(--quaternary-color);
+}
+
+.theme-dark .form-deprecated .control-group input[type=email],
+.theme-dark .form-deprecated .control-group input[type=number],
+.theme-dark .form-deprecated .control-group input[type=password],
+.theme-dark .form-deprecated .control-group input[type=text],
+.theme-dark .form-deprecated .control-group textarea,
+.theme-dark .form.deprecated .control-group input[type=email],
+.theme-dark .form.deprecated .control-group input[type=number],
+.theme-dark .form.deprecated .control-group input[type=password],
+.theme-dark .form.deprecated .control-group input[type=text],
+.theme-dark .form.deprecated .control-group textarea {
+  color: #efefef;
+}
+
+.theme-light .form-deprecated .control-group input[type=email],
+.theme-light .form-deprecated .control-group input[type=number],
+.theme-light .form-deprecated .control-group input[type=password],
+.theme-light .form-deprecated .control-group input[type=text],
+.theme-light .form-deprecated .control-group textarea,
+.theme-light .form.deprecated .control-group input[type=email],
+.theme-light .form.deprecated .control-group input[type=number],
+.theme-light .form.deprecated .control-group input[type=password],
+.theme-light .form.deprecated .control-group input[type=text],
+.theme-light .form.deprecated .control-group textarea {
+  color: #101010;
 }
 
 .form-deprecated .control-group input[type=email]:focus,
