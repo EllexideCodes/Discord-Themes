@@ -3,7 +3,8 @@
   position: absolute;
   top: -5px;
   height: calc(100% + .5em);
-  width: calc(100% - 80px);
+  width: calc(100% - 140px);
+  min-width: 520px;
   left: 80px;
   background-color: var(--quaternary-color);
   z-index: -1;
