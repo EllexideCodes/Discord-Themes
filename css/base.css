@@ -417,6 +417,33 @@
   min-width: 460px;
 }
 
+.paymentPane-3bwJ6A {
+  background-color: var(--tertiary-color) !important;
+}
+
+.paymentRow-2e7VM6 {
+  border-color: var(--quaternary-color) !important;
+}
+
+.expandedInfo-3kfShd {
+  background: transparent !important;
+}
+
+.hoverablePayment-Yc6mK7:hover {
+  background-color: var(--quaternary-color) !important;
+}
+
+.top-28JiJ- .itemSelected-1qLhcL {
+  border-bottom-color: var(--main-color) !important;
+  color: var(--main-color) !important;
+}
+
+.top-28JiJ- .itemDefault-3Jdr52:hover, 
+.top-28JiJ- .itemHover-EnbcjT:hover {
+  border-bottom-color: var(--hover-color) !important;
+  color: var(--hover-color) !important;
+}
+
   /* 3.c. Cards and Items */
 
 .side-8zPYf6 .itemSelected-1qLhcL,
@@ -2754,7 +2781,7 @@ form.modal-content.form.need-help-modal::after {
   min-height: 100px;
   height: 350px !important;
   background-color: #19191b;
-  width: 140% !important;
+  width: 118% !important;
   white-space: pre;
   color: #fff;
   font-size: 110% !important;

@@ -109,6 +109,9 @@
   background-color: var(--hover-color)
 }
 
+.paginator-166-09 {
+  background: var(--tertiary-color) !important;
+}
 
 
 /* 4. Guilds Wrapper */
