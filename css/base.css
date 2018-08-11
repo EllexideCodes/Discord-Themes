@@ -901,6 +901,10 @@
   border-color: var(--hover-color);
 }
 
+.privateChannels-1nO12o .channel-2fhmY8:hover .selectedLink-3dsNZ6 {
+  background-color: var(--tertiary-color)
+}
+
 .private-channels .channel.selected a {
   background-color: var(--quaternary-color);
   border-left: 2px solid var(--main-color);
@@ -3247,18 +3251,6 @@ form.modal-content.form.need-help-modal::after {
 
 .elevationHigh-1PneE4 {
   background-color: var(--primary-color) !important;
-}
-
-.missingAccess-3szpts::before {
-  content: '';
-  position: absolute;
-  height: 48px;
-  width: 1px;
-  border-left: 2px solid var(--main-color);
-  z-index: 10;
-  margin-top: -53.5vh;
-  margin-left: -45vh;
-  transform: translate(100%, 100%);
 }
 
   /* 20.a. Plugin Optimization */
