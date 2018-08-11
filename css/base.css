@@ -1594,6 +1594,10 @@ pre {
   transition: all .2s ease-in-out;
 }
 
+.news-2GDtLJ {
+  background: transparent !important;
+}
+
 .player-1kJMbj .da-flex::after {
   margin-left: 5px
 }
@@ -1785,7 +1789,8 @@ pre {
 .avatarSpeaking-1wJCNq,
 .callAvatar-v-u4BM.voice-2D-tt_,
 .callAvatar-v-u4BM .callAvatarStatus-3y6S04,
-.callAvatarBorder-1D_KaE.voice-2D-tt_.speaking-oCqYMI {
+.callAvatarBorder-1D_KaE.voice-2D-tt_.speaking-oCqYMI,
+.callAvatarWrapper-TICyxO.voice-2D-tt_ .ripple-16ZT2p {
   border-radius: var(--roundness) !important;
 }
 
