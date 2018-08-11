@@ -39,13 +39,14 @@
 	border-bottom-right-radius: 15px;
 }
 
-.layer-3QrUeG[layer-id*="user-setting"] .ui-standard-sidebar-view::before {
+.layer-3QrUeG[layer-id*="user-setting"]::after {
     content: '';
     position: absolute;
-    min-height: 100%;
-    min-width: 100%;
-    top: 0;
-    left: 0;
+    min-width: 779px;
+    height: var(--size);
+	width: var(--size);
+	top: calc( (100% - var(--size))/2);
+	left: calc( (100% - var(--size))/2);
     background-image: var(--popup-background);
     background-position: center;
     background-size: cover;
