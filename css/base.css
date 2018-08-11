@@ -6,7 +6,7 @@
 
 /* Variables */
 :root {
-  --theme-version: 5.0;
+  --theme-version: "5.0";
   --main-color: #16356d;
   --hover-color: #1c4faf;
   --online: #43b581;
@@ -255,7 +255,8 @@
   /* 2.a. Coloring and Spacing */
 .titleWrapper-1l0xT9 .flex-1xMQg5 .flex-1xMQg5,
 #friends .flex-1xMQg5 .flex-1xMQg5,
-.activityFeed-28jde9>.flex-1xMQg5>.horizontal-1ae9ci>.flex-1xMQg5:last-child {
+.activityFeed-28jde9>.flex-1xMQg5>.horizontal-1ae9ci>.flex-1xMQg5:last-child,
+.gameLibrary-TTDw4Y>.flex-1xMQg5 .flex-1xMQg5:last-child {
   margin-right: 98px;
 }
 
@@ -2667,7 +2668,7 @@ animation: show-status 300ms linear;
 
 /* 17. Modals */
   /* 17.a. Help Modal */
-.need-help-modal.deprecated .header {
+.need-help-modal.form.deprecated .header {
   background-color: transparent;
   height: 140px;
   padding: 0;
@@ -2698,7 +2699,7 @@ animation: show-status 300ms linear;
   position: relative;
 }
 
-.need-help-modal .header h1::after {
+.need-help-modal.form.deprecated .header h1::after {
   content: var(--theme-name)" v" var(--theme-version) !important;
   white-space: nowrap !important;
   color: #fff;
@@ -2712,7 +2713,6 @@ animation: show-status 300ms linear;
   top: 10px !important;
   font-family: Satisfy;
   text-shadow: 7px 4px 5px rgba(0, 0, 0, 0.4) !important;
-  
 }
 
 form.modal-content.form.need-help-modal::after {
@@ -2730,6 +2730,11 @@ form.modal-content.form.need-help-modal::after {
   background: transparent;
   padding-bottom: 0px;
   padding-top: 0px;
+}
+
+.need-help-modal.form.deprecated .form-inner {
+  padding: 0px;
+  height: 350px !important;
 }
 
 .need-help-modal .form-inner.loading::after {
