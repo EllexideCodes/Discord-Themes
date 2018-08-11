@@ -45,11 +45,11 @@
 
  9. Friends List
 
-10. Games Tab
+ 10. Games Tab
 
-11. Popouts
+ 11. Popouts
 
-12. Modals
+ 12. Modals
 */
 
 
@@ -226,4 +226,14 @@
 
 .footer-2yfCgX {
   background-color: var(--secondary-color) !important;
+}
+
+
+/* 13. Games Tab, Library, and Store */
+.gameLibrary-TTDw4Y {
+  background-color: var(--primary-color) !important;
+}
+
+.missingAccess-3szpts {
+  background-color: var(--primary-color) !important;
 }

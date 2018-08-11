@@ -88,7 +88,10 @@
   9.a. Main Friends List
   9.b. Action Buttons
 
-10. Games Tab
+10. Games Tab, Library, and Store
+  10.a. Tab
+  10.b. Library
+  10.c. Store
 
 11. Avatars
   11.a. Remove Mask
@@ -1069,10 +1072,6 @@
   border-left: 2px solid var(--main-color)
 }
 
-.noChannel-Z1DQK7 {
-  box-shadow: inset 0 2px 20px 2px rgba(0,0,0,.4) !important;
-}
-
 .operations-36ENbA>a,
 a {
   color: var(--main-color);
@@ -1557,7 +1556,8 @@ pre {
 
 
 
-/* 10. Games Tab */
+/* 10. Games Tab, Library, and Store */
+  /* 10.a. Tab */
 .card-7JP0BX {
   background-color: transparent !important;
 }
@@ -1601,10 +1601,6 @@ pre {
   background: var(--main-color);
 }
 
-.activityFeed-28jde9 {
-  box-shadow: inset 0 2px 20px 2px rgba(0,0,0,.4) !important;
-}
-
 .partyMemberOverflow-3VhFIX
 .partyMemberBackground-aSF9mc {
   background-color: var(--secondary-color) !important;
@@ -1623,7 +1619,17 @@ pre {
   transition: all 200ms ease-in-out;
 }
 
+  /* 10.b. Library */
+.rowWrapperActive-2L7i9f {
+  background-color: var(--tertiary-color) !important;
+}
 
+.rowBackground-3MeNoN {
+  -webkit-mask: radial-gradient(100% 100% at top left,hsla(0,0%,100%,.5) 0,hsla(0,0%,100%,0) 100%);
+}
+
+  /* 10.c. Store */
+/* Coming Soon */
 
 
 
@@ -1744,6 +1750,12 @@ pre {
   box-shadow: 0 2px 20px var(--shadow) !important;
 }
 
+.activityFeed-28jde9,
+.noChannel-Z1DQK7,
+.gameLibrary-TTDw4Y,
+.missingAccess-3szpts {
+  box-shadow: inset 0 2px 20px 2px var(--shadow) !important;
+}
 
 
 
@@ -3225,6 +3237,18 @@ form.modal-content.form.need-help-modal::after {
 
 .elevationHigh-1PneE4 {
   background-color: var(--primary-color) !important;
+}
+
+.missingAccess-3szpts::before {
+  content: '';
+  position: absolute;
+  height: 48px;
+  width: 1px;
+  border-left: 2px solid var(--main-color);
+  z-index: 10;
+  margin-top: -53.5vh;
+  margin-left: -45vh;
+  transform: translate(100%, 100%);
 }
 
   /* 20.a. Plugin Optimization */
