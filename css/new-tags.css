@@ -46,7 +46,8 @@
 }
 
 .guild-settings-audit-logs .large-3ChYtB:not(.wrapper-2F3Zv8)::before,
-.guild-settings-audit-logs .large-3ChYtB:not(.wrapper-2F3Zv8)::after {
+.guild-settings-audit-logs .large-3ChYtB:not(.wrapper-2F3Zv8)::after,
+.inner-1JeGVc .large-3ChYtB:not(.wrapper-2F3Zv8)::before {
   display: none !important;
 }
 
