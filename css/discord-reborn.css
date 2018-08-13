@@ -188,11 +188,17 @@
   content: "";
   position: absolute;
   height: 100%;
-  width: 100%;
+  width: calc(100% - 4px);
   top: 0;
   left: 0;
   background-color: var(--primary-color);
   pointer-events: none;
+}
+
+.themedPopout-25DgLi::before {
+  border-bottom: 2px solid var(--main-color);
+  border-left: 2px solid var(--main-color);
+  border-right: 2px solid var(--main-color);
 }
 
 .menu-Sp6bN1 .label-1Y-LW5,
