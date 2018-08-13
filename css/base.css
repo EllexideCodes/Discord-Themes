@@ -2073,7 +2073,7 @@ pre {
   border-bottom: 2px solid var(--hover-color);
 }
 
-.search-bar.search-bar-light .searchBarInner-1_Tg2R {
+.search-bar.search-bar-light .search-bar-inner {
   background: transparent !important;
   color: var(--white10) !important
 }
