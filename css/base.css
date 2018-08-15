@@ -1521,7 +1521,9 @@ pre {
 
 /* 10. Games Tab, Library, and Store */
   /* 10.a. Tab */
-.card-7JP0BX {
+.card-7JP0BX,
+.article-3kb3qm,
+.carousel-JbsNzL {
   background-color: transparent !important;
 }
 
@@ -1568,7 +1570,16 @@ pre {
   background: var(--main-color);
 }
 
-.partyMemberOverflow-3VhFIX
+.partyMemberOverflow-3VhFIX,
+.guildIconEmptyBackground-14tfYf {
+  background-color: var(--main-color) !important;
+}
+
+.guildIconEmptyIcon-rSyLPf,
+.partyMemberOverflow-3VhFIX {
+  color: white !important;
+}
+
 .partyMemberBackground-aSF9mc {
   background-color: var(--secondary-color) !important;
 }
@@ -2387,6 +2398,21 @@ pre {
 .popoutTopRight-3BzFIE section:before, 
 .popoutTop-3uu9vG section:before {
   border-top-color: var(--primary-color) !important;
+}
+
+  /* 15.m. More Users Popout */
+.header-2B7Ri8 {
+  background-color: var(--quaternary-color) !important;
+}
+
+.content-2KAjC9,
+.userList-1kLH8B::before {
+  background-color: var(--primary-color) !important;
+}
+
+.userList-1kLH8B,
+.userList-1kLH8B::before {
+  border-color: var(--primary-color) !important;
 }
 
 
