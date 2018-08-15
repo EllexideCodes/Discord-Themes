@@ -200,6 +200,10 @@
   pointer-events: none;
 }
 
+.modal-3HD5ck::before {
+  width: 100%;
+}
+
 .themedPopout-25DgLi::before {
   border-bottom: 2px solid var(--main-color);
   border-left: 2px solid var(--main-color);
