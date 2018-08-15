@@ -159,11 +159,16 @@
 .quickswitcher-3JagVE,
 .keyboardShortcutsModal-3piNz7,
 .container-2x5lvQ,
-.incomingCallInner-2VmFiR {
+.incomingCallInner-2VmFiR,
+.container-2Yth53 {
   background-image: var(--popup-background) !important;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.container-2Yth53 {
+  border-radius: 5px;
 }
 
 .userPopout-3XzG_A .header-2BwW8b,

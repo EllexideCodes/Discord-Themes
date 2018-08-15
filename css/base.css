@@ -538,75 +538,6 @@
   background-color: var(--hover-color)
 }
 
-  /* 3.f. BetterDiscord Fixes */
-  .btn-close {
-    -ms-flex:0 0 36px;
-    -ms-flex-align:center;
-    -ms-flex-pack:center;
-    -webkit-box-align:center;
-    -webkit-box-flex:0;
-    -webkit-box-pack:center;
-    align-items:center;
-    border-radius:50%;
-    border-style:solid;
-    border-width:2px;
-    cursor:pointer;
-    display:-webkit-box;
-    display:-ms-flexbox;
-    display:flex;
-    flex:0 0 36px;
-    height:36px;
-    justify-content:center;
-    width:36px
-  }
-
-  .btn-close:active {
-    -webkit-transform: translateY(1px);
-    transform: translateY(1px);
-    border-color: var(--dnd) !important;
-    background-color: var(--dnd) !important;
-  }
-
-  .theme-light .btn-close {
-    border-color: #dcddde
-  }
-
-  .theme-light .btn-close:hover {
-    background-color: #f6f6f7
-  }
-
-  .theme-dark .btn-close {
-    border-color: #72767d
-  }
-
-  .theme-dark .btn-close:hover {
-    background-color: rgba(114, 118, 125, .3)
-  }
-
-  .esc-text {
-    font-size:13px;
-    font-weight:600;
-    margin-top:8px;
-    text-align:center
-  }
-
-  .theme-light .esc-text{
-    color:#dcddde
-  }
-
-  .theme-dark .esc-text{
-    color:#72767d
-  }
-
-  #bd-settingspane-container .tools {
-    margin-right:21px;
-    -ms-flex:0 0 36px;
-    -webkit-box-flex:0;
-    flex:0 0 36px;
-    padding-top:60px;
-    position:relative;
-    width:60px
-  }
 
 
 
@@ -3095,6 +3026,13 @@ form.modal-content.form.need-help-modal::after {
   background: var(--quaternary-color) !important;
 }
 
+.lookLink-9FtZy-.colorBrand-3pXr91:hover .contents-18-Yxp {
+  background-image: linear-gradient(0deg,transparent,transparent 1px,var(--main-color) 0,var(--main-color) 2px,transparent 0)
+}
+
+.contentWrapper-3WC1ID:only-child {
+  background-color: var(--primary-color) !important;
+}
 
 
 
