@@ -1894,6 +1894,16 @@ pre {
   color: #fff !important;
 }
 
+.jumpButton-3DTcS_ {
+  background-color: var(--main-color) !important;
+}
+
+.hasMoreButton-1MELpI {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+  color: var(--main-color) !important
+}
+
   /* 15.b. Emoji Picker */
 .emojiPicker-3m1S-j,
 .emojiPicker-3m1S-j .dimmer-3iH-5D.visible-3k45bQ,
@@ -1931,6 +1941,17 @@ pre {
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:hover,
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S {
   opacity: 1
+}
+
+.bda-dark .emoji-picker .scroller .emoji-item, 
+.bda-dark .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA {
+  border: 2px solid transparent;
+}
+
+.bda-dark .emoji-picker .scroller .emoji-item.selected, 
+.bda-dark .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
+  background-color: transparent !important;
+  border-color: var(--hover-color);
 }
 
 .emojiPicker-3m1S-j .category-2U57w6 {
@@ -2133,6 +2154,10 @@ pre {
   width: 7px;
 }
 
+.note-3kmerW textarea:focus {
+  background-color: var(--quaternary-color) !important;
+}
+
 .quickMessage-1yeL4E {
   background-color: var(--quaternary-color) !important;
   border-color: var(--quaternary-color) !important;
@@ -2200,6 +2225,11 @@ pre {
 
 .option-96V44q.searchQuery-1B7rtx.selected-rZcOL- {
   border-color: transparent;
+}
+
+.dim-1l4L4y span {
+  background-color: var(--main-color) !important;
+  color: white !important;
 }
 
   /* 15.g. Server Settings */
@@ -3246,6 +3276,14 @@ form.modal-content.form.need-help-modal::after {
 
 .elevationHigh-1PneE4 {
   background-color: var(--primary-color) !important;
+}
+
+.bubble-3we2di {
+  background-color: var(--hover-color) !important;
+}
+
+.bubble-3we2di:before {
+  border-top-color: var(--hover-color) !important;
 }
 
   /* 20.a. Plugin Optimization */

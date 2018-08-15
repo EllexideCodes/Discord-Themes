@@ -194,18 +194,15 @@
   content: "";
   position: absolute;
   height: 100%;
-  width: calc(100% - 4px);
+  width: 100%;
   top: 0;
   left: 0;
   background-color: var(--primary-color);
   pointer-events: none;
 }
 
-.modal-3HD5ck::before {
-  width: 100%;
-}
-
 .themedPopout-25DgLi::before {
+  width: calc(100% - 4px);
   border-bottom: 2px solid var(--main-color);
   border-left: 2px solid var(--main-color);
   border-right: 2px solid var(--main-color);
