@@ -106,7 +106,7 @@
 ================== SLIDE INS ====================
 15. Popouts
   15.a. Pinned Messages and Recent Mentions
-  15.b. Emoji Picker
+  15.b. Emoji Picker and Reactions
   15.c. Autocomplete
   15.d. User Popout
   15.e. Add Role User Popout
@@ -1904,7 +1904,7 @@ pre {
   color: var(--main-color) !important
 }
 
-  /* 15.b. Emoji Picker */
+  /* 15.b. Emoji Picker and Reactions */
 .emojiPicker-3m1S-j,
 .emojiPicker-3m1S-j .dimmer-3iH-5D.visible-3k45bQ,
 .diversitySelector-tmmMv0 .popout-2nUePc {
@@ -2039,6 +2039,10 @@ pre {
 .search-bar.search-bar-light .search-bar-inner {
   background: transparent !important;
   color: var(--white10) !important
+}
+
+.reactionSelected-1pqISm {
+  background-color: var(--quaternary-color) !important;
 }
 
   /* 15.c. Autocomplete */

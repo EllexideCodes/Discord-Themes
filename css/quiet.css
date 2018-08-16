@@ -204,9 +204,16 @@
   background-color: var(--quaternary-color) !important;
 }
 
-.container-2x5lvQ section {
+.container-2x5lvQ section,
+.reactors-Blmlhw {
   background-color: var(--primary-color) !important;
 }
+
+.sidebar-1-SQro {
+  background-color: var(--tertiary-color) !important;
+}
+
+
 
 
 /* 12. Modals */
