@@ -2041,8 +2041,20 @@ pre {
   color: var(--white10) !important
 }
 
+.reactionDefault-GBA58K, 
 .reactionSelected-1pqISm {
-  background-color: var(--quaternary-color) !important;
+  border: 1px solid transparent;
+  transition: all .2s ease-in-out;
+}
+
+.reactionDefault-GBA58K:hover {
+  background-color: transparent !important;
+  border-color: var(--hover-color);
+}
+
+.reactionSelected-1pqISm {
+  background-color: transparent !important;
+  border-color: var(--main-color);
 }
 
   /* 15.c. Autocomplete */
