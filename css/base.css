@@ -839,7 +839,18 @@
 }
   
 .channelNotices-41mJbj .channelNotice-1-XFjC {
-  background-color: var(--tertiary-color);
+  background-color: var(--tertiary-color) !important;
+}
+
+.channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P .btn-11C5_u {
+  background-color: var(--main-color);
+  border-color: var(--main-color);
+  transition: all .2s ease-in-out;
+}
+
+.channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P .btn-11C5_u:hover {
+  background-color: var(--hover-color);
+  border-color: var(--hover-color);
 }
 
 .container-1UB9sr {
@@ -1093,7 +1104,6 @@ a {
   border-radius: 3px;
   position: relative;
   text-align: left;
-  left: -14px;
   font-size: 12px;
   text-transform: uppercase;
   margin: 0px 0px;
@@ -1514,6 +1524,11 @@ pre {
   border-radius: 0px;
 }
 
+#friends .friends-table .friends-row .friends-column-guilds .more-mutual-guilds-btn:hover {
+  background-color: var(--hover-color);
+  border-color: var(--hover-color) !important;
+}
+
 
 
 
@@ -1763,7 +1778,10 @@ pre {
 .callAvatar-v-u4BM.voice-2D-tt_,
 .callAvatar-v-u4BM .callAvatarStatus-3y6S04,
 .callAvatarBorder-1D_KaE.voice-2D-tt_.speaking-oCqYMI,
-.callAvatarWrapper-TICyxO.voice-2D-tt_ .ripple-16ZT2p {
+.callAvatarWrapper-TICyxO.voice-2D-tt_ .ripple-16ZT2p,
+.from-mPWN2E, 
+.to-2819fF,
+#friends .friends-table .friends-row .friends-column-guilds .more-mutual-guilds-btn {
   border-radius: var(--roundness) !important;
 }
 
@@ -2971,6 +2989,8 @@ form.modal-content.form.need-help-modal::after {
   background-color: transparent;
   border-color: var(--tertiary-color);
 }
+
+#guild-name { text-align: center }
 
   /* 17.e. Upload Modal */
 .uploadModal-2ifh8j {
