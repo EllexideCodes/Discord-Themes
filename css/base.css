@@ -768,6 +768,11 @@
   background-color: var(--tertiary-color) !important;
 }
 
+.channels-Ie2l6A, 
+.container-PNkimc {
+  z-index: 1;
+}
+
   /* 5.e. Unread Indicator */
 .unread-1Dp-OI {
   background-color: var(--hover-color);
@@ -1741,6 +1746,10 @@ pre {
 .theme-dark .autocomplete-1vrmpx,
 .menu-Sp6bN1 {
   box-shadow: 0 2px 20px var(--shadow) !important;
+}
+
+.members-1998pB {
+  box-shadow: 0 -2px 20px var(--shadow) !important;
 }
 
 .activityFeed-28jde9,
