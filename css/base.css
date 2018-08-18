@@ -237,7 +237,15 @@
 }
 
   /* 1.d. Mac Buttons */
-.typeMacOS-3EmCyP.titleBar-AC4pGV .macButton-c_Adir { background-image: none !important; }
+.typeMacOS-3EmCyP.titleBar-AC4pGV {
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.typeMacOS-3EmCyP.titleBar-AC4pGV .macButton-c_Adir { 
+  background-image: none !important;
+  margin: 0px 3px; 
+}
 
 
   /* 1.e. Erase SVGs */
@@ -543,6 +551,8 @@
 
 /* 4. Guilds Wrapper */
   /* 4.a. Main Guilds Wrapper */
+.platform-osx .guildsWrapper-5TJh6A { margin-top: 0px !important; }
+
 .guildsWrapper-5TJh6A {
   z-index: 6;
 }

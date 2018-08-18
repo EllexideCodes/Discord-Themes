@@ -9,7 +9,8 @@
 }
 
   /* Dark Mode */
-  .theme-dark {
+  .theme-dark,
+  .appMount-3VJmYg {
     --primary-color: rgba(0,0,0,0.75);
     --secondary-color: rgba(0,0,0,0.6);
     --tertiary-color: rgba(0,0,0,0.4);
@@ -88,7 +89,6 @@
 .search .searchBarIcon-1J6sKG,
 .footer-2yfCgX,
 .container-1UB9sr,
-.typeMacOS-3EmCyP.titleBar-AC4pGV,
 .title-3qD0b-,
 .header-2o-2hj,
 .headerBar-UHpsPw,
@@ -106,6 +106,9 @@
   background: transparent !important;
 }
 
+.typeMacOS-3EmCyP.titleBar-AC4pGV {
+  background-color: var(--primary-color) !important;
+}
 
 
 /* 2. User Settings */

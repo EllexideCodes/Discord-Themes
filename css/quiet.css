@@ -9,7 +9,8 @@
 }
 
   /* Dark Mode */ 
-  .theme-dark {
+  .theme-dark,
+  .appMount-3VJmYg {
     --primary-color: #19191b;
     --secondary-color: #1E1E21;
     --tertiary-color: #232327;
@@ -57,11 +58,9 @@
 
 
 /* 1. Title Bar */
-.typeMacOS-3EmCyP.titleBar-AC4pGV { 
-	background: var(--primary-color) !important;
+.appMount-3VJmYg {
+  background-color: var(--quaternary-color) !important;
 }
-
-
 
 /* 2. Chat Header */
   /* 2.a. Headers */
