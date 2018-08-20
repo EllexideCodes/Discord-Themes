@@ -2940,7 +2940,8 @@ form.modal-content.form.need-help-modal::after {
 }
 
 .create-guild-container.deprecated .form.deprecated .form-inner,
-.create-guild-container.deprecated {
+.create-guild-container.deprecated,
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:hover {
   background-color: var(--primary-color) !important;
 }
 
@@ -2981,6 +2982,7 @@ form.modal-content.form.need-help-modal::after {
 }
 
 .regionSelect-3lf4eE:hover .regionSelectInner-24f4Ce,
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:hover,
 .regionSelect-3lf4eE:hover button,
 .form-deprecated .btn-default:hover, 
 .form.deprecated .btn-default:hover {
@@ -2988,7 +2990,8 @@ form.modal-content.form.need-help-modal::after {
 }
 
 .regionSelect-3lf4eE button,
-.create-guild-container.deprecated h5 {
+.create-guild-container.deprecated h5,
+.regionSelectModal-12e-57 .regionSelectModalHeader-21khC1 {
   color: var(--main-color);
 }
 
@@ -2998,7 +3001,8 @@ form.modal-content.form.need-help-modal::after {
 }
 
 .form-deprecated .form-actions, 
-.form.deprecated .form-actions {
+.form.deprecated .form-actions,
+.regionSelectModal-12e-57 .regionSelectModalHeader-21khC1 {
   background-color: var(--quaternary-color);
   border-color: var(--tertiary-color);
 }

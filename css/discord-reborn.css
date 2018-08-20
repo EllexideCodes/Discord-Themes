@@ -166,11 +166,16 @@
 .container-2x5lvQ,
 .incomingCallInner-2VmFiR,
 .container-2Yth53,
-.userList-1kLH8B {
+.userList-1kLH8B,
+.inner-1JeGVc {
   background-image: var(--popup-background) !important;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.inner-1JeGVc {
+  border-radius: 7px;
 }
 
 .container-2Yth53 {
