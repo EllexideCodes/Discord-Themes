@@ -146,7 +146,8 @@
 /* 4. Popouts & Modals */
 .themedPopout-25DgLi,
 .searchPopout-1vUlP3,
-.menu-Sp6bN1 {
+.menu-Sp6bN1,
+.add-game-popout {
   background-image: var(--background-image) !important;
   background-size: cover;
   background-repeat: no-repeat;
@@ -200,7 +201,8 @@
 .modal-3HD5ck::before,
 .quickswitcher-3JagVE::before,
 .keyboardShortcutsModal-3piNz7::before,
-.incomingCallInner-2VmFiR::before {
+.incomingCallInner-2VmFiR::before,
+.add-game-popout::before {
   content: "";
   position: absolute;
   height: 100%;

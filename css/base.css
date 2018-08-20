@@ -3137,6 +3137,11 @@ form.modal-content.form.need-help-modal::after {
   background: var(--secondary-color) !important;
 }
 
+.select-2TCrqx .Select-control {
+  background-color: var(--quaternary-color) !important;
+  border-color: var(--tertiary-color) !important;
+}
+
 .select-2TCrqx .Select-option.is-selected {
   background: var(--quaternary-color) !important;
 }

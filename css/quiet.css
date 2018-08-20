@@ -212,6 +212,10 @@
   background-color: var(--quaternary-color) !important;
 }
 
+.add-game-popout {
+  background-color: var(--secondary-color) !important;
+}
+
 
 
 
