@@ -2099,6 +2099,10 @@ pre {
   background-color: var(--quaternary-color) !important;
 }
 
+.autocompleteInner-zh20B_ {
+  padding-bottom: 20px;
+}
+
 .selectable-3dP3y- {
   border: 1px solid transparent;
 }
@@ -2148,7 +2152,7 @@ pre {
   font-size: 10px;
   font-weight: 400;
   text-transform: uppercase;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .role-2irmRk::before {
@@ -2176,10 +2180,9 @@ pre {
   top: -1px;
   left: -1px;
   border-radius: 2px 0 0 2px;
-  width: 22px;
+  width: 0px;
   display: flex !important;
-  transition: transform 0.2s;
-  transform: translateX(-30px);
+  transition: width 0.2s;
 }
 
 .roleCircle-3xAZ1j {
@@ -2198,8 +2201,8 @@ pre {
 }
 
 .role-2irmRk:hover .roleCircleButton-377y0l {
-  transition: transform 0.2s;
-  transform: translateX(0);
+  transition: width 0.2s;
+  width: 22px;
 }
 
 .addButtonIcon-1NMJ8u {
