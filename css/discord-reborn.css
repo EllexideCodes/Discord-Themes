@@ -168,7 +168,7 @@
 .incomingCallInner-2VmFiR,
 .container-2Yth53,
 .userList-1kLH8B,
-.inner-1JeGVc {
+.modal-1UGdnR:not(.bip-container) .inner-1JeGVc {
   background-image: var(--popup-background) !important;
   background-size: cover;
   background-repeat: no-repeat;
