@@ -532,6 +532,36 @@
   border-color: var(--main-color);
 }
 
+.private-channels .channel .link-button-icon path {
+  display: none;
+}
+
+.private-channels .channel .link-button-icon {
+  background-size: 24px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.private-channels .channel .link-button-icon[name*="PersonWaving"] {
+  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/friends.svg);
+}
+
+.private-channels .channel .link-button-icon[name*="Store"] {
+  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/store.svg);
+}
+
+.private-channels .channel .link-button-icon[name*="Library"] {
+  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/library.svg);
+}
+
+.private-channels .channel .link-button-icon[name*="Activity"] {
+  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/activity.svg);
+}
+
+.theme-light .private-channels .channel .link-button-icon {
+  filter: invert(100%);
+}
+
   /* 3.e. Overlay Notifications */
 .wrapper-3jrx9n {
   border-color: var(--main-color);
