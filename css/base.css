@@ -1574,6 +1574,9 @@ pre {
   border-color: var(--hover-color) !important;
 }
 
+#friends .friends-table .friends-row .friends-column-actions .friends-action:hover {
+  background-color: var(--dnd) !important;
+}
 
 
 
