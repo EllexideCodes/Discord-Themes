@@ -168,15 +168,26 @@
 .incomingCallInner-2VmFiR,
 .container-2Yth53,
 .userList-1kLH8B,
-.modal-1UGdnR:not(.bip-container) .inner-1JeGVc {
+.regionSelectModal-12e-57::before {
   background-image: var(--popup-background) !important;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.inner-1JeGVc {
+.regionSelectModal-12e-57::before {
+  content:"";
+  position: absolute;
+  top: 0;
+  left: 0;
   border-radius: 7px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.regionSelectModal-12e-57 {
+  position: relative;
 }
 
 .container-2Yth53 {
@@ -187,7 +198,8 @@
 [class*="topSection"],
 .tiles-2aXG_k,
 .container-2x5lvQ header,
-.container-2x5lvQ section {
+.container-2x5lvQ section,
+.regionSelectModal-12e-57 {
   background-color: var(--primary-color) !important;
 }
 
