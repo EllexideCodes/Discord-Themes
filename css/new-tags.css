@@ -130,7 +130,6 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="183359032126472195"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="183368079839985665"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="185009499831140352"]::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="185119357578379264"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="185971884435832832"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="186090970062782464"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="188066841262817291"]::before,
@@ -529,10 +528,6 @@
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="185009499831140352"]:hover::before {
   content: "Ghost Gamer";
-}
-
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="185119357578379264"]:hover::before {
-  content: "Daddy";
 }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="185971884435832832"]:hover::before {
@@ -1039,7 +1034,8 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="116243287936860167"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="282138006738042880"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="317731521639350272"]::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="173177738914562048"]::before  {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="173177738914562048"]::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="185119357578379264"]::before  {
   content: '';
   color: transparent;
   height: 15px;
@@ -1064,6 +1060,8 @@
   background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/kevinCrown.svg);
 }
 
+
+/* icons */
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="214318588331294720"]::before {
   background-image: url(https://i.imgur.com/tsr97cA.gif);
 }
@@ -1100,6 +1098,10 @@
   transition: filter .2s ease-in-out;
 }
 
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="185119357578379264"]::before {
+  background-image: url(https://i.imgur.com/e0dTAe6.png);
+  transform: scale(1.4);
+}
 
 
 
@@ -1127,7 +1129,8 @@
 /* badges on hover */
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="282138006738042880"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="317731521639350272"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="173177738914562048"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="173177738914562048"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="185119357578379264"]:hover::before {
   transform: none;
   background-size: cover;
   background-position: center;
@@ -1161,6 +1164,12 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="173177738914562048"]:hover::before {
   content: 'D E A D';
   background-image: url(https://i.imgur.com/S1xKXkY.gif);
+  color: #fff;
+}
+
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="185119357578379264"]:hover::before {
+  content: "Daddy";
+  background-image: none;
   color: #fff;
 }
 
