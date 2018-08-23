@@ -12,6 +12,10 @@
   opacity: 1;
 }
 
+.chat-3bRxxu>.content-yTz4x3 .messages-3amgkR .containerCozy-jafyvG {
+  overflow: visible;
+}
+
 .large-3ChYtB:not(.wrapper-2F3Zv8)::before {
   color: rgba(255, 255, 255, 0.3);
   font-size: 13px;
@@ -22,7 +26,7 @@
   cursor: pointer;
   font-family: BMTicons;
   pointer-events: none;
-  display: inline-block;
+  display: inline-block !important;
 }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8):hover::before {
