@@ -239,7 +239,6 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="92738910362292224"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="92847808247263232"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="94825231792734208"]::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="96563253466898432"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="97787466110472192"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="98241610826911744"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="98458069532426240"]::before,
@@ -961,10 +960,6 @@
   content: "King of Knights";
 }
 
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="96563253466898432"]:hover::before {
-  content: "CyberLife";
-}
-
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="97787466110472192"]:hover::before {
   content: "Those are bold words for someone in stabbing range";
   background-color: #000;
@@ -1039,7 +1034,8 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="282138006738042880"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="317731521639350272"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="173177738914562048"]::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="185119357578379264"]::before  {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="185119357578379264"]::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="96563253466898432"]::before  {
   content: '';
   color: transparent;
   height: 15px;
@@ -1107,6 +1103,10 @@
   transform: scale(1.4);
 }
 
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="96563253466898432"]::before {
+  background-image: url(https://i.imgur.com/sRW0aTy.png);
+  transform: scale(1.2);
+}
 
 
 /* on hover */
@@ -1134,7 +1134,8 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="282138006738042880"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="317731521639350272"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="173177738914562048"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="185119357578379264"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="185119357578379264"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="96563253466898432"]:hover::before {
   transform: none;
   background-size: cover;
   background-position: center;
@@ -1177,11 +1178,18 @@
   color: #fff;
 }
 
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="96563253466898432"]:hover::before {
+  content: 'The Old Lion';
+  background-image: url(http://i.imgur.com/NMvmuI3.gif);
+  color: #ccac00;
+}
+
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="402272736665272320"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="134349083568504832"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="214318588331294720"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="116243287936860167"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="282138006738042880"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="282138006738042880"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="96563253466898432"]:hover::before {
   display: block;
   background-color: transparent;
   box-shadow: none;
