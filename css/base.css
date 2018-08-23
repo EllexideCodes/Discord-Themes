@@ -698,6 +698,11 @@
   border: 2px solid var(--quaternary-color);
 }
 
+.guild-1EfMGQ.audio-3vVhBi .guildInner-3DSoA4:after,
+.guild-1EfMGQ.video-15yGu3 .guildInner-3DSoA4:after {
+  background-color: var(--main-color);
+}
+
   /* 4.e. Unread Indicator */
   .unreadMentionsIndicatorBottom-BXS58x {
     z-index: 1000;
@@ -796,6 +801,7 @@
   border-color: var(--main-color);
 }
 
+.contentConnectedVoice-qL-YrL:active,
 .contentHoveredText-2D9B-x,
 .contentHoveredVoice-3p_NEO:active,
 .contentSelectedVoice-1WDIBM:active {
@@ -3384,6 +3390,10 @@ form.modal-content.form.need-help-modal::after {
 
 .bubble-3we2di:before {
   border-top-color: var(--hover-color) !important;
+}
+
+.input-cIJ7To:focus {
+  border-color: var(--main-color) !important;
 }
 
   /* 20.a. Plugin Optimization */
