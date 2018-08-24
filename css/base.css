@@ -3400,6 +3400,10 @@ form.modal-content.form.need-help-modal::after {
   border-color: var(--main-color) !important;
 }
 
+.verified-3uJH7V g path:nth-child(2){
+  fill: var(--main-color) !important;
+}
+
   /* 20.a. Plugin Optimization */
     /* 20.a.1. BetterFormatting */
 .bf-toolbar:before {
