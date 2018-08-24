@@ -562,6 +562,10 @@
   filter: invert(100%);
 }
 
+.premiumIndicator-1XvbfM {
+  background-color: var(--main-color);
+}
+
   /* 3.e. Overlay Notifications */
 .wrapper-3jrx9n {
   border-color: var(--main-color);
@@ -2453,7 +2457,7 @@ pre {
   content: '';
   position: absolute;
   height: 100%;
-  width: 100%;
+  width: 24px;
   background-color: #eee;
   -webkit-mask: url("https://ellexidecodes.github.io/Discord-Themes/assets/check.svg");
   -webkit-mask-repeat: no-repeat;
