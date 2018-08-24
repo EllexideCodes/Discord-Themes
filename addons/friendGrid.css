@@ -170,16 +170,20 @@
 }
 
 #friends .friends-table .friends-row .friends-column-name .discord-tag {
-  display: block;
+  align-items: center;
   position: absolute;
   top: 25px;
   left: 115px;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
 
+#friends .friends-table .friends-row .friends-column-name .discord-tag span {
+  display: inline-block;
+}
+
 #friends .friends-table .friends-row .friends-column-name .discord-tag .username {
   clear: left;
-  width: 100px;
+  max-width: 150px;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -187,6 +191,7 @@
 
 #friends .friends-table .friends-row .friends-column-name .discord-tag .discriminator {
   visibility: visible;
+  padding-top: 1px;
 }
 
 #friends .friends-table .friends-row .friends-column-name .username {
