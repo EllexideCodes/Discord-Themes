@@ -1437,7 +1437,7 @@ pre {
   /* 8.m. Notification Bar */
 .notice-3I4-y_, .notice-2FJMB4 {
   font-size: 0px !important;
-  height: 4px;
+  height: 4px !important;
   line-height: 18px;
   position: fixed;
   top: 46px;
@@ -1447,7 +1447,7 @@ pre {
 
 .notice-3I4-y_:hover, .notice-2FJMB4:hover {
   font-size: 14px !important;
-  height: 38px;
+  height: 38px !important;
   line-height: 38px;
   position: fixed;
   width: 100%;
