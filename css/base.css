@@ -3427,6 +3427,11 @@ form.modal-content.form.need-help-modal::after {
   fill: var(--main-color) !important;
 }
 
+.title-3qD0b- .input-autosize-input,
+.titleCall-_b9o8P .input-autosize-input {
+  background-color: var(--quaternary-color);
+}
+
   /* 20.a. Plugin Optimization */
     /* 20.a.1. BetterFormatting */
 .bf-toolbar:before {
