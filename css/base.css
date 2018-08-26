@@ -2996,6 +2996,10 @@ form.modal-content.form.need-help-modal::after {
   transform: scale(1.2);
 }
 
+.contentWrapper-3WC1ID {
+  background-color: var(--primary-color) !important;
+}
+
   /* 17.d. Join or Create New Guild */
 .create-guild-container.deprecated .create-or-join header,
 .create-guild-container.deprecated .action.create .action-header,
