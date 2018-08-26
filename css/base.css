@@ -2309,6 +2309,7 @@ pre {
 .searchPopout-1vUlP3 {
   background-color: var(--primary-color) !important;
   border-radius: 0 !important;
+  border: none !important;
   border-left: 2px solid var(--main-color) !important;
   border-right: 2px solid var(--main-color) !important;
   border-bottom: 2px solid var(--main-color) !important;
