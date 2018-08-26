@@ -3427,9 +3427,8 @@ form.modal-content.form.need-help-modal::after {
   fill: var(--main-color) !important;
 }
 
-.title-3qD0b- .input-autosize-input,
-.titleCall-_b9o8P .input-autosize-input {
-  background-color: var(--quaternary-color);
+.input-autosize-input:focus {
+  background-color: var(--quaternary-color) !important;
 }
 
   /* 20.a. Plugin Optimization */
