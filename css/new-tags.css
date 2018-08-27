@@ -30,10 +30,6 @@
 }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8):hover::before {
-  color: #fff;
-}
-
-.large-3ChYtB:not(.wrapper-2F3Zv8):hover::before {
   font-family: Whitney;
   background-color: #000;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
@@ -121,7 +117,6 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="169967786813030400"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="170027884944162816"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="171395218258657281"]::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="172426681800196096"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="173398322332172288"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="174986536184578049"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="176566790384648192"]::before,
@@ -150,7 +145,6 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="210152253103931393"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="211315836626010113"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="211895683123249153"]::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="213220786805145600"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="216382288378724352"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="216683534742454272"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="217956193602109440"]::before,
@@ -242,7 +236,8 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="97787466110472192"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="98241610826911744"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="98458069532426240"]::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="254362351170617345"]::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="254362351170617345"]::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="328357975150297088"]::before {
   content: "}";
 }
 
@@ -481,10 +476,6 @@
   content: "Draconic";
 }
 
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="172426681800196096"]:hover::before {
-  content: "SHINY";
-}
-
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="173398322332172288"]:hover::before {
   content: "ShieldE";
 }
@@ -595,11 +586,6 @@
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="211895683123249153"]:hover::before {
   content: "Forge";
-}
-
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="213220786805145600"]:hover::before {
-  content: "Developer";
-  background-color: #000;
 }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="216382288378724352"]:hover::before {
@@ -981,6 +967,12 @@
   background-position: center;
 }
 
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="328357975150297088"]:hover::before {
+  content: 'The Virus';
+  background-image: url(https://i.imgur.com/yJLyHm2.gif);
+  background-size: cover;
+  background-position: center;
+}
 
 
 
@@ -1035,7 +1027,9 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="317731521639350272"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="173177738914562048"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="185119357578379264"]::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="96563253466898432"]::before  {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="96563253466898432"]::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="213220786805145600"]::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="172426681800196096"]::before {
   content: '';
   color: transparent;
   height: 15px;
@@ -1108,6 +1102,17 @@
   transform: scale(1.2);
 }
 
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="213220786805145600"]::before {
+  background-image: url(https://i.imgur.com/K0e1t1r.png);
+  transform: scale(1.2);
+  bottom: -5px;
+  right: -5px;
+}
+
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="172426681800196096"]::before {
+  background-image: url(https://i.imgur.com/PkmXtZ5.png);
+  transform: scale(1.2);
+}
 
 /* on hover */
   /* green */
@@ -1135,7 +1140,9 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="317731521639350272"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="173177738914562048"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="185119357578379264"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="96563253466898432"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="96563253466898432"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="213220786805145600"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="172426681800196096"]:hover::before {
   transform: none;
   background-size: cover;
   background-position: center;
@@ -1184,12 +1191,26 @@
   color: #ccac00;
 }
 
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="213220786805145600"]:hover::before {
+  content: 'Developer';
+  background-image: url(https://i.imgur.com/guC1XFS.gif);
+  color: #fff;
+}
+
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="172426681800196096"]:hover::before {
+  content: 'Primal Fear';
+  color: #fff;
+  background-image: url(https://i.imgur.com/C1VKjP1.gif);
+}
+
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="402272736665272320"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="134349083568504832"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="214318588331294720"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="116243287936860167"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="282138006738042880"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="96563253466898432"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="96563253466898432"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="213220786805145600"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="172426681800196096"]:hover::before {
   display: block;
   background-color: transparent;
   box-shadow: none;
