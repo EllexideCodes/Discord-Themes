@@ -117,6 +117,8 @@
   15.j. @Everyone Popout
   15.k. Attach Popout
   15.l. RTC Connection Popout
+  15.m. More Users Popout
+  15.n. Overflow Roles Popout
 
 16. Menus
   16.a. Context Menus
@@ -2563,6 +2565,11 @@ pre {
   border-color: var(--primary-color) !important;
 }
 
+  /* 15.n. Overflow Roles Popout */
+.overflowRolesPopout-140n9i, 
+.overflowRolesPopoutArrow-2O66oH {
+  background-color: var(--primary-color) !important;
+}
 
 /* 16. Menus */
   /* 16.a. Context Menu */
@@ -3429,6 +3436,11 @@ form.modal-content.form.need-help-modal::after {
 
 .input-autosize-input:focus {
   background-color: var(--quaternary-color) !important;
+}
+
+.number-3ceIrJ {
+  background-color: var(--quaternary-color) !important;
+  border-color: var(--tertiary-color) !important;
 }
 
   /* 20.a. Plugin Optimization */
