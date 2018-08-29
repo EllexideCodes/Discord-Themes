@@ -3430,6 +3430,7 @@ form.modal-content.form.need-help-modal::after {
   border-color: var(--main-color) !important;
 }
 
+.connectedAccountVerifiedIcon-3aZz_K g path:nth-child(2),
 .verified-3uJH7V g path:nth-child(2){
   fill: var(--main-color) !important;
 }
