@@ -1580,6 +1580,10 @@ pre {
   background: var(--quaternary-color) !important;
 }
 
+#friends .friends-table .friend-table-add-wrapper .friend-table-add-header {
+  background: transparent !important
+}
+
   /* 9.b. Action Buttons */
 #friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-video-call,
 #friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-voice-call {
