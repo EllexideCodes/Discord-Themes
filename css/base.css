@@ -2233,7 +2233,7 @@ pre {
   top: 0;
   left: 0;
   width: 100%;
-  border-width: 1em .5em;
+  border-width: calc(0.65em + 4px) .5em;
   border-style: solid;
   border-color: inherit;
   box-sizing: border-box;
