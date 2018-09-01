@@ -3029,11 +3029,11 @@ form.modal-content.form.need-help-modal::after {
 }
 
 .create-guild-container.deprecated .action.create .action-icon {
-  background-image: url(/Discord-Themes/assets/add-btn.png);
+  background-image: url(../assets/add-btn.png);
 }
 
 .create-guild-container.deprecated .action.join .action-icon {
-  background-image: url(Discord-Themes/assets/join-btn.png);
+  background-image: url(../assets/join-btn.png);
 }
 
 .create-guild-container.deprecated .form.deprecated .form-inner,
