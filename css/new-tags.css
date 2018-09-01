@@ -281,7 +281,6 @@
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/107511169366888448"]:hover::before {
   content: 'His Code Works';
-  display: inline-block !important;
   background: url(https://i.imgur.com/sZJzzNW.gif);
   -webkit-filter: hue-rotate(360deg) invert();
   animation: hue-rotate 1.5s linear infinite;
