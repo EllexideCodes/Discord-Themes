@@ -3028,6 +3028,14 @@ form.modal-content.form.need-help-modal::after {
   color: var(--main-color)
 }
 
+.create-guild-container.deprecated .action.create .action-icon {
+  background-image: url(/assets/add.png);
+}
+
+.create-guild-container.deprecated .action.join .action-icon {
+  background-image: url(/assets/join.png);
+}
+
 .create-guild-container.deprecated .form.deprecated .form-inner,
 .create-guild-container.deprecated,
 .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:hover {
