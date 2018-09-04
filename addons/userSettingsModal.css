@@ -37,6 +37,10 @@
 	border-bottom-right-radius: 15px;
 }
 
+.ui-standard-sidebar-view .notice-region {
+	transform: translateX(0px) !important;
+}
+
 .layer-3QrUeG:nth-child(2)::after {
     content: '';
     position: absolute;
