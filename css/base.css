@@ -1132,11 +1132,36 @@
 
 .operations-36ENbA>a,
 a {
-  color: var(--main-color);
+  color: var(--main-color) !important;
 }
 
 .messages-3amgkR.scroller {
   padding-bottom: 10px;
+}
+
+.icon-2shpbb {
+  -webkit-mask-size: 95%;
+  -webkit-mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  background-color: var(--main-color);
+  background-image: none !important;
+}
+
+.exclamation-1mi7Vi {
+  -webkit-mask-image: url(https://discordapp.com/assets/7616be62f9b90270b5a2e1fe9d2ece4f.svg);
+}
+
+.share-1EA-d2 {
+  -webkit-mask-image: url(https://discordapp.com/assets/07778297eb1e1e3d9bd3cd302920d5fb.svg);
+}
+
+.mobile-3_KEmF {
+  -webkit-mask-image: url(https://discordapp.com/assets/83d501f2b7dd2987302ce29b321f4494.svg);
+}
+
+.twitter-1TN3uJ {
+  -webkit-mask-image: url(https://discordapp.com/assets/326d79eb53886c88437e99a3754b1cd0.svg);
+  -webkit-mask-size: 80%;
 }
 
   /* 8.b Messages */
@@ -3156,7 +3181,7 @@ form.modal-content.form.need-help-modal::after {
 }
 
 .uploadModal-2ifh8j .footer-3mqk7D .button-primary:hover {
-  background-color: #21db87;
+  background-color: #21db87 !important;
   transform: scale(1.5);
 }
 

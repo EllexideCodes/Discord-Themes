@@ -9,12 +9,13 @@
 	transform: none !important;
 }
 
-.layer-3QrUeG:nth-child(2) {
+.layer-3QrUeG:nth-child(2), #user-settings {
 	background-color: rgba(0,0,0,0.8) !important;
 	z-index: 101 !important;
 }
 
-.layer-3QrUeG:nth-child(2) .ui-standard-sidebar-view {
+.layer-3QrUeG:nth-child(2) .ui-standard-sidebar-view,
+#user-settings .ui-standard-sidebar-view {
 	max-height: var(--size);
 	max-width: var(--size);
 	top: calc( (100% - var(--size))/2);
@@ -41,7 +42,8 @@
 	transform: translateX(0px) !important;
 }
 
-.layer-3QrUeG:nth-child(2)::after {
+.layer-3QrUeG:nth-child(2)::after,
+#user-settings::after {
     content: '';
     position: absolute;
     min-width: 779px;
