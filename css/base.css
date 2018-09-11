@@ -1131,7 +1131,8 @@
 }
 
 .operations-36ENbA>a,
-a {
+a,
+.app .welcomeMessage-3_Mcht h1 {
   color: var(--main-color) !important;
 }
 
@@ -1161,7 +1162,7 @@ a {
 
 .twitter-1TN3uJ {
   -webkit-mask-image: url(https://discordapp.com/assets/326d79eb53886c88437e99a3754b1cd0.svg);
-  -webkit-mask-size: 80%;
+  -webkit-mask-size: 77%;
 }
 
   /* 8.b Messages */
