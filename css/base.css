@@ -433,7 +433,7 @@
 }
 
 .sidebarScrollable-1qPI87 {
-  width: 25%;
+  width: 24%;
 }
 
 .sidebarScrollable-1qPI87+.content-1rPSz4 {
@@ -1132,9 +1132,13 @@
 
 .operations-36ENbA>a,
 a,
-.app .welcomeMessage-3_Mcht h1,
+.itemContainer-WiE19S .anchor-3Z-8Bb,
+.app .welcomeMessage-3_Mcht h1 {
+  color: var(--main-color);
+}
+
 .item-1Yvehc.brand-3igrJY {
-  color: var(--main-color) !important;
+  color: var(--main-color);
 }
 
 .messages-3amgkR.scroller {
