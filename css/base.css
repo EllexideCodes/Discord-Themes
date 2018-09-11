@@ -2083,14 +2083,12 @@ pre {
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S {
   opacity: 1
 }
-
-.bda-dark .emoji-picker .scroller .emoji-item, 
-.bda-dark .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA {
+ 
+.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA {
   border: 2px solid transparent;
 }
 
-.bda-dark .emoji-picker .scroller .emoji-item.selected, 
-.bda-dark .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
+.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
   background-color: transparent !important;
   border-color: var(--hover-color);
 }
