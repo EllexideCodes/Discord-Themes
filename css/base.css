@@ -1704,6 +1704,24 @@ pre {
   margin-left: 5px
 }
 
+.splashArt-1anaP9 {
+  opacity: .5;
+  -webkit-mask: -webkit-gradient(linear,right top,left top,from(#202225), to(transparent));
+}
+
+.paginationText-30Kp6m::after {
+  display: none;
+}
+
+.paginationItem-3-MBTL {
+  background: transparent;
+}
+
+.selectedPage-2JQS2s,
+.paginationItem-3-MBTL:hover {
+  background: var(--primary-color);
+}
+
 .paginationItem-3-MBTL:before {
   background: var(--main-color);
 }
