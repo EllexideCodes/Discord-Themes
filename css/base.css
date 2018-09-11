@@ -3043,6 +3043,10 @@ form.modal-content.form.need-help-modal::after {
   transform: scale(1.2);
 }
 
+.inviteRowInfo-I9V9v- {
+  overflow: visible;
+}
+
 .contentWrapper-3WC1ID {
   background-color: var(--primary-color) !important;
 }
