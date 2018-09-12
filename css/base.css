@@ -1180,7 +1180,8 @@ a,
 }
 
 .containerCozy-jafyvG .isMentioned-N-h9aa {
-  background: transparent;
+  background: var(--quaternary-color);
+  box-shadow: 0px 0px 5px var(--quaternary-color);
   border-left: 3px solid var(--main-color);
   padding: 0px 0px 0px 3px;
   border-radius: 0px;
