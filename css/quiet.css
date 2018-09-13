@@ -79,7 +79,7 @@
   background-color: var(--quaternary-color);
 }
 
-.private-channels .search-bar {
+.privateChannels-1nO12o .searchBar-6Kv8R2 {
   background: var(--quaternary-color);
 }
 
@@ -244,7 +244,8 @@
 
 
 /* 13. Games Tab, Library, and Store */
-.gameLibrary-TTDw4Y {
+.gameLibrary-TTDw4Y,
+.applicationStore-1pNvnv {
   background-color: var(--primary-color) !important;
 }
 

@@ -94,7 +94,7 @@
 .headerBar-UHpsPw,
 .guildsWrapper-5TJh6A .guilds-1q_RqH>.guild-1EfMGQ:first-child .guildInner-3DSoA4,
 .container-2Thooq,
-.private-channels .search-bar,
+.privateChannels-1nO12o .searchBar-6Kv8R2,
 .wrapper-2NJDcI,
 .wrapper-29NfPK,
 .incomingCall-14zLc,
@@ -102,7 +102,8 @@
 .paginator-166-09,
 .payment-xT17Mq,
 .sidebar-1-SQro,
-.reactors-Blmlhw {
+.reactors-Blmlhw,
+.applicationStore-1pNvnv {
   background: transparent !important;
 }
 

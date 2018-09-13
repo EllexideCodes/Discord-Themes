@@ -266,7 +266,8 @@
 .titleWrapper-1l0xT9 .flex-1xMQg5 .flex-1xMQg5,
 #friends .flex-1xMQg5 .flex-1xMQg5,
 .activityFeed-28jde9>.flex-1xMQg5>.horizontal-1ae9ci>.flex-1xMQg5:last-child,
-.gameLibrary-TTDw4Y>.flex-1xMQg5 .flex-1xMQg5:last-child {
+.gameLibrary-TTDw4Y>.flex-1xMQg5 .flex-1xMQg5:last-child,
+.applicationStore-1pNvnv>.homeWrapper-3-Wh5T>.flex-1xMQg5 .flex-1xMQg5:last-child {
   margin-right: 98px;
 }
 
@@ -361,18 +362,18 @@
   padding: 0px 8px 1px 6px;
 }
 
-.private-channels .search-bar {
+.privateChannels-1nO12o .searchBar-6Kv8R2 {
   border-bottom: 2px solid var(--main-color);
   padding: 0px;
   height: 46px;
   box-shadow: 0px 0px transparent !important
 }
 
-.private-channels .search-bar input {
+.privateChannels-1nO12o .searchBar-6Kv8R2 input {
   height: 100%;
 }
 
-.private-channels .search-bar .searchBarInner-1_Tg2R {
+.privateChannels-1nO12o .searchBar-6Kv8R2 .searchBarInner-1_Tg2R {
   border: 0px solid transparent;
   border-radius: 0px;
   padding: 0px;
@@ -561,33 +562,33 @@
   border-color: var(--main-color);
 }
 
-.private-channels .channel .link-button-icon path {
+.privateChannels-1nO12o .channel-2QD9_O .linkButtonIcon-Mlm5d6 path {
   display: none;
 }
 
-.private-channels .channel .link-button-icon {
+.privateChannels-1nO12o .channel-2QD9_O .linkButtonIcon-Mlm5d6 {
   background-size: 24px;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.private-channels .channel .link-button-icon[name*="PersonWaving"] {
+.privateChannels-1nO12o .channel-2QD9_O .linkButtonIcon-Mlm5d6[name*="PersonWaving"] {
   background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/friends.svg);
 }
 
-.private-channels .channel .link-button-icon[name*="Store"] {
+.privateChannels-1nO12o .channel-2QD9_O .linkButtonIcon-Mlm5d6[name*="Store"] {
   background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/store.svg);
 }
 
-.private-channels .channel .link-button-icon[name*="Library"] {
+.privateChannels-1nO12o .channel-2QD9_O .linkButtonIcon-Mlm5d6[name*="Library"] {
   background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/library.svg);
 }
 
-.private-channels .channel .link-button-icon[name*="Activity"] {
+.privateChannels-1nO12o .channel-2QD9_O .linkButtonIcon-Mlm5d6[name*="Activity"] {
   background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/activity.svg);
 }
 
-.theme-light .private-channels .channel .link-button-icon {
+.theme-light .privateChannels-1nO12o .channel-2QD9_O .linkButtonIcon-Mlm5d6 {
   filter: invert(100%);
 }
 
@@ -755,20 +756,20 @@
   fill: #000 !important;
 }
 
-.theme-light .private-channels .channel a[href*="/channels/@me"],
+.theme-light .privateChannels-1nO12o .channel a[href*="/channels/@me"],
 .theme-light .actionIcon-2Hi9ZG,
-.theme-light .private-channels .channel .channel-name,
+.theme-light .privateChannels-1nO12o .channel .channel-name,
 .theme-light .nameHoveredVoice-YJ1Vfd,
 .theme-light .wrapperHoveredText-2geN_M .nameUnreadText-DfkrI4,
 .theme-light .wrapperHoveredText-2geN_M .nameHoveredText-1uO31y {
   color: #000 !important;
 }
 
-.theme-light .private-channels .channel .close {
+.theme-light .privateChannels-1nO12o .channel .close {
   filter: invert();
 }
 
-.theme-light .private-channels .channel:hover .channel-activity {
+.theme-light .privateChannels-1nO12o .channel:hover .channel-activity {
     color: #5a5a5a;
 }
 
@@ -942,14 +943,14 @@
 }
 
   /* 5.g. DM List */
-.private-channels .channel a {
+.privateChannels-1nO12o .channel-2QD9_O a {
   margin: unset;
   border-radius: 0px;
   border-left: 2px solid transparent;
   transition: border-color .2s ease-in-out;
 }
 
-.private-channels .channel:hover a {
+.privateChannels-1nO12o .channel-2QD9_O:hover a {
   background: var(--quaternary-color);
   border-color: var(--hover-color);
 }
@@ -958,12 +959,12 @@
   background-color: var(--tertiary-color)
 }
 
-.private-channels .channel.selected a {
+.privateChannels-1nO12o .channel-2QD9_O.selected-1HYmZZ a {
   background-color: var(--quaternary-color);
   border-left: 2px solid var(--main-color);
 }
 
-.private-channels .channel.selected:hover a {
+.privateChannels-1nO12o .channel-2QD9_O.selected-1HYmZZ:hover a {
   border-left: 2px solid var(--main-color) !important;
 }
 
@@ -1881,7 +1882,8 @@ pre {
 .authedApp-mj2Hmd,
 .modal-3HD5ck .message-2qRu38,
 .theme-dark .autocomplete-1vrmpx,
-.menu-Sp6bN1 {
+.menu-Sp6bN1,
+.privateChannels-1nO12o {
   box-shadow: 0 2px 20px var(--shadow) !important;
 }
 
