@@ -1764,6 +1764,10 @@ pre {
   -webkit-mask: radial-gradient(100% 100% at top left,hsla(0,0%,100%,.5) 0,hsla(0,0%,100%,0) 100%);
 }
 
+.header-39GIC8 {
+  background-color: var(--quaternary-color) !important;
+}
+
   /* 10.c. Store */
 /* Coming Soon */
 
