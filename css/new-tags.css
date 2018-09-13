@@ -53,8 +53,8 @@
 
 .guild-settings-audit-logs .large-3ChYtB:not(.wrapper-2F3Zv8)::before,
 .guild-settings-audit-logs .large-3ChYtB:not(.wrapper-2F3Zv8)::after,
-.layers-3iHuyZ>.layer-3QrUeG .large-3ChYtB:not(.wrapper-2F3Zv8)::before,
-.layers-3iHuyZ>.layer-3QrUeG .large-3ChYtB:not(.wrapper-2F3Zv8)::after,
+.ui-standard-sidebar-view .large-3ChYtB:not(.wrapper-2F3Zv8)::before,
+.ui-standard-sidebar-view .large-3ChYtB:not(.wrapper-2F3Zv8)::after,
 .inner-1JeGVc .large-3ChYtB:not(.wrapper-2F3Zv8)::before {
   display: none !important;
 }
