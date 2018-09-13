@@ -1180,14 +1180,6 @@ a,
   padding-top: 15px !important;
 }
 
-.containerCozy-jafyvG .isMentioned-N-h9aa {
-  background: var(--quaternary-color);
-  box-shadow: 0px 0px 5px var(--quaternary-color);
-  border-left: 3px solid var(--main-color);
-  padding: 0px 0px 0px 3px;
-  border-radius: 0px;
-}
-
 .wrapper-FtzxDk.vertical-V37hAW.flex-101GKY.directionColumn-35P_nr.wrapper-2h3Puq.vertical-V37hAW.flex-101GKY.directionColumn-35P_nr.alignEnd-1D6PQi.spacer-1fA9zc {
   margin-top: 55px !important;
 }
@@ -1248,7 +1240,8 @@ a,
 
   /* 8.e. Mentions */
 .containerCozy-jafyvG .isMentioned-N-h9aa {
-  background: transparent;
+  background: var(--quaternary-color);
+  box-shadow: 0px 0px 5px var(--quaternary-color);
   border-left: 3px solid var(--main-color);
   padding: 0px 0px 0px 3px;
   border-radius: 0px;
