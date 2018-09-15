@@ -226,7 +226,7 @@
 
 .keyboardShortcutsModal-3piNz7,
 .incomingCallInner-2VmFiR,
-.backdrop-1wrmKB {
+.backdrop-1wrmKB[style*="background-color: rgb(255, 255, 255)"] {
   background-color: var(--primary-color) !important;
 }
 

@@ -170,7 +170,7 @@
 .container-2Yth53,
 .userList-1kLH8B,
 .regionSelectModal-12e-57::before,
-.backdrop-1wrmKB {
+.backdrop-1wrmKB[style*="background-color: rgb(255, 255, 255)"] {
   background-image: var(--popup-background) !important;
   background-size: cover;
   background-repeat: no-repeat;
@@ -217,7 +217,7 @@
 .keyboardShortcutsModal-3piNz7::before,
 .incomingCallInner-2VmFiR::before,
 .add-game-popout::before,
-.backdrop-1wrmKB:before  {
+.backdrop-1wrmKB[style*="background-color: rgb(255, 255, 255)"]:before  {
   content: "";
   position: absolute;
   height: 100%;
