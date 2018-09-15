@@ -1618,6 +1618,15 @@ pre {
   background: transparent !important
 }
 
+#friends .tab-bar .tab-bar-item:hover:not(.selected) {
+  background-color: var(--tertiary-color);
+}
+
+#friends .tab-bar .tab-bar-item.selected:hover {
+  background-color: var(--hover-color);
+  color: white;
+}
+
   /* 9.b. Action Buttons */
 #friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-video-call,
 #friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-voice-call {
