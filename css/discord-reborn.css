@@ -169,7 +169,8 @@
 .incomingCallInner-2VmFiR,
 .container-2Yth53,
 .userList-1kLH8B,
-.regionSelectModal-12e-57::before {
+.regionSelectModal-12e-57::before,
+.backdrop-1wrmKB {
   background-image: var(--popup-background) !important;
   background-size: cover;
   background-repeat: no-repeat;
@@ -215,7 +216,8 @@
 .quickswitcher-3JagVE::before,
 .keyboardShortcutsModal-3piNz7::before,
 .incomingCallInner-2VmFiR::before,
-.add-game-popout::before {
+.add-game-popout::before,
+.backdrop-1wrmKB:before  {
   content: "";
   position: absolute;
   height: 100%;

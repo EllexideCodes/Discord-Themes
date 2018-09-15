@@ -544,7 +544,8 @@
 .themeDefault-24hCdX.valueChecked-m-4IJZ,
 .barFill-23-gu-,
 [style*="border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"],
-.bd-pfbtn {
+.bd-pfbtn,
+#pubslayer button {
   background-color: var(--main-color) !important;
 }
 
@@ -553,7 +554,8 @@
   background-color: var(--quaternary-color) !important;
 }
 
-.lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+.lookFilled-1Gx00P.colorBrand-3pXr91:hover,
+#pubslayer button:hover {
   background-color: var(--hover-color) !important;
 }
 
@@ -3286,6 +3288,56 @@ form.modal-content.form.need-help-modal::after {
 
 .phoneField-38N1bJ .inputField-aNPXsv {
   background: transparent !important;
+}
+
+  /* 17.j. Smartphone Modal */
+.downloadApps-wbBFdZ .header-nJMe-Q,
+.downloadApps-wbBFdZ .footer-1nkeBm a {
+  color: var(--main-color);
+}
+
+.downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236.active-iLSdWQ p {
+  color: var(--hover-color);
+}
+
+.downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236.active-iLSdWQ {
+  border-color: var(--hover-color);
+}
+
+.downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236.active-iLSdWQ .downloadButton-1bWXpg {
+  background-color: var(--hover-color);
+}
+
+.downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236 .icon-2Pk7pb {
+  background-image: none !important;
+  background-color: #99aab5;
+  -webkit-mask-size: cover;
+  -webkit-mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+}
+
+.downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236.active-iLSdWQ .icon-2Pk7pb {
+    background-color: var(--hover-color);
+}
+
+.downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236 .icon-2Pk7pb.apple-1fKN59 {
+  -webkit-mask-image: url(https://discordapp.com/assets/57568e1cfc37c81cf56db9498b4f128a.svg);
+}
+
+.downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236 .icon-2Pk7pb.windows-29yOum {
+  -webkit-mask-image: url(https://discordapp.com/assets/d6221c5e88f5cb89f125868c077e9859.svg)
+}
+
+.downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236 .icon-2Pk7pb.linux-15cW1y {
+  -webkit-mask-image: url(https://discordapp.com/assets/a3bee2061afed80c5bd76ff38cd18f0e.svg);
+}
+
+.downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236 .icon-2Pk7pb.ios-Z7K-rr {
+  -webkit-mask-image: url(https://discordapp.com/assets/0c460e9b848f5c4cc964ae9c62c0f9b9.svg);
+}
+
+.downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236 .icon-2Pk7pb.android-gGrHJu {
+  -webkit-mask-image: url(https://discordapp.com/assets/676bfec9f4343f6fcdf0a12ae313a3de.svg);
 }
 
   /* 17.j. Generic Modal */
