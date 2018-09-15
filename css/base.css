@@ -3302,6 +3302,7 @@ form.modal-content.form.need-help-modal::after {
 
 .downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236.active-iLSdWQ {
   border-color: var(--hover-color);
+  transition: all .2s ease-in-out;
 }
 
 .downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236.active-iLSdWQ .downloadButton-1bWXpg {
