@@ -132,7 +132,12 @@
   17.d. Join or Create New Guild
   17.e. Upload Modal
   17.f. Game Preview Modal
-  17.g. Generic Modal
+  17.g. Quick Switcher
+  17.h. Screenshare Modal
+  17.i. Phone Verification Modal
+  17.j. Smartphone Modal
+  17.k. Drag and Drop Modal
+  17.l. Generic Modal
 
 18. Login Page
 
@@ -3349,7 +3354,13 @@ form.modal-content.form.need-help-modal::after {
   -webkit-mask-image: url(https://discordapp.com/assets/676bfec9f4343f6fcdf0a12ae313a3de.svg);
 }
 
-  /* 17.k. Generic Modal */
+  /* 17.k Drag and Drop Modal */
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc {
+  background: var(--main-color);
+
+}
+
+  /* 17.l. Generic Modal */
 .footer-2yfCgX {
   box-shadow: inset 0 1px 0 var(--tertiary-color) !important;
 }
