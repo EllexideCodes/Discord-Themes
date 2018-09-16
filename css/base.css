@@ -2581,23 +2581,37 @@ pre {
 }
 
 .tooltip.tooltip-black {
-  background: black !important;
+  background: var(--main-color) !important;
 }
 
 .tooltip.tooltip-black.tooltip-right:after {
-  border-right-color: black !important;
+  border-right-color: var(--main-color) !important;
 }
 
 .tooltip.tooltip-black.tooltip-top:after {
-  border-top-color: black !important;
+  border-top-color: var(--main-color) !important;
 }
 
 .tooltip.tooltip-black.tooltip-left:after {
-  border-left-color: black !important;
+  border-left-color: var(--main-color) !important;
 }
 
 .tooltip-tooltip-black.tooltip-bottom:after {
-  border-bottom-color: black !important;
+  border-bottom-color: var(--main-color) !important;
+}
+
+/* tropix's fade in tooltip anim */
+
+.tooltips .tooltip.tooltip-right {
+  animation: fadeFromRight-tooltip 200ms
+}
+
+.tooltips .tooltip.tooltip-bottom {
+  animation: fadeFromBottom-tooltip 200ms
+}
+
+.tooltips .tooltip.tooltip-left {
+  animation: fadeFromLeft-tooltip 200ms
 }
 
   /* 15.j. @Everyone Popout */
@@ -3456,6 +3470,50 @@ form.modal-content.form.need-help-modal::after {
 
 
 /* 19. Keyframes */
+
+@keyframes fadeFromTop-tooltip {
+  0% {
+      opacity: 0;
+      transform: translate3d(0, -50%, 0)
+  }
+  100% {
+      opacity: 0.9;
+      transform: none
+  }
+}
+
+@keyframes fadeFromRight-tooltip {
+  0% {
+      opacity: 0;
+      transform: translate3d(50%, 0, 0)
+  }
+  100% {
+      opacity: 0.9;
+      transform: none
+  }
+}
+
+@keyframes fadeFromBottom-tooltip {
+  0% {
+      opacity: 0;
+      transform: translate3d(0, 50%, 0)
+  }
+  100% {
+      opacity: 0.9;
+      transform: none
+  }
+}
+
+@keyframes fadeFromLeft-tooltip {
+  0% {
+      opacity: 0;
+      transform: translate3d(-50%, 0, 0)
+  }
+  100% {
+      opacity: 0.9;
+      transform: none
+  }
+}
 
 @keyframes slide-up {
   from {
