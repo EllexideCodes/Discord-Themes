@@ -1209,10 +1209,10 @@
   content: 'Tropical';
   color: #ffff66;
   background-image: url(https://i.imgur.com/0tAtFyG.gif);
-  text-shadow: -1px 0 white, 
-    0 1px white, 
-    1px 0 white, 
-    0 -1px white !important;
+  text-shadow: -1px 0 black, 
+    0 1px black, 
+    1px 0 black, 
+    0 -1px black !important;
 }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="402272736665272320"]:hover::before,
