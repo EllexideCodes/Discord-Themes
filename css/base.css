@@ -295,16 +295,26 @@
 }
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH>div.guild-1EfMGQ:first-child .guildInner-3DSoA4 a,
-.guildsWrapper-5TJh6A .guilds-1q_RqH>div.guild-1EfMGQ:first-child .homeIcon-1FoKUJ {
-  width: 70px;
+.guildsWrapper-5TJh6A .guilds-1q_RqH>div.guild-1EfMGQ:first-child .homeIcon-1FoKUJ,
+.guildsWrapper-5TJh6A.folderopen .guilds-1q_RqH div.guild-1EfMGQ:nth-child(2) .guildInner-3DSoA4 a,
+.guildsWrapper-5TJh6A.folderopen .guilds-1q_RqH div.guild-1EfMGQ:nth-child(2) .homeIcon-1FoKUJ {
+  width: 100%;
+  transition: all .3s ease-in-out;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH>.guild-1EfMGQ:first-child .guildInner-3DSoA4 {
+.guildsWrapper-5TJh6A .guilds-1q_RqH>.guild-1EfMGQ:first-child .guildInner-3DSoA4,
+.guildsWrapper-5TJh6A.folderopen .guilds-1q_RqH .guild-1EfMGQ:nth-child(2) .guildInner-3DSoA4 {
   border-bottom: 2px solid var(--main-color);
   border-radius: 0px !important;
+  transition: all .5s ease-in-out;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH>div.guild-1EfMGQ:first-child {
+.guildsWrapper-5TJh6A.folderopen .guilds-1q_RqH .guild-1EfMGQ:nth-child(2) .guildInner-3DSoA4 {
+  width: 140px;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH div.guild-1EfMGQ:first-child, 
+.guildsWrapper-5TJh6A.folderopen .guilds-1q_RqH div.guild-1EfMGQ:nth-child(2) {
   margin-top: -52px;
   width: 70px;
   margin-left: -10px;
@@ -728,6 +738,10 @@
   z-index: -1;
   background: linear-gradient(to bottom, rgba(48, 48, 48, 0) 0%, var(--quaternary-color) 60%, var(--quaternary-color) 100%);
   pointer-events: none;
+}
+
+.guildsWrapper-5TJh6A.folderopen .guild-1EfMGQ.guildsAdd-21_IdK::before {
+  width: 140px;
 }
 
   /* 4.d. Badges */
