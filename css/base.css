@@ -296,25 +296,25 @@
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH>div.guild-1EfMGQ:first-child .guildInner-3DSoA4 a,
 .guildsWrapper-5TJh6A .guilds-1q_RqH>div.guild-1EfMGQ:first-child .homeIcon-1FoKUJ,
-.guildsWrapper-5TJh6A.folderopen .guilds-1q_RqH div.guild-1EfMGQ:nth-child(2) .guildInner-3DSoA4 a,
-.guildsWrapper-5TJh6A.folderopen .guilds-1q_RqH div.guild-1EfMGQ:nth-child(2) .homeIcon-1FoKUJ {
+.guildsWrapper-5TJh6A.folderopen .guilds-1q_RqH .foldercontainer>.guild-1EfMGQ:nth-child(2)  .guildInner-3DSoA4 a,
+.guildsWrapper-5TJh6A.folderopen .guilds-1q_RqH .foldercontainer>.guild-1EfMGQ:nth-child(2)  .homeIcon-1FoKUJ {
   width: 100%;
   transition: all .3s ease-in-out;
 }
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH>.guild-1EfMGQ:first-child .guildInner-3DSoA4,
-.guildsWrapper-5TJh6A.folderopen .guilds-1q_RqH .guild-1EfMGQ:nth-child(2) .guildInner-3DSoA4 {
+.guildsWrapper-5TJh6A.folderopen .guilds-1q_RqH .foldercontainer>.guild-1EfMGQ:nth-child(2) .guildInner-3DSoA4 {
   border-bottom: 2px solid var(--main-color);
   border-radius: 0px !important;
   transition: all .5s ease-in-out;
 }
 
-.guildsWrapper-5TJh6A.folderopen .guilds-1q_RqH .guild-1EfMGQ:nth-child(2) .guildInner-3DSoA4 {
+.guildsWrapper-5TJh6A.folderopen .guilds-1q_RqH .foldercontainer>.guild-1EfMGQ:nth-child(2) .guildInner-3DSoA4 {
   width: 140px;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH div.guild-1EfMGQ:first-child, 
-.guildsWrapper-5TJh6A.folderopen .guilds-1q_RqH div.guild-1EfMGQ:nth-child(2) {
+.guildsWrapper-5TJh6A .guilds-1q_RqH>div.guild-1EfMGQ:first-child, 
+.guildsWrapper-5TJh6A.folderopen .guilds-1q_RqH .foldercontainer>.guild-1EfMGQ:nth-child(2)  {
   margin-top: -52px;
   width: 70px;
   margin-left: -10px;
@@ -730,7 +730,7 @@
 
 .guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK::before {
   content: "";
-  width: 69px;
+  width: 70px;
   height: 150px;
   position: absolute;
   left: 0px;
