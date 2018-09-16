@@ -2654,6 +2654,25 @@ pre {
   background-color: var(--primary-color) !important;
 }
 
+  /* 15.o. Dropdown Menu Popout */
+.popout-2sKjHu {
+  background-color: var(--quaternary-color) !important;
+  border-color: var(--quaternary-color) !important;
+}
+
+.optionActive-KkAdqq {
+  background-color: var(--main-color) !important;
+}
+
+.optionLabel-2CkCZx {
+  border: 1px solid transparent;
+}
+
+.optionNormal-12VR9V:hover {
+  background: transparent !important;
+  border-color: var(--hover-color) !important
+}
+
 /* 16. Menus */
   /* 16.a. Context Menu */
 .contextMenu-HLZMGh {
