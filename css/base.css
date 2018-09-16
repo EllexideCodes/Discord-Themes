@@ -1902,7 +1902,8 @@ pre {
 .modal-3HD5ck .message-2qRu38,
 .theme-dark .autocomplete-1vrmpx,
 .menu-Sp6bN1,
-.privateChannels-1nO12o {
+.privateChannels-1nO12o,
+#permissions-modal-wrapper .role-side {
   box-shadow: 0 2px 20px var(--shadow) !important;
 }
 
@@ -3653,6 +3654,19 @@ form.modal-content.form.need-help-modal::after {
   background: var(--quaternary-color) !important;
 }
 
+  /* 20.a.2. Permission Viewer */
+#permissions-modal-wrapper #permissions-modal {
+  border-color: var(--primary-color);
+}
+
+#permissions-modal-wrapper .role-item {
+  border: 1px solid transparent;
+}
+
+#permissions-modal-wrapper .role-item:hover {
+  background-color: transparent !important;
+  border-color: var(--hover-color);
+}
 
 
 /* 21. Custom CSS */

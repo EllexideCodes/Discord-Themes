@@ -220,13 +220,15 @@
 
 
 /* 12. Modals */
-.topSectionNormal-2-vo2m {
+.topSectionNormal-2-vo2m,
+#permissions-modal-wrapper .header {
   background-color: var(--quaternary-color) !important;
 }
 
 .keyboardShortcutsModal-3piNz7,
 .incomingCallInner-2VmFiR,
-.backdrop-1wrmKB[style*="background-color: rgb(255, 255, 255)"] {
+.backdrop-1wrmKB[style*="background-color: rgb(255, 255, 255)"],
+#permissions-modal-wrapper .modal-body {
   background-color: var(--primary-color) !important;
 }
 
@@ -239,7 +241,8 @@
   left: -65px;
 }
 
-.footer-2yfCgX {
+.footer-2yfCgX,
+#permissions-modal-wrapper .role-side {
   background-color: var(--secondary-color) !important;
 }
 

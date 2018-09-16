@@ -103,7 +103,8 @@
 .payment-xT17Mq,
 .sidebar-1-SQro,
 .reactors-Blmlhw,
-.applicationStore-1pNvnv {
+.applicationStore-1pNvnv,
+#permissions-modal-wrapper .role-side {
   background: transparent !important;
 }
 
@@ -170,7 +171,8 @@
 .container-2Yth53,
 .userList-1kLH8B,
 .regionSelectModal-12e-57::before,
-.backdrop-1wrmKB[style*="background-color: rgb(255, 255, 255)"] {
+.backdrop-1wrmKB[style*="background-color: rgb(255, 255, 255)"],
+#permissions-modal-wrapper #permissions-modal {
   background-image: var(--popup-background) !important;
   background-size: cover;
   background-repeat: no-repeat;
@@ -201,7 +203,9 @@
 .tiles-2aXG_k,
 .container-2x5lvQ header,
 .container-2x5lvQ section,
-.regionSelectModal-12e-57 {
+.regionSelectModal-12e-57,
+#permissions-modal-wrapper .header,
+#permissions-modal-wrapper .modal-body {
   background-color: var(--primary-color) !important;
 }
 
