@@ -239,7 +239,6 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="97787466110472192"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="98241610826911744"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="98458069532426240"]::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="254362351170617345"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="328357975150297088"]::before {
   content: "}";
 }
@@ -961,14 +960,6 @@
   content: "ELEVATE";
 }
 
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="254362351170617345"]:hover::before {
-  content: "Very Tropical";
-  color: #fff;
-  background-image: url(https://i.imgur.com/z7FebcA.gif);
-  background-size: cover;
-  background-position: center;
-}
-
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="328357975150297088"]:hover::before {
   content: 'The Virus';
   background-image: url(https://i.imgur.com/yJLyHm2.gif);
@@ -1031,7 +1022,8 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="185119357578379264"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="96563253466898432"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="213220786805145600"]::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="172426681800196096"]::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="172426681800196096"]::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="254362351170617345"]::before {
   content: '';
   color: transparent;
   height: 15px;
@@ -1116,6 +1108,13 @@
   transform: scale(1.2);
 }
 
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="254362351170617345"]::before {
+  background-image: url(https://i.imgur.com/guzxIlG.png);
+  transform: scale(1.2);
+  bottom: -5px;
+  right: -5px;
+}
+
 /* on hover */
   /* green */
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="214318588331294720"]:hover::before {
@@ -1144,7 +1143,8 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="185119357578379264"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="96563253466898432"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="213220786805145600"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="172426681800196096"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="172426681800196096"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="254362351170617345"]:hover::before {
   transform: none;
   background-size: cover;
   background-position: center;
@@ -1205,6 +1205,13 @@
   background-image: url(https://i.imgur.com/C1VKjP1.gif);
 }
 
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="254362351170617345"]:hover::before {
+  content: 'Tropical';
+  color: #ffff66;
+  background-image: url(https://i.imgur.com/0tAtFyG.gif);
+  border: 2px solid white;
+}
+
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="402272736665272320"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="134349083568504832"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="214318588331294720"]:hover::before,
@@ -1212,7 +1219,8 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="282138006738042880"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="96563253466898432"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="213220786805145600"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="172426681800196096"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="172426681800196096"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="254362351170617345"]:hover::before {
   display: block;
   background-color: transparent;
   box-shadow: none;
