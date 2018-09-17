@@ -3717,6 +3717,10 @@ form.modal-content.form.need-help-modal::after {
   border-color: var(--primary-color);
 }
 
+#permissions-modal-wrapper .perm-side {
+  background: transparent !important
+}
+
 #permissions-modal-wrapper .role-item {
   border: 1px solid transparent;
 }
