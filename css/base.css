@@ -2596,7 +2596,7 @@ pre {
   border-left-color: var(--main-color) !important;
 }
 
-.tooltip-tooltip-black.tooltip-bottom:after {
+.tooltip.tooltip-black.tooltip-bottom:after {
   border-bottom-color: var(--main-color) !important;
 }
 
