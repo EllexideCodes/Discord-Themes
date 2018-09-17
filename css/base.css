@@ -3737,7 +3737,7 @@ form.modal-content.form.need-help-modal::after {
   /* 20.a.3. Character Counter */
 span#charcounter {
   color: rgba(255, 255, 255, .3);
-  right: 10px;
+  right: 36px;
   bottom: .2em;
 }
 
