@@ -3741,6 +3741,10 @@ span#charcounter {
   bottom: .2em;
 }
 
+.message-1PNnaP span#charcounter {
+  bottom: -.5em;
+}
+
 /* 21. Custom CSS */
 .bd-detached-editor .chat-3bRxxu .title-3qD0b- > div:last-child,
 .bd-detached-editor .headerBar-UHpsPw > div:last-child {
