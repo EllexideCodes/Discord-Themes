@@ -2614,6 +2614,10 @@ pre {
   animation: fadeFromLeft-tooltip 200ms
 }
 
+.tooltip.tooltip-black.tooltip-top {
+  animation: fadeFromTop-tooltip 200ms;
+}
+
   /* 15.j. @Everyone Popout */
 .everyonePopout-nEbJY3{
 	background-color: var(--secondary-color) !important;
