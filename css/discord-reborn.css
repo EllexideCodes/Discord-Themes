@@ -104,7 +104,8 @@
 .sidebar-1-SQro,
 .reactors-Blmlhw,
 .applicationStore-1pNvnv,
-#permissions-modal-wrapper .role-side {
+#permissions-modal-wrapper .role-side,
+.itemBackground-1jfD8p {
   background: transparent !important;
 }
 
@@ -259,8 +260,6 @@
 .need-help-modal .header h1::after {
   left: -220px;
 }
-
-
 
 /* 5. @Media Edits */
 @media only screen and (max-width: 915px) {

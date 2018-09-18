@@ -566,10 +566,15 @@
   background-color: var(--hover-color) !important;
 }
 
-.checkbox .checkbox-inner input[type=checkbox]:checked+span {
-  background-color: var(--main-color);
-  border-color: var(--main-color);
+.checkbox .checkbox-inner input[type=checkbox]:checked+span,
+.checked-3_4uQ9 {
+  background-color: var(--main-color) !important;
+  border-color: var(--main-color) !important;
 }
+
+svg[name*="Checkmark"] {
+  filter: brightness(10);
+
 
 .privateChannels-1nO12o .channel-2QD9_O .linkButtonIcon-Mlm5d6 path {
   display: none;
@@ -1784,9 +1789,82 @@ pre {
 }
 
   /* 10.c. Store */
-/* Coming Soon */
+.itemBackground-1jfD8p:before {
+  background: radial-gradient(ellipse at top,transparent,var(--primary-color)),linear-gradient(90deg,var(--primary-color) 0,transparent 40%,transparent 60%,var(--primary-color)),linear-gradient(0deg,var(--primary-color) 10%,transparent 70%) !important;
+}
 
+.tile-2H4MQG,
+.tileMedia-24cT6_,
+.body-1CAT0- {
+  background-color: var(--quaternary-color) !important;
+}
 
+.mediaFade-4Pqtcc {
+  background: linear-gradient(180deg,transparent 90%,var(--quaternary-color)) !important;
+}
+
+.mediaDescription-31GsyQ {
+  background: linear-gradient(180deg,transparent,rgba(0,0,0,.75) 45%,var(--quaternary-color)) !important;
+}
+
+.tile-2H4MQG:hover {
+  background-color: var(--secondary-color) !important;
+}
+
+.overlappingBorder-1ysb12 {
+  border-color: var(--main-color) !important;
+}
+
+.announcingNitro-3Ptg6m {
+  color: var(--main-color) !important;
+}
+
+.announcingNitro-3Ptg6m:hover,
+.lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover {
+  color: var(--hover-color) !important
+}
+
+.blog-2nw4E8 {
+  background: linear-gradient(-270deg,var(--main-color),var(--hover-color)) !important;
+}
+
+.lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover {
+  border-color: var(--hover-color);
+}
+
+.premium-39U29H {
+  background-image: linear-gradient(90deg,var(--main-color),var(--hover-color));
+}
+
+.premium-39U29H:before {
+  opacity: .2;
+  filter: grayscale(100%);
+}
+
+.carousel-tQMSVK:before {
+  background: linear-gradient(90deg,var(--main-color) 0,transparent 10%,transparent 90%,var(--main-color)) !important;
+}
+
+.filterByTitleInput-2U3yVW:focus {
+  border-bottom-color: var(--main-color) !important;
+}
+
+.bubble-1gL_TN {
+  background-color: var(--main-color) !important;
+}
+
+.bubble-1gL_TN:after {
+  border-top-color: var(--main-color) !important;
+}
+
+.listingLarge-3Rix7u,
+.browse-3H33-E, .filters--5q7-h {
+  max-width: none;
+}
+
+.assetWrapper-2Qw_5D {
+  background: transparent !important;
+}
 
 /* 11. Avatars */
   /* 11.a. Remove Mask */
