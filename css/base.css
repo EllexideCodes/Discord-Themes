@@ -1787,7 +1787,7 @@ pre {
   background-color: var(--quaternary-color) !important;
 }
 
-  /* 10.c. Store */
+  /* 10.c. Store 
 .itemBackground-1jfD8p:before {
   background: radial-gradient(ellipse at top,transparent,var(--primary-color)),linear-gradient(90deg,var(--primary-color) 0,transparent 40%,transparent 60%,var(--primary-color)),linear-gradient(0deg,var(--primary-color) 10%,transparent 70%) !important;
 }
