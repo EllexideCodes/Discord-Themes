@@ -272,7 +272,9 @@
 #friends .flex-1xMQg5 .flex-1xMQg5,
 .activityFeed-28jde9>.flex-1xMQg5>.horizontal-1ae9ci>.flex-1xMQg5:last-child,
 .gameLibrary-TTDw4Y>.flex-1xMQg5 .flex-1xMQg5:last-child,
-.applicationStore-1pNvnv>.homeWrapper-3-Wh5T>.flex-1xMQg5 .flex-1xMQg5:last-child {
+.applicationStore-1pNvnv>.homeWrapper-3-Wh5T>.flex-1xMQg5 .flex-1xMQg5:last-child,
+.applicationStore-1pNvnv>.listingWrapper-329f74>.flex-1xMQg5 .flex-1xMQg5:last-child,
+.applicationStore-1pNvnv>.browseWrapper-2Qy6vG>.flex-1xMQg5 .flex-1xMQg5:last-child {
   margin-right: 98px;
 }
 
@@ -281,6 +283,11 @@
 .headerBar-UHpsPw {
   box-shadow: none;
   border-bottom: 2px solid var(--main-color) !important;
+}
+
+.headerBar-3iCFJx {
+  height: 48px;
+  padding: 0 8px 0 12px;
 }
 
 .headerBar-UHpsPw {
@@ -318,6 +325,11 @@
   /* 2.b. Search Bars */
 .search .searchBarIcon-1J6sKG {
   width: 35px;
+}
+
+.browseSearch-e9jF-f .browseSearchInput-Jt8kg0.input-cIJ7To {
+  background: transparent !important;
+  color: white;
 }
 
 .search-bar {
@@ -1807,7 +1819,8 @@ pre {
 
 .tile-2H4MQG,
 .tileMedia-24cT6_,
-.body-1CAT0- {
+.body-1CAT0-,
+.content-35aVm0 {
   background-color: var(--quaternary-color) !important;
 }
 
@@ -1823,7 +1836,7 @@ pre {
   background-color: var(--secondary-color) !important;
 }
 
-.overlappingBorder-1ysb12 {
+.overlappingBorder-1-XPGl {
   border-color: var(--main-color) !important;
 }
 
@@ -1861,7 +1874,8 @@ pre {
   border-bottom-color: var(--main-color) !important;
 }
 
-.bubble-1gL_TN {
+.bubble-1gL_TN,
+.price-1ynJAt {
   background-color: var(--main-color) !important;
 }
 
