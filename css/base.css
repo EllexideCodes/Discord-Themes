@@ -636,7 +636,7 @@ svg[name*="Checkmark"] {
 }
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH {
-  padding: 0px 0px 80px 10px;
+  padding: 48px 0px 80px 10px !important;
 }
 
 .guildsWrapper-5TJh6A .scroller-wrap { 
@@ -647,9 +647,8 @@ svg[name*="Checkmark"] {
   color: #000;
 }
 
-.theme-dark .guildSeparator-1X4GQ1:after,
-.theme-dark .guildSeparator-1X4GQ1 {
-  background-color: transparent;
+.guildSeparator-1X4GQ1:after {
+  background-color: transparent !important;
 }
 
   /* 4.b. Guilds */
