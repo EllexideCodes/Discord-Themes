@@ -3745,6 +3745,16 @@ span#charcounter {
   bottom: -.5em;
 }
 
+  /* 20.a.4. Reply System */
+div.reply-list {
+  background: var(--primary-color)
+}
+
+div.reply-item {
+  background: transparent;
+  border: 1px solid var(--main-color)
+}
+
 /* 21. Custom CSS */
 .bd-detached-editor .chat-3bRxxu .title-3qD0b- > div:last-child,
 .bd-detached-editor .headerBar-UHpsPw > div:last-child {
