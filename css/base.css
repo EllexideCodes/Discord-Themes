@@ -425,6 +425,10 @@
   padding: 20px 40px 80px;
 }
 
+.premium-33BYwD {
+  background-image: linear-gradient(90deg,var(--main-color),var(--hover-color)) !important;
+}
+
 .ui-standard-sidebar-view .content-column, 
 .ui-standard-sidebar-view .custom-column {
   -ms-flex: 1 1 auto;
@@ -451,6 +455,11 @@
 
 .ui-standard-sidebar-view .notice-region {
   transform: translateX(25%) !important;
+}
+
+.premium-settings .premium-header,
+.premium-settings .features-vNGwn7 {
+  max-width: 28.5%;
 }
 
 .paymentPane-3bwJ6A {
@@ -608,6 +617,10 @@ svg[name*="Checkmark"] {
 
 .premiumIndicator-1XvbfM {
   background-color: var(--main-color);
+}
+
+.ui-standard-sidebar-view .content-region-scroller .tools {
+  z-index: 1000;
 }
 
   /* 3.e. Overlay Notifications */

@@ -66,6 +66,11 @@
 .scroller-2FKFPG::-webkit-scrollbar-thumb, 
 .scroller-2FKFPG::-webkit-scrollbar-track { margin: 5px 0px; }
 
+.premium-settings .premium-header,
+.premium-settings .features-vNGwn7 {
+  width: calc(var(--size) * 0.25);
+}
+
 /* light theme */
 .theme-light .ui-standard-sidebar-view {
   background: transparent !important;
