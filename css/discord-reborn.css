@@ -157,6 +157,11 @@
   background-position: center;
 }
 
+.botTagInvert-18-95s {
+  background-color: var(--main-color);
+  color: white;
+}
+
 .menu-Sp6bN1 {
   background: var(--background-image) !important;
 }

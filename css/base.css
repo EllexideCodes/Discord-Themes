@@ -1688,6 +1688,7 @@ pre {
 
 #friends .tab-bar .tab-bar-item {
   border-radius: 0px;
+  transition: all .2s ease-in-out;
 }
 
 #friends .friends-table .friends-row .friends-column-guilds .more-mutual-guilds-btn:hover {
@@ -1699,6 +1700,13 @@ pre {
   background-color: var(--dnd) !important;
 }
 
+#friends .tab-bar .tab-bar-item.tab-bar-item-primary {
+  background-color: var(--main-color) !important;
+}
+
+#friends .tab-bar .tab-bar-item.tab-bar-item-primary:hover {
+  background-color: var(--hover-color) !important;
+}
 
 
 
@@ -3765,7 +3773,8 @@ form.modal-content.form.need-help-modal::after {
 }
 
 .botTagRegular-2HEhHi,
-.aka-1mqp34 {
+.aka-1mqp34,
+.wanderingCubesItem-WPXqao {
   background-color: var(--main-color);
 }
 
@@ -3804,6 +3813,10 @@ form.modal-content.form.need-help-modal::after {
 .number-3ceIrJ {
   background-color: var(--quaternary-color) !important;
   border-color: var(--tertiary-color) !important;
+}
+
+.foreground-2aE44H {
+  stroke: var(--main-color) !important;
 }
 
   /* 20.a. Plugin Optimization */
