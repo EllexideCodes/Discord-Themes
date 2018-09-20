@@ -595,7 +595,7 @@
 .checkbox .checkbox-inner input[type=checkbox]:checked+span,
 .checked-3_4uQ9 {
   background-color: var(--main-color) !important;
-  border-color: white !important;
+  border-color: var(--main-color);
 }
 
 svg[name*="Checkmark"] {
