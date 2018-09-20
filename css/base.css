@@ -1659,12 +1659,7 @@ pre {
 }
 
 #friends .tab-bar .tab-bar-item:hover:not(.selected) {
-  background-color: var(--tertiary-color);
-}
-
-#friends .tab-bar .tab-bar-item.selected:hover {
-  background-color: var(--hover-color);
-  color: white;
+  background-color: var(--tertiary-color) !important;
 }
 
   /* 9.b. Action Buttons */
@@ -1848,11 +1843,13 @@ pre {
   background-color: var(--secondary-color) !important;
 }
 
-.overlappingBorder-1-XPGl {
+.overlappingBorder-1-XPGl,
+.overlappingBorder-1ysb12 {
   border-color: var(--main-color) !important;
 }
 
-.announcingNitro-3Ptg6m {
+.announcingNitro-3Ptg6m,
+.purchaseUnitOperatingSystem-cnbJPz {
   color: var(--main-color) !important;
 }
 
@@ -3768,7 +3765,8 @@ form.modal-content.form.need-help-modal::after {
   background-color: var(--tertiary-color) !important;
 }
 
-.botTagRegular-2HEhHi {
+.botTagRegular-2HEhHi,
+.aka-1mqp34 {
   background-color: var(--main-color);
 }
 
