@@ -456,6 +456,11 @@
   margin-right: 98px;
 }
 
+.theme-dark .ui-standard-sidebar-view .content-region {
+  width: calc(100% - 226px);
+  min-width: 553px;
+}
+
 .sidebarScrollable-1qPI87 {
   width: 24%;
 }
