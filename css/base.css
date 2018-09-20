@@ -897,7 +897,7 @@ svg[name*="Checkmark"] {
 
 .channels-Ie2l6A, 
 .container-PNkimc {
-  z-index: 1;
+  z-index: 2;
 }
 
   /* 5.e. Unread Indicator */
@@ -1989,8 +1989,7 @@ pre {
 .search-results-wrap,
 .embed-IeVjo6,
 .emojiPicker-3m1S-j,
-.channels-Ie2l6A .container-PNkimc,
-.channels-Ie2l6A .flexChild-faoVW3,
+.channels-Ie2l6A,
 .wrapper-35wsBm,
 .cardPrimary-1Hv-to,
 .cardPrimaryEditable-3KtE4g,
