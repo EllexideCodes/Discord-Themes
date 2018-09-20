@@ -32,6 +32,10 @@
 	border-bottom-left-radius: 15px;
 }
 
+.ui-standard-sidebar-view .content-region {
+	max-width: 76.5%;
+}
+
 .ui-standard-sidebar-view .content-region,
 .scroller-2FKFPG.content-region-scroller {
 	border-top-right-radius: 15px;
@@ -68,7 +72,7 @@
 
 .premium-settings .premium-header,
 .premium-settings .features-vNGwn7 {
-  width: calc(var(--size) * 0.25);
+  width: 99%;
 }
 
 /* light theme */

@@ -285,13 +285,13 @@
   border-bottom: 2px solid var(--main-color) !important;
 }
 
+.headerBar-UHpsPw {
+  height: 46px;
+}
+
 .headerBar-3iCFJx {
   height: 48px;
   padding: 0 8px 0 12px;
-}
-
-.headerBar-UHpsPw {
-  height: 46px;
 }
 
 .header-2o-2hj .name-3YKhmS {
@@ -467,7 +467,7 @@
 
 .premium-settings .premium-header,
 .premium-settings .features-vNGwn7 {
-  max-width: 28.5%;
+  max-width: 98%;
 }
 
 .paymentPane-3bwJ6A {
@@ -1768,6 +1768,10 @@ pre {
   background: var(--main-color);
 }
 
+.paginationItem-3-MBTL:after {
+  display: none;
+}
+
 .partyMemberOverflow-3VhFIX,
 .guildIconEmptyBackground-14tfYf {
   background-color: var(--main-color) !important;
@@ -1818,7 +1822,8 @@ pre {
 .body-1CAT0-,
 .content-35aVm0,
 .item-2yFVoY,
-.openBody-1HeDPG {
+.openBody-1HeDPG,
+.card-NB61oR {
   background-color: var(--quaternary-color) !important;
 }
 
