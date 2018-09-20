@@ -437,6 +437,10 @@
   padding: 20px 40px 80px;
 }
 
+.ui-standard-sidebar-view .content-transition-wrap {
+  width: 100%;
+}
+
 .ui-standard-sidebar-view .content-column, 
 .ui-standard-sidebar-view .custom-column {
   -ms-flex: 1 1 auto;
