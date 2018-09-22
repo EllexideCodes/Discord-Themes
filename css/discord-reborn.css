@@ -105,7 +105,10 @@
 .reactors-Blmlhw,
 .applicationStore-1pNvnv,
 #permissions-modal-wrapper .role-side,
-.itemBackground-1jfD8p {
+.itemBackground-1jfD8p,
+.gamePreview-9weYR2 .sideBar-2_lxpG,
+.gamePreview-9weYR2 .body-1SVoBw,
+.news-2KwXHF {
   background: transparent !important;
 }
 
@@ -178,7 +181,8 @@
 .userList-1kLH8B,
 .regionSelectModal-12e-57::before,
 .backdrop-1wrmKB[style*="background-color: rgb(255, 255, 255)"],
-#permissions-modal-wrapper #permissions-modal {
+#permissions-modal-wrapper #permissions-modal,
+.gamePreview-9weYR2 {
   background-image: var(--popup-background) !important;
   background-size: cover;
   background-repeat: no-repeat;
@@ -227,7 +231,8 @@
 .keyboardShortcutsModal-3piNz7::before,
 .incomingCallInner-2VmFiR::before,
 .add-game-popout::before,
-.backdrop-1wrmKB[style*="background-color: rgb(255, 255, 255)"]:before  {
+.backdrop-1wrmKB[style*="background-color: rgb(255, 255, 255)"]::before,
+.gamePreview-9weYR2::before  {
   content: "";
   position: absolute;
   height: 100%;
@@ -254,7 +259,9 @@
 .phoneVerificationModal-OzcDc3 .description-3JBgvQ,
 .container-_CzRhL img[src*="/assets/261873897d8899d4e2e724efdfa21ee3.svg"],
 .container-_CzRhL .title-Ic5R7V,
-.container-_CzRhL .description-2waT7u {
+.container-_CzRhL .description-2waT7u
+.gamePreview-9weYR2 .sideBar-2_lxpG,
+.gamePreview-9weYR2 .body-1SVoBw {
   z-index: 1;
 }
 
