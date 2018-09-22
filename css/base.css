@@ -407,6 +407,8 @@
   -webkit-mask-size: var(--home-size);
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
+  height: 17px !important;
+  margin-bottom: -1;
 }
 
 .homeIcon-1FoKUJ defs,
@@ -595,7 +597,7 @@
 .checkbox .checkbox-inner input[type=checkbox]:checked+span,
 .checked-3_4uQ9 {
   background-color: var(--main-color) !important;
-  border-color: var(--main-color);
+  border-color: var(--tertiary-color) !important;
 }
 
 svg[name*="Checkmark"] {
@@ -1408,12 +1410,13 @@ pre {
 }
 
   /* 8.i. Bot Message */
-.theme-dark .isLocalBot-38G0P0,
-.theme-light .isLocalBot-38G0P0 {
-  background-image: var(--primary-color);
-  padding-left: 20px !important;
-  margin-left: 0px !important;
-  width: 100% !important;
+.isLocalBot-38G0P0 {
+  background-image: var(--primary-color) !important;
+  margin-left: 0px;
+  width: 100%;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  padding-left: 0 !important;
 }
 
   /* 8.j. Embeds */
@@ -2683,23 +2686,23 @@ pre {
   border-radius: 0px !important;
 }
 
-.tooltip.tooltip-black {
+.tooltip {
   background: var(--main-color) !important;
 }
 
-.tooltip.tooltip-black.tooltip-right:after {
+.tooltip.tooltip-right:after {
   border-right-color: var(--main-color) !important;
 }
 
-.tooltip.tooltip-black.tooltip-top:after {
+.tooltip.tooltip-top:after {
   border-top-color: var(--main-color) !important;
 }
 
-.tooltip.tooltip-black.tooltip-left:after {
+.tooltip.tooltip-left:after {
   border-left-color: var(--main-color) !important;
 }
 
-.tooltip.tooltip-black.tooltip-bottom:after {
+.tooltip.tooltip-bottom:after {
   border-bottom-color: var(--main-color) !important;
 }
 
@@ -2717,7 +2720,7 @@ pre {
   animation: fadeFromLeft-tooltip 200ms
 }
 
-.tooltip.tooltip-black.tooltip-top {
+.tooltip.tooltip-top {
   animation: fadeFromTop-tooltip 200ms;
 }
 
@@ -3774,7 +3777,9 @@ form.modal-content.form.need-help-modal::after {
 
 .botTagRegular-2HEhHi,
 .aka-1mqp34,
-.wanderingCubesItem-WPXqao {
+.wanderingCubesItem-WPXqao,
+#pubslayer .ui-tab-bar-item.selected,
+.bd-server-card.bd-server-card-pinned:after {
   background-color: var(--main-color);
 }
 
@@ -3789,7 +3794,8 @@ form.modal-content.form.need-help-modal::after {
   background-color: var(--primary-color) !important;
 }
 
-.bubble-3we2di {
+.bubble-3we2di,
+#pubslayer .ui-tab-bar-item.selected:hover {
   background-color: var(--hover-color) !important;
 }
 
@@ -3802,7 +3808,8 @@ form.modal-content.form.need-help-modal::after {
 }
 
 .connectedAccountVerifiedIcon-3aZz_K g path:nth-child(2),
-.verified-3uJH7V g path:nth-child(2){
+.verified-3uJH7V g path:nth-child(2),
+.verified-2-ja4L g path:nth-child(2){
   fill: var(--main-color) !important;
 }
 
