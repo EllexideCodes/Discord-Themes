@@ -3395,6 +3395,11 @@ form.modal-content.form.need-help-modal::after {
   transform: translateY(calc(-50% - 10px));
 }
 
+.invite-18yqGF {
+  background: var(--quaternary-color) !important;
+  border-color: transparent;
+}
+
   /* 17.f. Game Preview Modal */
 .gamePreview-9weYR2 {
   background-color: var(--quaternary-color) !important;
@@ -3824,6 +3829,18 @@ form.modal-content.form.need-help-modal::after {
 
 .foreground-2aE44H {
   stroke: var(--main-color) !important;
+}
+
+.lookFilled-1Gx00P.colorGrey-2DXtkV:disabled {
+  background: var(--primary-color);
+}
+
+.lookFilled-1Gx00P.colorGrey-2DXtkV {
+  background: var(--secondary-color);
+}
+
+.lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
+  background: var(--primary-color);
 }
 
   /* 20.a. Plugin Optimization */
