@@ -407,8 +407,6 @@
   -webkit-mask-size: var(--home-size);
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
-  height: 17px !important;
-  margin-bottom: -4px;
 }
 
 .homeIcon-1FoKUJ defs,
