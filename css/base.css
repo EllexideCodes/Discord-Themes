@@ -3794,7 +3794,7 @@ form.modal-content.form.need-help-modal::after {
   background-color: var(--main-color) !important;
 }
 
-.mediaBarGrabber-1FqnbN,
+.mediaBarInteractionDragging-2QurIZ .mediaBarGrabber-1FqnbN,
 .mediaBarProgress-1xaPtl,
 .mediaBarProgress-1xaPtl:after,
 .mediaBarProgress-1xaPtl:before {
