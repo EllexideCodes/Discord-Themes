@@ -1993,8 +1993,6 @@ pre {
 .channel-members-wrap,
 .guildsWrapper-5TJh6A,
 .channels-wrap .flexChild-faoVW3,
-.container-2Thooq,
-.container-1UB9sr,
 #friends .friends-header,
 .chat-3bRxxu .title-wrap,
 .chat-3bRxxu form .channel-text-area-default,
@@ -2009,20 +2007,12 @@ pre {
 .modal-3HD5ck .message-2qRu38,
 .theme-dark .autocomplete-1vrmpx,
 .menu-Sp6bN1,
-.privateChannels-1nO12o,
 #permissions-modal-wrapper .role-side {
   box-shadow: 0 2px 20px var(--shadow) !important;
 }
 
 .members-1998pB {
   box-shadow: 0 -2px 20px var(--shadow) !important;
-}
-
-.activityFeed-28jde9,
-.noChannel-Z1DQK7,
-.gameLibrary-TTDw4Y,
-.missingAccess-3szpts {
-  box-shadow: inset 0 2px 20px 2px var(--shadow) !important;
 }
 
 
