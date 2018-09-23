@@ -261,7 +261,11 @@
 .container-_CzRhL .title-Ic5R7V,
 .container-_CzRhL .description-2waT7u,
 .gamePreview-9weYR2 .sideBar-2_lxpG,
-.gamePreview-9weYR2 .body-1SVoBw {
+.gamePreview-9weYR2 .body-1SVoBw,
+.tipsWithoutResults-lGY-De, 
+.tipsWithResults-HhTE9b,
+.modalSubtitle-1Pj5nv,
+.modalSubtitle-1Pj5nv {
   z-index: 1;
 }
 
