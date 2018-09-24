@@ -1020,7 +1020,7 @@ svg[name*="Checkmark"] {
 .unreadBar-3YD_k9 {
   background-color: var(--primary-color);
   border: 1px solid var(--main-color);
-  transition: background-color .2s ease-in-out, transform .2s ease-in-out;
+  transition: background-color .2s ease-in-out;
 }
 
 .unread-1xRYoj:hover,
@@ -1034,7 +1034,6 @@ svg[name*="Checkmark"] {
 
 .unreadBar-3YD_k9.mention-1f5kbO:hover {
   background-color: var(--hover-color);
-  transform: scale(1.2);
 }
 
 
