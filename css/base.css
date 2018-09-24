@@ -286,10 +286,6 @@
 }
 
 .headerBar-UHpsPw {
-  height: 46px;
-}
-
-.headerBar-3iCFJx {
   height: 48px;
   padding: 0 8px 0 12px;
 }
@@ -1020,16 +1016,26 @@ svg[name*="Checkmark"] {
   z-index: 2;
 }
 
-.unread-1xRYoj {
+.unread-1xRYoj,
+.unreadBar-3YD_k9 {
   background-color: var(--primary-color);
   border: 1px solid var(--main-color);
-  transition: background-color .2s ease-in-out;
+  transition: background-color .2s ease-in-out, transform .2s ease-in-out;
 }
 
-.unread-1xRYoj:hover {
+.unread-1xRYoj:hover,
+.unreadBar-3YD_k9 {
   background-color: var(--main-color);
 }
 
+.unread-1xRYoj.mention-1f5kbO {
+  background-color: var(--main-color);
+}
+
+.unreadBar-3YD_k9.mention-1f5kbO:hover {
+  background-color: var(--hover-color);
+  transform: scale(1.2);
+}
 
 
 /* 6. Account Area */
