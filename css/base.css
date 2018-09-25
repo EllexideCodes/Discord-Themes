@@ -793,6 +793,9 @@ svg[name*="Checkmark"] {
     top: 46px;
   }
 
+  .mention-1f5kbO {
+    background-color: var(--main-color);
+  }
 
 /* 5. Channels */
 
