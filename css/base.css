@@ -797,6 +797,10 @@ svg[name*="Checkmark"] {
     background-color: var(--main-color);
   }
 
+  .mention-1f5kbO:hover {
+    background-color: var(--hover-color);
+  }
+  
 /* 5. Channels */
 
   /* 5.b. Light Theme Recolor*/
