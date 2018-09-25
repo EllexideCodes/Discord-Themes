@@ -285,6 +285,10 @@
   border-bottom: 2px solid var(--main-color) !important;
 }
 
+.headerBar-UHpsPw.titleCall-_b9o8P {
+  border-bottom: none !important;
+}
+
 .headerBar-UHpsPw {
   height: 48px;
   padding: 0 8px 0 12px;
@@ -1646,7 +1650,7 @@ pre {
 .videoHeight-Qp_9vC::before {
   content: '';
   position: absolute;
-  height: 50px;
+  height: 48px;
   width: 1px;
   border-left: 2px solid var(--main-color);
   z-index:10;
@@ -1990,7 +1994,8 @@ pre {
 
 /* 12. Shadows */
 .popout-3sVMXz.popoutBottomRight-2JrySt.noArrow-3BYQ0Z.noShadow-321ZPm,
-.title-3qD0b- {
+.title-3qD0b-,
+.headerBar-UHpsPw {
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
 }
