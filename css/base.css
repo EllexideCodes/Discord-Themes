@@ -220,6 +220,15 @@
   background-color: var(--hover-color) !important;
   border-radius: 3px;
   opacity: 1 !important;
+  filter: invert(100%);
+}
+
+.theme-dark .winButton-iRh8-Z {
+  filter: invert(100%);
+}
+
+.theme-light .winButton-iRh8-Z {
+  filter: invert(0);
 }
 
 .titleBar-AC4pGV .winButtonClose-1HsbF- {
