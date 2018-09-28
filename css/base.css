@@ -1831,6 +1831,19 @@ pre {
   background: transparent;
 }
 
+.root-1bFE0x,
+.searchBox-3Y2Vi7 {
+  background-color: var(--quaternary-color) !important;
+}
+
+.searchBox-3Y2Vi7 .input-cIJ7To {
+  background-color: transparent !important;
+}
+
+.section-7tu4tu:not(:last-child) {
+  border-color: var(--main-color) !important;
+}
+
   /* 10.b. Library */
 .rowWrapperActive-2L7i9f {
   background-color: var(--tertiary-color) !important;
@@ -1842,6 +1855,10 @@ pre {
 
 .header-39GIC8 {
   background-color: var(--quaternary-color) !important;
+}
+
+.defaultIndicator-2X8Auf {
+  background-color: var(--main-color) !important;
 }
 
   /* 10.c. Store */
@@ -2105,7 +2122,8 @@ pre {
 .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb, 
 .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb,
 .scroller::-webkit-scrollbar-thumb,
-.scrollerWrap-2lJEkd .scroller-2CvAgC::-webkit-scrollbar-thumb {
+.scrollerWrap-2lJEkd .scroller-2CvAgC::-webkit-scrollbar-thumb,
+.chat-3bRxxu .textArea-2Spzkt::-webkit-scrollbar-thumb {
   background-color: var(--main-color) !important;
   border-color: transparent !important;
   border-radius: 40px;
@@ -2762,7 +2780,8 @@ pre {
 
   /* 15.l. RTC Connection Popout */
 .popoutTopRight-3BzFIE section:before, 
-.popoutTop-3uu9vG section:before {
+.popoutTop-3uu9vG section:before,
+.container-2x5lvQ section:after {
   border-top-color: var(--primary-color) !important;
 }
 
@@ -3854,6 +3873,15 @@ form.modal-content.form.need-help-modal::after {
 
 .lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
   background: var(--primary-color);
+}
+
+.path2-1q7bG_,
+.path-92Hmty {
+  stroke: var(--hover-color) !important;
+}
+
+.path3-2l9TIX {
+  stroke: var(--main-color) !important;
 }
 
   /* 20.a. Plugin Optimization */
