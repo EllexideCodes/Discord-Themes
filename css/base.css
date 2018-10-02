@@ -1861,6 +1861,28 @@ pre {
   background-color: var(--main-color) !important;
 }
 
+.gameUpdates-2GPqBU {
+  background-color: var(--quaternary-color) !important;
+}
+
+[style*="background-color: rgb(24, 25, 28)"] {
+  background-color: var(--quaternary-color) !important;
+}
+
+.downloadProgressCircle-neZab7 {
+  top: 5px;
+  right: 5px;
+}
+
+.circleBackground-OqqxHM {
+  fill: var(--hover-color);
+  stroke: var(--main-color);
+}
+
+[style*="background: linear-gradient(to right, rgb(199, 208, 240), rgb(114, 137, 218))"] {
+  background: linear-gradient(to right, transparent, var(--main-color));
+}
+
   /* 10.c. Store */
 .itemBackground-1jfD8p:before {
   background: radial-gradient(ellipse at top,transparent,var(--primary-color)),linear-gradient(90deg,var(--primary-color) 0,transparent 40%,transparent 60%,var(--primary-color)),linear-gradient(0deg,var(--primary-color) 10%,transparent 70%) !important;
@@ -1912,7 +1934,8 @@ pre {
 }
 
 .bubble-1gL_TN,
-.price-1ynJAt {
+.price-1ynJAt,
+.entitledHeader-3LRNDT {
   background-color: var(--main-color) !important;
 }
 
@@ -3882,6 +3905,10 @@ form.modal-content.form.need-help-modal::after {
 
 .path3-2l9TIX {
   stroke: var(--main-color) !important;
+}
+
+.bda-slist .bda-footer a {
+  color: var(--main-color);
 }
 
   /* 20.a. Plugin Optimization */
