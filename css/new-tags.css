@@ -165,7 +165,6 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="231497890353250307"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="234144873576529920"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="231827402102276096"]::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="236006926406778881"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="236863914078371842"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="239488378943438850"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="239827225677922304"]::before,
@@ -200,7 +199,6 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="300456407222714381"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="308287952230940672"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="310719627292573697"]::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="314543782785843201"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="315245920424034304"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="317382522923122689"]::before,
@@ -657,11 +655,6 @@
   content: "osu! Player";
 }
 
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="236006926406778881"]:hover::before {
-  content: "snapchat: @mja2308";
-  background-color: #ffff1c;
-}
-
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="236863914078371842"]:hover::before {
   content: "Immortal Hero";
 }
@@ -799,11 +792,6 @@
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="310719627292573697"]:hover::before {
   content: "";
-}
-
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]:hover::before {
-  content: "The Loliphile";
-  background-color: #1f75fe;
 }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="314543782785843201"]:hover::before {
@@ -1023,7 +1011,8 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="96563253466898432"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="213220786805145600"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="172426681800196096"]::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="254362351170617345"]::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="254362351170617345"]::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]::before {
   content: '';
   color: transparent;
   height: 15px;
@@ -1115,6 +1104,13 @@
   right: -5px;
 }
 
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]::before {
+  background-image: url(https://i.imgur.com/vrHoR5d.png);
+  transform: scale(1.5);
+  bottom: -5px;
+  right: -5px;
+}
+
 /* on hover */
   /* green */
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="214318588331294720"]:hover::before {
@@ -1144,7 +1140,8 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="96563253466898432"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="213220786805145600"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="172426681800196096"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="254362351170617345"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="254362351170617345"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]:hover::before {
   transform: none;
   background-size: cover;
   background-position: center;
@@ -1215,6 +1212,13 @@
     0 -1px black !important;
 }
 
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]:hover::before {
+  content: '♛ Bowsette ♛';
+  color: white;
+  background-image: url(https://i.imgur.com/utDZZEC.gif);
+  bottom: -15px;
+}
+
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="402272736665272320"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="134349083568504832"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="214318588331294720"]:hover::before,
@@ -1223,7 +1227,8 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="96563253466898432"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="213220786805145600"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="172426681800196096"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="254362351170617345"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="254362351170617345"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]:hover::before {
   display: block;
   background-color: transparent;
   box-shadow: none;
