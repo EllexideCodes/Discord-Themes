@@ -684,6 +684,7 @@ svg[name*="Checkmark"] {
   /* 4.b. Guilds */
 .guild-1EfMGQ .guildInner-3DSoA4 {
   background-color: transparent !important;
+  overflow: visible;
 }
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:hover:before,
@@ -1875,12 +1876,24 @@ pre {
 }
 
 .circleBackground-OqqxHM {
-  fill: var(--hover-color);
-  stroke: var(--main-color);
+  fill: var(--tertiary-color);
+  stroke: var(--quaternary-color);
 }
 
 [style*="background: linear-gradient(to right, rgb(199, 208, 240), rgb(114, 137, 218))"] {
-  background: linear-gradient(to right, transparent, var(--main-color));
+  background: linear-gradient(to right, transparent, var(--main-color)) !important;
+}
+
+.nitroIcon-2_2ZKS {
+  color: var(--main-color) !important;
+}
+
+.progressCircle-1hzs_b>svg>defs>linearGradient stop:nth-child(1) {
+  stop-color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.progressCircle-1hzs_b>svg>defs>linearGradient stop:nth-child(2) {
+  stop-color: var(--main-color) !important;
 }
 
   /* 10.c. Store */
