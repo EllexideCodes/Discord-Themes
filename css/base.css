@@ -1290,22 +1290,17 @@ a,
   color: var(--main-color) !important;
   background-color: var(--quaternary-color) !important;
   border-radius: 3px;
-  text-align: center;
+  justify-content: center;
   left: 0px;
   margin-bottom: 10px;
 }
 
 .containerCozy-jafyvG .isMentionedCozy-3isp7y:after,
 .containerCozy-jafyvG .divider-32i8lo,
-.dividerContent-2L12VI:not(.dividerRed-MKoLlr):after, 
-.dividerContent-2L12VI:not(.dividerRed-MKoLlr):before,
+.dividerContent-2L12VI:after, 
+.dividerContent-2L12VI:before,
 .jumpToPresentBar-9P20AM button:first-of-type {
   display: none;
-}
-
-.divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:before,
-.divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:after {
-  opacity: 0;
 }
 
   /* 8.e. Mentions */
