@@ -1297,7 +1297,8 @@ a,
 
 .containerCozy-jafyvG .isMentionedCozy-3isp7y:after,
 .containerCozy-jafyvG .divider-32i8lo,
-.chat-3bRxxu .divider-3gKybi:before,
+.dividerContent-2L12VI:after, 
+.dividerContent-2L12VI:before,
 .jumpToPresentBar-9P20AM button:first-of-type {
   display: none;
 }
