@@ -153,7 +153,8 @@
 .themedPopout-25DgLi,
 .searchPopout-1vUlP3,
 .menu-Sp6bN1,
-.add-game-popout {
+.add-game-popout,
+.container-3ayLPN {
   background-image: var(--background-image) !important;
   background-size: cover;
   background-repeat: no-repeat;
@@ -182,7 +183,8 @@
 .regionSelectModal-12e-57::before,
 .backdrop-1wrmKB[style*="background-color: rgb(255, 255, 255)"],
 #permissions-modal-wrapper #permissions-modal,
-.gamePreview-9weYR2 {
+.gamePreview-9weYR2,
+.popout-2xBvMR {
   background-image: var(--popup-background) !important;
   background-size: cover;
   background-repeat: no-repeat;
@@ -232,7 +234,9 @@
 .incomingCallInner-2VmFiR::before,
 .add-game-popout::before,
 .backdrop-1wrmKB[style*="background-color: rgb(255, 255, 255)"]::before,
-.gamePreview-9weYR2::before  {
+.gamePreview-9weYR2::before,
+.container-3ayLPN::before,
+.popout-2xBvMR::before  {
   content: "";
   position: absolute;
   height: 100%;
@@ -241,6 +245,17 @@
   left: 0;
   background-color: var(--primary-color);
   pointer-events: none;
+}
+
+.popout-2xBvMR::before {
+  border-radius: 5px;
+}
+
+.container-3ayLPN::before {
+  height: calc(100% - 11px);
+  width: calc(100% - 4px);
+  top: 9px;
+  left: 2px;
 }
 
 .themedPopout-25DgLi::before {
@@ -264,8 +279,12 @@
 .gamePreview-9weYR2 .body-1SVoBw,
 .tipsWithoutResults-lGY-De, 
 .tipsWithResults-HhTE9b,
+.modalTitle-37O4n6,
 .modalSubtitle-1Pj5nv,
-.modalSubtitle-1Pj5nv {
+.queryText-3xoOY7,
+.empty-3sCt5f,
+.popoutSocialInfo-1qhqSY,
+.recommendationReason-21q3aC {
   z-index: 1;
 }
 
