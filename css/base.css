@@ -1203,7 +1203,7 @@ a,
 }
 
 .item-1Yvehc.brand-3igrJY {
-  color: var(--main-color);
+  color: var(--main-color) !important;
 }
 
 .messages-3amgkR.scroller {
@@ -1844,6 +1844,14 @@ pre {
 
 .section-7tu4tu:not(:last-child) {
   border-color: var(--main-color) !important;
+}
+
+.arrow-1-DaGi {
+  color: var(--main-color)
+}
+
+.dot-22bIa4 {
+  background-color: var(--main-color);
 }
 
   /* 10.b. Library */
