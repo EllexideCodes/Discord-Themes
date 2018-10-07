@@ -2611,6 +2611,7 @@ pre {
 .container-3ayLPN {
   animation: popoutanim 300ms cubic-bezier(.4, 0, 0, 1), opacity 100ms ease 100ms backwards;
   transform-origin: 50% -10%;
+  box-sizing: content-box;
 }
 
 .resultsGroup-r_nuzN .header-2N-gMV {
