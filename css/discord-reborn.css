@@ -252,9 +252,8 @@
 }
 
 .container-3ayLPN::before {
-  height: calc(100% - 11px);
+  height: calc(100% - 1px);
   width: calc(100% - 4px);
-  top: 9px;
   left: 2px;
 }
 

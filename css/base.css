@@ -1236,6 +1236,11 @@ a,
   -webkit-mask-size: 77%;
 }
 
+.attachment-33OFj0 {
+  background-color: var(--tertiary-color) !important;
+  border-color: var(--quaternary-color) !important;
+}
+
   /* 8.b Messages */
 .containerCozy-jafyvG:not(:last-child) {
   padding: 15px 0px !important;
@@ -1894,6 +1899,10 @@ pre {
   background: linear-gradient(to right, transparent, var(--main-color)) !important;
 }
 
+[stroke*="#4f545c"] {
+  stroke: var(--main-color) !important;
+}
+
 .nitroIcon-2_2ZKS {
   color: var(--main-color) !important;
 }
@@ -2394,6 +2403,10 @@ pre {
   background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/emojiCategory/flags.svg) !important
 }
 
+.emojiPicker-3m1S-j .no-search-results .sad-discord {
+  background-image: url(../assets/sadDiscord.svg);
+}
+
 .emojiPicker-3m1S-j .stickyHeader-1SS0JU {
   width: 98% !important;
   background: var(--primary-color) !important;
@@ -2578,7 +2591,7 @@ pre {
   background-color: var(--primary-color) !important;
 }
 
-  /* 15.f. Search Pop Out */
+  /* 15.f. Search Popout */
 .popout-3sVMXz.popoutBottom-1YbShG.noShadow-321ZPm {
   margin-top: 0px !important;
 }
@@ -2591,10 +2604,6 @@ pre {
   border-left: 2px solid var(--main-color) !important;
   border-right: 2px solid var(--main-color) !important;
   border-bottom: 2px solid var(--main-color) !important;
-}
-
-.container-3ayLPN {
-  margin-top: 10px !important;
 }
 
 .searchPopout-1vUlP3 .resultsGroup-r_nuzN,
@@ -2618,6 +2627,11 @@ pre {
 .result-2S5Awv {
   border-left: 2px solid transparent;
   border-radius: 0px;
+}
+
+.option-96V44q:after,
+.option-96V44q.selected-rZcOL-:after {
+  display: none;
 }
 
 .queryContainer-RKFJW- {
