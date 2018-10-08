@@ -164,7 +164,6 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="228340391911489536"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="231497890353250307"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="234144873576529920"]::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="231827402102276096"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="236863914078371842"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="239488378943438850"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="239827225677922304"]::before,
@@ -647,10 +646,6 @@
   content: "Divine Being";
 }
 
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="231827402102276096"]:hover::before {
-  content: "King of Hell";
-}
-
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="234144873576529920"]:hover::before {
   content: "osu! Player";
 }
@@ -1012,7 +1007,8 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="213220786805145600"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="172426681800196096"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="254362351170617345"]::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="231827402102276096"]::before {
   content: '';
   color: transparent;
   height: 15px;
@@ -1111,6 +1107,11 @@
   right: -5px;
 }
 
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="231827402102276096"]::before {
+  background-image: url(https://i.imgur.com/x9D0o41.jpg);
+  transform: scale(1.2);
+}
+
 /* on hover */
   /* green */
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="214318588331294720"]:hover::before {
@@ -1141,7 +1142,8 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="213220786805145600"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="172426681800196096"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="254362351170617345"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="231827402102276096"]:hover::before {
   transform: none;
   background-size: cover;
   background-position: center;
@@ -1217,6 +1219,17 @@
   color: white;
   background-image: url(https://i.imgur.com/utDZZEC.gif);
   bottom: -15px;
+}
+
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="231827402102276096"]:hover::before {
+  content: 'King of Hell';
+  color: #CC0000;
+  background-image: url(https://i.imgur.com/wkEHrc0.gif);
+  text-shadow: -1px 0 white, 
+    0 1px white, 
+    1px 0 white, 
+    0 -1px white !important;
+  bottom: -10px;
 }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="402272736665272320"]:hover::before,
