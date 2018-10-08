@@ -6,6 +6,10 @@
 
 :root {
   --theme-name: "Discord Reborn";
+  --blackout: black;
+  --dark: #333;
+  --lighter: #666;
+  --bright: #ccc;
 }
 
   /* Dark Mode */
