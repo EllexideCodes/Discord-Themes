@@ -633,7 +633,8 @@ svg[name*="Checkmark"] {
   filter: invert(100%);
 }
 
-.premiumIndicator-1XvbfM {
+.premiumIndicator-1XvbfM,
+.ui-standard-sidebar-view #editor-detached button {
   background-color: var(--main-color);
 }
 
