@@ -642,6 +642,30 @@ svg[name*="Checkmark"] {
   z-index: 1000;
 }
 
+.hiddenLibraryApplication-2esFER:hover .restoreButton-22-SIW {
+  opacity: 0.5;
+}
+
+.hiddenLibraryApplication-2esFER:hover .restoreButton-22-SIW:hover {
+opacity: 1;
+transform: scale(1.2);
+}
+
+.hiddenLibraryApplication-2esFER:hover .restoreButton-22-SIW:active {
+  opacity: 1;
+  transform: scale(0.8);
+}
+
+.restoreButton-22-SIW {
+background-color: var(--primary-color) !important;
+border: 1px solid var(--dnd);
+transition: transform .2s ease-in-out;
+}
+
+.restoreIcon-2YLu1X {
+color: var(--dnd) !important;
+}
+
   /* 3.e. Overlay Notifications */
 .wrapper-3jrx9n {
   border-color: var(--main-color);
