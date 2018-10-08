@@ -10,6 +10,7 @@
   --dark: #333;
   --lighter: #666;
   --bright: #ccc;
+  --background-blur: 0px;
 }
 
   /* Dark Mode */
@@ -60,6 +61,7 @@
   background-repeat: no-repeat;
   background-position: center;
   pointer-events: none;
+  filter: blur(var(--background-blur));
 }
 
 .app {
