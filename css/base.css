@@ -1874,7 +1874,8 @@ pre {
   background-color: var(--quaternary-color) !important;
 }
 
-.defaultIndicator-2X8Auf {
+.defaultIndicator-2X8Auf,
+.defaultIndicator-G3c16x {
   background-color: var(--main-color) !important;
 }
 
