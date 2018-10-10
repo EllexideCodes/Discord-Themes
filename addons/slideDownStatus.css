@@ -69,6 +69,11 @@
     pointer-events: auto;
   }
 
+  .popout-3sVMXz.popoutTopLeft-b5Eb3O {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+
   /* keyframes */
   @keyframes status {
     from {
