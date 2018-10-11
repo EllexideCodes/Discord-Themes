@@ -257,3 +257,76 @@
 .missingAccess-3szpts {
   background-color: var(--primary-color) !important;
 }
+
+/* 14. Bulk Loud Colors */
+
+.theme-light .channel-2QD9_O,
+.theme-light .channel-2QD9_O a,
+.theme-light .name-2WpE7M,
+.theme-light .activity-525YDR,
+.theme-light .privateChannels-1nO12o header,
+.container-1UB9sr,
+.theme-light .title-223e2Y,
+.theme-light .actionIcon-h73Pge,
+.theme-light .inner-btChU7 .channel-SEolQq,
+.theme-light .search-bar input,
+.theme-light .search-bar input::-webkit-input-placeholder,
+.theme-light .header-2o-2hj,
+.theme-light .nameConnectedText-3CzNQn, 
+.theme-light .nameConnectedVoice-MHUX5F, 
+.theme-light .nameSelectedText-sp_EUw, 
+.theme-light .nameSelectedVoice-1qSph5,
+.theme-light .chat-3bRxxu form .typing-2GQL18,
+.theme-light .nameHovered-21k1eo, 
+.theme-light .nameSpeaking-3UhoEZ,
+.theme-light.contextMenu-HLZMGh .item-1Yvehc,
+.theme-light .guild-1EfMGQ .guildInner-3DSoA4 a,
+.theme-light .noIcon-1a_FrS,
+.theme-light .downloadIcon-3TWA3B {
+    color: #111 !important;
+}
+
+.theme-light .channel-2QD9_O.selected-1HYmZZ .activityIconForeground-3VIgI8, 
+.theme-light .channel-2QD9_O:hover .activityIconForeground-3VIgI8 {
+    fill: #000;
+}
+
+.theme-light .activityIconForeground-3VIgI8 {
+    fill: #333;
+}
+
+.theme-light .subtitle-Qv5s8c {
+    color: rgba(0,0,0,0.4);
+}
+
+.theme-light .button-2KyEfG,
+.theme-light.contextMenu-HLZMGh .item-1Yvehc.itemSubMenu-1vN_Yn::after{
+    filter: invert(90%);
+}
+
+.theme-light .colorConnectedText-1c_uzY, 
+.theme-light .colorConnectedVoice-3kyvUN, 
+.theme-light .colorDefaultText-oas-QM, 
+.theme-light .colorDefaultVoice-3wYlhb, 
+.theme-light .colorHoveredText-OZnAgu, 
+.theme-light .colorHoveredVoice-1kucsK, 
+.theme-light .colorLockedText-1VRkPt, 
+.theme-light .colorLockedVoice-2UlBjl, 
+.theme-light .colorSelectedText-1y4Wvs, 
+.theme-light .colorSelectedVoice-Xcb_9R, 
+.theme-light .colorUnreadText-2t7XRb, 
+.theme-light .colorUnreadVoice-137o4S,
+.theme-light .textArea-2Spzkt,
+.theme-light .textArea-2Spzkt::-webkit-input-placeholder,
+.theme-light .search .DraftEditor-root .public-DraftEditorPlaceholder-root,
+.theme-light .resultsGroup-r_nuzN .header-2N-gMV, 
+.theme-light .resultsGroup-r_nuzN .plusIcon-v0BTrL, 
+.theme-light .resultsGroup-r_nuzN .searchClearHistory-2cSSMO, 
+.theme-light .resultsGroup-r_nuzN .searchLearnMore-3SQUAj a {
+    color: #333 !important;
+}
+
+.theme-light .option-96V44q .filter-3Y_im-,
+.theme-light .searchOption-zQ-1l6 .answer-1n6g43 {
+    color: #666;
+}
