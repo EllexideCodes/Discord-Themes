@@ -40,6 +40,7 @@
   3.c. Cards and Items
   3.d. Buttons, Switches, and Bars
   3.e. Overlay Notifications
+  3.f. Nitro and Hypesquad Section
 
  4. Guilds Wrapper
   4.a. Mains Guilds Wrapper
@@ -680,7 +681,7 @@ color: var(--dnd) !important;
   background-color: var(--hover-color)
 }
 
-  /* 3.f. Nitro & Hypesquad Section */
+  /* 3.f. Nitro and Hypesquad Section */
 .grandfatheredMessage-2QgLnw {
   justify-content: center;
 }
