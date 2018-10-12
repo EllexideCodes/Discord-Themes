@@ -4000,7 +4000,8 @@ form.modal-content.form.need-help-modal::after {
 
 .connectedAccountVerifiedIcon-3aZz_K g path:nth-child(2),
 .verified-3uJH7V g path:nth-child(2),
-.verified-2-ja4L g path:nth-child(2){
+.verified-2-ja4L g path:nth-child(2),
+.verifiedIcon-2TCIsJ g path:nth-child(2) {
   fill: var(--main-color) !important;
 }
 
