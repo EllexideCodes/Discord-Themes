@@ -2238,7 +2238,8 @@ pre {
 .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, 
 .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece,
 .scrollerWrap-2lJEkd .scroller-2CvAgC::-webkit-scrollbar-track-piece,
-.scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-track {
+.scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-track,
+.sb-menu-scroller:hover::-webkit-scrollbar-track-piece {
   background-color: transparent !important;
   border-color: transparent !important;
 }
@@ -2252,7 +2253,8 @@ pre {
 .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb,
 .scroller::-webkit-scrollbar-thumb,
 .scrollerWrap-2lJEkd .scroller-2CvAgC::-webkit-scrollbar-thumb,
-.chat-3bRxxu .textArea-2Spzkt::-webkit-scrollbar-thumb {
+.chat-3bRxxu .textArea-2Spzkt::-webkit-scrollbar-thumb,
+.sb-menu-scroller::-webkit-scrollbar-thumb {
   background-color: var(--main-color) !important;
   border-color: transparent !important;
   border-radius: 40px;
