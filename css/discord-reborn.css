@@ -11,6 +11,7 @@
   --lighter: #666;
   --bright: #ccc;
   --background-blur: 0px;
+  --popup-blur: 0px;
 }
 
   /* Dark Mode */
@@ -190,11 +191,13 @@
 .backdrop-1wrmKB[style*="background-color: rgb(255, 255, 255)"],
 #permissions-modal-wrapper #permissions-modal,
 .gamePreview-9weYR2,
-.popout-2xBvMR {
+.popout-2xBvMR,
+.sb-menu-scroller-wrapper,
+.metalloriff-changelog-scroller {
   background-image: var(--popup-background) !important;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
 }
 
 .regionSelectModal-12e-57::before {
@@ -242,7 +245,9 @@
 .backdrop-1wrmKB[style*="background-color: rgb(255, 255, 255)"]::before,
 .gamePreview-9weYR2::before,
 .container-3ayLPN::before,
-.popout-2xBvMR::before  {
+.popout-2xBvMR::before,
+.sb-menu-scroller-wrapper::before,
+.metalloriff-changelog-scroller::before {
   content: "";
   position: absolute;
   height: 100%;
@@ -251,6 +256,11 @@
   left: 0;
   background-color: var(--primary-color);
   pointer-events: none;
+}
+
+.sb-menu-scroller-wrapper::before,
+.metalloriff-changelog-scroller::before {
+  z-index: -1;
 }
 
 .popout-2xBvMR::before {
@@ -290,7 +300,11 @@
 .empty-3sCt5f,
 .popoutSocialInfo-1qhqSY,
 .recommendationReason-21q3aC,
-.themeDark-3Ap_7i  {
+.themeDark-3Ap_7i,
+.sb-menu-label,
+.sb-menu-scroller,
+.metalloriff-update-label,
+.metalloriff-changelog-label {
   z-index: 1;
 }
 

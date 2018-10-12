@@ -246,6 +246,11 @@
   background-color: var(--secondary-color) !important;
 }
 
+.metalloriff-changelog-scroller,
+.sb-menu-scroller-wrapper {
+  background-color: var(--primary-color);
+}
+
 
 /* 13. Games Tab, Library, and Store */
 .gameLibrary-TTDw4Y,

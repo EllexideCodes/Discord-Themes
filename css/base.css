@@ -4138,6 +4138,15 @@ div.reply-item {
   padding-top: 47px;
 }
 
+  /* 20.a.6. Share Button Plugin */
+.sb-button:hover {
+  background-color: var(--main-color) !important;
+}
+
+.metalloriff-changelog-scroller::-webkit-scrollbar {
+  display: none;
+}
+
 /* 21. Custom CSS */
 .bd-detached-editor .chat-3bRxxu .title-3qD0b- > div:last-child,
 .bd-detached-editor .headerBar-UHpsPw > div:last-child {
