@@ -1604,7 +1604,7 @@ pre {
 }
 
   /* 8.m. Notification Bar */
-.notice-3I4-y_, .notice-2FJMB4 {
+.notice-2FJMB4 {
   font-size: 0px !important;
   height: 4px !important;
   line-height: 18px;
@@ -1614,7 +1614,7 @@ pre {
   transition: all .2s linear;
 }
 
-.notice-3I4-y_:hover, .notice-2FJMB4:hover {
+.notice-2FJMB4:hover {
   font-size: 14px !important;
   height: 38px !important;
   line-height: 38px;
@@ -1622,20 +1622,22 @@ pre {
   width: 100%;
 }
 
-.notice-3I4-y_:hover dismiss-1QjyJW, .notice-2FJMB4:hover .dismiss-SCAH9H {
+.notice-2FJMB4:hover .dismiss-SCAH9H {
   height: 36px;
   right: 100px;
   transition: all .2s linear;
 }
 
-.notice-3I4-y_ .button-1MICoQ, .notice-2FJMB4 .button-1MICoQ {
+.notice-2FJMB4 .button-1MICoQ,
+.noticePremiumGrandfathered-ollUxF .premiumIcon-2lve6h {
   transform: scale(0);
   opacity: 0;
   display: inline-block !important;
   transition: transform .1s linear, opacity .2s linear;
 }
 
-.notice-3I4-y_:hover .button-1MICoQ, .notice-2FJMB4:hover .button-1MICoQ {
+.notice-2FJMB4:hover .button-1MICoQ, 
+.noticePremiumGrandfathered-ollUxF:hover .premiumIcon-2lve6h  {
   transform: none;
   opacity: 1;
 }
@@ -1799,7 +1801,7 @@ pre {
   /* 10.a. Tab */
 .card-7JP0BX,
 .article-3kb3qm,
-.carousel-JbsNzL {
+.carousel-2WxMes {
   background-color: transparent !important;
 }
 
@@ -1842,7 +1844,7 @@ pre {
   margin-left: 5px
 }
 
-.splashArt-1anaP9 {
+.splashArt-3I5Qmp {
   opacity: .5;
   -webkit-mask: -webkit-gradient(linear,right top,left top,from(#202225), to(transparent));
 }
@@ -1851,20 +1853,20 @@ pre {
   display: none;
 }
 
-.paginationItem-3-MBTL {
+.paginationItem-2lUq0s {
   background: transparent;
 }
 
 .selectedPage-2JQS2s,
-.paginationItem-3-MBTL:hover {
+.paginationItem-2lUq0s:hover {
   background: var(--primary-color);
 }
 
-.paginationItem-3-MBTL:before {
+.paginationItem-2lUq0s:before {
   background: var(--main-color);
 }
 
-.paginationItem-3-MBTL:after {
+.paginationItem-2lUq0s:after {
   display: none;
 }
 
@@ -2062,6 +2064,11 @@ pre {
 .image-33JSyf {
   -webkit-mask: none;
   mask: none;
+}
+
+.avatarMasked-1s1eiJ {
+  -webkit-mask-image: none;
+  mask-image: none;
 }
   
   /* 11.b. Status */
