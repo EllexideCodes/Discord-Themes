@@ -435,7 +435,7 @@
 
   /* 3.b. General Content Area */
 
-.standardSidebarView-3F1I7i .contentRegion-3nDuYy {
+.standardSidebarView-3F1I7i .contentColumnDefault-1VQkGM {
   padding: 20px 40px 80px;
 }
 
@@ -473,7 +473,7 @@
   margin-left: 25%;
 }
 
-.standardSidebarView-3F1I7i .notice-region {
+.standardSidebarView-3F1I7i .noticeRegion-1YviSH {
   transform: translateX(25%) !important;
 }
 
@@ -640,7 +640,7 @@ svg[name*="Checkmark"] {
   background-color: var(--main-color);
 }
 
-.standardSidebarView-3F1I7i .contentRegionScroller-26nc1e .tools {
+.standardSidebarView-3F1I7i .contentRegionScroller-26nc1e .tools-3-3s-N {
   z-index: 1000;
 }
 
@@ -3552,7 +3552,7 @@ form.modal-content.form.need-help-modal::after {
 }
 
 .uploadModal-2ifh8j .footer-3mqk7D .button.button-primary {
-  -webkit-mask: url(https://ellexidecodes.github.io/Discord-Themes/assets/check.svg);
+  -webkit-mask-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/check.svg);
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
   background-color: rgba(33, 219, 135, 0.6);
