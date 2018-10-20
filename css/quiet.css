@@ -86,12 +86,12 @@
 
 
 /* 3. User Settings */
-.ui-standard-sidebar-view .sidebar-region .sidebar,
-.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller {
+.standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebar-CFHs9e,
+.standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebarRegionScroller-3MXcoP {
   background-color: var(--quaternary-color) !important;
 }
 
-.ui-standard-sidebar-view .content-region {
+.standardSidebarView-3F1I7i .contentRegion-3nDuYy {
   background-color: var(--primary-color) !important;
 }
 

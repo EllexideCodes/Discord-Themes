@@ -421,12 +421,12 @@
 /* 3. User Settings */
   /* 3.a. General Sidebar */
 
-.ui-standard-sidebar-view .sidebar-region, 
-.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller {
+.standardSidebarView-3F1I7i .sidebarRegion-VFTUkN, 
+.standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebarRegionScroller-3MXcoP {
   justify-content: flex-start;
 }
 
-.ui-standard-sidebar-view .sidebar-region {
+.standardSidebarView-3F1I7i .sidebarRegion-VFTUkN {
   -ms-flex: 0;
   -ms-flex-pack: end;
   flex: 0;
@@ -435,16 +435,16 @@
 
   /* 3.b. General Content Area */
 
-.ui-standard-sidebar-view .content-column.default {
+.standardSidebarView-3F1I7i .contentRegion-3nDuYy {
   padding: 20px 40px 80px;
 }
 
-.ui-standard-sidebar-view .content-transition-wrap {
+.standardSidebarView-3F1I7i .contentTransitionWrap-3hqOEW {
   width: 100%;
 }
 
-.ui-standard-sidebar-view .content-column, 
-.ui-standard-sidebar-view .custom-column {
+.standardSidebarView-3F1I7i .contentRegion-3nDuYy, 
+.standardSidebarView-3F1I7i .custom-column {
   -ms-flex: 1 1 auto;
   -webkit-box-flex: 1;
   flex: 1 1 auto;
@@ -453,12 +453,12 @@
   min-width: 460px;
 }
 
-.ui-standard-sidebar-view .custom-scroller>div {
+.standardSidebarView-3F1I7i .custom-scroller>div {
   max-width: 100%;
   margin-right: 98px;
 }
 
-.theme-dark .ui-standard-sidebar-view .content-region {
+.theme-dark .standardSidebarView-3F1I7i .contentRegion-3nDuYy {
   width: calc(100% - 226px);
   min-width: 553px;
 }
@@ -472,7 +472,7 @@
   margin-left: 25%;
 }
 
-.ui-standard-sidebar-view .notice-region {
+.standardSidebarView-3F1I7i .notice-region {
   transform: translateX(25%) !important;
 }
 
@@ -635,11 +635,11 @@ svg[name*="Checkmark"] {
 }
 
 .premiumIndicator-1XvbfM,
-.ui-standard-sidebar-view #editor-detached button {
+.standardSidebarView-3F1I7i #editor-detached button {
   background-color: var(--main-color);
 }
 
-.ui-standard-sidebar-view .content-region-scroller .tools {
+.standardSidebarView-3F1I7i .contentRegionScroller-26nc1e .tools {
   z-index: 1000;
 }
 

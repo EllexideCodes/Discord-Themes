@@ -73,7 +73,7 @@
 .layer-3QrUeG, 
 .layers-3iHuyZ,
 .container-2lgZY8,
-.ui-standard-sidebar-view .content-region,
+.standardSidebarView-3F1I7i .contentRegion-3nDuYy,
 .channels-Ie2l6A, 
 .container-PNkimc,
 .members-1998pB,
@@ -86,10 +86,10 @@
 .video-1FfuMD,
 #friends,
 .appMount-3VJmYg,
-.ui-standard-sidebar-view,
-.ui-standard-sidebar-view .sidebar-region,
+.standardSidebarView-3F1I7i,
+.standardSidebarView-3F1I7i .sidebarRegion-VFTUkN,
 .inner-zqa7da,
-.ui-standard-sidebar-view .sidebar-region .sidebar,
+.standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebar-CFHs9e,
 .userSettingsVoice-iwdUCU .media-engine-video,
 .activityFeed-28jde9,
 .guildsWrapper-5TJh6A,
@@ -125,7 +125,7 @@
 
 
 /* 2. User Settings */
-.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller {
+.standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebarRegionScroller-3MXcoP {
   background-color: var(--secondary-color) !important;
 }
 
