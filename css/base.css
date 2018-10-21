@@ -837,8 +837,8 @@ color: var(--dnd) !important;
 .guildsWrapper-5TJh6A .guilds-1q_RqH>div.guild-1EfMGQ:first-child .badge-1GsMF2 {
   border-radius: 40px;
   background-color: var(--main-color);
-  margin-bottom: 22px;
-  margin-right: 15px;
+  margin-bottom: 0px;
+  margin-right: 10px;
   border: 2px solid var(--quaternary-color);
 }
 
