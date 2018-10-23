@@ -120,6 +120,8 @@
   15.l. RTC Connection Popout
   15.m. More Users Popout
   15.n. Overflow Roles Popout
+  15.o. Dropdown Menu Popout
+  15.p. DM Call Region Select Popout
 
 16. Menus
   16.a. Context Menus
@@ -2989,6 +2991,35 @@ pre {
 .optionNormal-12VR9V:hover {
   background: transparent !important;
   border-color: var(--hover-color) !important
+}
+
+  /* 15.p. DM Call Region Select Popout */
+.guildsWrapper-5TJh6A .guilds-1q_RqH>div.guild-1EfMGQ:first-child span ~ .badge-1GsMF2 {
+  margin-bottom: -5px;
+  margin-right: 10px;
+}
+
+.quickSelectPopout-X1hvgV {
+  background-color: var(--primary-color) !important;
+}
+
+.quickSelectPopoutOption-opKBx9 {
+  border: 1px solid transparent;
+  box-sizing: border-box;
+}
+
+.quickSelectPopoutOption-opKBx9:hover {
+  background-color: transparent !important;
+  border-color: var(--main-color);
+}
+
+.check-2by_h9 {
+  background-image: none !important;
+  background-color: var(--main-color);
+  -webkit-mask-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/check.svg);
+  -webkit-mask-size: 18px;
+  -webkit-mask-position: center;
+  -webkit-mask-repeat: no-repeat;
 }
 
 /* 16. Menus */
