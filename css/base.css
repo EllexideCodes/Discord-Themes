@@ -2994,11 +2994,6 @@ pre {
 }
 
   /* 15.p. DM Call Region Select Popout */
-.guildsWrapper-5TJh6A .guilds-1q_RqH>div.guild-1EfMGQ:first-child span ~ .badge-1GsMF2 {
-  margin-bottom: -5px;
-  margin-right: 10px;
-}
-
 .quickSelectPopout-X1hvgV {
   background-color: var(--primary-color) !important;
 }
