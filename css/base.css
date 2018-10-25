@@ -2219,7 +2219,9 @@ pre {
 .to-2819fF,
 #friends .friends-table .friends-row .friends-column-guilds .more-mutual-guilds-btn,
 .reviewCircle-1o-MOB,
-.circle-1nK_79 {
+.circle-1nK_79,
+.guild-1EfMGQ.audio-3vVhBi:after, 
+.guild-1EfMGQ.video-15yGu3:after {
   border-radius: var(--roundness) !important;
 }
 
