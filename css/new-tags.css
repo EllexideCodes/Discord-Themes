@@ -1000,15 +1000,14 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="214318588331294720"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="116243287936860167"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="282138006738042880"]::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="317731521639350272"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="173177738914562048"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="185119357578379264"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="96563253466898432"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="213220786805145600"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="172426681800196096"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="254362351170617345"]::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="231827402102276096"]::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="231827402102276096"]::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="130875493850284032"]::before {
   content: '';
   color: transparent;
   height: 15px;
@@ -1037,15 +1036,6 @@
 /* icons */
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="214318588331294720"]::before {
   background-image: url(https://i.imgur.com/tsr97cA.gif);
-}
-
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="317731521639350272"]::before {
-  background-image: url(https://i.imgur.com/oCjwqcE.png);
-  height: 20px;
-  width: 20px;
-  bottom: -10px;
-  right: -10px;
-  filter: none;
 }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="173177738914562048"]::before {
@@ -1100,15 +1090,13 @@
   right: -5px;
 }
 
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]::before {
-  background-image: url(https://i.imgur.com/vrHoR5d.png);
-  transform: scale(1.5);
-  bottom: -5px;
-  right: -5px;
-}
-
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="231827402102276096"]::before {
   background-image: url(https://i.imgur.com/x9D0o41.jpg);
+  transform: scale(1.2);
+}
+
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="130875493850284032"]::before {
+  background-image: url(https://i.imgur.com/PdG3hPR.png);
   transform: scale(1.2);
 }
 
@@ -1135,15 +1123,14 @@
 
 /* badges on hover */
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="282138006738042880"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="317731521639350272"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="173177738914562048"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="185119357578379264"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="96563253466898432"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="213220786805145600"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="172426681800196096"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="254362351170617345"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="231827402102276096"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="231827402102276096"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="130875493850284032"]:hover:before {
   transform: none;
   background-size: cover;
   background-position: center;
@@ -1166,12 +1153,6 @@
   content: 'Witcher';
   background-image: url(https://i.imgur.com/Y9XMtlS.gif);
   color: #AF616E;
-}
-
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="317731521639350272"]:hover::before {
-  content: 'Godfather';
-  color: #fff;
-  background-image: none;
 }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="173177738914562048"]:hover::before {
@@ -1214,13 +1195,6 @@
     0 -1px black !important;
 }
 
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]:hover::before {
-  content: '♛ Bowsette ♛';
-  color: white;
-  background-image: url(https://i.imgur.com/utDZZEC.gif);
-  bottom: -15px;
-}
-
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="231827402102276096"]:hover::before {
   content: 'King of Hell';
   color: #CC0000;
@@ -1232,6 +1206,16 @@
   bottom: -10px;
 }
 
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="130875493850284032"]:hover:before {
+  content: "Wassup";
+  color: black;
+  text-shadow: -1px 0 white, 
+    0 1px white, 
+    1px 0 white, 
+    0 -1px white !important;
+  background-image: url(https://i.imgur.com/WvsF0pK.png);
+}
+
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="402272736665272320"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="134349083568504832"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="214318588331294720"]:hover::before,
@@ -1241,7 +1225,7 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="213220786805145600"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="172426681800196096"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="254362351170617345"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="130875493850284032"]:hover:before {
   display: block;
   background-color: transparent;
   box-shadow: none;
