@@ -168,7 +168,6 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="239488378943438850"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="239827225677922304"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="241735290035634178"]::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="244363360886325248"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="244429806215757825"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="246817131411275776"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="247528761925435393"]::before,
@@ -667,10 +666,6 @@
   content: "NoLife";
 }
 
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="244363360886325248"]:hover::before {
-  content: "DARKTHMEME";
-}
-
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="244429806215757825"]:hover::before {
   content: "OWNER";
 }
@@ -1007,7 +1002,9 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="172426681800196096"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="254362351170617345"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="231827402102276096"]::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="130875493850284032"]::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="130875493850284032"]::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="244363360886325248"]::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="123916078882488320"]::before {
   content: '';
   color: transparent;
   height: 15px;
@@ -1100,6 +1097,15 @@
   transform: scale(1.2);
 }
 
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="244363360886325248"]::before {
+  background-image: url(https://i.imgur.com/jeVJgkI.png);
+}
+
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="123916078882488320"]::before {
+  background-image: url(https://i.imgur.com/xdDn4cO.png);
+  transform: scale(1.5);
+}
+
 /* on hover */
   /* green */
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="214318588331294720"]:hover::before {
@@ -1130,7 +1136,9 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="172426681800196096"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="254362351170617345"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="231827402102276096"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="130875493850284032"]:hover:before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="130875493850284032"]:hover:before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="244363360886325248"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="123916078882488320"]:hover::before {
   transform: none;
   background-size: cover;
   background-position: center;
@@ -1214,6 +1222,18 @@
     1px 0 white, 
     0 -1px white !important;
   background-image: url(https://i.imgur.com/WvsF0pK.png);
+}
+
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="244363360886325248"]:hover::before {
+  content: "Huawei Ascend G7";
+  color: #ff4300;
+  background: black;
+}
+
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="123916078882488320"]:hover::before {
+  content: "Viduus";
+  color: white;
+  background: black;
 }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="402272736665272320"]:hover::before,
