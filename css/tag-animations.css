@@ -1,64 +1,10 @@
-
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="254362351170617345"]:hover:before {
+  animation: mentionpulse 1.5s infinite, popoutanim .2s;
+}
 
 
 
 /* ---- keyframes ---- */
-@keyframes growIn {
-  from {
-    transform: scale(0);
-  }
-  to {
-    transform: scale(1);
-  }
-}
-
-@keyframes growInPulse { /* 0.8s */
-  from {
-    transform: scale(0);
-  }
-  25% {
-    transform: scale(1);
-    box-shadow: 0 0 .1vh var(--main-color);
-  }
-  100% {
-    transform: scale(1);
-    box-shadow: 0 0 .1vh 1vh transparent;
-  }
-}
-
-@keyframes tagFadeTop {
-  from {
-    opacity: 0;
-    transform: translateY(-100%);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes tagFadeRight {
-  from {
-    opacity: 0;
-    transform: translateX(100%);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-@keyframes tagFadeBottom {
-  from {
-    opacity: 0;
-    transform: translateY(100%);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
 @keyframes fallBounce { /* 1s */
   from {
     opacity: 0;
