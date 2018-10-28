@@ -1,0 +1,86 @@
+
+
+
+
+/* ---- keyframes ---- */
+@keyframes growIn {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes growInPulse { /* 0.8s */
+  from {
+    transform: scale(0);
+  }
+  25% {
+    transform: scale(1);
+    box-shadow: 0 0 .1vh var(--main-color);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 .1vh 1vh transparent;
+  }
+}
+
+@keyframes tagFadeTop {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes tagFadeRight {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes tagFadeBottom {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fallBounce { /* 1s */
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  25% {
+    opacity: 1;
+    transform: translateY(0) scale(1.1, 0.9);
+  }
+  50% {
+    transform: translateY(-20%) scale(0.9, 1.1);
+  }
+  75% {
+    transform: translateY(0)
+  }
+}
+
+@keyframes scaleSpin { /* .4s */
+  from {
+    transform: scale(0) rotate(360deg);
+  }
+  to {
+    transform: scale(1) rotate(0);
+  }
+}
