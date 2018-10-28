@@ -1,5 +1,12 @@
+/* popin with pulse */
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="254362351170617345"]:hover:before {
   animation: mentionpulse 1.5s infinite, popoutanim .2s;
+}
+
+
+/* popin */
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="213220786805145600"]:hover:before {
+  animation: popoutanim .2s;
 }
 
 
