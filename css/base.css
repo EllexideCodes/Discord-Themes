@@ -2910,19 +2910,19 @@ pre {
 /* tropix's fade in tooltip anim */
 
 .tooltips .tooltip.tooltip-right {
-  animation: fadeFromRight-tooltip 200ms
+  animation: fadeFromRight 200ms
 }
 
 .tooltips .tooltip.tooltip-bottom {
-  animation: fadeFromBottom-tooltip 200ms
+  animation: fadeFromBottom 200ms
 }
 
 .tooltips .tooltip.tooltip-left {
-  animation: fadeFromLeft-tooltip 200ms
+  animation: fadeFromLeft 200ms
 }
 
 .tooltip.tooltip-top {
-  animation: fadeFromTop-tooltip 200ms;
+  animation: fadeFromTop 200ms;
 }
 
   /* 15.j. @Everyone Popout */
@@ -3816,7 +3816,7 @@ form.modal-content.form.need-help-modal::after {
 
 /* 19. Keyframes */
 
-@keyframes fadeFromTop-tooltip {
+@keyframes fadeFromTop {
   0% {
       opacity: 0;
       transform: translateY(-50%)
@@ -3827,7 +3827,7 @@ form.modal-content.form.need-help-modal::after {
   }
 }
 
-@keyframes fadeFromRight-tooltip {
+@keyframes fadeFromRight {
   0% {
       opacity: 0;
       transform: translateX(50%)
@@ -3838,7 +3838,7 @@ form.modal-content.form.need-help-modal::after {
   }
 }
 
-@keyframes fadeFromBottom-tooltip {
+@keyframes fadeFromBottom {
   0% {
       opacity: 0;
       transform: translateY(50%)
@@ -3849,7 +3849,7 @@ form.modal-content.form.need-help-modal::after {
   }
 }
 
-@keyframes fadeFromLeft-tooltip {
+@keyframes fadeFromLeft {
   0% {
       opacity: 0;
       transform: translateX(-50%)
