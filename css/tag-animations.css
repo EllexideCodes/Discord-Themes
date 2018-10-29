@@ -1,5 +1,6 @@
 /* popin with pulse */
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="254362351170617345"]:hover:before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="254362351170617345"]:hover:before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="172426681800196096"]:hover:before {
   animation: mentionpulse 1.5s infinite, popoutanim .2s;
 }
 
@@ -7,6 +8,16 @@
 /* popin */
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="213220786805145600"]:hover:before {
   animation: popoutanim .2s;
+}
+
+/* fall and bounce */
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="282138006738042880"]:hover:before {
+  animation: fallBounce 1s;
+}
+
+/* spin in */
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="173177738914562048"]:hover:before {
+  animation: scaleSpin .4s;
 }
 
 
