@@ -1,6 +1,7 @@
 /* popin with pulse */
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="254362351170617345"]:hover:before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="172426681800196096"]:hover:before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="172426681800196096"]:hover:before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="96563253466898432"]:hover:before {
   animation: mentionpulse 1.5s infinite, popoutanim .2s;
 }
 
