@@ -1098,7 +1098,7 @@
 }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="244363360886325248"]::before {
-  background-image: url(https://i.imgur.com/jeVJgkI.png);
+  background-image: url(https://i.imgur.com/wzgA40T.png);
 }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="123916078882488320"]::before {
@@ -1225,9 +1225,9 @@
 }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="244363360886325248"]:hover::before {
-  content: "Huawei Ascend G7";
-  color: #ff4300;
-  background: black;
+  content: "Terrorist Win";
+  color: #ffd800;
+  background-image: url(https://i.imgur.com/DC9ZEd9.png);
 }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="123916078882488320"]:hover::before {
@@ -1245,7 +1245,8 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="213220786805145600"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="172426681800196096"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="254362351170617345"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="130875493850284032"]:hover:before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="130875493850284032"]:hover:before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="244363360886325248"]:hover::before {
   display: block;
   background-color: transparent;
   box-shadow: none;
