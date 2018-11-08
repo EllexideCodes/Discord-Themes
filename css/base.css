@@ -1999,7 +1999,8 @@ pre {
 .card-NB61oR,
 .tileWrapper-2khh-w,
 .bodySection-jqkkIP,
-.row-1bU71H {
+.row-1bU71H,
+.applicationTile-1Goy1W {
   background-color: var(--quaternary-color) !important;
 }
 
@@ -2007,7 +2008,7 @@ pre {
   border-top-color: var(--main-color) !important;
 }
 
-.mediaFade-4Pqtcc {
+.mediaFade-1SdEfL {
   background: linear-gradient(180deg,transparent 90%,var(--quaternary-color)) !important;
 }
 
@@ -2015,7 +2016,8 @@ pre {
   background: linear-gradient(180deg,transparent,rgba(0,0,0,.75) 45%,var(--quaternary-color)) !important;
 }
 
-.tile-2H4MQG:hover {
+.tile-2H4MQG:hover,
+.tile-367QuY:hover {
   background-color: var(--secondary-color) !important;
 }
 
