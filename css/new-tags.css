@@ -1004,7 +1004,8 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="231827402102276096"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="130875493850284032"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="244363360886325248"]::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="123916078882488320"]::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="123916078882488320"]::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="215036395507548161"]::before {
   content: '';
   color: transparent;
   height: 15px;
@@ -1064,8 +1065,9 @@
 }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="96563253466898432"]::before {
-  background-image: url(https://i.imgur.com/sRW0aTy.png);
+  background-image: url(https://i.imgur.com/KnGrVSZ.png);
   transform: scale(1.2);
+  filter: drop-shadow(-0px 0px 2px white);
 }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="213220786805145600"]::before {
@@ -1106,6 +1108,11 @@
   transform: scale(1.5);
 }
 
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="215036395507548161"]::before {
+  background-image: url(https://i.imgur.com/uw05pdX.png);
+  transform: scale(1.5);
+}
+
 /* on hover */
   /* green */
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="214318588331294720"]:hover::before {
@@ -1138,7 +1145,8 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="231827402102276096"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="130875493850284032"]:hover:before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="244363360886325248"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="123916078882488320"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="123916078882488320"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="215036395507548161"]:hover::before {
   transform: none;
   background-size: cover;
   background-position: center;
@@ -1176,9 +1184,13 @@
 }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="96563253466898432"]:hover::before {
-  content: 'The Old Lion';
-  background-image: url(http://i.imgur.com/NMvmuI3.gif);
-  color: #ccac00;
+  content: 'Veni, Vedi, Vici';
+  background-image: url(https://i.imgur.com/K3ATdMx.gif);
+  color: #114c9c;
+  text-shadow: -1px 0 white, 
+    0 1px white, 
+    1px 0 white, 
+    0 -1px white !important;
 }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="213220786805145600"]:hover::before {
@@ -1236,6 +1248,12 @@
   background: black;
 }
 
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="215036395507548161"]:hover::before {
+  content: ' Temporal_Timelord  時」';
+  background-image: url(https://i.imgur.com/yXipiZw.gif);
+  color: white; 
+}
+
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="402272736665272320"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="134349083568504832"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="214318588331294720"]:hover::before,
@@ -1246,7 +1264,8 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="172426681800196096"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="254362351170617345"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="130875493850284032"]:hover:before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="244363360886325248"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="244363360886325248"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="215036395507548161"]:hover::before {
   display: block;
   background-color: transparent;
   box-shadow: none;
