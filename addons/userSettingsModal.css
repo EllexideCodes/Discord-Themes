@@ -9,13 +9,16 @@
 	transform: none !important;
 }
 
-.layer-3QrUeG:nth-child(2), #user-settings {
+.layer-3QrUeG:nth-child(2), 
+#user-settings,
+#pubslayerroot .layer-3QrUeG {
 	background-color: rgba(0,0,0,0.8) !important;
 	z-index: 101 !important;
 }
 
 .layer-3QrUeG:nth-child(2) .standardSidebarView-3F1I7i,
-#user-settings .standardSidebarView-3F1I7i {
+#user-settings .standardSidebarView-3F1I7i,
+#pubslayerroot .layer-3QrUeG .standardSidebarView-3F1I7i {
 	max-height: var(--size);
 	max-width: var(--size);
 	top: calc( (100% - var(--size))/2);
@@ -43,7 +46,8 @@
 }
 
 .layer-3QrUeG:nth-child(2)::after,
-#user-settings::after {
+#user-settings::after,
+#pubslayerroot .layer-3QrUeG::after {
     content: '';
     position: absolute;
     min-width: 779px;
