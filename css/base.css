@@ -3563,7 +3563,8 @@ form.modal-content.form.need-help-modal::after {
 	fill-opacity: 0.8;
 }
 
-.topLayer-1eMqbv.hover-3nZwuJ {
+.topLayer-1eMqbv.hover-3nZwuJ,
+.secondaryAccent-24W-RJ.hover-3nZwuJ {
 	fill: var(--main-color) !important;
 }
 
