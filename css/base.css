@@ -3558,6 +3558,35 @@ form.modal-content.form.need-help-modal::after {
 
 #guild-name { text-align: center }
 
+.bottomLayer-XCk80b.hover-3nZwuJ {
+	fill: var(--hover-color) !important;
+	fill-opacity: 0.8;
+}
+
+.topLayer-1eMqbv.hover-3nZwuJ {
+	fill: var(--main-color) !important;
+}
+
+.topLayer-1eMqbv.hover-3nZwuJ.green-1kY_LT {
+	fill: var(--main-color) !important;
+}
+
+.bottomLayer-XCk80b.hover-3nZwuJ.green-1kY_LT {
+	fill: var(--hover-color) !important;
+}
+
+.secondaryAccent-24W-RJ.hover-3nZwuJ.green-1kY_LT {
+	fill: var(--main-color) !important;
+}
+
+.lookFilled-1Gx00P.colorGreen-29iAKY {
+	background-color: var(--online);
+}
+
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover {
+	filter: brightness(10%);
+}
+
   /* 17.e. Upload Modal */
 .uploadModal-2ifh8j {
   background-color: var(--main-color);
