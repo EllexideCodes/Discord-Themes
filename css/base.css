@@ -1270,6 +1270,10 @@ a,
   color: var(--main-color) !important;
 }
 
+.item-1Yvehc.brand-3igrJY:hover {
+  color: var(--hover-color) !important;
+}
+
 .messages-3amgkR.scroller {
   padding-bottom: 10px;
 }
