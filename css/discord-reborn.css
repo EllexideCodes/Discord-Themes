@@ -310,6 +310,13 @@
   z-index: 1;
 }
 
+.emptyNote-3nZbCz, 
+.emptyTitle-3Jm6Ve {
+  color: white !important;
+  z-index: 2;
+  opacity: 1;
+ }
+
 .popout-3sVMXz .themedPopout-25DgLi .header-SsaQ8X {
   background-color: var(--tertiary-color) !important;
 }
