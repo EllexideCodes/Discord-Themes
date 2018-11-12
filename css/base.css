@@ -2167,7 +2167,8 @@ pre {
 /* 12. Shadows */
 .popout-3sVMXz.popoutBottomRight-2JrySt.noArrow-3BYQ0Z.noShadow-321ZPm,
 .title-3qD0b-,
-.headerBar-UHpsPw {
+.headerBar-UHpsPw,
+.elevationBorderHigh-2WYJ09 {
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
 }
@@ -2680,6 +2681,10 @@ pre {
   /* 15.f. Search Popout */
 .popout-3sVMXz.popoutBottom-1YbShG.noShadow-321ZPm {
   margin-top: 0px !important;
+}
+
+.noShadow-321ZPm.popout-3sVMXz.popoutBottomLeft-JehOp2 {
+  top: 36px !important;
 }
 
 .searchPopout-1vUlP3,
