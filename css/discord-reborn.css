@@ -193,7 +193,8 @@
 .gamePreview-9weYR2,
 .popout-2xBvMR,
 .sb-menu-scroller-wrapper,
-.metalloriff-changelog-scroller {
+.metalloriff-changelog-scroller,
+.create-guild-container-new.deprecated .form.deprecated {
   background-image: var(--popup-background) !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
