@@ -3479,6 +3479,8 @@ form.modal-content.form.need-help-modal::after {
   color: var(--main-color)
 }
 
+.create-guild-container-new.deprecated { background-color: transparent }
+
 .create-guild-container-new.deprecated .action.create .action-icon {
   background-image: url(../assets/add-btn.png);
 }
