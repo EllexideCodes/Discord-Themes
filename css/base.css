@@ -2174,7 +2174,7 @@ pre {
 }
 
 .channel-members-wrap,
-.guildsWrapper-5TJh6A,
+.guildsWrapper-5TJh6A:not(.foldercontent),
 .channels-wrap .flexChild-faoVW3,
 #friends .friends-header,
 .chat-3bRxxu .title-wrap,
@@ -4189,35 +4189,31 @@ div.reply-item {
 
   /* 20.a.5. Server Folders */
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH>.foldercontainer~.guild-1EfMGQ:nth-child(2) .guildInner-3DSoA4 a,
-.guildsWrapper-5TJh6A .guilds-1q_RqH>.foldercontainer~.guild-1EfMGQ:nth-child(2) .homeIcon-1FoKUJ {
-  width: 100%;
-  transition: all .5s ease-in-out;
+.guildsWrapper-5TJh6A.foldercontentclosed {
+  width: 0;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH>.foldercontainer~.guild-1EfMGQ:nth-child(2) .homeIcon-1FoKUJ {
-    width: 50%;
-    margin-left: 50%;
-    transform: translateX(-50%);
+.guildsWrapper-5TJh6A.foldercontent {
+    transition: all .2s ease-in-out;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH>.foldercontainer~.guild-1EfMGQ:nth-child(2) .guildInner-3DSoA4 {
-  border-bottom: 2px solid var(--main-color);
-  border-radius: 0px !important;
-  transition: all .5s ease-in-out;
+.guildsWrapper-5TJh6A.foldercontent .guilds-1q_RqH>div.guild-1EfMGQ:first-child {
+    margin-top: 8px;
+    margin-bottom: 5px;
+    margin-left: 0;
+    position: relative;
+    height: 50px;
+    width: 50px;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH>.foldercontainer~.guild-1EfMGQ:nth-child(2)  {
-  margin-top: -52px;
-  width: 140px;
-  margin-left: -10px;
-  position: absolute;
-  z-index: 2;
-  height: 46px;
+.guildsWrapper-5TJh6A.foldercontent .guilds-1q_RqH>.guild-1EfMGQ:first-child .guildInner-3DSoA4 {
+    border: none;
 }
 
-.foldercontainer {
-  padding-top: 47px;
+.guildsWrapper-5TJh6A.foldercontent .scroller-wrap {
+    border-top: 2px solid var(--main-color);
+    box-sizing: border-box;
+    margin-top: 46px !important;
 }
 
   /* 20.a.6. Share Button Plugin */
