@@ -4217,11 +4217,23 @@ div.reply-item {
 }
 
 .guildSeparator-1X4GQ1.folderseparator::after {
-  background-color: #111 !important;
+  background-color: #666 !important;
 }
 
 .guild-1EfMGQ.folder .badge-1GsMF2.folder.count {
-  background: var(--main-color);
+  background: var(--main-color) !important;
+}
+
+.guildsWrapper-5TJh6A.foldercontent::after {
+  content: "";
+  width: 70px;
+  height: 150px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  z-index: 5;
+  background: linear-gradient(to bottom, rgba(48, 48, 48, 0) 0%, var(--quaternary-color) 60%, var(--quaternary-color) 100%);
+  pointer-events: none;
 }
 
   /* 20.a.6. Share Button Plugin */
