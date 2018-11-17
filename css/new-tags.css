@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import "https://ellexidecodes.github.io/Discord-Themes/css/tag-animations.css";
 
 :root {
   --mc: var(--main-color);
