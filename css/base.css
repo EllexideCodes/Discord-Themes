@@ -3474,18 +3474,20 @@ form.modal-content.form.need-help-modal::after {
 
   /* 17.d. Join or Create New Guild */
 .create-guild-container-new.deprecated .create-or-join header,
-.create-guild-container-new.deprecated h5,
-.create-guild-container-new.deprecated .join-server .sample-link {
+.create-guild-container.deprecated h5,
+.create-guild-container.deprecated .join-server .sample-link,
+.form-deprecated header, .form.deprecated header,
+.create-guild-container.deprecated .action.create .action-header {
   color: var(--main-color)
 }
 
 .create-guild-container-new.deprecated { background-color: transparent }
 
-.create-guild-container-new.deprecated .action.create .action-icon {
+.create-guild-container.deprecated .action.create .action-icon {
   background-image: url(../assets/add-btn.png);
 }
 
-.create-guild-container-new.deprecated .action.join .action-icon {
+.create-guild-container.deprecated .action.join .action-icon {
   background-image: url(../assets/join-btn.png);
 }
 
@@ -3496,7 +3498,7 @@ form.modal-content.form.need-help-modal::after {
   background-color: var(--primary-color) !important;
 }
 
-.create-guild-container-new.deprecated .action {
+.create-guild-container.deprecated .action {
   background: var(--tertiary-color);
   border-color: var(--secondary-color);
 }
@@ -3506,13 +3508,13 @@ form.modal-content.form.need-help-modal::after {
   background-color: var(--main-color);
 }
 
-.create-guild-container-new.deprecated .action:hover.create .btn,
+.create-guild-container.deprecated .action:hover.create .btn,
 .form-deprecated .btn-primary:hover, 
 .form.deprecated .btn-primary:hover {
   background-color: var(--hover-color);
 }
 
-.create-guild-container-new.deprecated .create-or-join .actions .or {
+.create-guild-container.deprecated .create-or-join .actions .or {
   background-image: none;
   -webkit-mask: url('https://ellexidecodes.github.io/Discord-Themes/assets/or.svg');
   -webkit-mask-position: center;
