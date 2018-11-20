@@ -4074,7 +4074,8 @@ form.modal-content.form.need-help-modal::after {
   border-top-color: var(--hover-color) !important;
 }
 
-.input-cIJ7To:focus {
+.input-cIJ7To:focus,
+.input-cIJ7To.focused-1mmYsC {
   border-color: var(--main-color) !important;
 }
 
