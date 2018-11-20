@@ -3476,8 +3476,9 @@ form.modal-content.form.need-help-modal::after {
 .create-guild-container.deprecated h5,
 .create-guild-container.deprecated .join-server .sample-link,
 .form-deprecated header, .form.deprecated header,
-.create-guild-container.deprecated .action.create .action-header {
-  color: var(--main-color)
+.create-guild-container.deprecated .action.create .action-header,
+.action-1lSjCi:hover .actionHeader-2CT5c7 {
+  color: var(--main-color) !important;
 }
 
 .create-guild-container-new.deprecated { background-color: transparent }
