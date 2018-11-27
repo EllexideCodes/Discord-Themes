@@ -138,14 +138,16 @@
 
 
 /* 3. Chat */
-.search-results-wrap {
+.search-results-wrap,
+.container-16j22k {
   background-image: var(--background-image);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.search-results-wrap::before {
+.search-results-wrap::before,
+.container-16j22k::before {
   content: "";
   position: absolute;
   height: 100%;
@@ -261,8 +263,9 @@
 }
 
 .sb-menu-scroller-wrapper::before,
-.metalloriff-changelog-scroller::before {
-  z-index: -1;
+.metalloriff-changelog-scroller::before,
+.container-16j22k::before {
+  z-index: -1 !important;
 }
 
 .popout-2xBvMR::before {
@@ -308,7 +311,8 @@
 .metalloriff-update-label,
 .metalloriff-changelog-label,
 .emptyState-2gL-9T,
-.modal-3HD5ck.sizeLarge-3clvAM .flex-1xMQg5 {
+.modal-3HD5ck.sizeLarge-3clvAM .flex-1xMQg5,
+.container-16j22k * {
   z-index: 1;
 }
 
