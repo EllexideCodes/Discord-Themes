@@ -41,3 +41,8 @@
   top: 0;
   right: 0;
 }
+
+html .tabBadge-3smxHS {
+  position: absolute;
+  transform: translate(50%, -50%);
+}
