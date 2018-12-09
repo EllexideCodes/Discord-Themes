@@ -45,6 +45,10 @@
 	transform: translateX(0px) !important;
 }
 
+.standardSidebarView-3F1I7i .contentRegionScroller-26nc1e {
+    max-width: 732px;
+}
+
 .layer-3QrUeG:nth-child(2)::after,
 #user-settings::after,
 #pubslayerroot .layer-3QrUeG::after {
