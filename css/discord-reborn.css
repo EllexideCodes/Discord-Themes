@@ -165,10 +165,23 @@
 .menu-Sp6bN1,
 .add-game-popout,
 .container-3ayLPN {
+  background-attachment: fixed;
   background-image: var(--background-image) !important;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.select-2TCrqx .Select-menu-outer {
+  background-color: transparent !important;
+  background-attachment: fixed !important;
+  background-image: var(--background-image) !important;
+  background-position: center !important;
+  background-size: cover !important;
+}
+
+.Select .Select-menu {
+  background-color: var(--primary-color);
 }
 
 .botTagInvert-18-95s {
