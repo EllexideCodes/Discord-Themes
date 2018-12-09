@@ -577,6 +577,27 @@
   background-color: var(--tertiary-color) !important;
 }
 
+.details-1YZMDP {
+  min-width: 660px;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+
+.applications-3KXbc1 {
+  width: auto;
+  justify-content: center;
+}
+
+.theme-dark .finePrint-xGGTK5,
+.theme-dark .description-1W0DiL {
+  color: #aaa;
+}
+
+.theme-light .finePrint-xGGTK5,
+.theme-light .description-1W0DiL {
+  color: #555;
+}
+
   /* 3.d. Buttons, Switches, and Bars */
 .lookFilled-1Gx00P.colorBrand-3pXr91,
 .themeDefault-24hCdX.valueChecked-m-4IJZ,
@@ -2047,6 +2068,15 @@ pre {
   border-color: var(--hover-color);
 }
 
+.lookOutlined-3sRXeN.colorBrand-3pXr91 {
+  border-color: var(--main-color);
+  color: var(--main-color);
+}
+
+.lookOutlined-3sRXeN.colorBrand-3pXr91:hover {
+  border-color: var(--hover-color);
+}
+
 .filterByTitleInput-2U3yVW:focus {
   border-bottom-color: var(--main-color) !important;
 }
@@ -3182,7 +3212,6 @@ animation: show-status 300ms linear;
   left: 0;
   right: 0;
   bottom: 0;
-  margin: auto !important;
   border-radius: 50%;
   transform: scale(1);
   transition: all 200ms ease-in-out;
@@ -4059,7 +4088,8 @@ form.modal-content.form.need-help-modal::after {
 .mediaBarInteractionDragging-2QurIZ .mediaBarGrabber-1FqnbN,
 .mediaBarProgress-1xaPtl,
 .mediaBarProgress-1xaPtl:after,
-.mediaBarProgress-1xaPtl:before {
+.mediaBarProgress-1xaPtl:before,
+.mediaBarInteraction-37i2O4:hover .mediaBarGrabber-1FqnbN {
   background-color: var(--main-color);
 }
 
