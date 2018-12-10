@@ -3212,6 +3212,7 @@ animation: show-status 300ms linear;
   left: 0;
   right: 0;
   bottom: 0;
+  margin: auto !important;
   border-radius: 50%;
   transform: scale(1);
   transition: all 200ms ease-in-out;
