@@ -4176,6 +4176,36 @@ form.modal-content.form.need-help-modal::after {
   background-color: var(--primary-color);
 }
 
+.ragingDemon-bDcoXE {
+  background-color: var(--primary-color);
+}
+
+.symbol-3ffeCr {
+  background-color: var(--main-color);
+  -webkit-mask-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/demon-fill.svg);
+  -webkit-mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 80vw 60vh;
+}
+
+.symbol-3ffeCr img {
+  display: none;
+}
+
+.symbol-3ffeCr::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #231F1F;
+  -webkit-mask-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/demon-outline.svg);
+  -webkit-mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 80vw 60vh;
+}
+
   /* 20.a. Plugin Optimization */
     /* 20.a.1. BetterFormatting */
 .bf-toolbar:before {
