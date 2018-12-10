@@ -1091,7 +1091,7 @@
 }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="231827402102276096"]::before {
-  background-image: url(https://i.imgur.com/x9D0o41.jpg);
+  background-image: url(https://i.imgur.com/vo3kPwA.png);
   transform: scale(1.2);
 }
 
@@ -1272,7 +1272,7 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="231827402102276096"]:hover::before {
   height: 20px;
   width: 20px;
-  filter: drop-shadow(0 0 3px white);
+  filter: drop-shadow(0 0 3px #CC0000);
   background-color: transparent;
 }
 
