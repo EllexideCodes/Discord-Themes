@@ -3503,49 +3503,65 @@ form.modal-content.form.need-help-modal::after {
 }
 
   /* 17.d. Join or Create New Guild */
-.create-guild-container-new.deprecated .create-or-join header,
-.create-guild-container.deprecated h5,
-.create-guild-container.deprecated .join-server .sample-link,
-.form-deprecated header, .form.deprecated header,
-.create-guild-container.deprecated .action.create .action-header,
+.sampleLink-KPFu3I,
+.title-2Dc-Cb,
+.theme-dark .header-3ZP1MY, 
+.theme-light .header-3ZP1MY,
+.theme-dark .action-1lSjCi, 
+.theme-light .action-1lSjCi,
+.theme-dark .create-3jownz .actionHeader-2CT5c7, 
+.theme-light .create-3jownz .actionHeader-2CT5c7
 .action-1lSjCi:hover .actionHeader-2CT5c7 {
   color: var(--main-color) !important;
 }
 
-.create-guild-container-new.deprecated { background-color: transparent }
+.theme-light .slide-2pHaq5, .theme-dark .slide-2pHaq5 { background-color: transparent }
 
-.create-guild-container.deprecated .action.create .action-icon {
-  background-image: url(../assets/add-btn.png);
+.theme-dark .create-3jownz .actionIcon-2IISM_, 
+.theme-light .create-3jownz .actionIcon-2IISM_ {
+  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/add-btn.png);
 }
 
-.create-guild-container.deprecated .action.join .action-icon {
-  background-image: url(../assets/join-btn.png);
+.theme-dark .join-33Tr-7 .actionIcon-2IISM_, .theme-light .join-33Tr-7 .actionIcon-2IISM_ {
+  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/join-btn.png);
 }
 
-.create-guild-container.deprecated .form.deprecated .form-inner,
-.create-guild-container.deprecated,
-.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:hover,
-.create-guild-container-new.deprecated .form.deprecated .form-inner {
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:hover {
   background-color: var(--primary-color) !important;
 }
 
-.create-guild-container.deprecated .action {
+.theme-dark .regionSelect-3lf4eE:hover .regionSelectInner-24f4Ce, 
+.theme-dark .regionSelect-3lf4eE:hover button, 
+.theme-light .regionSelect-3lf4eE:hover .regionSelectInner-24f4Ce, 
+.theme-light .regionSelect-3lf4eE:hover button {
+  border-color: var(--main-color);
+}
+
+.theme-dark .regionSelect-3lf4eE:hover button, 
+.theme-light .regionSelect-3lf4eE:hover button {
+  background-color: var(--main-color);
+}
+
+.theme-dark .action-1lSjCi, .theme-light .action-1lSjCi {
   background: var(--tertiary-color);
   border-color: var(--secondary-color);
 }
 
 .form-deprecated .btn-primary, 
-.form.deprecated .btn-primary {
+.form.deprecated .btn-primary,
+.theme-dark .actionButton-2PeQbJ, 
+.theme-light .actionButton-2PeQbJ {
   background-color: var(--main-color);
 }
 
-.create-guild-container.deprecated .action:hover.create .btn,
 .form-deprecated .btn-primary:hover, 
-.form.deprecated .btn-primary:hover {
+.form.deprecated .btn-primary:hover,
+.theme-dark .create-3jownz:hover .actionButton-2PeQbJ, 
+.theme-light .create-3jownz:hover .actionButton-2PeQbJ {
   background-color: var(--hover-color);
 }
 
-.create-guild-container.deprecated .create-or-join .actions .or {
+.theme-dark .or-3THJsp, .theme-light .or-3THJsp {
   background-image: none;
   -webkit-mask: url('https://ellexidecodes.github.io/Discord-Themes/assets/or.svg');
   -webkit-mask-position: center;
