@@ -4154,7 +4154,8 @@ form.modal-content.form.need-help-modal::after {
   fill: var(--main-color) !important;
 }
 
-.input-autosize-input:focus {
+.input-autosize-input:focus,
+.themeDefault-24hCdX {
   background-color: var(--quaternary-color) !important;
 }
 
