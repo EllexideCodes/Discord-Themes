@@ -127,6 +127,7 @@
   16.a. Context Menus
   16.b. Status Picker
   16.c. Message Menu
+  16.d. Color Picker
 
 17. Modals
   17.a. Help Modal
@@ -3317,6 +3318,11 @@ animation: show-status 300ms linear;
   background-color: var(--quaternary-color) !important;
 }
 
+  /* 16.d. Color Picker */
+.colorPickerCustom-2CWBn2 {
+  background-color: var(--primary-color) !important;
+  border-color: var(--quaternary-color) !important;
+}
 
 
 

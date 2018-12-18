@@ -164,11 +164,16 @@
 .searchPopout-1vUlP3,
 .menu-Sp6bN1,
 .add-game-popout,
-.container-3ayLPN {
+.container-3ayLPN,
+.colorPickerCustom-2CWBn2 {
   background-image: var(--background-image) !important;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.colorPickerCustom-2CWBn2 {
+  border-color: var(--quaternary-color) !important;
 }
 
 .select-2TCrqx .Select-menu-outer {
@@ -263,7 +268,8 @@
 .container-3ayLPN::before,
 .popout-2xBvMR::before,
 .sb-menu-scroller-wrapper::before,
-.metalloriff-changelog-scroller::before {
+.metalloriff-changelog-scroller::before,
+.colorPickerCustom-2CWBn2::before {
   content: "";
   position: absolute;
   height: 100%;
@@ -324,7 +330,8 @@
 .metalloriff-changelog-label,
 .emptyState-2gL-9T,
 .modal-3HD5ck.sizeLarge-3clvAM .flex-1xMQg5,
-.container-16j22k * {
+.container-16j22k *,
+.colorPickerCustom-2CWBn2 * {
   z-index: 1;
 }
 
