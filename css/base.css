@@ -1368,6 +1368,15 @@ a,
   filter: blur(3px);
 }
 
+.spoilerWarning-2aAZq1 {
+  background-color: var(--quaternary-color) !important;
+  color: white !important;
+}
+
+.spoilerContainer-331r0R:hover .spoilerWarning-2aAZq1 {
+  background-color: var(--main-color) !important;
+}
+
   /* 8.e. Chat Dividers */
 .chat-3bRxxu .divider-3gKybi {
   height: 28px;
