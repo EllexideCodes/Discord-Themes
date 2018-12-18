@@ -257,7 +257,8 @@
 /* 13. Games Tab, Library, and Store */
 .gameLibrary-TTDw4Y,
 .applicationStore-1pNvnv,
-.itemBackground-1jfD8p {
+.itemBackground-1jfD8p,
+.root-1BQpZw {
   background-color: var(--primary-color) !important;
 }
 
