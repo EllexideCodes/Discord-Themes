@@ -4355,6 +4355,12 @@ div.reply-item {
   display: none;
 }
 
+  /* 20.a.7. Theme & Plugon Repo */
+.themerepo-modal .themeEntry.downloadable .btn-download,
+.pluginrepo-modal .pluginEntry.downloadable .btn-download {
+  background-color: var(--main-color) !important;
+}
+
 /* 21. Custom CSS */
 .bd-detached-editor .chat-3bRxxu .title-3qD0b- > div:last-child,
 .bd-detached-editor .headerBar-UHpsPw > div:last-child {
