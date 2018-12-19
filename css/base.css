@@ -3548,7 +3548,23 @@ form.modal-content.form.need-help-modal::after {
 
 .theme-dark .create-3jownz .actionIcon-2IISM_, 
 .theme-light .create-3jownz .actionIcon-2IISM_ {
-  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/add-btn.png);
+  position: relative;
+  background-image: none;
+  background-color: var(--main-color);
+  -webkit-mask: url(https://ellexidecodes.github.io/Discord-Themes/assets/add-btn.svg) center/112px 78px no-repeat;
+}
+
+.theme-dark .create-3jownz .actionIcon-2IISM_::after, 
+.theme-light .create-3jownz .actionIcon-2IISM_::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: white;
+  opacity: .4;
+  -webkit-mask: url(https://ellexidecodes.github.io/Discord-Themes/assets/add-btn-two.svg) center/112px 78px no-repeat;
 }
 
 .theme-dark .join-33Tr-7 .actionIcon-2IISM_, .theme-light .join-33Tr-7 .actionIcon-2IISM_ {
