@@ -18,12 +18,15 @@
 
 /* spin in */
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="173177738914562048"]:hover:before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="130875493850284032"]:hover:before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="130875493850284032"]:hover:before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="519790100956184586"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="96563253466898432"]:hover::before {
   animation: scaleSpin .4s;
 }
 
 /* fade from right */
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="244363360886325248"]:hover:before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="244363360886325248"]:hover:before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="296018550009626628"]:hover::before {
   animation: fadeFromRight .2s;
 }
 

@@ -192,7 +192,6 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="281323790124711937"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="282256234663510026"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="283418670867152897"]::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="296018550009626628"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="297463921445699594"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="300365386031824897"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="300456407222714381"]::before,
@@ -761,10 +760,6 @@
   content: "Ruby";
 }
 
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="296018550009626628"]:hover::before {
-  content: "Alien";
-}
-
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="297463921445699594"]:hover::before {
   content: "Provolone";
 }
@@ -1006,7 +1001,9 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="130875493850284032"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="244363360886325248"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="123916078882488320"]::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="215036395507548161"]::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="215036395507548161"]::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="296018550009626628"]::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="519790100956184586"]::before {
   content: '';
   color: transparent;
   height: 15px;
@@ -1066,7 +1063,7 @@
 }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="96563253466898432"]::before {
-  background-image: url(https://i.imgur.com/KnGrVSZ.png);
+  background-image: url(https://i.imgur.com/ful5Hhk.png);
   transform: scale(1.2);
   filter: drop-shadow(-0px 0px 2px white);
 }
@@ -1092,7 +1089,7 @@
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="231827402102276096"]::before {
   background-image: url(https://i.imgur.com/vo3kPwA.png);
-  transform: scale(1.2);
+  transition: filter .2s ease-in-out;
 }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="130875493850284032"]::before {
@@ -1112,6 +1109,14 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="215036395507548161"]::before {
   background-image: url(https://i.imgur.com/uw05pdX.png);
   transform: scale(1.5);
+}
+
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="296018550009626628"]::before {
+  background-image: url(https://i.imgur.com/R9uIVMg.png);
+}
+
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="519790100956184586"]::before {
+  background-image: url(https://i.imgur.com/Yp4aTR1.png);
 }
 
 /* on hover */
@@ -1146,7 +1151,9 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="130875493850284032"]:hover:before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="244363360886325248"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="123916078882488320"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="215036395507548161"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="215036395507548161"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="296018550009626628"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="519790100956184586"]:hover::before  {
   transform: none;
   background-size: cover;
   background-position: center;
@@ -1182,9 +1189,9 @@
 }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="96563253466898432"]:hover::before {
-  content: 'Veni, Vedi, Vici';
-  background-image: url(https://i.imgur.com/K3ATdMx.gif);
-  color: #114c9c;
+  content: 'Kaxuro';
+  background-image: url(https://i.imgur.com/w1wnhLk.gif);
+  color: #caca4b;
   text-shadow: -1px 0 white, 
     0 1px white, 
     1px 0 white, 
@@ -1241,6 +1248,18 @@
   color: white; 
 }
 
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="296018550009626628"]:hover::before {
+  content: 'Astral';
+  background-image: url(https://i.imgur.com/AqfRU8r.gif);
+  color: #F4FAF8;
+}
+
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="519790100956184586"]:hover::before {
+  content: 'SpencerPcGamer';
+  background-image: url(https://i.imgur.com/z7FebcA.gif);
+  color: #00ecff;
+}
+
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="402272736665272320"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="134349083568504832"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="214318588331294720"]:hover::before,
@@ -1252,7 +1271,9 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="254362351170617345"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="130875493850284032"]:hover:before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="244363360886325248"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="215036395507548161"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="215036395507548161"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="296018550009626628"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="519790100956184586"]:hover::before {
   display: block;
   background-color: transparent;
   box-shadow: none;
