@@ -4275,6 +4275,10 @@ form.modal-content.form.need-help-modal::after {
   -webkit-mask-size: 80vw 60vh;
 }
 
+.wrapper-2ZbzR9 {
+  background: transparent !important;
+}
+
   /* 20.a. Plugin Optimization */
     /* 20.a.1. BetterFormatting */
 .bf-toolbar:before {
