@@ -749,6 +749,10 @@ color: var(--dnd) !important;
   margin-top: 15px !important;
 }
 
+.codeRedemptionRedirect-1wVR4b {
+  background-color: var(--quaternary-color) !important;
+  border-color: var(--quaternary-color) !important;
+}
 
 /* 4. Guilds Wrapper */
   /* 4.a. Main Guilds Wrapper */
@@ -2039,6 +2043,15 @@ pre {
 .installSize-1eXbBX {
   background-color: var(--main-color) !important;
   color: white !important;
+}
+
+.bodyButtonColor-3yTLJ1 {
+  background-color: var(--main-color) !important;
+  color: white !important;
+}
+
+.bodyButtonColor-3yTLJ1:hover {
+  background-color: var(--hover-color) !important;
 }
 
   /* 10.c. Store */
@@ -3920,7 +3933,11 @@ form.modal-content.form.need-help-modal::after {
   background-color: var(--primary-color) !important;
 }
 
-
+  /* 17.m. Gift Nitro Modal */
+.bodyButtonColor-3yTLJ1 {
+  background-color: var(--quaternary-color) !important;
+  border-color: var(--quaternary-color) !important;
+}
 
 
 /* 18. Login Page */
