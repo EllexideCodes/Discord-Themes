@@ -1856,7 +1856,9 @@ pre {
   background-color: var(--hover-color) !important;
 }
 
-
+#friends .friends-table .friends-row .friends-column-actions .friends-action {
+  background-color: var(--quaternary-color) !important;
+}
 
 
 /* 10. Games Tab, Library, and Store */
@@ -2622,6 +2624,11 @@ pre {
 .selectorSelected-1_M1WV {
   border-color: var(--hover-color);
   background-color: var(--quaternary-color) !important;
+}
+
+.result-3w1ZcL:hover:after {
+  box-shadow: inset 0 0 0 2px var(--main-color),
+  inset 0 0 0 3px var(--quaternary-color);
 }
 
   /* 15.d. User Popout */
