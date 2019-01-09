@@ -2733,22 +2733,22 @@ pre {
 }
 
   /* 15.e. Add Role User Popout */
-#autocomplete-popout .autocomplete-arrow,
-#autocomplete-popout .autocomplete-header-background,
-#autocomplete-popout .row.selected {
+.autocompleteArrow-Zxoy9H, 
+.autocompleteHeaderBackground-30T70q,
+.row-rrHHJU.selected-1pIgLL {
   background: var(--quaternary-color) !important;
 }
 
-#autocomplete-popout h3,
-#autocomplete-popout input[type=text] {
+.container-VSDcQc .headerText-3i6A8K,
+.container-VSDcQc .input-1ppKdn {
   color: #666 !important;
 }
 
-#autocomplete-popout .row.selected {
+.row-rrHHJU.selected-1pIgLL {
   border-left: 2px solid var(--main-color);
 }
 
-#autocomplete-popout section {
+.container-VSDcQc .sectionTag-pXyto9 {
   background-color: var(--primary-color) !important;
 }
 
