@@ -3745,7 +3745,7 @@ form.modal-content.form.need-help-modal::after {
   color: white;
 }
 
-.uploadModal-2ifh8j .footer-3mqk7D .button {
+.uploadModal-2ifh8j .footer-3mqk7D button {
   background-color: transparent;
   min-width: 36px;
   max-width: 36px;
@@ -3755,26 +3755,26 @@ form.modal-content.form.need-help-modal::after {
   color: transparent;
 }
 
-.uploadModal-2ifh8j .footer-3mqk7D .button.button-primary {
+.uploadModal-2ifh8j .footer-3mqk7D button[type*="submit"] {
   -webkit-mask-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/check.svg);
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
   background-color: rgba(33, 219, 135, 0.6);
 }
 
-.uploadModal-2ifh8j .footer-3mqk7D .button:not(.button-primary) {
+.uploadModal-2ifh8j .footer-3mqk7D button[type*="button"] {
   -webkit-mask: url(https://ellexidecodes.github.io/Discord-Themes/assets/cancel.svg);
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
   background-color: rgba(240, 71, 71, 0.6);
 }
 
-.uploadModal-2ifh8j .footer-3mqk7D .button-primary:hover {
+.uploadModal-2ifh8j .footer-3mqk7D button[type*="submit"]:hover {
   background-color: #21db87 !important;
   transform: scale(1.5);
 }
 
-.uploadModal-2ifh8j .footer-3mqk7D .button:not(.button-primary):hover {
+.uploadModal-2ifh8j .footer-3mqk7D button[type*="button"]:hover {
   background-color: #f04747;
   transform: scale(1.5);
 }
