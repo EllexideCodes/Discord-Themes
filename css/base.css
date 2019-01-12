@@ -3431,6 +3431,10 @@ animation: show-status 300ms linear;
   background: var(--main-color);
 }
 
+.topSectionPlaying-1J5E4n .top-28JiJ- .itemSelected-1qLhcL {
+  color: var(--white10) !important;
+}
+
 .body-3ND3kc {
   background-color: var(--primary-color) !important;
 }
