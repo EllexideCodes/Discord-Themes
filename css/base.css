@@ -624,7 +624,7 @@
   background-color: var(--hover-color) !important;
 }
 
-.checkbox .checkbox-inner input[type=checkbox]:checked+span,
+.checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span,
 .checked-3_4uQ9 {
   background-color: var(--main-color) !important;
   border-color: var(--tertiary-color) !important;
@@ -2979,45 +2979,45 @@ pre {
 } 
 
   /* 15.i. Tooltips */
-.tooltip {
+.tooltip-1OS-Ti {
   border-radius: 0px !important;
 }
 
-.tooltip {
-  background: var(--main-color) !important;
+.tooltip-1OS-Ti {
+  background: linear-gradient(to bottom right, var(--main-color), var(--hover-color)) !important;
 }
 
-.tooltip.tooltip-right:after {
+.tooltip-1OS-Ti.right-KM_vfY:after {
   border-right-color: var(--main-color) !important;
 }
 
-.tooltip.tooltip-top:after {
+.tooltip-1OS-Ti.top-1pTh1F:after {
   border-top-color: var(--main-color) !important;
 }
 
 .tooltip.tooltip-left:after {
-  border-left-color: var(--main-color) !important;
+  border-left-color: var(--hover-color) !important;
 }
 
-.tooltip.tooltip-bottom:after {
-  border-bottom-color: var(--main-color) !important;
+.tooltip-1OS-Ti.bottom-19kp6S:after {
+  border-bottom-color: var(--hover-color) !important;
 }
 
 /* tropix's fade in tooltip anim */
 
-.tooltips .tooltip.tooltip-right {
+.tooltips-FhwIyl .tooltip-1OS-Ti.right-KM_vfY:after {
   animation: fadeFromRight 200ms
 }
 
-.tooltips .tooltip.tooltip-bottom {
+.tooltips-FhwIyl .tooltip-1OS-Ti.bottom-19kp6S {
   animation: fadeFromBottom 200ms
 }
 
-.tooltips .tooltip.tooltip-left {
+.tooltips-FhwIyl .tooltip.tooltip-left {
   animation: fadeFromLeft 200ms
 }
 
-.tooltip.tooltip-top {
+.tooltips-FhwIyl .tooltip-1OS-Ti.top-1pTh1F {
   animation: fadeFromTop 200ms;
 }
 
