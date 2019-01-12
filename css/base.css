@@ -2984,7 +2984,7 @@ pre {
 }
 
 .tooltip-1OS-Ti {
-  background: linear-gradient(to bottom right, var(--main-color), var(--hover-color)) !important;
+  background: var(--main-color) !important;
 }
 
 .tooltip-1OS-Ti.right-KM_vfY:after {
@@ -2996,11 +2996,11 @@ pre {
 }
 
 .tooltip.tooltip-left:after {
-  border-left-color: var(--hover-color) !important;
+  border-left-color: var(--main-color) !important;
 }
 
 .tooltip-1OS-Ti.bottom-19kp6S:after {
-  border-bottom-color: var(--hover-color) !important;
+  border-bottom-color: var(--main-color) !important;
 }
 
 /* tropix's fade in tooltip anim */
