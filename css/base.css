@@ -1802,11 +1802,11 @@ pre {
 /* 9. Friends List */
   /* 9.a. Main Friends List */
 
-#friends .friends-table .friends-row:hover {
+.friendsTable-133bsv .friendsRow-2yicud:hover {
   background: var(--quaternary-color) !important;
 }
 
-#friends .friends-table .friend-table-add-wrapper .friend-table-add-header {
+.friendsTable-133bsv .friendTableAddWrapper-nHHZtK .friendTableAddHeader-m9bzFr {
   background: transparent !important
 }
 
@@ -1814,55 +1814,52 @@ pre {
   background-color: var(--tertiary-color) !important;
 }
 
-  /* 9.b. Action Buttons */
-#friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-video-call,
-#friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-voice-call {
+/* 9.b. Action Buttons */
+.friendsTable-133bsv .friendsRow-2yicud .friends-column-actions .friends-action.friends-action-video-call,
+.friendsTable-133bsv .friendsRow-2yicud .friends-column-actions .friends-action.friends-action-voice-call {
   background-color: var(--online);
   opacity: 0.7;
 }
 
-#friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-video-call:hover,
-#friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-voice-call:hover{
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9 {
+  background-color: var(--quaternary-color) !important;
+}
+
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionVideoCall-2_PKeP:hover,
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionVoiceCall-3EdPsR:hover{
   background-color: var(--online);
   opacity: 1;
   transition: all .2s ease-in-out;
 }
 
-#friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-remove {
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionRemove-qu8nnl {
   background-color: var(--dnd);
   opacity: 0.7;
 }
 
-#friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-remove:hover {
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionRemove-qu8nnl:hover {
   background-color: var(--dnd);
   opacity: 1;
 }
 
-#friends .tab-bar .tab-bar-item {
+.tabBar-1E2ExX .item-3HpYcP {
   border-radius: 0px;
   transition: all .2s ease-in-out;
 }
 
-#friends .friends-table .friends-row .friends-column-guilds .more-mutual-guilds-btn:hover {
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnGuilds-2we6jb .moreMutualGuildsBtn-2VwbkO:hover {
   background-color: var(--hover-color);
   border-color: var(--hover-color) !important;
 }
 
-#friends .friends-table .friends-row .friends-column-actions .friends-action:hover {
-  background-color: var(--dnd) !important;
-}
-
-#friends .tab-bar .tab-bar-item.tab-bar-item-primary {
+.tabBar-1E2ExX .primary-3j8BhM {
   background-color: var(--main-color) !important;
 }
 
-#friends .tab-bar .tab-bar-item.tab-bar-item-primary:hover {
+.tabBar-1E2ExX .primary-3j8BhM:hover {
   background-color: var(--hover-color) !important;
 }
 
-#friends .friends-table .friends-row .friends-column-actions .friends-action {
-  background-color: var(--quaternary-color) !important;
-}
 
 
 /* 10. Games Tab, Library, and Store */
@@ -2289,7 +2286,7 @@ pre {
 .guild-1EfMGQ .guildIcon-CT-ZDq,
 .guilds-1q_RqH .guildPlaceholder-1ioaid,
 .guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK::after,
-#friends .friends-table .friends-column.friends-column-guilds .icon-3o6xvg,
+.friendsTable-133bsv .friends-column.friends-column-guilds .icon-3o6xvg,
 .status-oxiHuE,
 .image-33JSyf,
 .avatar-small,
@@ -2309,12 +2306,13 @@ pre {
 .callAvatarWrapper-TICyxO.voice-2D-tt_ .ripple-16ZT2p,
 .from-mPWN2E, 
 .to-2819fF,
-#friends .friends-table .friends-row .friends-column-guilds .more-mutual-guilds-btn,
+.friendsTable-133bsv .friendsRow-2yicud .friends-column-guilds .more-mutual-guilds-btn,
 .reviewCircle-1o-MOB,
 .circle-1nK_79,
 .guild-1EfMGQ.audio-3vVhBi:after, 
 .guild-1EfMGQ.video-15yGu3:after,
-.inner-1W0Bkn {
+.inner-1W0Bkn,
+.iconInactive-98JN5i {
   border-radius: var(--roundness) !important;
 }
 
