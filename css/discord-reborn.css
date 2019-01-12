@@ -139,7 +139,7 @@
 
 
 /* 3. Chat */
-.search-results-wrap,
+.searchResultsWrap-2DKFzt,
 .container-16j22k {
   background-image: var(--background-image);
   background-size: cover;
@@ -147,7 +147,7 @@
   background-position: center;
 }
 
-.search-results-wrap::before,
+.searchResultsWrap-2DKFzt::before,
 .container-16j22k::before {
   content: "";
   position: absolute;
