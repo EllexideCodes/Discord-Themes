@@ -721,13 +721,6 @@ color: var(--dnd) !important;
   justify-content: center;
 }
 
-.details-39BP6c,
-.applications-304ue7,
-.tier1Banner-1B_WXY {
-  margin-left: 50%;
-  transform: translateX(-50%);
-}
-
 .tier1Banner-1B_WXY,
 .details-39BP6c {
   width: 660px;
