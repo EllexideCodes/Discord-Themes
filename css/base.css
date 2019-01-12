@@ -2320,7 +2320,16 @@ pre {
 .guild-1EfMGQ.audio-3vVhBi:after, 
 .guild-1EfMGQ.video-15yGu3:after,
 .inner-1W0Bkn,
-.iconInactive-98JN5i {
+.iconInactive-98JN5i,
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnGuilds-2we6jb .moreMutualGuildsBtn-2VwbkO,
+.guildIconEmptyBackground-14tfYf,
+.avatar-large, 
+.avatar-profile, 
+.avatar-small, 
+.avatar-xlarge, 
+.avatar-xsmall, 
+.avatar-xxlarge,
+.avatarUploaderInner-3UNxY3 {
   border-radius: var(--roundness) !important;
 }
 
