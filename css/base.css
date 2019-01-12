@@ -1814,6 +1814,14 @@ pre {
   background-color: var(--tertiary-color) !important;
 }
 
+.tabBar-1E2ExX .primarySelected-3uHKZn {
+  color: var(--main-color);
+}
+
+.friendsTable-133bsv .friendTableAddWrapper-nHHZtK .friendTableAddHeader-m9bzFr .friendsTableAdd-1w2_qZ .wrapper-1cBijl {
+  background-color: transparent !important;
+}
+
 /* 9.b. Action Buttons */
 .friendsTable-133bsv .friendsRow-2yicud .friends-column-actions .friends-action.friends-action-video-call,
 .friendsTable-133bsv .friendsRow-2yicud .friends-column-actions .friends-action.friends-action-voice-call {
@@ -4370,23 +4378,23 @@ div.reply-item {
 }
 
 .guildsWrapper-5TJh6A.foldercontent {
-    transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
 .guildsWrapper-5TJh6A.foldercontent .guilds-1q_RqH>div.guild-1EfMGQ:first-child {
-    margin-top: 8px;
-    margin-bottom: 5px;
-    margin-left: 0;
-    position: relative;
-    height: 50px;
-    width: 50px;
+  margin-top: 8px;
+  margin-bottom: 5px;
+  margin-left: 0;
+  position: relative;
+  height: 50px;
+  width: 50px;
 }
 
 .guildsWrapper-5TJh6A.foldercontent .guilds-1q_RqH>.guild-1EfMGQ:first-child .guildInner-3DSoA4 {
     border: none;
 }
 
-.guildsWrapper-5TJh6A.foldercontent .scroller-wrap {
+.guildsWrapper-5TJh6A.foldercontent .scrollerWrap-1IAIlv {
     border-top: 2px solid var(--main-color);
     box-sizing: border-box;
     margin-top: 46px !important;
