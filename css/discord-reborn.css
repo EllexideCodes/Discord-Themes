@@ -195,6 +195,20 @@
   color: white;
 }
 
+.bd-modal-inner {
+  position: relative;
+}
+
+.bd-modal-inner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
 .userPopout-3XzG_A,
 .create-guild-container.deprecated,
 .modal-3HD5ck,
@@ -213,7 +227,8 @@
 .sb-menu-scroller-wrapper,
 .metalloriff-changelog-scroller,
 .create-guild-container-new.deprecated .form.deprecated,
-.container-VSDcQc {
+.container-VSDcQc,
+.bd-modal-inner::before {
   background-image: var(--popup-background) !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;

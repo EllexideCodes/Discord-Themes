@@ -3390,131 +3390,32 @@ animation: show-status 300ms linear;
 
 
 /* 17. Modals */
-  /* 17.a. Help Modal */
-.need-help-modal.form.deprecated .header {
-  background-color: transparent;
-  height: 140px;
-  padding: 0;
-}
+  /* 17.a. BD Error Modal */
 
-.need-help-modal .header::after {
-  content: "";
-  background-color: var(--main-color);
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
-  position: relative;
-  z-index: 10;
-  height: 150px;
-  width: 141.8% !important;
-  padding: 0;
-  -webkit-box-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-}
-
-.need-help-modal .header h1 {
-  color: transparent;
-  font-weight: 700;
-  margin: 38px 0px 0px;
-  font-size: 18px;
-  margin-right: 36%;
-  top: 15%;
-  position: relative;
-}
-
-.need-help-modal.form.deprecated .header h1::after {
-  content: var(--theme-name)" v" var(--theme-version) !important;
-  white-space: nowrap !important;
-  color: #fff;
-  font-weight: 700;
-  font-size: 470% !important;
-  z-index: 11;
-  position: absolute;
-  width: 200%;
-  height: 150% !important;
-  margin-left: -45px;
-  top: 10px !important;
-  font-family: Satisfy;
-  text-shadow: 7px 4px 5px rgba(0, 0, 0, 0.4) !important;
-}
-
-form.modal-content.form.need-help-modal::after {
-  content: "";
-  background: #fff;
-  position: relative;
-  z-index: 10;
-}
-
-.need-help-modal .header input[type=text] {
-  display: none;
-}
-
-.need-help-modal .form-inner.loading {
-  background: transparent;
-  padding-bottom: 0px;
-  padding-top: 0px;
-}
-
-.need-help-modal.form.deprecated .form-inner {
-  padding: 0px;
-  height: 350px !important;
-}
-
-.need-help-modal .form-inner.loading::after {
-  line-height: 7px !important;
-  content: "\A Thanks for using this fork! \A\A\A\A Developer: \A\A\A\A Lil Monster#3557 \A\A\A\A\A\A My Server: \A\A\A\A https://discord.gg/g7nf298 \A\A\A\A\A\A Support Me: \A\A\A\A https://paypal.me/Ellexide \A\A\A\A\A\A My Website: \A\A\A\A https://ellexidecodes.github.io" !important;
-  text-align: center;
-  padding: 58px;
-  min-height: 100px;
-  height: 350px !important;
-  background-color: #19191b;
-  width: 118% !important;
-  white-space: pre;
-  color: #fff;
-  font-size: 110% !important;
-}
-
-.need-help-modal .footer {
-  background-color: transparent !important;
-  color: transparent !important;
-  border-top: 0px #e9e7e7 solid !important;
-  padding-top: 0px !important;
-  padding-left: 0px !important;
-  width: 100% !important;
-  position: relative !important;
-}
-
-.need-help-modal .footer::after {
-  content: "Need help? Visit: https:/discord.gg/TeRQEPb or DM Lil Monster#3557" !important;
-  background-color: #19191b;
-  width: 142% !important;
-  height: 34px;
-  position: absolute;
-  text-align: center !important;
-  bottom: 0;
-  left: -109px !important;
-  line-height: 32px;
-  border-radius: 0 0 5px 5px;
-  border-top: 2px solid #161618;
-  color: #fff;
-}
-
-.need-help-modal .form-inner>ul,
-.need-help-modal .footer a,
-.need-help-modal .form-inner.loading .spinner-2enMB9,
-.need-help-modal .form-inner .failed {
-  display: none !important;
-}
-
-.empty-placeholder .image[style*='background-image:url("/assets/6793e022dc1b065b21f12d6df02f91bd.svg");'] {
-  background-image: url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_sentiment_very_dissatisfied_white_24px.svg) !important;
-  opacity: 0.3;
-}
-
-.form-deprecated .form-header, 
-.form.deprecated .form-inner {
-  background-color: var(--main-color) !important;
-}
+  .bd-modal-wrapper .bd-modal-inner {
+    border-color: var(--tertiary-color);
+  }
+  
+  .bd-modal-wrapper .header {
+    background-color: var(--quaternary-color);
+  }
+  
+  .bd-modal-wrapper .bd-modal-body,
+  .bd-modal-wrapper .footer {
+    background-color: var(--primary-color) !important;
+  }
+  
+  .bd-modal-wrapper .footer button {
+    background-color: var(--main-color);
+  }
+  
+  .bd-modal-wrapper .footer button:hover {
+    background-color: var(--hover-color);
+  }
+  
+  .bd-modal-wrapper .tab-bar-container .tab-bar-item.selected {
+    text-align: center;
+  }
 
   /* 17.b. User Profile Modal */
 
