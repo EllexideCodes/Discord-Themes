@@ -52,7 +52,7 @@
 
 /* 1. Background */
   /* 1.a. Main Background */
-.appMount-3VJmYg::before {
+.appMount-3lHmkl::before {
   position: absolute;
   content: " ";
   height: 100%;
@@ -65,7 +65,7 @@
   filter: blur(var(--background-blur));
 }
 
-.app {
+.app-2rEoOp {
   background-color: var(--primary-color);
 }
 
@@ -85,7 +85,7 @@
 .private-channel-call,
 .video-1FfuMD,
 #friends,
-.appMount-3VJmYg,
+.appMount-3lHmkl,
 .standardSidebarView-3F1I7i,
 .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN,
 .inner-zqa7da,
