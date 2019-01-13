@@ -4104,7 +4104,9 @@ animation: show-status 300ms linear;
 }
 
 .bubble-3we2di,
-#pubslayer .ui-tab-bar-item.selected:hover {
+#pubslayer .ui-tab-bar-item.selected:hover,
+.theme-dark .categoryFadeBlurple-1j72_A:hover, 
+.theme-light .categoryFadeBlurple-1j72_A:hover {
   background-color: var(--hover-color) !important;
 }
 
