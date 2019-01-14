@@ -3022,7 +3022,7 @@ pre {
 
 /* tropix's fade in tooltip anim */
 
-.tooltips-FhwIyl .tooltip-1OS-Ti.right-KM_vfY:after {
+.tooltips-FhwIyl .tooltip-1OS-Ti.right-KM_vfY {
   animation: fadeFromRight 200ms
 }
 
