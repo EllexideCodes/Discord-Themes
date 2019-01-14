@@ -2642,6 +2642,18 @@ pre {
   background-color: var(--quaternary-color) !important;
 }
 
+.result-3w1ZcL[style*="background-color: rgba(146, 154, 250)"] {
+  background-color: var(--hover-color) !important;
+}
+
+.result-3w1ZcL[style*="background-color: rgba(179, 174, 255)"] {
+  background-color: var(--main-color) !important;
+}
+
+.placeholder-1kJjXI {
+  background: var(--quaternary-color) !important;
+}
+
 .autocompleteInner-zh20B_ {
   padding-bottom: 20px;
 }
