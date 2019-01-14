@@ -2646,7 +2646,8 @@ pre {
   background-color: var(--hover-color) !important;
 }
 
-.result-3w1ZcL[style*="background-color: rgb(179, 174, 255)"] {
+.result-3w1ZcL[style*="background-color: rgb(179, 174, 255)"],
+.result-3w1ZcL[style*="background-color: rgb(115, 142, 245)"] {
   background-color: var(--main-color) !important;
 }
 
