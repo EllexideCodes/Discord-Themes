@@ -873,8 +873,8 @@ color: var(--dnd) !important;
   border: 2px solid var(--quaternary-color);
 }
 
-.guild-1EfMGQ.audio-3vVhBi .guildInner-3DSoA4:after,
-.guild-1EfMGQ.video-15yGu3 .guildInner-3DSoA4:after {
+.guild-1EfMGQ.audio-3vVhBi:after, 
+.guild-1EfMGQ.video-15yGu3:after {
   background-color: var(--main-color);
 }
 
@@ -2328,7 +2328,8 @@ pre {
 .avatar-xsmall, 
 .avatar-xxlarge,
 .avatarUploaderInner-3UNxY3,
-.voiceGuildIcon-3nEwOH {
+.icon-3o6xvg,
+.gameIcon-gg34Dz {
   border-radius: var(--roundness) !important;
 }
 
