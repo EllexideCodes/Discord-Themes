@@ -875,7 +875,7 @@ color: var(--dnd) !important;
 
 .guild-1EfMGQ.audio-3vVhBi:after, 
 .guild-1EfMGQ.video-15yGu3:after {
-  background-color: var(--main-color);
+  background-color: var(--main-color) !important;
 }
 
   /* 4.e. Unread Indicator */
