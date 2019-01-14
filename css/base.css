@@ -2642,11 +2642,11 @@ pre {
   background-color: var(--quaternary-color) !important;
 }
 
-.result-3w1ZcL[style*="background-color: rgba(146, 154, 250)"] {
+.result-3w1ZcL[style*="background-color: rgb(146, 154, 250)"] {
   background-color: var(--hover-color) !important;
 }
 
-.result-3w1ZcL[style*="background-color: rgba(179, 174, 255)"] {
+.result-3w1ZcL[style*="background-color: rgb(179, 174, 255)"] {
   background-color: var(--main-color) !important;
 }
 
