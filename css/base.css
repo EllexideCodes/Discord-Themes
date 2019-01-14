@@ -4120,6 +4120,11 @@ animation: show-status 300ms linear;
   background-color: var(--main-color);
 }
 
+.theme-dark .categoryFadeBlurple-1j72_A, 
+.theme-light .categoryFadeBlurple-1j72_A {
+  opacity: 0.8;
+}
+
 .elevationHigh-1PneE4 {
   background-color: var(--primary-color) !important;
 }
