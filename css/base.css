@@ -335,6 +335,11 @@
   width: 35px;
 }
 
+.searchBarTag-2xRzm8 {
+  background: transparent !important;
+  border: 1px solid var(--main-color);
+}
+
 .browseSearch-e9jF-f .browseSearchInput-Jt8kg0.input-cIJ7To {
   background: transparent !important;
   color: white;
