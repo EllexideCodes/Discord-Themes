@@ -72,17 +72,17 @@
   .header-toolbar button.active{display:none;}
 
   
-  .chat-3bRxxu .content-yTz4x3>.flex-spacer.flex-vertical {
+  .chat-3bRxxu .content-yTz4x3>.spacer-1fA9zc.vertical-V37hAW {
     margin-right:-145px !important;
     z-index:1
   }
   
-  .chat-3bRxxu .content-yTz4x3>.flex-spacer.flex-vertical:only-child {
+  .chat-3bRxxu .content-yTz4x3>.spacer-1fA9zc.vertical-V37hAW:only-child {
     margin-right:0px !important;
     z-index:1
   }
       
-  .chat-3bRxxu .content-yTz4x3.flex-spacer.flex-vertical{
+  .chat-3bRxxu .content-yTz4x3.spacer-1fA9zc.vertical-V37hAW{
     margin-right:0px;
     z-index:1
   }

@@ -16,7 +16,7 @@
 
   /* Dark Mode */
   .theme-dark,
-  .appMount-3VJmYg {
+  .appMount-3lHmkl {
     --primary-color: rgba(0,0,0,0.75);
     --secondary-color: rgba(0,0,0,0.6);
     --tertiary-color: rgba(0,0,0,0.4);
@@ -52,7 +52,7 @@
 
 /* 1. Background */
   /* 1.a. Main Background */
-.appMount-3VJmYg::before {
+.appMount-3lHmkl::before {
   position: absolute;
   content: " ";
   height: 100%;
@@ -85,7 +85,7 @@
 .private-channel-call,
 .video-1FfuMD,
 #friends,
-.appMount-3VJmYg,
+.appMount-3lHmkl,
 .standardSidebarView-3F1I7i,
 .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN,
 .inner-zqa7da,
