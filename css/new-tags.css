@@ -1003,7 +1003,8 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="123916078882488320"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="215036395507548161"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="296018550009626628"]::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="519790100956184586"]::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="519790100956184586"]::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="144550650842316800"]::before {
   content: '';
   color: transparent;
   height: 15px;
@@ -1119,6 +1120,9 @@
   background-image: url(https://i.imgur.com/Yp4aTR1.png);
 }
 
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="144550650842316800"]::before {
+  background-image: url(https://files.division25.xyz/CSS/FloridaMayhem.png);
+}
 /* on hover */
   /* green */
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="214318588331294720"]:hover::before {
@@ -1153,7 +1157,8 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="123916078882488320"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="215036395507548161"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="296018550009626628"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="519790100956184586"]:hover::before  {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="519790100956184586"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="144550650842316800"]:hover::before  {
   transform: none;
   background-size: cover;
   background-position: center;
@@ -1260,6 +1265,13 @@
   color: #00ecff;
 }
 
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="144550650842316800"]:hover::before {
+  content: 'Not A Moron!';
+  background-image: url(https://files.division25.xyz/CSS/background.gif);
+  background-position: bottom;
+  color: #ff0800;
+}
+
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="402272736665272320"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="134349083568504832"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="214318588331294720"]:hover::before,
@@ -1273,7 +1285,8 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="244363360886325248"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="215036395507548161"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="296018550009626628"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="519790100956184586"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="519790100956184586"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="144550650842316800"]:hover::before {
   display: block;
   background-color: transparent;
   box-shadow: none;
