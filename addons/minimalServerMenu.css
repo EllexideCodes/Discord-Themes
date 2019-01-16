@@ -27,7 +27,7 @@
   animation: popoutanim-min 300ms cubic-bezier(.4, 0, 0, 1);
 }
 
-@keyframes popoutanim {
+@keyframes popoutanim-min {
   0% {
     transform: translateX(-50%) scale(0);
   }
