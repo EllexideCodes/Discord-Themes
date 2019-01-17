@@ -70,7 +70,7 @@
   background: var(--quaternary-color) !important;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH>.guild-1EfMGQ:first-child .guildInner-3DSoA4 {
+.guildsWrapper-5TJh6A:not(.foldercontent) .guilds-1q_RqH>.guild-1EfMGQ:first-child .guildInner-3DSoA4 {
   background-color: var(--quaternary-color) !important;
 }
 

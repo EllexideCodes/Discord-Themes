@@ -4,11 +4,16 @@
   overflow: visible;
 }
 
+.guildsWrapper-5TJh6A.foldercontent {
+  transition: 1s cubic-bezier(.4, 0, 0, 1), width .3s linear !important;
+}
+
 .guildsWrapper-5TJh6A *::-webkit-scrollbar {
   display: none;
 }
 
-.guildsWrapper-5TJh6A:hover {
+.guildsWrapper-5TJh6A:not(.foldercontent):hover,
+.guildsWrapper-5TJh6A:not(.foldercontent):hover ~ .guildsWrapper-5TJh6A.foldercontent {
   transform: translateY(0);
 }
 
@@ -38,7 +43,26 @@
 
 
 .guildsWrapper-5TJh6A.foldercontent::after {
-  display: none;
+  width: 0;
+  opacity: 0;
+}
+
+.guildsWrapper-5TJh6A.foldercontent.foldercontentopen::after {
+  width: 70px;
+  opacity: 1;
+}
+
+.guildsWrapper-5TJh6A.foldercontent {
+  width: 0px;
+  overflow: hidden;
+}
+
+.guildsWrapper-5TJh6A:hover ~ .guildsWrapper-5TJh6A.foldercontent.foldercontentopen {
+  width: 70px;
+}  
+
+.guildsWrapper-5TJh6A.foldercontent .scrollerWrap-1IAIlv {
+  overflow: hidden;
 }
 
 .channels-Ie2l6A {
@@ -74,7 +98,8 @@ background-attachment: fixed !important;
 .root-26DmKJ .scrollerWrap-2lJEkd::before,
 .root-1BQpZw .scrollerWrap-2lJEkd::before,
 .guildsWrapper-5TJh6A::before,
-.matureListing-3tyHbV .gatedContent-3-B7qB::before {
+.matureListing-3tyHbV .gatedContent-3-B7qB::before,
+.container-2lgZY8::before {
   content: "";
   position: absolute;
   height: 100%;
@@ -94,7 +119,8 @@ background-attachment: fixed !important;
 .container-3gCOGc .friendsTable-133bsv::before,
 .root-26DmKJ .scrollerWrap-2lJEkd::before,
 .root-1BQpZw .scrollerWrap-2lJEkd::before,
-.matureListing-3tyHbV .gatedContent-3-B7qB::before {
+.matureListing-3tyHbV .gatedContent-3-B7qB::before,
+.container-2lgZY8::before {
   z-index: auto;
 }
 
@@ -130,13 +156,16 @@ background-attachment: fixed !important;
   position: relative;
 }
 
-.guildsWrapper-5TJh6A {
+.guildsWrapper-5TJh6A,
+.container-2lgZY8 {
   background: var(--background-image) center/cover no-repeat !important;
   background-attachment: fixed !important;
 }
 
 .popoutBottom-1YbShG[style*="overflow: hidden; visibility: visible;"][role*="dialog"] {
   left: 190px !important;
+  transform: translateX(-50%) !important;
+  animation: popoutanim-min 300ms cubic-bezier(.4, 0, 0, 1) !important;
 }
 
 .topic-2QX7LI {
@@ -147,4 +176,13 @@ background-attachment: fixed !important;
   position: absolute;
   width: 100%;
   height: 100%;
+}
+
+@keyframes popoutanim-min {
+  0% {
+    transform: translateX(-50%) scale(0);
+  }
+  100% {
+    transform: translateX(-50%) scale(1);
+  }
 }
