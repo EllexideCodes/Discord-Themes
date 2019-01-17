@@ -17,14 +17,14 @@
   transform: translateY(0);
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:first-child {
+.guildsWrapper-5TJh6A:not(.foldercontent) .guilds-1q_RqH .guild-1EfMGQ:first-child {
   top: 100%;
   transform: translateY(104.5%);
   z-index: 99999;
   transition: all 1s cubic-bezier(.4, 0, 0, 1);
 }
 
-.guildsWrapper-5TJh6A:hover .guilds-1q_RqH .guild-1EfMGQ:first-child {
+.guildsWrapper-5TJh6A:not(.foldercontent):hover .guilds-1q_RqH .guild-1EfMGQ:first-child {
   top: 0;
   transform: translateY(0);
 }
