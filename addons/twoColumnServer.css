@@ -64,7 +64,7 @@
   box-shadow: 0 0 5px #ccc !important;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:first-child {
+.guildsWrapper-5TJh6A:not(.foldercontent) .guilds-1q_RqH .guild-1EfMGQ:first-child {
   position: flex-start ; 
   left: 0;
   margin: auto;
