@@ -4385,6 +4385,11 @@ div.reply-item {
   background-color: var(--main-color) !important;
 }
 
+  /* 20.a.8. Personal Pins */
+.popoutBottomRight-2JrySt.noArrow-3BYQ0Z.popout-personalpins-notes {
+  margin-top: 12px;
+}
+
 /* 21. Custom CSS */
 .bd-detached-editor .chat-3bRxxu .title-3qD0b- > div:last-child,
 .bd-detached-editor .headerBar-UHpsPw > div:last-child {
