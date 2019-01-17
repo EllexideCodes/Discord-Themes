@@ -1,145 +1,137 @@
-/*Two column server list*/
-.guildsWrapper-5TJh6A{width: 140px;}
-.guildsWrapper-5TJh6A .scrollerWrap-1IAIlv .scroller::-webkit-scrollbar {
-  background: transparent !important; 
-  border: 0px !important;
-  width: 0px;
-}
-
-.guildsWrapper-5TJh6A .scrollerWrap-1IAIlv {width:140px !important;}
-
-.guildsWrapper-5TJh6A .guilds-1q_RqH,
-.guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV {
-  display: flex !important;
-  flex-direction: row !important;
-  flex-flow: row wrap !important;
-  justify-content: center;
-  padding-right: 5px;
-  padding-left: 0 !important;
-  align-content: flex-start;
-}
-
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:not(.guildsAdd-21_IdK),
-.guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV .guild-1EfMGQ {
-  margin-left: 4px;
-  margin-right: 4px; 
-  margin-top: 8px;
-}
-
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:first-child {
-  position: auto ;
-  left: 0;
-  margin: auto ;
-  margin-top: 20px;
-  width: 140px ;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-}
-
-.guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV .guild-1EfMGQ:first-child {
-  margin-left: 4px !important;
-  margin-right: 4px !important;
-}
-
-.guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV .guild-1EfMGQ:first-child {
-  margin-top: 8px !important;
-  width: 50px !important;
-  overflow: visible;
-}
-
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:before {
-  left: 0px;
-  top: 0px;
-  margin-top: 0;
-  z-index:9000;
-  background-color: var(--main-color);
-}
-
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:hover:before {
-  height: 10px !important;
-  top: 0px;
-  margin-top: 0px !important;
-  border-radius: 50% !important;
-  background-color: #ccc !important;
-  box-shadow: 0 0 5px #ccc !important;
-}
-
-.guildsWrapper-5TJh6A:not(.foldercontent) .guilds-1q_RqH .guild-1EfMGQ:first-child {
-  position: flex-start ; 
-  left: 0;
-  margin: auto;
-  margin-top: 15px;
-  width: 140px !important;
-}
-
-#bd-pub-li {
-  position: inherit;
-  top: 0;
-  left: 0;
-  margin-right: 50px;
-  margin-left: 40px;
-}
-
-#bd-pub-li #bd-pub-button {
-  position: relative;
-  width: 100%;
-  text-align: center;
-}
-
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guildSeparator-1X4GQ1 {
-  position: relative;
-  width: calc(100% - 8px);
-  margin-top: 0px;
-}
-
-.guildsWrapper-5TJh6A .guilds-1q_RqH .friendsOnline-_wi_fM {
-  position: relative;
-  width: 100%;
-  margin: auto;
-  margin-top: 33px;
-}
-
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq:before {
-  display: none;
-}
-
-.guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV {
-  width: 140px !important;
-  display: flex;
-  flex-flow: row wrap;
-}
-
-.guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV .guild-1EfMGQ {
-  left: 0;
-}
-
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:first-child .homeIcon-1FoKUJ {
-  margin-left: 0px !important;
-  width: 140px !important;
-}
-
-.guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK {
-  left: 50%;
-  transform: translateX(-58%);
-}
-
-.guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK::before {
-  width: 140px !important;
-  margin-left: -29px;
-}
-
-/* optimized for server folders */
-.foldercontainer {
-  position: absolute;
-  top: 116px;
-  left: 130px;
-  background-color: var(--quaternary-color);
-  border-top-right-radius: 50px;
-  border-bottom-right-radius: 50px;
-}
-
-.guildsWrapper-5TJh6A.folderopen,
-.guildsWrapper-5TJh6A.folderopen .scroller-wrap,
-.guildsWrapper-5TJh6A.folderopen .guilds-1q_RqH {
-  width: 140px;
-}
+ /*Two column server list*/
+ .guildsWrapper-5TJh6A{width: 140px;}
+ .guildsWrapper-5TJh6A .scrollerWrap-1IAIlv .scroller::-webkit-scrollbar {
+   background: transparent !important; 
+   border: 0px !important;
+   width: 0px;
+ }
+ 
+ .guildsWrapper-5TJh6A .scrollerWrap-1IAIlv {width:140px !important;}
+ 
+ .guildsWrapper-5TJh6A .guilds-1q_RqH,
+ .guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV {
+   display: flex !important;
+   flex-direction: row !important;
+   flex-flow: row wrap !important;
+   justify-content: center;
+   padding-right: 5px;
+   padding-left: 0 !important;
+   align-content: flex-start;
+ }
+ 
+ .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:not(.guildsAdd-21_IdK),
+ .guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV .guild-1EfMGQ {
+   margin-left: 4px;
+   margin-right: 4px; 
+   margin-top: 8px;
+ }
+ 
+ .guildsWrapper-5TJh6A:not(.foldercontent) .guilds-1q_RqH .guild-1EfMGQ:first-child {
+   position: auto ;
+   left: 0;
+   margin: auto ;
+   margin-top: -52px;
+   width: 140px ;
+   margin-left: 0 !important;
+   margin-right: 0 !important;
+ }
+ 
+ .guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV .guild-1EfMGQ:first-child {
+   margin-left: 4px !important;
+   margin-right: 4px !important;
+ }
+ 
+ .guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV .guild-1EfMGQ:first-child {
+   margin-top: 8px !important;
+   width: 50px !important;
+   overflow: visible;
+ }
+ 
+ .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:before {
+   left: 0px;
+   top: 0px;
+   margin-top: 0;
+   z-index:9000;
+   background-color: var(--main-color);
+ }
+ 
+ .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:hover:before {
+   height: 10px !important;
+   top: 0px;
+   margin-top: 0px !important;
+   border-radius: 50% !important;
+   background-color: #ccc !important;
+   box-shadow: 0 0 5px #ccc !important;
+ }
+ 
+ #bd-pub-li {
+   position: inherit;
+   top: 0;
+   left: 0;
+   margin-right: 50px;
+   margin-left: 40px;
+ }
+ 
+ #bd-pub-li #bd-pub-button {
+   position: relative;
+   width: 100%;
+   text-align: center;
+ }
+ 
+ .guildsWrapper-5TJh6A .guilds-1q_RqH .guildSeparator-1X4GQ1 {
+   position: relative;
+   width: calc(100% - 8px);
+   margin-top: 0px;
+ }
+ 
+ .guildsWrapper-5TJh6A .guilds-1q_RqH .friendsOnline-_wi_fM {
+   position: relative;
+   width: 100%;
+   margin: auto;
+   margin-top: 33px;
+ }
+ 
+ .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq:before {
+   display: none;
+ }
+ 
+ .guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV {
+   width: 140px !important;
+   display: flex;
+   flex-flow: row wrap;
+ }
+ 
+ .guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV .guild-1EfMGQ {
+   left: 0;
+ }
+ 
+ .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:first-child .homeIcon-1FoKUJ {
+   margin-left: 0px !important;
+   width: 140px !important;
+ }
+ 
+ .guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK {
+   left: 50%;
+   transform: translateX(-58%);
+ }
+ 
+ .guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK::before {
+   width: 140px !important;
+   margin-left: -29px;
+ }
+ 
+ /* optimized for server folders */
+ .foldercontainer {
+   position: absolute;
+   top: 116px;
+   left: 130px;
+   background-color: var(--quaternary-color);
+   border-top-right-radius: 50px;
+   border-bottom-right-radius: 50px;
+ }
+ 
+ .guildsWrapper-5TJh6A.folderopen,
+ .guildsWrapper-5TJh6A.folderopen .scroller-wrap,
+ .guildsWrapper-5TJh6A.folderopen .guilds-1q_RqH {
+   width: 140px;
+ }
