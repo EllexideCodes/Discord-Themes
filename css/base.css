@@ -2674,6 +2674,27 @@ pre {
   inset 0 0 0 3px var(--quaternary-color);
 }
 
+.emptyHintCard-2mUdMe {
+  background: var(--background-image) center/cover no-repeat;
+  background-attachment: fixed;
+  border-color: var(--main-color) !important;
+  overflow: hidden;
+}
+
+.emptyHintCard-2mUdMe::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: var(--primary-color);
+}
+
+.emptyHintCard-2mUdMe * {
+  z-index: 1;
+}
+
   /* 15.d. User Popout */
 .headerNormal-T_seeN {
   background-color: var(--quaternary-color) !important;
