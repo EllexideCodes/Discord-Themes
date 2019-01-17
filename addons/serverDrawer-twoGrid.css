@@ -48,7 +48,7 @@
 }
 
 .guildsWrapper-5TJh6A.foldercontent.foldercontentopen::after {
-  width: 70px;
+  width: 140px;
   opacity: 1;
 }
 
@@ -58,7 +58,7 @@
 }
 
 .guildsWrapper-5TJh6A:hover ~ .guildsWrapper-5TJh6A.foldercontent.foldercontentopen {
-  width: 70px;
+  width: 140px;
 }  
 
 .guildsWrapper-5TJh6A.foldercontent .scrollerWrap-1IAIlv {
