@@ -45,6 +45,7 @@
 .guildsWrapper-5TJh6A.foldercontent::after {
   width: 0;
   opacity: 0;
+  transition: width .3s linear;
 }
 
 .guildsWrapper-5TJh6A.foldercontent.foldercontentopen::after {
