@@ -1666,7 +1666,8 @@ pre {
 }
 
   /* 8.n. Notification Bar */
-.notice-2FJMB4:not(#pluginNotice) {
+.notice-2FJMB4,
+#pluginNotice {
   font-size: 0px !important;
   height: 4px !important;
   line-height: 18px;
@@ -1674,6 +1675,10 @@ pre {
   top: 46px;
   width: 100%;
   transition: all .2s linear;
+}
+
+#pluginNotice.notice-2FJMB4 {
+  font-size: 14px !important;
 }
 
 .notice-2FJMB4:hover,
