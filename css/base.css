@@ -2187,8 +2187,8 @@ pre {
   height: calc(100% - 1px) !important;
   width: calc(100% - 1px) !important;
   margin: 0;
-  top: -1px;
-  left: -1px;
+  top: -2px;
+  left: -2px;
   background: transparent;
   border:2px solid;
   transition-duration: .5s;
@@ -2752,12 +2752,11 @@ pre {
   content: '';
   position: absolute;
   top: 0;
-  left: 0;
-  width: 100%;
-  border-width: calc(0.65em + 4px) .5em;
-  border-style: solid;
+  left: -1px;
+  height: 100%;
+  width: calc(100% + 1px);
+  border-top: 21px solid;
   border-color: inherit;
-  box-sizing: border-box;
   opacity: 0.5;
 }
 
