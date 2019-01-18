@@ -1666,8 +1666,7 @@ pre {
 }
 
   /* 8.n. Notification Bar */
-.notice-2FJMB4,
-#pluginNotice {
+.notice-2FJMB4:not(#pluginNotice) {
   font-size: 0px !important;
   height: 4px !important;
   line-height: 18px;
