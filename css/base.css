@@ -2187,8 +2187,8 @@ pre {
   height: calc(100% - 1px) !important;
   width: calc(100% - 1px) !important;
   margin: 0;
-  top: -2px;
-  left: -2px;
+  top: -1px;
+  left: -1px;
   background: transparent;
   border:2px solid;
   transition-duration: .5s;
