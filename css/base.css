@@ -4170,7 +4170,8 @@ animation: show-status 300ms linear;
 .form.deprecated .control-group input[type=number]:focus,
 .form.deprecated .control-group input[type=password]:focus,
 .form.deprecated .control-group input[type=text]:focus,
-.form.deprecated .control-group textarea:focus {
+.form.deprecated .control-group textarea:focus,
+.imageSelected-4Kl81J {
   border-color: var(--main-color);
 }
 
