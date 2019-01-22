@@ -1005,7 +1005,9 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="296018550009626628"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="519790100956184586"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="144550650842316800"]::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="252460828157018112"]::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="252460828157018112"]::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="316563263179456513"]::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="150967530075324416"]::before {
   content: '';
   color: transparent;
   height: 15px;
@@ -1133,6 +1135,20 @@
   filter: none;
 }
 
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="316563263179456513"]::before {
+  background-image: url(https://cdn.discordapp.com/attachments/535251077570756628/535255492176510996/twitchicon.png);
+  transform: scale(1.2);
+  bottom: -5px;
+  right: -5px;
+}
+
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="150967530075324416"]::before {
+  background-image: url(https://i.imgur.com/qI52BEw.png);
+  transform: scale(1.1);
+  bottom: -5px;
+  right: -5px;
+}
+
 /* on hover */
   /* green */
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="214318588331294720"]:hover::before {
@@ -1169,7 +1185,9 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="296018550009626628"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="519790100956184586"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="144550650842316800"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="252460828157018112"]:hover::before  {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="252460828157018112"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="316563263179456513"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="150967530075324416"]:hover::before  {
   transform: none;
   background-size: cover;
   background-position: center;
@@ -1289,6 +1307,19 @@
   color: #d8d8d8;
 }
 
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="316563263179456513"]:hover::before {
+  content: "Toby";
+  background-image: url(https://cdn.discordapp.com/attachments/535251077570756628/535254646860677150/ezgif-4-5cf49f2675d8.gif);
+  color: #FF00FF;
+}
+
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="150967530075324416"]:hover::before {
+  content: "Toby";
+  background-image: url(https://i.imgur.com/YjTIUJY.gif);
+  color: black;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="402272736665272320"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="134349083568504832"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="214318588331294720"]:hover::before,
@@ -1304,7 +1335,9 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="296018550009626628"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="519790100956184586"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="144550650842316800"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="252460828157018112"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="252460828157018112"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="316563263179456513"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="150967530075324416"]:hover::before {
   display: block;
   background-color: transparent;
   box-shadow: none;
