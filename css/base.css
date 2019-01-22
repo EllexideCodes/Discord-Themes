@@ -609,6 +609,10 @@
   color: #555;
 }
 
+.side-8zPYf6 .item-PXvHYJ[style*="color: rgb(114, 137, 218)"] {
+  color: var(--main-color) !important;
+}
+
   /* 3.d. Buttons, Switches, and Bars */
 .lookFilled-1Gx00P.colorBrand-3pXr91,
 .themeDefault-24hCdX.valueChecked-m-4IJZ,
@@ -2640,6 +2644,43 @@ pre {
 .reactionSelected-1pqISm {
   background-color: transparent !important;
   border-color: var(--main-color);
+}
+
+  /* 15.b.1. BBD Emote Menu */
+#bda-qem,
+#bda-qem-twitch-container, #bda-qem-favourite-container {
+  background: var(--primary-color);
+}
+  
+#bda-qem button {
+  border-color: var(--quaternary-color);
+  box-shadow: var(--quaternary-color) 1px 0 0 0;
+}
+
+#bda-qem button:hover {
+  background-color: var(--quaternary-color);
+}
+
+#bda-qem button.active {
+  background: var(--tertiary-color);
+}
+
+.theme-dark #bda-qem button {
+  color: #eee;
+}
+  
+.theme-light #bda-qem button {
+  color: #111;
+}
+
+.emote-container {
+  border: 2px solid transparent;
+  box-sizing: border-box;
+}
+
+.emote-container:hover {
+  border-color: var(--hover-color);
+  background-color: transparent;
 }
 
   /* 15.c. Autocomplete */
