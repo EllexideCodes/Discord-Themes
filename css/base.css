@@ -2814,6 +2814,9 @@ pre {
 
 .gameIcon-_0rmMm[style*="/assets/a5eba102f5b5e413df2b65c73f288afa.svg"] {
   background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/no-game.svg) !important;
+  border: 2px solid rgba(0, 0, 0, .5);
+  filter: invert(100%);
+  box-sizing: border-box;
 }
 
   /* 15.e. Add Role User Popout */
