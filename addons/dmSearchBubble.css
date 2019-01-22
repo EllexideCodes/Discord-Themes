@@ -2,8 +2,8 @@
   position: absolute;
   bottom: 20px;
   right: 5px;
-  height: 5vw;
-  width: 5vw;
+  height: 50px;
+  width: 50px;
   border: none;
   border-radius: 40px;
   background: linear-gradient(to bottom right, var(--main-color), var(--hover-color));
@@ -22,7 +22,7 @@
   content: '';
   position: absolute;
   height: 100%;
-  width: 5vw;
+  width: 50px;
   bottom: 0;
   right: 0;
   background: url(https://discordapp.com/assets/4d254296157bb8927b7d53ed59beb0d8.svg) center/20px no-repeat;
@@ -33,13 +33,13 @@
   content: 'Search Direct Messages';
   position: absolute;
   height: 100%;
-  width: 18vw;
+  width: 180px;
   bottom: 0;
   right: 0vw;
   color: white;
   opacity: .5;
   font-size: 12px;
-  line-height: 2.5vw;
+  line-height: 25px;
   transition: all .2s ease-in-out;
   pointer-events: none;
 }
@@ -49,7 +49,7 @@
 }
 
 .privateChannels-1nO12o .searchBar-6Kv8R2:hover {
-  width: 20vw;
+  width: 200px;
 }
 
 .privateChannels-1nO12o .scrollerWrap-2lJEkd::after {
