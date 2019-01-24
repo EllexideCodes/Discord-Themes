@@ -1025,6 +1025,9 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="402272736665272320"]::before {
   background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/elleCrown.svg);
   transition: filter .2s ease-in-out;
+  bottom: 43px;
+  right: 15px;
+  transform: scale(1.1);
 }
 
 /* kevin */
@@ -1348,6 +1351,8 @@
 /* extra hover effects */
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="402272736665272320"]:hover::before {
   filter: drop-shadow(0 0 3px #fddfaa);
+  left: 13px;
+  padding: 0;
 }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="116243287936860167"]:hover::before {
