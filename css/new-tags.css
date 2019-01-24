@@ -1033,6 +1033,9 @@
 /* kevin */
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="134349083568504832"]::before {
   background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/kevinCrown.svg);
+  bottom: 43px;
+  right: 12px;
+  transform: scale(1.1);
 }
 
 
@@ -1351,6 +1354,11 @@
 /* extra hover effects */
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="402272736665272320"]:hover::before {
   filter: drop-shadow(0 0 3px #fddfaa);
+  left: 13px;
+  padding: 0;
+}
+
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="134349083568504832"]:hover:before {
   left: 13px;
   padding: 0;
 }
