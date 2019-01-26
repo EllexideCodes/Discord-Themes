@@ -10,7 +10,8 @@
 
   /* Dark Mode */ 
   .theme-dark,
-  .appMount-3VJmYg {
+  .appMount-3VJmYg,
+  .theme-dark .theme-light {
     --primary-color: #19191b;
     --secondary-color: #1E1E21;
     --tertiary-color: #232327;
@@ -18,7 +19,8 @@
   }
 
   /* Light Mode */
-  .theme-light {
+  .theme-light,
+  .theme-light .theme-dark {
     --primary-color: #ffffff;
     --secondary-color: #f3f3f3;
     --tertiary-color: #eeeeee;
