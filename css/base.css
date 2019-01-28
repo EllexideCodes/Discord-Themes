@@ -151,6 +151,14 @@
 20. Misc
   20.a. Plugin Optimization
     20.a.1. BetterFormatting
+    20.a.2. Permission Viewer
+    20.a.3. Character Counter
+    20.a.4. Reply System
+    20.a.5. Server Folders
+    20.a.6. Share Button
+    20.a.7. Theme and Plugin Repo
+    20.a.8. Personal Pins
+    20.a.9. Detailed Tooltip
 
 21. Custom CSS
 
@@ -4446,6 +4454,11 @@ div.reply-item {
   /* 20.a.8. Personal Pins */
 .popoutBottomRight-2JrySt.noArrow-3BYQ0Z.popout-personalpins-notes {
   margin-top: 12px;
+}
+
+  /* 20.a.9. Detailed Tooltip */
+.dst-tooltip {
+  background-color: var(--main-color) !important;
 }
 
 /* 21. Custom CSS */
