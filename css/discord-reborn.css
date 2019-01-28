@@ -228,7 +228,8 @@
 .metalloriff-changelog-scroller,
 .create-guild-container-new.deprecated .form.deprecated,
 .container-VSDcQc,
-.bd-modal-inner::before {
+.bd-modal-inner::before,
+.toast {
   background-image: var(--popup-background) !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
@@ -284,7 +285,8 @@
 .sb-menu-scroller-wrapper::before,
 .metalloriff-changelog-scroller::before,
 .colorPickerCustom-2CWBn2::before,
-.container-VSDcQc::before {
+.container-VSDcQc::before,
+.toast::before {
   content: "";
   position: absolute;
   height: 100%;
@@ -298,7 +300,8 @@
 .sb-menu-scroller-wrapper::before,
 .metalloriff-changelog-scroller::before,
 .container-16j22k::before,
-.container-VSDcQc::before {
+.container-VSDcQc::before,
+.toast::before {
   z-index: -1 !important;
 }
 
