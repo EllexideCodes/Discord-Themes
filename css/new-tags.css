@@ -1007,7 +1007,8 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="144550650842316800"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="252460828157018112"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="316563263179456513"]::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="150967530075324416"]::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="150967530075324416"]::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="498444458845536257"]::before {
   content: '';
   color: transparent;
   height: 15px;
@@ -1151,6 +1152,10 @@
   right: -5px;
 }
 
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="498444458845536257"]::before {
+  background-image: url(https://i.imgur.com/25IctFX.png)
+}
+
 /* on hover */
   /* green */
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="214318588331294720"]:hover::before {
@@ -1189,7 +1194,8 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="144550650842316800"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="252460828157018112"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="316563263179456513"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="150967530075324416"]:hover::before  {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="150967530075324416"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="498444458845536257"]:hover::before  {
   transform: none;
   background-size: cover;
   background-position: center;
@@ -1322,6 +1328,13 @@
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="498444458845536257"]:hover::before {
+  content: "Loves Nayu";
+  background-image: url(https://i.imgur.com/Ev7NpBI.gif);
+  color: black;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="402272736665272320"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="134349083568504832"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="214318588331294720"]:hover::before,
@@ -1339,7 +1352,8 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="144550650842316800"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="252460828157018112"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="316563263179456513"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="150967530075324416"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="150967530075324416"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="498444458845536257"]:hover::before {
   display: block;
   background-color: transparent;
   box-shadow: none;
