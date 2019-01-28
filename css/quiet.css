@@ -199,7 +199,8 @@
 
 
 /* 11. Popouts */
-.themedPopout-25DgLi {
+.themedPopout-25DgLi,
+#permissions-modal-wrapper #permissions-modal {
   background-color: var(--primary-color) !important;
 }
 
