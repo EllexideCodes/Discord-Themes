@@ -229,6 +229,10 @@
   background-color: var(--secondary-color) !important;
 }
 
+.toast {
+  background: var(--tertiary-color);
+  border: 1px solid var(--primary-color);
+}
 
 
 
