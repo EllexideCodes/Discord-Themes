@@ -579,12 +579,16 @@
   background-color: var(--secondary-color) !important
 }
 
-.user-settings-games .game-name-input:focus,
+/*.user-settings-games .game-name-input:focus,
 .user-settings-games .game-name-input:hover {
 	background-color: var(--tertiary-color) !important 
+}*/
+
+.notDetected-33MY4s {
+  background-color: var(--tertiary-color) !important;
 }
 
-.user-settings-games .not-detected {
+.addGamePopout-2RY8Ju {
   background-color: var(--tertiary-color) !important;
 }
 
