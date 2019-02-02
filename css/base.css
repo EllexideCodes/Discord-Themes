@@ -825,7 +825,7 @@ color: var(--dnd) !important;
 }
 
   /* 4.c. Guilds Add */
-.guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK {
+.guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK:not(.guildsDiscover-oiBX_l) {
   border: 0px;
   background: transparent;
   transition: all 200ms ease;
@@ -842,7 +842,7 @@ color: var(--dnd) !important;
   z-index: 1000;
 }
 
-.guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK::after {
+.guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK:not(.guildsDiscover-oiBX_l)::after {
   background: var(--main-color);
   transition: all 200ms ease;
   position: absolute;
@@ -865,11 +865,11 @@ color: var(--dnd) !important;
   background-color: var(--main-color);
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.guildsAdd-21_IdK:hover {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.guildsAdd-21_IdK:not(.guildsDiscover-oiBX_l):hover {
   opacity: 1
 }
 
-.guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK::before {
+.guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK:not(.guildsDiscover-oiBX_l)::before {
   content: "";
   width: 70px;
   height: 150px;
@@ -881,9 +881,11 @@ color: var(--dnd) !important;
   pointer-events: none;
 }
 
-.guildsWrapper-5TJh6A.folderopen .guild-1EfMGQ.guildsAdd-21_IdK::before {
+.guildsWrapper-5TJh6A.folderopen .guild-1EfMGQ.guildsAdd-21_IdK:not(.guildsDiscover-oiBX_l)::before {
   width: 140px;
 }
+
+
 
   /* 4.d. Badges */
 .guildsWrapper-5TJh6A .guilds-1q_RqH>div.guild-1EfMGQ:first-child .badge-1GsMF2 {
