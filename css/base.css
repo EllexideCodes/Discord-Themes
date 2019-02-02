@@ -1696,6 +1696,7 @@ pre {
 #pluginNotice.notice-2FJMB4 {
   font-size: 14px !important;
   line-height: 38px;
+  height: 38px !important;
 }
 
 .notice-2FJMB4:hover,
@@ -1707,7 +1708,8 @@ pre {
   width: 100%;
 }
 
-.notice-2FJMB4:hover .dismiss-SCAH9H {
+.notice-2FJMB4:hover .dismiss-SCAH9H,
+#pluginNotice.notice-2FJMB4 .dismiss-SCAH9H {
   height: 36px;
   right: 100px;
   transition: all .2s linear;
@@ -4458,7 +4460,7 @@ div.reply-item {
 }
 
   /* 20.a.9. Detailed Tooltip */
-.dst-tooltip {
+.tooltips-FhwIyl .dst-tooltip.tooltip-1OS-Ti.right-KM_vfY {
   background-color: var(--main-color) !important;
 }
 
