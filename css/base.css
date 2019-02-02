@@ -89,10 +89,11 @@
   9.a. Main Friends List
   9.b. Action Buttons
 
-10. Games Tab, Library, and Store
+10. Games Tab, Library, Store and Server Discovery
   10.a. Tab
   10.b. Library
   10.c. Store
+  10.d. Server Discover
 
 11. Avatars
   11.a. Remove Mask
@@ -1912,7 +1913,7 @@ pre {
 
 
 
-/* 10. Games Tab, Library, and Store */
+/* 10. Games Tab, Library, Store, and Server Directory */
   /* 10.a. Tab */
 .card-7JP0BX,
 .article-3kb3qm,
@@ -2199,6 +2200,11 @@ pre {
 .assetWrapper-2Qw_5D {
   background: transparent !important;
 }
+
+  /* 10.d. Server Directory */
+  .bg-AYqtMd {
+    -webkit-mask: linear-gradient(black, transparent);
+  }
 
 /* 11. Avatars */
   /* 11.a. Remove Mask */
