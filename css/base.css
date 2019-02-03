@@ -2140,6 +2140,11 @@ pre {
   background: linear-gradient(180deg,transparent,rgba(0,0,0,.75) 45%,var(--quaternary-color)) !important;
 }
 
+.tile-2H4MQG,
+.tile-367QuY {
+  background-color: var(--primary-color) !important;
+}
+
 .tile-2H4MQG:hover,
 .tile-367QuY:hover {
   background-color: var(--secondary-color) !important;
