@@ -17,6 +17,7 @@
   --home-color: #eee;
   --home-size: 24px;
   --roundness: 0px;
+  --spoiler-blur: 5px;
   --shadow: rgba(0,0,0,.4);
 }
 /* Table of Contents
@@ -1410,7 +1411,7 @@ a,
 
 .spoilerText-3p6IlD.hidden-HHr2R9 .inlineContent-3ZjPuv {
   opacity: 1;
-  filter: blur(3px);
+  filter: blur(var(--spoiler-blur));
 }
 
 .spoilerWarning-2aAZq1 {
