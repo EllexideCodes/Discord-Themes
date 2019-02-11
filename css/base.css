@@ -4175,7 +4175,9 @@ animation: show-status 300ms linear;
 .form.deprecated .control-group input[type=number], 
 .form.deprecated .control-group input[type=password], 
 .form.deprecated .control-group input[type=text], 
-.form.deprecated .control-group textarea {
+.form.deprecated .control-group textarea,
+.gameNameInput-385LoS:focus,
+.gameNameInput-385LoS:hover {
   background-color: var(--quaternary-color) !important;
   border-color: var(--quaternary-color);
 }
@@ -4189,7 +4191,9 @@ animation: show-status 300ms linear;
 .theme-dark .form.deprecated .control-group input[type=number],
 .theme-dark .form.deprecated .control-group input[type=password],
 .theme-dark .form.deprecated .control-group input[type=text],
-.theme-dark .form.deprecated .control-group textarea {
+.theme-dark .form.deprecated .control-group textarea
+.theme-dark .gameNameInput-385LoS:focus, 
+.theme-dark .gameNameInput-385LoS:hover {
   color: #efefef;
 }
 
@@ -4202,7 +4206,9 @@ animation: show-status 300ms linear;
 .theme-light .form.deprecated .control-group input[type=number],
 .theme-light .form.deprecated .control-group input[type=password],
 .theme-light .form.deprecated .control-group input[type=text],
-.theme-light .form.deprecated .control-group textarea {
+.theme-light .form.deprecated .control-group textarea,
+.theme-light .gameNameInput-385LoS:focus, 
+.theme-light .gameNameInput-385LoS:hover {
   color: #101010;
 }
 

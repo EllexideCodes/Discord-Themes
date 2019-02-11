@@ -179,6 +179,7 @@ background-attachment: fixed !important;
   height: 100%;
 }
 
+
 @keyframes popoutanim-min {
   0% {
     transform: translateX(-50%) scale(0);
