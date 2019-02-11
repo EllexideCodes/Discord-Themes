@@ -1008,7 +1008,10 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="252460828157018112"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="316563263179456513"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="150967530075324416"]::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="498444458845536257"]::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="498444458845536257"]::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="234148582523928576"]::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="147889058670968844"]::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="251465413995528194"]::before {
   content: '';
   color: transparent;
   height: 15px;
@@ -1156,6 +1159,21 @@
   background-image: url(https://i.imgur.com/25IctFX.png)
 }
 
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="234148582523928576"]::before {
+  background-image: url(https://i.imgur.com/bPTfJBu.png);
+}
+
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="147889058670968844"]::before {
+  background-image: url(https://i.imgur.com/ki2KXQm.jpg);
+  transform: scale(1.2);
+  bottom: -6px;
+  right: -6px;
+}
+
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="251465413995528194"]::before {
+  background-image: url(https://i.imgur.com/jESaI6n.png);
+}
+
 /* on hover */
   /* green */
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="214318588331294720"]:hover::before {
@@ -1195,7 +1213,10 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="252460828157018112"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="316563263179456513"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="150967530075324416"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="498444458845536257"]:hover::before  {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="498444458845536257"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="234148582523928576"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="147889058670968844"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="251465413995528194"]:hover::before  {
   transform: none;
   background-size: cover;
   background-position: center;
@@ -1335,6 +1356,25 @@
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="234148582523928576"]:hover::before {
+  content: "@everyone";
+  background-image: url(https://i.imgur.com/zy4q3mw.png);
+  color: #7289DA;
+}
+
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="147889058670968844"]:hover::before {
+  content: "Hentai™";
+  background-image: url(https://i.imgur.com/yRl0q5x.gif);
+  color: #FB4B25;
+}
+
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="251465413995528194"]:hover::before {
+  content: "XXV";
+  background-image: url(https://i.imgur.com/DKWMnH6.gif);
+  color: #DEAD25;
+  padding: 6px 22.5px;
+}
+
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="402272736665272320"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="134349083568504832"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="214318588331294720"]:hover::before,
@@ -1353,7 +1393,10 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="252460828157018112"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="316563263179456513"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="150967530075324416"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="498444458845536257"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="498444458845536257"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="234148582523928576"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="147889058670968844"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="251465413995528194"]:hover::before {
   display: block;
   background-color: transparent;
   box-shadow: none;

@@ -4,13 +4,16 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="96563253466898432"]:hover:before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="252460828157018112"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="316563263179456513"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="150967530075324416"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="150967530075324416"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="234148582523928576"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="251465413995528194"]:hover::before {
   animation: mentionpulse 1.5s infinite, popoutanim .2s;
 }
 
 
 /* popin */
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="213220786805145600"]:hover:before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="213220786805145600"]:hover:before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="147889058670968844"]:hover::before {
   animation: popoutanim .2s;
 }
 
