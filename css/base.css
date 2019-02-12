@@ -2692,41 +2692,46 @@ pre {
 }
 
   /* 15.b.1. BBD Emote Menu */
-#bda-qem,
-#bda-qem-twitch-container, #bda-qem-favourite-container {
-  background: var(--primary-color);
-}
+  #app-mount #bda-qem {
+    background: var(--primary-color) !important;
+    border-bottom: 1px solid var(--quaternary-color) !important;
+  }
   
-#bda-qem button {
-  border-color: var(--quaternary-color);
-  box-shadow: var(--quaternary-color) 1px 0 0 0;
-}
-
-#bda-qem button:hover {
-  background-color: var(--quaternary-color);
-}
-
-#bda-qem button.active {
-  background: var(--tertiary-color);
-}
-
-.theme-dark #bda-qem button {
-  color: #eee;
-}
+  #bda-qem-twitch-container, #bda-qem-favourite-container {
+    background-color: var(--primary-color) !important;
+  }
+    
+  #app-mount #bda-qem button {
+    background: var(--secondary-color);
+    border-left: 1px solid var(--quaternary-color);
+    box-shadow: var(--quaternary-color) 1px 0 0 0;
+  }
   
-.theme-light #bda-qem button {
-  color: #111;
-}
-
-.emote-container {
-  border: 2px solid transparent;
-  box-sizing: border-box;
-}
-
-.emote-container:hover {
-  border-color: var(--hover-color);
-  background-color: transparent;
-}
+  #bda-qem button:hover {
+    background-color: var(--quaternary-color) !important;
+  }
+  
+  #bda-qem button.active {
+    background-color: var(--quaternary-color) !important;
+  }
+  
+  .theme-dark #bda-qem button {
+    color: #eee;
+  }
+    
+  .theme-light #bda-qem button {
+    color: #111;
+  }
+  
+  .emote-container {
+    border: 2px solid transparent !important;
+    box-sizing: border-box;
+  }
+  
+  .emote-container:hover {
+    border-color: var(--hover-color) !important;
+    background-color: transparent !important;
+  }
 
   /* 15.c. Autocomplete */
 .autocomplete-1vrmpx {
