@@ -541,6 +541,11 @@
   justify-content: center;
 }
 
+.userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
+  background-color: var(--secondary-color) !important;
+  border-color: transparent !important;
+}
+
   /* 3.c. Cards and Items */
 
 .side-8zPYf6 .itemSelected-1qLhcL,
@@ -782,7 +787,7 @@ color: var(--dnd) !important;
 }
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH {
-  padding: 0px 0px 140px 10px !important;
+  padding: 0px 0px 20px 10px !important;
 }
 
 .guildsWrapper-5TJh6A .scrollerWrap-1IAIlv { 
@@ -833,22 +838,11 @@ color: var(--dnd) !important;
   transition: all 200ms ease;
   font-size: 32px;
   font-weight: 600;
-  margin: 0px;
-  position: absolute;
   left: 0;
   color: transparent;
-  height: 70px;
-  width: 70px;
+  height: 50px;
   padding: 0;
   z-index: 1000;
-}
-
-.guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK:not(.guildsDiscover-oiBX_l) {
-  bottom: 0px;
-}
-
-.guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK.guildsDiscover-oiBX_l {
-  bottom: 60px;
 }
 
 .guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK::after {
@@ -856,7 +850,7 @@ color: var(--dnd) !important;
   position: absolute;
   left: 50%;
   transform: translate(-50%);
-  bottom: 20px;
+  bottom: 0;
   z-index: 1;
   content: "";
   height: 50px;
@@ -2152,7 +2146,8 @@ pre {
 }
 
 .overlappingBorder-1-XPGl,
-.overlappingBorder-1ysb12 {
+.overlappingBorder-1ysb12,
+.overlappingBorder-3aFng4 {
   border-color: var(--main-color) !important;
 }
 
@@ -2210,6 +2205,18 @@ pre {
   /* 10.d. Server Directory */
   .bg-AYqtMd {
     -webkit-mask: linear-gradient(black, transparent);
+  }
+
+  #app-mount .loading-17PYl_ {
+    background-color: var(--secondary-color);
+  }
+
+  #app-mount .emptySearchResults-1ba__I {
+    background: transparent;
+  }
+
+  #app-mount .wrapper-39oAo3 {
+    background-color: var(--quaternary-color);
   }
 
 /* 11. Avatars */
