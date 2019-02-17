@@ -880,22 +880,6 @@ color: var(--dnd) !important;
   opacity: 1
 }
 
-.guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK:not(.guildsDiscover-oiBX_l)::before {
-  content: "";
-  width: 70px;
-  height: 150px;
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-  z-index: -1;
-  background: linear-gradient(to bottom, rgba(48, 48, 48, 0) 0%, var(--quaternary-color) 60%, var(--quaternary-color) 100%);
-  pointer-events: none;
-}
-
-.guildsWrapper-5TJh6A.folderopen .guild-1EfMGQ.guildsAdd-21_IdK:not(.guildsDiscover-oiBX_l)::before {
-  width: 140px;
-}
-
 
 
   /* 4.d. Badges */
@@ -4289,7 +4273,8 @@ animation: show-status 300ms linear;
 .connectedAccountVerifiedIcon-3aZz_K g path:nth-child(2),
 .verified-3uJH7V g path:nth-child(2),
 .verified-2-ja4L g path:nth-child(2),
-.verifiedIcon-2TCIsJ g path:nth-child(2) {
+.verifiedIcon-2TCIsJ g path:nth-child(2),
+.verifiedIcon-1vpk3S path:nth-of-type(2) {
   fill: var(--main-color) !important;
 }
 
