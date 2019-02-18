@@ -4458,18 +4458,6 @@ div.reply-item {
   background: var(--main-color) !important;
 }
 
-.guildsWrapper-5TJh6A.foldercontent::after {
-  content: "";
-  width: 70px;
-  height: 150px;
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-  z-index: 5;
-  background: linear-gradient(to bottom, rgba(48, 48, 48, 0) 0%, var(--quaternary-color) 60%, var(--quaternary-color) 100%);
-  pointer-events: none;
-}
-
   /* 20.a.6. Share Button Plugin */
 .sb-button:hover {
   background-color: var(--main-color) !important;
