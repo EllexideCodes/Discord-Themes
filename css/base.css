@@ -1596,6 +1596,13 @@ pre {
   border-color: transparent !important;
 }
 
+#app-mount .tile-2OwFgW {
+  background-color: var(--secondary-color);
+}
+
+#app-mount .tile-2OwFgW:hover {
+  background-color: var(--primary-color);
+}
   /* 8.l. Text Area */
 .chat-3bRxxu .attachButtonDivider-3Glu60 {
   display: none;
