@@ -4376,6 +4376,13 @@ animation: show-status 300ms linear;
     color: #eee;
 }
 
+.moreUsers-1s5Her,
+.playerOverflow-3X56UI {
+  border-radius: var(--roundness);
+  background-color: var(--main-color);
+  color: white;
+}
+
   /* 20.a. Plugin Optimization */
     /* 20.a.1. BetterFormatting */
 .bf-toolbar:before {
