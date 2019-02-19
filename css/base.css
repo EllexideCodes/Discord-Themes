@@ -4379,7 +4379,7 @@ animation: show-status 300ms linear;
 .moreUsers-1s5Her,
 .playerOverflow-3X56UI {
   border-radius: var(--roundness);
-  background-color: var(--main-color);
+  background-color: var(--main-color) !important;
   color: white;
 }
 
