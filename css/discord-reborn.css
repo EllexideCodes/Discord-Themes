@@ -92,6 +92,7 @@
 .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebar-CFHs9e,
 .userSettingsVoice-iwdUCU .media-engine-video,
 .activityFeed-28jde9,
+.activityFeed-1C0EmJ,
 .guildsWrapper-5TJh6A,
 .search .searchBarIcon-1J6sKG,
 .footer-2yfCgX,
@@ -174,7 +175,8 @@
   border-color: var(--quaternary-color) !important;
 }
 
-.select-2TCrqx .Select-menu-outer {
+.select-2TCrqx .Select-menu-outer,
+#app-mount .popout-3G62UL {
   background-color: transparent !important;
   background-attachment: fixed !important;
   background-image: var(--background-image) !important;
@@ -282,7 +284,8 @@
 .metalloriff-changelog-scroller::before,
 .colorPickerCustom-2CWBn2::before,
 .container-VSDcQc::before,
-.toast::before {
+.toast::before,
+#app-mount .popout-3G62UL::before {
   content: "";
   position: absolute;
   height: 100%;
@@ -297,7 +300,8 @@
 .metalloriff-changelog-scroller::before,
 .container-16j22k::before,
 .container-VSDcQc::before,
-.toast::before {
+.toast::before,
+#app-mount .popout-3G62UL::before {
   z-index: -1 !important;
 }
 
