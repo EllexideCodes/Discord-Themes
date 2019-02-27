@@ -92,7 +92,6 @@
 .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebar-CFHs9e,
 .userSettingsVoice-iwdUCU .media-engine-video,
 .activityFeed-28jde9,
-.activityFeed-1C0EmJ,
 .guildsWrapper-5TJh6A,
 .search .searchBarIcon-1J6sKG,
 .footer-2yfCgX,
@@ -122,6 +121,10 @@
 .container-3gCOGc,
 .appMount-3lHmkl .pageWrapper-1PgVDX {
   background: transparent !important;
+}
+
+#app-mount .activityFeed-1C0EmJ {
+  background-color: transparent;
 }
 
 .typeMacOS-3EmCyP.titleBar-AC4pGV {
