@@ -119,7 +119,8 @@
 .root-1BQpZw,
 .root-26DmKJ,
 .container-3gCOGc,
-.appMount-3lHmkl .pageWrapper-1PgVDX {
+.appMount-3lHmkl .pageWrapper-1PgVDX,
+.wrapper-1Rf91z {
   background: transparent !important;
 }
 
@@ -254,6 +255,10 @@
 
 .container-2Yth53 {
   border-radius: 5px;
+}
+
+#app-mount .popout-3G62UL::before {
+  border-radius: 4px;
 }
 
 .userPopout-3XzG_A .header-2BwW8b,

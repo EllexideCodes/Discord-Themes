@@ -123,8 +123,9 @@
 }
 
 /* 4. Guilds Wrapper */
-.guildsWrapper-5TJh6A {
-  background-color: var(--quaternary-color) !important;
+#app-mount .guildsWrapper-5TJh6A,
+#app-mount .wrapper-1Rf91z {
+  background-color: var(--quaternary-color);
 }
 
 
