@@ -141,6 +141,21 @@
   background-color: var(--primary-color) !important;
 }
 
+#app-mount .header-2o-2hj::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(transparent, var(--quaternary-color));
+  transform: translateY(-100%);
+}
+
+#app-mount .header-2o-2hj * {
+  z-index: 1;
+}
+
 
 /* 6. Account Area */
 .container-2Thooq {
