@@ -336,7 +336,7 @@
 }
 
 .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>div.container-1ETFDs:first-child {
-  margin-top: -62px;
+  margin-top: -52px;
   width: 70px;
   margin-left: -10px;
   position: absolute;
@@ -799,11 +799,15 @@ color: var(--dnd) !important;
 
 .guildsWrapper-5TJh6A .scrollerWrap-1IAIlv,
 .wrapper-1Rf91z .scrollerWrap-1IAIlv { 
-  margin-top: 58px !important;
+  margin-top: 48px !important;
+}
+
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .friendsOnline-2JkivW {
+  margin-top: 10px;
 }
 
 .theme-light .guildsWrapper-5TJh6A .guilds-1q_RqH .friendsOnline-_wi_fM,
-.theme-light .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .friendsOnline-2JkivW  {
+.theme-light .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .friendsOnline-2JkivW {
   color: #000;
 }
 
@@ -850,8 +854,6 @@ color: var(--dnd) !important;
 .dragfix-1wSxtO:active {
   border-radius: var(--roundness);
 }
-
-.container-1aNBdK
 
   /* 4.c. Guilds Add */
 #app-mount .circleIconButton-jET_ig{
