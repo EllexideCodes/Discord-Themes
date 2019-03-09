@@ -129,12 +129,23 @@
   background-attachment: fixed !important;
 }
 
-#app-mount .header-2o-2hj::before {
+#app-mount .banner-1TiK82 .header-2o-2hj::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: var(--primary-color);
+  pointer-events: none;
+}
+
+#app-mount .banner-1TiK82::before {
   content: '';
   position: absolute;
   bottom: 0;
   left: 0;
-  height: 200%;
+  height: 100%;
   width: 100%;
   background: var(--background-image) center/cover no-repeat !important;
   background-attachment: fixed !important;
@@ -142,12 +153,12 @@
   mask: linear-gradient(transparent, black 50%);
 }
 
-#app-mount .header-2o-2hj::after {
+#app-mount .banner-1TiK82::after {
   content: '';
   position: absolute;
   bottom: 0;
   left: 0;
-  height: 200%;
+  height: 100%;
   width: 100%;
   background: var(--primary-color);
   -webkit-mask: linear-gradient(transparent, black 50%);

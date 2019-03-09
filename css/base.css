@@ -1199,6 +1199,22 @@ color: var(--dnd) !important;
   background-color: var(--hover-color);
 }
 
+  /* 5.i. Verified Servers Banner */
+.banner-1TiK82 {
+  top: 48px;
+  height: 128px;
+}
+
+.banner-1TiK82 .header-2o-2hj {
+  max-width: 240px;
+  bottom: unset;
+  top: 0;
+  position: fixed;
+}
+
+.scroller-2wx7Hm .flexChild-faoVW3 ~ .container-0.container-2xaHGu {
+  margin-top: 15px;
+}
 
 /* 6. Account Area */
   /* 6.a. Main Container */
