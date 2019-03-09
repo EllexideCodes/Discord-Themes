@@ -6,7 +6,10 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="316563263179456513"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="150967530075324416"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="234148582523928576"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="251465413995528194"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="251465413995528194"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="227648235097817089"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="210629330135547904"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="143017752775360512"]:hover::before {
   animation: mentionpulse 1.5s infinite, popoutanim .2s;
 }
 
