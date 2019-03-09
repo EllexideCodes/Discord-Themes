@@ -819,7 +819,8 @@ color: var(--dnd) !important;
 
   /* 4.b. Guilds */
 .guild-1EfMGQ .guildInner-3DSoA4,
-.container-2td-dC .wrapper-2lTRaf {
+.container-2td-dC .wrapper-2lTRaf,
+.container-1aNBdK .wrapper-2lTRaf {
   background: transparent !important;
   overflow: visible;
 }
