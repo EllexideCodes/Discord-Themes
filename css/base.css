@@ -2108,11 +2108,6 @@ pre {
   background-color: var(--main-color);
 }
 
-#app-mount .activityFeed-1C0EmJ .status-oxiHuE:not(.status-3fQvEa) {
-  height: calc(100% + 3px) !important;
-  width: calc(100% + 3px) !important;
-}
-
   /* 10.b. Library */
 .rowWrapperActive-2L7i9f {
   background-color: var(--tertiary-color) !important;
@@ -2317,14 +2312,15 @@ pre {
   transition: all ease .05s
 }
 
-.status-oxiHuE:not(.status-3fQvEa) {
-  height: calc(100% - 1px) !important;
-  width: calc(100% - 1px) !important;
+#app-mount .status-oxiHuE:not(.status-3fQvEa) {
+  height: 100%;
+  width: 100%;
   margin: 0;
-  top: -1px;
-  left: -1px;
+  top: 0;
+  left: 0;
   background: transparent;
   border:2px solid;
+  box-sizing: border-box;
   transition-duration: .5s;
   box-shadow: none;
   pointer-events: none;
