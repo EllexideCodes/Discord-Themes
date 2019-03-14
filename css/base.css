@@ -1656,11 +1656,13 @@ pre {
   border-color: transparent !important;
 }
 
-#app-mount .tile-2OwFgW {
+#app-mount .tile-2OwFgW,
+#app-mount .tile-QA_yMc {
   background-color: var(--secondary-color);
 }
 
-#app-mount .tile-2OwFgW:hover {
+#app-mount .tile-2OwFgW:hover,
+#app-mount .tile-QA_yMc:hover {
   background-color: var(--primary-color);
 }
   /* 8.l. Text Area */
