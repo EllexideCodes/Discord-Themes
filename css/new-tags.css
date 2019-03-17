@@ -56,7 +56,8 @@
 .guild-settings-audit-logs .large-3ChYtB:not(.wrapper-2F3Zv8)::after,
 .standardSidebarView-3F1I7i .large-3ChYtB:not(.wrapper-2F3Zv8)::before,
 .standardSidebarView-3F1I7i .large-3ChYtB:not(.wrapper-2F3Zv8)::after,
-.inner-1JeGVc .large-3ChYtB:not(.wrapper-2F3Zv8)::before {
+.inner-1JeGVc .large-3ChYtB:not(.wrapper-2F3Zv8)::before,
+.activityFeed-1C0EmJ .large-3ChYtB:not(.wrapper-2F3Zv8)::before{
   display: none !important;
 }
 

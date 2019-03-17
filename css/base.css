@@ -509,12 +509,13 @@
   max-width: 98%;
 }
 
-.paymentPane-3bwJ6A {
-  background-color: var(--tertiary-color) !important;
+#app-mount .paymentPane-3bwJ6A,
+#app-mount .paymentRow-2e7VM6 {
+  background-color: var(--tertiary-color);
 }
 
-.paymentRow-2e7VM6 {
-  border-color: var(--quaternary-color) !important;
+#app-mount .paymentRow-2e7VM6 {
+  border-color: var(--quaternary-color);
 }
 
 .expandedInfo-3kfShd {
@@ -2034,13 +2035,20 @@ pre {
   display: none;
 }
 
-.partyMemberOverflow-3VhFIX,
+#app-mount .partyMember-923s4S,
+#app-mount .partyMemberOverflow-Nei5T6 {
+  mask: none;
+  -webkit-mask: none;
+  margin: 0 2px;
+}
+
+#app-mount .partyMemberOverflow-Nei5T6,
 .guildIconEmptyBackground-14tfYf {
   background-color: var(--main-color) !important;
 }
 
 .guildIconEmptyIcon-rSyLPf,
-.partyMemberOverflow-3VhFIX {
+#app-mount .partyMemberOverflow-Nei5T6 {
   color: white !important;
 }
 
@@ -2482,7 +2490,9 @@ pre {
 .avatar-xxlarge,
 .avatarUploaderInner-3UNxY3,
 .icon-3o6xvg,
-.gameIcon-gg34Dz {
+.gameIcon-gg34Dz,
+#app-mount .partyMember-923s4S,
+#app-mount .partyMemberOverflow-Nei5T6 {
   border-radius: var(--roundness) !important;
 }
 
