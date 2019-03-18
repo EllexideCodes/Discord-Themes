@@ -2510,7 +2510,9 @@ pre {
 .moreUsers-1s5Her,
 .playerOverflow-3X56UI,
 .playerOverflow-2Hf77M,
-.voiceSectionIconWrapper-3YFjHm {
+.voiceSectionIconWrapper-3YFjHm,
+.voiceSectionGuildImage-2r1uIp, 
+.voiceSectionNoGuildImageWrapper-40qwqb {
   border-radius: var(--roundness) !important;
 }
 
