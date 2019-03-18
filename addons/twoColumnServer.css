@@ -117,6 +117,7 @@
   border: 2px solid var(--main-color);
   background: transparent;
   box-sizing: border-box;
+  border-radius: var(--roundness);
  }
  
  .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:first-child .homeIcon-1FoKUJ,

@@ -140,30 +140,8 @@
   pointer-events: none;
 }
 
-#app-mount .bannerImage-1jOskm::before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: var(--background-image) center/cover no-repeat !important;
-  background-attachment: fixed !important;
-  -webkit-mask: linear-gradient(transparent, black 50%);
-  mask: linear-gradient(transparent, black 50%);
-}
-
 #app-mount .bannerImage-1jOskm::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: var(--primary-color);
-  -webkit-mask: linear-gradient(transparent, black 50%);
-  mask: linear-gradient(transparent, black 50%);
-
+  opacity: 0;
 }
 
 #app-mount .header-2o-2hj * {
