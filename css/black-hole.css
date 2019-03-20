@@ -152,7 +152,7 @@
 }
 
 .titleBar-AC4pGV::after {
-  content: "𐌁𐌋𐌀𐌂𐌊 𐋏𐍈𐌋𐌄";
+  content: "𐌁𐌋𐌀𐌂𐌊 𐋏𐍈𐌋𐌄 ᵇᵉᵗᵃ";
   position: absolute;
   top: 5px;
   left: 10px;
@@ -1670,7 +1670,8 @@
 .lookInverted-2D7oAl.colorBrand-3pXr91,
 #app-mount .checked-3_4uQ9,
 .theme-brand .inner-zqa7da,
-.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j,
+#app-mount .resultFocused-3aIoYe {
   background-color: var(--sheer);
   transition: all .2s ease-in-out;
 }
