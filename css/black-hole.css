@@ -149,7 +149,7 @@
 }
 
 .titleBar-AC4pGV::after {
-  content: "𐌁𐌋𐌀𐌂𐌊 𐋏𐍈𐌋𐌄 ᵇᵉᵗᵃ";
+  content: "𐌁𐌋𐌀𐌂𐌊 𐋏𐍈𐌋𐌄";
   position: absolute;
   top: 5px;
   left: 10px;
@@ -582,6 +582,17 @@
   background: var(--blurple-sheer);
 }
 
+#app-mount .partyMemberOverflow-Nei5T6,
+#app-mount .guildIconEmptyBackground-14tfYf {
+  background-color: var(--blurple-sheer);
+}
+
+#app-mount .guildIconEmptyIcon-rSyLPf,
+#app-mount .partyMemberOverflow-Nei5T6 {
+  color: white;
+}
+
+
 .smallCarousel-2e0IQc {
   background: var(--sheer);
   border-radius: 5px;
@@ -771,6 +782,10 @@
   background: linear-gradient(to right, var(--blurple-sheer), var(--veil));
 }
 
+#app-mount .entitledHeader-3LRNDT {
+  border-radius: 5px;
+}
+
 #app-mount .card-rJBFl3,
 #app-mount .card-7JP0BX {
   background: var(--sheer) var(--stars) top left;
@@ -808,7 +823,8 @@
   background: var(--online-sheer) var(--stars) top left fixed;
 }
 
-#app-mount .dockItem-2kQDqg:hover {
+#app-mount .dockItem-2kQDqg:hover,
+#app-mount .entitledHeader-3LRNDT {
   background: var(--blurple-sheer) var(--stars) top left fixed;
 }
 
@@ -1288,7 +1304,8 @@
 }
 
 #app-mount .searchHeader-1l-wpR,
-#app-mount .focused-2bY0OD {
+#app-mount .focused-2bY0OD,
+#app-mount .focused-1Yu0L3 {
   background: var(--veil) var(--stars) top left !important;
   background-attachment: fixed;
 }
@@ -1440,7 +1457,8 @@
   background: var(--veil);
 }
 
-#app-mount .emojiPicker-3m1S-j .stickyHeader-1SS0JU {
+#app-mount .emojiPicker-3m1S-j .stickyHeader-1SS0JU,
+#app-mount .quickSelectPopout-X1hvgV {
   background: var(--uno) var(--stars) top left !important;
   background-attachment: fixed;
 }
