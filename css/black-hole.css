@@ -149,7 +149,7 @@
 }
 
 .titleBar-AC4pGV::after {
-  content: "𐌁𐌋𐌀𐌂𐌊 𐋏𐍈𐌋𐌄";
+  content: "𐌁𐌋𐌀𐌂𐌊 𐋏𐍈𐌋𐌄 ᵇᵉᵗᵃ";
   position: absolute;
   top: 5px;
   left: 10px;
@@ -669,6 +669,11 @@
   background: linear-gradient(var(--greyple-sheer), transparent 80%), var(--uno) var(--stars) top left fixed;
 }
 
+  /* 3. Download Discord */
+#app-mount .backdrop-1wrmKB[style*="background-color: rgb(255, 255, 255)"] {
+  background: linear-gradient(transparent, var(--blurple-sheer) 80%), var(--quatro) var(--stars) top left fixed !important;
+}
+
   /* B. Members List */
 #app-mount .members-1998pB {
   background-color: transparent;
@@ -825,7 +830,8 @@
 
 .listingSmall-d9e5gC .purchaseUnit-2lxci3,
 #app-mount .root-1bFE0x,
-#app-mount .item-2yFVoY {
+#app-mount .item-2yFVoY,
+#app-mount .card-NB61oR {
   background: linear-gradient(var(--blurple-sheer), transparent 80%),var(--uno) var(--stars) top left fixed;
 }
 
