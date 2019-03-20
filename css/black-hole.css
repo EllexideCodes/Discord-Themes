@@ -1836,6 +1836,16 @@ background-attachment: fixed;
   background: transparent;
 }
 
+  /* F. Reactions Modal */
+#app-mount .sidebar-1-SQro {
+  background: linear-gradient(var(--blurple-sheer), transparent 80%), var(--sheer) var(--stars) top left fixed;
+}
+
+#app-mount .theme-dark .reactors-Blmlhw {
+  background: linear-gradient(var(--blurple-sheer), transparent 80%);
+}
+
+
 /* XI. Keyframes */
 
 @keyframes fadeIn {
