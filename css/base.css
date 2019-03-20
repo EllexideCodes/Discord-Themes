@@ -2123,6 +2123,10 @@ pre {
   background-color: var(--main-color);
 }
 
+#app-mount .searchOption-8nCYo-.selected-1r_nkg {
+  background-color: var(--quaternary-color);
+}
+
   /* 10.b. Library */
 .rowWrapperActive-2L7i9f {
   background-color: var(--tertiary-color) !important;

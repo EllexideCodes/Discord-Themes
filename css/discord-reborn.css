@@ -235,6 +235,10 @@
   z-index: -1;
 }
 
+#app-mount .searchResultsContainer-1ma_dc {
+  background: linear-gradient(var(--primary-color), var(--primary-color)),var(--background-image) center/cover no-repeat fixed;
+}
+
 .userPopout-3XzG_A,
 .create-guild-container.deprecated,
 .modal-3HD5ck,

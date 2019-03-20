@@ -197,6 +197,9 @@
   background: var(--primary-color) !important;
 }
 
+#app-mount .searchResultsContainer-1ma_dc {
+  background-color: var(--secondary-color);
+}
 
 
 /* 11. Popouts */
