@@ -538,6 +538,7 @@
   border-radius: 0px;
 }
 
+
 .chat-3bRxxu .textArea-2Spzkt {
   background-color: transparent !important;
   line-height: 1.25rem !important;
@@ -1380,6 +1381,10 @@
   background: linear-gradient(transparent, var(--blurple-sheer) 80%),var(--uno) var(--stars) top left !important;
   background-attachment: fixed;
   border: 1px solid var(--sheer);
+}
+
+#app-mount .content-Qb0rXO {
+  color: white;
 }
 
 #app-mount .footer-2aTx0s {
