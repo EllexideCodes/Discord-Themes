@@ -1643,6 +1643,10 @@ background-attachment: fixed;
   -webkit-box-shadow: none;
 }
 
+#app-mount .scrollerOuter-3FLELE {
+  margin-top: 0px;
+}
+
   /* C. Join Guild Modal */
 #app-mount .action-1lSjCi {
   background: var(--veil) var(--stars) top left !important;
