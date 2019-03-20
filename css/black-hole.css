@@ -779,9 +779,15 @@
 #app-mount .container-2Zlzt0,
 #app-mount .tier1Banner-1B_WXY,
 #app-mount .emptyState-2-sT0o,
-#app-mount .loading-17PYl_ {
+#app-mount .loading-17PYl_,
+#app-mount .userHovered-2_fT4Z:active,
+#app-mount .wrapperAudio-1jDe0Q  {
   background: var(--veil) var(--stars) top left;
   background-attachment: fixed;
+}
+
+#app-mount .userHovered-2_fT4Z:active {
+  border-radius: 3px;
 }
 
 #app-mount .card-FDVird:before {
@@ -793,7 +799,9 @@
 }
 
 #app-mount .card-rJBFl3,
-#app-mount .card-7JP0BX {
+#app-mount .card-7JP0BX,
+#app-mount .audioControls-2HsaU6, 
+#app-mount .videoControls-2kcYic {
   background: var(--sheer) var(--stars) top left;
   background-attachment: fixed;
 }
@@ -803,8 +811,17 @@
 }
 
 #app-mount .iconCircle-1dlYo0,
-#app-mount .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
+#app-mount .emojiAliasInput-1y-NBz .emojiInput-1aLNse,
+#app-mount .mediaBarWrapper-3D7r67, 
+#app-mount .mediaBarWrapper-3D7r67:after, 
+#app-mount .mediaBarWrapper-3D7r67:before {
   background: var(--sheer);
+}
+
+#app-mount .buffer-26XPkd, 
+#app-mount .buffer-26XPkd:after, 
+#app-mount .buffer-26XPkd:before {
+  background: var(--blurple)
 }
 
 #app-mount .tile-QA_yMc,
@@ -1358,7 +1375,8 @@
   border-radius: 5px !important;
 }
     
-.tooltip-1OS-Ti {
+.tooltip-1OS-Ti,
+#app-mount .bubble-3we2di {
   background: var(--blurple) !important;
 }
     
@@ -1366,7 +1384,8 @@
   border-right-color: var(--blurple) !important;
 }
     
-.tooltip-1OS-Ti.top-1pTh1F:after {
+.tooltip-1OS-Ti.top-1pTh1F:after,
+#app-mount .bubble-3we2di:before {
   border-top-color: var(--blurple) !important;
 }
     
