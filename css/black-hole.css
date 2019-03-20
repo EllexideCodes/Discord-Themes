@@ -1383,6 +1383,17 @@
   background-image: var(--stars), linear-gradient(to right, var(--sheer), var(--sheer));
 }
     
+#app-mount .button-1MICoQ:hover {
+  background: var(--blurple-sheer);
+  border-color: var(--blurple-sheer);
+  color: white;
+}
+
+.channelNotices-41mJbj .channelNotice-1-XFjC.guildMFAWarning-3GEzs8 {
+  background: linear-gradient(var(--blurple-sheer), transparent 80%), var(--stars) top left fixed;
+  border-radius: 10px 10px 0 0;
+}
+
 /* tropix's fade in tooltip anim */
     
 .tooltips-FhwIyl .tooltip-1OS-Ti.right-KM_vfY {
@@ -1747,6 +1758,10 @@ background-attachment: fixed;
   transition: all .2s ease-in-out;
 }
 
+#app-mount .input-1mgnkM {
+  color: #bbb;
+}
+
   /* D. Messages Modal, Games Download Modal, Screenshare */
 #app-mount .message-2qRu38,
 #app-mount .tiles-2aXG_k {
@@ -1759,9 +1774,11 @@ background-attachment: fixed;
   background-color: var(--blurple-sheer);
 }
 
-  /* E. Incoming Call */
+  /* E. Incoming Call & Phone Verification */
 #app-mount .incomingCallInner-2VmFiR {
   background: linear-gradient(var(--blurple-sheer), transparent 80%), var(--quatro) var(--stars) top left no-repeat fixed;
+  border-color: var(--blurple-sheer);
+  border-radius: 10px;
 }
 
 #app-mount .lookFilled-1Gx00P.colorTransparent-1ewNp9 {
@@ -1784,6 +1801,19 @@ background-attachment: fixed;
 
 .lookFilled-1Gx00P.colorGreen-29iAKY:hover {
   background: var(--online);
+}
+
+#app-mount .phoneField-38N1bJ,
+#app-mount .input-3yHnCz {
+  background: var(--sheer) var(--stars) top left fixed;
+}
+
+#app-mount .phoneField-38N1bJ .countryButton-3xq3Ts {
+  background: var(--veil) var(--stars) top left fixed;
+}
+
+#app-mount .phoneField-38N1bJ .inputField-aNPXsv {
+  background: transparent;
 }
 
 /* XI. Keyframes */
