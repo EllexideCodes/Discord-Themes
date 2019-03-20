@@ -1,6 +1,6 @@
-@import url(https://fontlibrary.org/face/horta); /* 'HortaRegular' */
+@import "https://fontlibrary.org/face/horta"; /* 'HortaRegular' */
 @import "https://ellexidecodes.github.io/Profile-Codes/free/all-google-fonts.css";
-@import url("https://ellexidecodes.github.io/Discord-Themes/css/new-tags.css");
+@import "https://ellexidecodes.github.io/Discord-Themes/css/new-tags.css";
 
 /*
                                                                                                      
@@ -89,6 +89,8 @@
 *  V. Pages
 *     A. Main Areas
 *       1. Embeds, Code Blocks, and Invites
+*       2. Login Page
+*       3. Download Discord
 *     B. Members List
 *     C. Top Bar & Typing Status
 *     D. Cards and Tiles
@@ -116,7 +118,7 @@
 *     G. Gift Nitro and Gif Picker
 *     H. Emoji Picker
 *     I. Game Preview
-*     J. Add Roles Popout
+*     J. Add Roles Popout & Roles Overflow
 *     K. RTC Connection
 *     
 *  X. Modals
@@ -124,6 +126,7 @@
 *     B. Upload Modal 
 *     C. Join Guild Modal
 *     D. Messages Modal, Games Download Modal, Screenshare
+*     E. Incoming Call
 *  XI. Keyframes
 *  XII. Custom CSS
 */
@@ -149,7 +152,7 @@
 }
 
 .titleBar-AC4pGV::after {
-  content: "𐌁𐌋𐌀𐌂𐌊 𐋏𐍈𐌋𐌄";
+  content: "𐌁𐌋𐌀𐌂𐌊 𐋏𐍈𐌋𐌄 ᵇᵉᵗᵃ";
   position: absolute;
   top: 5px;
   left: 10px;
@@ -441,7 +444,8 @@
 }
 
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionVideoCall-2_PKeP,
-.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionVoiceCall-3EdPsR {
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionVoiceCall-3EdPsR,
+#app-mount .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9:first-child {
   background-color: var(--online-sheer)
 }
 
@@ -450,11 +454,13 @@
   background-color: var(--online)
 }
 
-.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionRemove-qu8nnl {
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionRemove-qu8nnl,
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionIgnore-1-RPlq {
   background-color: var(--dnd-sheer);
 }
 
-.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionRemove-qu8nnl:hover {
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionRemove-qu8nnl:hover,
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionIgnore-1-RPlq:hover {
   background-color: var(--dnd);
 }
 
@@ -1279,7 +1285,8 @@
   background-color: var(--veil);
 }
 
-#app-mount .quickMessage-1yeL4E {
+#app-mount .quickMessage-1yeL4E,
+#app-mount .searchOption-8nCYo-.selected-1r_nkg {
   background: var(--sheer) var(--stars) top left !important;
   background-attachment: fixed;
   border-color: black;
@@ -1310,7 +1317,9 @@
   background-attachment: fixed;
 }
 
-
+#app-mount .searchResultsContainer-1ma_dc {
+  background: var(--uno) var(--stars) top left fixed;
+}
 
 #app-mount .searchHeader-1l-wpR .tab-2Ixsn0.selected-16te-P, 
 #app-mount .searchHeader-1l-wpR .tab-2Ixsn0:hover {
@@ -1748,6 +1757,33 @@ background-attachment: fixed;
 
 #app-mount .installSize-1eXbBX {
   background-color: var(--blurple-sheer);
+}
+
+  /* E. Incoming Call */
+#app-mount .incomingCallInner-2VmFiR {
+  background: linear-gradient(var(--blurple-sheer), transparent 80%), var(--quatro) var(--stars) top left no-repeat fixed;
+}
+
+#app-mount .lookFilled-1Gx00P.colorTransparent-1ewNp9 {
+  background: var(--veil);
+}
+
+#app-mount .incomingCallInner-2VmFiR .lookFilled-1Gx00P.colorTransparent-1ewNp9 {
+  background: var(--dnd-sheer);
+  transition: background-color .2s ease-in-out;
+}
+
+#app-mount .incomingCallInner-2VmFiR .lookFilled-1Gx00P.colorTransparent-1ewNp9:hover {
+  background: var(--dnd);
+}
+
+.lookFilled-1Gx00P.colorGreen-29iAKY {
+  background: var(--online-sheer);
+  transition: background-color .2s ease-in-out;
+}
+
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover {
+  background: var(--online);
 }
 
 /* XI. Keyframes */
