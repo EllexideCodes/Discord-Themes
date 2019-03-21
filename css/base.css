@@ -19,6 +19,7 @@
   --roundness: 0px;
   --spoiler-blur: 5px;
   --shadow: rgba(0,0,0,.4);
+  --alert-display: block;
 }
 /* Table of Contents
     ======== STATIC ==========

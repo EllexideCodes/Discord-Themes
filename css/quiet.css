@@ -363,6 +363,7 @@
 
 
 
+
 #app-mount::after,
 #app-mount::before {
   position: absolute;
@@ -382,6 +383,7 @@
   z-index: 9999999;
   box-shadow: 0 10px 20px var(--shadow), 0 0 20px var(--main-color);
   pointer-events: none;
+  display: var(--alert-display);
 }
 
 
