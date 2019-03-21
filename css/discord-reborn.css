@@ -358,7 +358,7 @@ body::before {
 }
 
 body::after {
-  content: 'Download the new theme in #theme-downloads of the Derealised server.\A This will soon be unsupported. https://discord.gg/TeRQEPb';
+  content: 'Download Reborn in #monster-themes of the Derealised server.\A This will soon be unsupported. https://discord.gg/TeRQEPb';
   top: 40px;
   animation: themeAlertTop 1.5s cubic-bezier(.4, 0, 0, 1.3) forwards;
 }
