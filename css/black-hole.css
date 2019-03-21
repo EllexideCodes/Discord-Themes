@@ -706,7 +706,7 @@
 }
 
   /* 4. Light Theme Alert */
-.theme-light::after {
+[class*="platform-"]+.theme-light::after {
   content: 'Black Hole is not compatible with light theme. Please turn dark theme back on.\AWhatever you do, DO NOT HIT \'ESC\'!';
   line-height: 30px;
   text-align: center;
