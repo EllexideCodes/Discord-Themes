@@ -2117,9 +2117,9 @@ html[class="gr__betterdocs_us"] body #app-mount {
 
 .embed-IeVjo6 a[href*="betterdocs."]:before {
 color:#bbb;
-background: rgb(22, 22, 22) url(https://i.imgur.com/vvfzdaz.png) bottom right/100px no-repeat;
-border:2px solid rgba(0,0,0,0.7);
-box-shadow:0 0 12px rgba(0,0,0,0.5);
+background: rgb(22, 22, 22) url(https://i.imgur.com/ClYJFpv.png) bottom right/100px no-repeat;
+border:2px solid var(--dnd-sheer);
+box-shadow:0 0 12px var(--dnd-sheer);
 padding:7px 6px;
 padding-right: 100px;
 margin-top: -33px;
@@ -2148,7 +2148,7 @@ content:'BetterDocs is an unofficial source, and should be treated as such. The 
   z-index: 2;
   padding: 10px;
   color:#bbb;
-  background: rgb(22, 22, 22) url(https://i.imgur.com/vvfzdaz.png) top/30% no-repeat;
+  background: rgb(22, 22, 22) url(https://i.imgur.com/ClYJFpv.png) top/30% no-repeat;
   display: flex;
   text-align: justify;
   align-content: center;
@@ -2173,9 +2173,9 @@ content:'BetterDocs is an unofficial source, and should be treated as such. The 
 .wrapper-35wsBm .icon-3o6xvg[style*="/icons/153708594091655168"]::after {
 content:'BetterDocs is not an official source of themes and plugins\a and should not be trusted. The creator posts content\a without permission and it may have harmful plugins.\a Do not use BetterDocs.';
 color:#bbb;
-background: rgb(22, 22, 22) url(https://i.imgur.com/vvfzdaz.png) left/auto 100% no-repeat;
-border:2px solid rgba(0,0,0,0.7);
-box-shadow:0 0 12px rgba(0,0,0,0.5);
+background: rgb(22, 22, 22) url(https://i.imgur.com/ClYJFpv.png) left/auto 100% no-repeat;
+border:2px solid var(--dnd-sheer);
+box-shadow:0 0 12px var(--dnd-sheer);
 padding:10px 7px 10px 100px;
 margin-top:-35px;
 margin-left:-18px;
