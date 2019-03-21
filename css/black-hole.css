@@ -705,6 +705,56 @@
   background: linear-gradient(transparent, var(--blurple-sheer) 80%), var(--quatro) var(--stars) top left fixed !important;
 }
 
+  /* 4. Light Theme Alert */
+.theme-light::after {
+  content: 'Black Hole is not compatible with light theme. Please turn dark theme back on.\AWhatever you do, DO NOT HIT \'ESC\'!';
+  line-height: 30px;
+  text-align: center;
+  white-space: pre;
+  position: fixed;
+  top: 35%;
+  left: 50%;
+  transform: translate(-40%);
+  height: fit-content;
+  width: fit-content;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 2px 1px black;
+  font-size: 20px;
+  background: var(--dnd-sheer) var(--stars) top left fixed;
+  z-index: 500;
+  pointer-events: none;
+  animation: lightTheme 1s cubic-bezier(.4, 0, 0, 1.3) forwards;
+  border-radius: 5px;
+  border: 2px solid var(--dnd);
+}
+
+@keyframes lightTheme {
+  from {
+    top: -50%;
+  }
+}
+
+#app-mount .theme-light * {
+  pointer-events: none !important;
+}
+
+#app-mount .button-2b6hmh[aria-label*="User Settings"],
+#app-mount .theme-light.contextMenu-HLZMGh,
+#app-mount .theme-light.contextMenu-HLZMGh * {
+  pointer-events: all !important;
+}
+
+#app-mount .theme-light .preview-2nSL_2+.marginTop40-i-78cZ .radioGroup-1GBvlr:nth-child(2) .cardPrimaryEditable-3KtE4g:nth-child(2) {
+  color: white;
+  background-color: var(--dnd-sheer);
+  border-color: var(--dnd);
+  box-shadow: 0 0 20px var(--dnd);
+  pointer-events: all !important;
+}
+
   /* B. Members List */
 #app-mount .members-1998pB {
   background-color: transparent;
@@ -782,8 +832,20 @@
 #app-mount .body-SKIE6r,
 #app-mount .news-2GDtLJ,
 #app-mount .wrapper-2TxpI8,
-#app-mount .embedContainer-26S24y {
+#app-mount .embedContainer-26S24y,
+#app-mount .carousel-2WxMes,
+#app-mount .paginationItem-2lUq0s {
   background-color: transparent;
+}
+
+#app-mount .paginationItem-2lUq0s:after {
+  background: var(--sheer);
+}
+
+#app-mount .splashArt-3I5Qmp {
+  -webkit-mask: linear-gradient(to right, transparent, black 70%);
+  transition: filter .2s ease-in-out;
+  opacity: 1;
 }
 
 #app-mount .header-1RC2Wb,
@@ -860,8 +922,15 @@
 }
 
 #app-mount .dockItem-2kQDqg:hover,
-#app-mount .entitledHeader-3LRNDT {
+#app-mount .entitledHeader-3LRNDT,
+#app-mount .cardPrimary-1Hv-to,
+#app-mount .cardPrimaryEditable-3KtE4g {
   background: var(--blurple-sheer) var(--stars) top left fixed;
+}
+
+#app-mount .cardPrimary-1Hv-to,
+#app-mount .cardPrimaryEditable-3KtE4g {
+  border-color: var(--sheer);
 }
 
 #app-mount .wrapper-39oAo3 {
