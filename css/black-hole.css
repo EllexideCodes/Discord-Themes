@@ -706,23 +706,23 @@
 }
 
   /* 4. Light Theme Alert */
-[class*="platform-"]+.theme-light::after {
-  content: 'Black Hole is not compatible with light theme. Please turn dark theme back on.\AWhatever you do, DO NOT HIT \'ESC\'!';
+[class*="platform-"] .theme-light::after {
+  content: 'Light does not scatter in space. Please turn dark theme back on.';
   line-height: 30px;
   text-align: center;
   white-space: pre;
   position: fixed;
-  top: 35%;
+  top: 10%;
   left: 50%;
   transform: translate(-40%);
   height: fit-content;
   width: fit-content;
-  padding: 10px 20px;
+  padding: 5px 10px;
   box-sizing: border-box;
   color: white;
   font-weight: bold;
   text-shadow: 1px 2px 1px black;
-  font-size: 20px;
+  font-size: 15px;
   background: var(--dnd-sheer) var(--stars) top left fixed;
   z-index: 500;
   pointer-events: none;
@@ -737,22 +737,12 @@
   }
 }
 
-#app-mount .theme-light * {
-  pointer-events: none !important;
-}
-
-#app-mount .button-2b6hmh[aria-label*="User Settings"],
-#app-mount .theme-light.contextMenu-HLZMGh,
-#app-mount .theme-light.contextMenu-HLZMGh * {
-  pointer-events: all !important;
-}
-
+#app-mount .theme-light .itemSubMenu-1vN_Yn:nth-child(16) .theme-light.contextMenu-HLZMGh .item-1Yvehc:first-child,
 #app-mount .theme-light .preview-2nSL_2+.marginTop40-i-78cZ .radioGroup-1GBvlr:nth-child(2) .cardPrimaryEditable-3KtE4g:nth-child(2) {
   color: white;
   background-color: var(--dnd-sheer);
   border-color: var(--dnd);
   box-shadow: 0 0 20px var(--dnd);
-  pointer-events: all !important;
 }
 
   /* B. Members List */
@@ -1751,7 +1741,8 @@
 .uploadModal-2ifh8j,
 #app-mount .addGamePopout-2RY8Ju,
 #app-mount .inner-1JeGVc .container-3qKHyN,
-#app-mount .keyboardShortcutsModal-3piNz7 {
+#app-mount .keyboardShortcutsModal-3piNz7,
+#app-mount .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc {
   background: linear-gradient(var(--blurple-sheer), transparent 80%), var(--quatro) var(--stars) top left !important;
   background-attachment: fixed;
   border-radius: 10px;
