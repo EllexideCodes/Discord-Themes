@@ -1,6 +1,6 @@
 @import "https://fontlibrary.org/face/horta"; /* 'HortaRegular' */
 @import "https://ellexidecodes.github.io/Profile-Codes/free/all-google-fonts.css";
-@import "https://ellexidecodes.github.io/Discord-Themes/css/new-tags.css";
+@import "https://ellexidecodes.github.io/Discord-Themes/css/user-tags.css";
 
 /*
                                                                                                      
@@ -924,7 +924,11 @@
 }
 
 #app-mount .wrapper-39oAo3 {
-  background: linear-gradient(to right, var(--blurple-sheer), transparent 80%), var(--sheer) var(--stars) top left fixed;
+  background: var(--veil) var(--stars) top left fixed;
+  margin-bottom: 0px;
+  height: 23px;
+  border-radius: 0;
+  overflow: hidden;
 }
 
 #app-mount .nowPlaying-284llR .gameNameInput-385LoS:focus, 
@@ -1002,6 +1006,16 @@
 
 #app-mount .background-yZEZik {
   stroke: var(--sheer);
+}
+
+#app-mount .circleIconButton-jET_ig {
+  border-color: var(--blurple-sheer);
+  color: var(--blurple-sheer);
+}
+
+#app-mount .circleIconButton-jET_ig:hover {
+  border-color: var(--blurple);
+  color: var(--blurple);
 }
 
 /* VI. Top Layers */
