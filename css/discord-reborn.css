@@ -335,8 +335,8 @@
 
 
 
-  #app-mount::after,
-#app-mount::before {
+body::after,
+body::before {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -357,8 +357,7 @@
   display: var(--alert-display);
 }
 
-
-#app-mount::after {
+body::after {
   content: 'Download the new theme in #theme-downloads of the Derealised server.\A This will soon be unsupported. https://discord.gg/TeRQEPb';
   top: 40px;
   animation: themeAlertTop 1.5s cubic-bezier(.4, 0, 0, 1.3) forwards;
@@ -376,7 +375,7 @@
   }
 }
 
-#app-mount::before {
+body::before {
   content: 'Please remember to save your custom css.\a Set add ":root { --alert-display: none }" to hide all future theme alerts.';
   bottom: 40px;
   animation: themeAlertBottom 1.5s cubic-bezier(.4, 0, 0, 1.3) forwards;
