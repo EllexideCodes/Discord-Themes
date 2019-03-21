@@ -419,6 +419,12 @@
   border-radius: 10px;
 }
 
+#app-mount .noChannel-Z1DQK7 {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
 .bg-AYqtMd {
   -webkit-mask: linear-gradient(black 50%, transparent);
   mask: linear-gradient(black 50%, transparent);
@@ -523,7 +529,8 @@
 .friendsTable-133bsv,
 .applicationStore-1pNvnv .scrollerWrap-2lJEkd,
 .activityFeed-1C0EmJ .scrollerWrap-2lJEkd,
-.root-1BQpZw .scrollerWrap-2lJEkd {
+.root-1BQpZw .scrollerWrap-2lJEkd,
+#app-mount .noChannel-Z1DQK7 {
   background: var(--quatro)  var(--stars) top left !important;
   background-attachment: fixed;
 }
@@ -584,8 +591,14 @@
   background: transparent;
 }
 
-.aka-1mqp34 {
+.aka-1mqp34,
+#app-mount .spoilerText-3p6IlD.hidden-HHr2R9 {
   background: var(--blurple-sheer);
+}
+
+#app-mount .spoilerText-3p6IlD {
+  background: var(--sheer);
+  padding: 0 5px;
 }
 
 #app-mount .partyMemberOverflow-Nei5T6,
@@ -849,6 +862,10 @@
 #app-mount .dockItem-2kQDqg:hover,
 #app-mount .entitledHeader-3LRNDT {
   background: var(--blurple-sheer) var(--stars) top left fixed;
+}
+
+#app-mount .wrapper-39oAo3 {
+  background: linear-gradient(to right, var(--blurple-sheer), transparent 80%), var(--sheer) var(--stars) top left fixed;
 }
 
 #app-mount .nowPlaying-284llR .gameNameInput-385LoS:focus, 
@@ -1836,13 +1853,25 @@ background-attachment: fixed;
   background: transparent;
 }
 
-  /* F. Reactions Modal */
+  /* F. Reactions Modal & Server Invite Modal */
 #app-mount .sidebar-1-SQro {
   background: linear-gradient(var(--blurple-sheer), transparent 80%), var(--sheer) var(--stars) top left fixed;
 }
 
 #app-mount .theme-dark .reactors-Blmlhw {
   background: linear-gradient(var(--blurple-sheer), transparent 80%);
+}
+
+#app-mount .contentWrapper-3WC1ID {
+  background: linear-gradient(var(--blurple-sheer), transparent 80%), var(--quatro) var(--stars) top left fixed;
+}
+
+#app-mount .contentWrapper-3WC1ID .pill-1dHPfk:nth-child(2) {
+  background: var(--offline-sheer);
+}
+
+#app-mount .contentWrapper-3WC1ID .pill-1dHPfk:nth-child(1) {
+  background: var(--online-sheer);
 }
 
 
