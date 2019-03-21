@@ -2515,7 +2515,9 @@ pre {
 .playerOverflow-2Hf77M,
 .voiceSectionIconWrapper-3YFjHm,
 .voiceSectionGuildImage-2r1uIp, 
-.voiceSectionNoGuildImageWrapper-40qwqb {
+.voiceSectionNoGuildImageWrapper-40qwqb,
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .circleIconButton-jET_ig svg,
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .circleIconButton-jET_ig span {
   border-radius: var(--roundness) !important;
 }
 
