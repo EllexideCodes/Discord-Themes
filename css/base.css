@@ -1,11 +1,11 @@
 /* Imports */
 @import url(https://fonts.googleapis.com/css?family=Satisfy|Montserrat:300);
-@import url("https://ellexidecodes.github.io/Discord-Themes/css/new-tags.css");
+@import url("https://ellexidecodes.github.io/Discord-Themes/css/tags.css");
 
 
 /* Variables */
 :root {
-  --theme-version: "6.0";
+  --theme-version: "1.0";
   --main-color: #16356d;
   --hover-color: #1c4faf;
   --online: #43b581;
