@@ -4811,20 +4811,20 @@ html[class="gr__betterdocs_us"] body #app-mount {
   visibility:visible !important;
 }
 
-.embedLink-1G1K1D[href*="Betterdocs."],
+.embedLink-1G1K1D[href*="Betterdocs." i],
 .containerCozy-jafyvG .markup-2BOw-j a[href*="betterdocs."]{
   color: #38000b !important;
   text-shadow:0 0 12px black;
   pointer-events:none;
 }
 
-.embedLink-1G1K1D[href*="Betterdocs."]::selection,
-.containerCozy-jafyvG .markup-2BOw-j a[href*="betterdocs."]::selection{
+.embedLink-1G1K1D[href*="Betterdocs." i]::selection,
+.containerCozy-jafyvG .markup-2BOw-j a[href*="betterdocs." i]::selection{
   background-color:darkred !important;
 }
 
 
-.embed-IeVjo6 a[href*="betterdocs."]:before {
+.embed-IeVjo6 a[href*="betterdocs." i]:before {
 color:#bbb;
 background: rgb(22, 22, 22) url(https://i.imgur.com/ClYJFpv.png) bottom right/100px no-repeat;
 border:2px solid #f0474744;
@@ -4845,13 +4845,13 @@ letter-spacing: 0;
 content:'BetterDocs is an unofficial source, and should be treated as such. The owner posts peoples themes and plugins without their permission, and also contains content that would not be found on the official BetterDiscord repos. This means it probably contains harmful plugins that could either get you into trouble with discord, or steal user account info. Please stay safe, and download from official sources only.';
 }
 
-.embed-IeVjo6 a[href*="betterdocs."]{
+.embed-IeVjo6 a[href*="betterdocs." i]{
   color:transparent !important;
   height:70px;
 }
 
-.embed-IeVjo6 a[href*="betterdocs.net/preview"]:before,
-.embed-IeVjo6 a[href*="betterdocs.us/preview"]:before {
+.embed-IeVjo6 a[href*="betterdocs.net/preview" i]:before,
+.embed-IeVjo6 a[href*="betterdocs.us/preview" i]:before {
   width:auto;
   height: 100%;
   z-index: 2;
@@ -4866,11 +4866,11 @@ content:'BetterDocs is an unofficial source, and should be treated as such. The 
   content:'This is an unofficial source, and should be treated as such. The owner posts peoples themes and plugins without their permission, and also contains content that would not be found on the official BetterDiscord repos. This means it probably contains harmful plugins that could either get you into trouble with discord, or steal user account info. Please stay safe, and download from official sources only.';
 }
 
-.markup-2BOw-j>a[href*="betterdocs."] {
+.markup-2BOw-j>a[href*="betterdocs." i] {
   font-size: 0;
 }
 
-.markup-2BOw-j>a[href*="betterdocs."]:after {
+.markup-2BOw-j>a[href*="betterdocs." i]:after {
   content: "This theme does not support BetterDocs.";
   color: #f04747;
   font-weight: bolder;
@@ -4906,14 +4906,14 @@ z-index: -1;
 z-index: -2!important;
 }
 
-.markup-2BOw-j .anchor-3Z-8Bb[href="https://discordapp.com/invite/D4cAkXX"] {
+.markup-2BOw-j .anchor-3Z-8Bb[href="https://discordapp.com/invite/D4cAkXX" i] {
 color:transparent!important;
 cursor:not-allowed !important;
 pointer-events: none!important;
 letter-spacing: -1000px!important;
 }
 
-.markup-2BOw-j .anchor-3Z-8Bb[href="https://discordapp.com/invite/D4cAkXX"]:after {
+.markup-2BOw-j .anchor-3Z-8Bb[href="https://discordapp.com/invite/D4cAkXX" i]:after {
 content:'This theme does not support BetterDocs.';
 color: #f04747 !important;
 font-weight: bold;
