@@ -1,30 +1,30 @@
-.guildsWrapper-5TJh6A {
+.wrapper-1Rf91z {
   transform: translateY(-100%);
   transition: all 1s cubic-bezier(.4, 0, 0, 1);
   overflow: visible;
 }
 
-.guildsWrapper-5TJh6A.foldercontent {
+.wrapper-1Rf91z.foldercontent {
   transition: 1s cubic-bezier(.4, 0, 0, 1), width .3s linear !important;
 }
 
-.guildsWrapper-5TJh6A *::-webkit-scrollbar {
+.wrapper-1Rf91z *::-webkit-scrollbar {
   display: none;
 }
 
-.guildsWrapper-5TJh6A:not(.foldercontent):hover,
-.guildsWrapper-5TJh6A:not(.foldercontent):hover ~ .guildsWrapper-5TJh6A.foldercontent {
+.wrapper-1Rf91z:not(.foldercontent):hover,
+.wrapper-1Rf91z:not(.foldercontent):hover ~ .wrapper-1Rf91z.foldercontent {
   transform: translateY(0);
 }
 
-.guildsWrapper-5TJh6A:not(.foldercontent) .guilds-1q_RqH .guild-1EfMGQ:first-child {
+.wrapper-1Rf91z:not(.foldercontent) .scroller-2TZvBN>div.container-1ETFDs:first-child {
   top: 100%;
   transform: translateY(104.5%);
   z-index: 99999;
   transition: all 1s cubic-bezier(.4, 0, 0, 1);
 }
 
-.guildsWrapper-5TJh6A:not(.foldercontent):hover .guilds-1q_RqH .guild-1EfMGQ:first-child {
+.wrapper-1Rf91z:not(.foldercontent):hover .scroller-2TZvBN>div.container-1ETFDs:first-child {
   top: 0;
   transform: translateY(0);
 }
@@ -42,27 +42,27 @@
 }
 
 
-.guildsWrapper-5TJh6A.foldercontent::after {
+.wrapper-1Rf91z.foldercontent::after {
   width: 0;
   opacity: 0;
   transition: width .3s linear;
 }
 
-.guildsWrapper-5TJh6A.foldercontent.foldercontentopen::after {
+.wrapper-1Rf91z.foldercontent.foldercontentopen::after {
   width: 70px;
   opacity: 1;
 }
 
-.guildsWrapper-5TJh6A.foldercontent {
+.wrapper-1Rf91z.foldercontent {
   width: 0px;
   overflow: hidden;
 }
 
-.guildsWrapper-5TJh6A:hover ~ .guildsWrapper-5TJh6A.foldercontent.foldercontentopen {
+.wrapper-1Rf91z:hover ~ .wrapper-1Rf91z.foldercontent.foldercontentopen {
   width: 70px;
 }  
 
-.guildsWrapper-5TJh6A.foldercontent .scrollerWrap-1IAIlv {
+.wrapper-1Rf91z.foldercontent .scrollerWrap-1IAIlv {
   overflow: hidden;
 }
 
@@ -98,7 +98,7 @@ background-attachment: fixed !important;
 .container-3gCOGc .friendsTable-133bsv::before,
 .root-26DmKJ .scrollerWrap-2lJEkd::before,
 .root-1BQpZw .scrollerWrap-2lJEkd::before,
-.guildsWrapper-5TJh6A::before,
+.wrapper-1Rf91z::before,
 .matureListing-3tyHbV .gatedContent-3-B7qB::before,
 .container-2lgZY8::before {
   content: "";
@@ -157,7 +157,7 @@ background-attachment: fixed !important;
   position: relative;
 }
 
-.guildsWrapper-5TJh6A,
+.wrapper-1Rf91z,
 .container-2lgZY8 {
   background: var(--background-image) center/cover no-repeat !important;
   background-attachment: fixed !important;
