@@ -4896,14 +4896,7 @@ font-size: 15px;
 text-shadow:0 0 12px black;
 width: 300px;
 height: 78px;
-}
-
-.button-3To2tQ.buttonSize-DbrWhv {
-z-index: -1;
-}
-
-#app-mount .wrapper-35wsBm {
-z-index: -2!important;
+z-index: 1;
 }
 
 .markup-2BOw-j .anchor-3Z-8Bb[href="https://discordapp.com/invite/D4cAkXX" i] {
