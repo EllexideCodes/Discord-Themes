@@ -1,9 +1,9 @@
-## Quality Themes
-Need help with the themes? visit the <a href="https://discord.gg/TeRQEPb">Ellexide Codes Support Server</a>.
+-># Quality Themes<-
+Need help with the themes? visit the [Derealised Server][https://discord.gg/AGmsMpH].
 
-These themes are a version of the barely supported, always breaking, and paid (idk why) Quiet and Discord Reborn theme.
+Tranquil and Reborn are forks of old themes that have ceased to be supported. Because I have been maintaining them for a year and have rewritten them to be more readable and efficient, I have renamed them and claimed them as my own.
 
-They have long since been overhauled so the output may look different but the code has completely been changed at this point.
+The code itself is loads different but the output does still look the same.
 
-QUIET THEME
+## Tranquil
 ---------------
