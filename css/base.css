@@ -2222,7 +2222,8 @@ pre {
 .bodySection-jqkkIP,
 .row-1bU71H,
 .applicationTile-1Goy1W,
-.itemBackground-2vEldQ {
+.itemBackground-2vEldQ,
+.tileMedia-1q3guD {
   background-color: var(--quaternary-color) !important;
 }
 
@@ -2244,7 +2245,8 @@ pre {
 }
 
 .tile-2H4MQG:hover,
-.tile-367QuY:hover {
+.tile-367QuY:hover,
+.tileMedia-1q3guD:hover {
   background-color: var(--secondary-color) !important;
 }
 
@@ -2288,7 +2290,8 @@ pre {
 .price-1ynJAt,
 .entitledHeader-3LRNDT,
 .dot-2Q_mMZ,
-.pulsingEllipsisItem-32hhWL {
+.pulsingEllipsisItem-32hhWL,
+.genreTag-3QLRUJ {
   background-color: var(--main-color) !important;
 }
 

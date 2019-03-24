@@ -866,7 +866,8 @@
 #app-mount .card-rJBFl3,
 #app-mount .card-7JP0BX,
 #app-mount .audioControls-2HsaU6, 
-#app-mount .videoControls-2kcYic {
+#app-mount .videoControls-2kcYic,
+#app-mount .tile-2OwFgW {
   background: var(--sheer) var(--stars) top left;
   background-attachment: fixed;
 }
@@ -914,7 +915,8 @@
 #app-mount .dockItem-2kQDqg:hover,
 #app-mount .entitledHeader-3LRNDT,
 #app-mount .cardPrimary-1Hv-to,
-#app-mount .cardPrimaryEditable-3KtE4g {
+#app-mount .cardPrimaryEditable-3KtE4g,
+#app-mount .genreTag-3QLRUJ {
   background: var(--blurple-sheer) var(--stars) top left fixed;
 }
 
