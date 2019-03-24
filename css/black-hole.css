@@ -32,42 +32,42 @@
 :root {
 	--theme-name: "Black Hole";
   --theme-version: "0.1";
-  --blurple: #7289da;
-  --greyple: #99AAB5;
-  --blurple-sheer: #7289da44;
-  --greyple-sheer: #99AAB544;
+  --blurple: rgb(113, 136, 217);
+  --greyple: rgb(151, 168, 180);
+  --blurple-sheer: rgba(114, 137, 218, 0.267);
+  --greyple-sheer: rgba(151, 168, 180, 0.267);
   --black-hole: url(https://i.imgur.com/9Qx73mY.gif);
   --stars: url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png);
   --roundness: 50px;
-  --uno: #19191b;
+  --uno: rgb(25, 25, 27);
   /* primary background color */
-  --dos: #1E1E21;
+  --dos: rgb(30, 30, 33);
   /* secondary background color */
-  --tres: #232327;
+  --tres: rgb(35, 35, 39);
   /* tertiary background color */
-  --quatro: #101011;
+  --quatro: rgb(16, 16, 17);
   /* quaternary background color */
   --sheer: rgba(0,0,0,0.6);
   --veil: rgba(100, 100, 100, 0.2);
 
 
-  --online: #43b581;
-  --online-sheer: #43b58144;
+  --online: rgb(67, 181, 129);
+  --online-sheer: rgba(67, 181, 129, 0.267);
   /* color for online status */
-  --idle: #faa61a;
+  --idle: rgb(250, 166, 26);
   --idle-sheer: #faa61a44;
   /* color for idle status */
-  --dnd: #f04747;
-  --dnd-sheer: #f0474744;
+  --dnd: rgb(240, 71, 71);
+  --dnd-sheer: rgba(240, 71, 71, 0.267);
   /* color for dnd status */
-  --offline: #636b75;
-  --offline-sheer: #636b7544;
+  --offline: rgb(99, 107, 117);
+  --offline-sheer: rgba(99, 107, 117, 0.267);
   /* color for offline status */
-  --invisi: #747f8d;
-  --invisi-sheer: #747f8d44;
+  --invisi: rgb(116, 127, 141);
+  --invisi-sheer: rgba(116, 127, 141, 0.267);
   /* color for invisible status - Note this will only show for your own invisibility */
-  --streaming: #643da7;
-  --streaming-sheer: #643da744;
+  --streaming: rgb(100, 61, 167);
+  --streaming-sheer: rgba(100, 61, 167, 0.267);
   /* color for streaming status */
 
 }
@@ -156,7 +156,7 @@
   position: absolute;
   top: 5px;
   left: 10px;
-  color: #aaa;
+  color: rgb(170, 170, 170);
   display: block;
   height: 16px;
   width: fit-content;
@@ -185,8 +185,8 @@
 }
 
 #app-mount .bannerImage-1jOskm {
-  -webkit-mask: linear-gradient(black, transparent);
-  mask: linear-gradient(black, transparent);
+  -webkit-mask: linear-gradient(rgb(0, 0, 0), transparent);
+  mask: linear-gradient(rgb(0, 0, 0), transparent);
   border-radius: 10px 10px 0 0;
 }
 
@@ -352,7 +352,7 @@
 }
 
 .homeButton-2Cw51C {
-  background-color: white !important;
+  background-color: rgb(255, 255, 255) !important;
   -webkit-mask: url(https://ellexidecodes.github.io/Discord-Themes/assets/home.svg);
   -webkit-mask-size: 45px;
   -webkit-mask-repeat: no-repeat;
@@ -426,8 +426,8 @@
 }
 
 .bg-AYqtMd {
-  -webkit-mask: linear-gradient(black 50%, transparent);
-  mask: linear-gradient(black 50%, transparent);
+  -webkit-mask: linear-gradient(rgb(0, 0, 0) 50%, transparent);
+  mask: linear-gradient(rgb(0, 0, 0) 50%, transparent);
 }
 
 #app-mount .searchBox-3Y2Vi7 {
@@ -719,9 +719,9 @@
   width: fit-content;
   padding: 5px 10px;
   box-sizing: border-box;
-  color: white;
+  color: rgb(255, 255, 255);
   font-weight: bold;
-  text-shadow: 1px 2px 1px black;
+  text-shadow: 1px 2px 1px rgb(0, 0, 0);
   font-size: 15px;
   background: var(--dnd-sheer) var(--stars) top left fixed;
   z-index: 500;
@@ -833,7 +833,7 @@
 }
 
 #app-mount .splashArt-3I5Qmp {
-  -webkit-mask: linear-gradient(to right, transparent, black 70%);
+  -webkit-mask: linear-gradient(to right, transparent, rgb(0, 0, 0) 70%);
   transition: filter .2s ease-in-out;
   opacity: 1;
 }
@@ -985,7 +985,7 @@
 }
 
 #app-mount .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
-  border-color: black;
+  border-color: rgb(0, 0, 0);
 }
 
 #app-mount .accountBtnInner-sj5jLs,
@@ -1175,11 +1175,11 @@
 #app-mount .container-3cGP6G {
   background: var(--quatro)  var(--stars) top left;
   background-attachment: fixed;
-  border: 1px solid black;
+  border: 1px solid rgb(0, 0, 0);
 }
 
 #app-mount .itemGroup-1tL0uz {
-  border-color: black;
+  border-color: rgb(0, 0, 0);
 }
 
 #app-mount .itemSubMenu-1vN_Yn:hover,
@@ -1194,7 +1194,7 @@
 #app-mount .popoutList-T9CKZQ {
   background: var(--quatro)  var(--stars) top left;
   background-attachment: fixed;
-  border: 1px solid black;
+  border: 1px solid rgb(0, 0, 0);
 }
 
 #app-mount .selectableItem-1MP3MQ[style*="background: rgb(114, 137, 218)"] {
@@ -1379,12 +1379,12 @@
 #app-mount .searchResult-3pzFAB .hit-NLlWXA {
   background: var(--sheer);
   box-shadow: 0 0 10px 6px var(--sheer);
-  border-color: black;
+  border-color: rgb(0, 0, 0);
 }
 
 #app-mount .jumpButton-Ia2hRJ {
   background-color: var(--blurple);
-  color: white;
+  color: rgb(255, 255, 255);
   transition: all .2s ease-in-out;
 }
 
@@ -1396,7 +1396,7 @@
 #app-mount .searchOption-8nCYo-.selected-1r_nkg {
   background: var(--sheer) var(--stars) top left !important;
   background-attachment: fixed;
-  border-color: black;
+  border-color: rgb(0, 0, 0);
 }
 
 #app-mount .jumpButton-Ia2hRJ:hover,
@@ -1405,7 +1405,7 @@
 }
 
 #app-mount .dim-1l4L4y span {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 #app-mount .searchResult-3pzFAB:after {
@@ -1449,7 +1449,7 @@
 #app-mount .preview-yX6Nx7,
 #app-mount .invite-18yqGF {
   background: var(--sheer);
-  border-color: black;
+  border-color: rgb(0, 0, 0);
 }
 
 #app-mount .modal-3HD5ck .inner-zqa7da {
@@ -1495,7 +1495,7 @@
 #app-mount .button-1MICoQ:hover {
   background: var(--blurple-sheer);
   border-color: var(--blurple-sheer);
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .channelNotices-41mJbj .channelNotice-1-XFjC.guildMFAWarning-3GEzs8 {
@@ -1530,7 +1530,7 @@
 }
 
 #app-mount .content-Qb0rXO {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 #app-mount .footer-2aTx0s {
@@ -1571,7 +1571,7 @@
 .premiumPromo-yVfLiA {
   background: var(--quatro) var(--stars) top left !important;
   background-attachment: fixed;
-  border: 1px solid black;
+  border: 1px solid rgb(0, 0, 0);
 }
 
 #app-mount .searchBar-2_Yu-C.searchBarLight-1NxoDG {
@@ -1827,7 +1827,7 @@ background-attachment: fixed;
   left: 0;
   height: 100%;
   width: 100%;
-  background: white;
+  background: rgb(255, 255, 255);
   opacity: .4;
   -webkit-mask: url(https://ellexidecodes.github.io/Discord-Themes/assets/add-btn-two.svg) center/112px 78px no-repeat;
 }
@@ -1870,7 +1870,7 @@ background-attachment: fixed;
 }
 
 #app-mount .input-1mgnkM {
-  color: #bbb;
+  color: rgb(187, 187, 187);
 }
 
   /* D. Messages Modal, Games Download Modal, Screenshare */
@@ -1979,18 +1979,6 @@ background-attachment: fixed;
 @keyframes slide-right {
   from {
     transform: translate(100%);
-  }
-}
-
-@-webkit-keyframes mentionpulse {
-  0% {
-    -webkit-box-shadow: 0 0 0 0 var(--main-color);
-  }
-  70% {
-    -webkit-box-shadow: 0 0 0 5px rgba(204, 169, 44, 0);
-  }
-  100% {
-    -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
   }
 }
 
@@ -2147,7 +2135,7 @@ background-attachment: fixed;
 /* Main CSS Box */
 .contentColumnDefault-1VQkGM .ace-monokai {
   background-color: var(--tres);
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 /* Gutter Line */
@@ -2168,7 +2156,7 @@ background-attachment: fixed;
 
 /* Long Highlight Line */
 .ace-monokai .ace_marker-layer .ace_active-line {
-  background: #121212;
+  background: rgb(18, 18, 18);
 }
 
 /* Bracket Border */
@@ -2207,14 +2195,14 @@ html[class="gr__betterdocs_us"] body #app-mount {
 
 .embedLink-1G1K1D[href*="Betterdocs." i],
 .containerCozy-jafyvG .markup-2BOw-j a[href*="betterdocs." i]{
-  color: #38000b !important;
-  text-shadow:0 0 12px black;
+  color: rgb(56, 0, 11) !important;
+  text-shadow:0 0 12px rgb(0, 0, 0);
   pointer-events:none;
 }
 
 .embedLink-1G1K1D[href*="Betterdocs." i]::selection,
 .containerCozy-jafyvG .markup-2BOw-j a[href*="betterdocs." i]::selection{
-  background-color:darkred !important;
+  background-color:rgb(139, 0, 0) !important;
 }
 
 
@@ -2250,7 +2238,7 @@ content:'BetterDocs is an unofficial source, and should be treated as such. The 
   height: 100%;
   z-index: 2;
   padding: 10px;
-  color:#bbb;
+  color:rgb(187, 187, 187);
   background: rgb(22, 22, 22) url(https://i.imgur.com/ClYJFpv.png) top/30% no-repeat;
   display: flex;
   text-align: justify;
@@ -2266,7 +2254,7 @@ content:'BetterDocs is an unofficial source, and should be treated as such. The 
 
 .markup-2BOw-j>a[href*="betterdocs." i]:after {
   content: "This theme does not support BetterDocs.";
-  color: #f04747;
+  color: rgb(240, 71, 71);
   font-weight: bolder;
   font-size: 15px;
   animation: none;
@@ -2275,7 +2263,7 @@ content:'BetterDocs is an unofficial source, and should be treated as such. The 
 /*In-Chat Invite Link */
 .wrapper-35wsBm .icon-3o6xvg[style*="/icons/153708594091655168"]::after {
 content:'BetterDocs is not an official source of themes and plugins\a and should not be trusted. The creator posts content\a without permission and it may have harmful plugins.\a Do not use BetterDocs.';
-color:#bbb;
+color:rgb(187, 187, 187);
 background: rgb(22, 22, 22) url(https://i.imgur.com/ClYJFpv.png) left/auto 100% no-repeat;
 border:2px solid var(--dnd-sheer);
 box-shadow:0 0 12px var(--dnd-sheer);
@@ -2287,7 +2275,7 @@ position:absolute;
 font-weight:bold;
 letter-spacing: 0;
 font-size: 15px;
-text-shadow:0 0 12px black;
+text-shadow:0 0 12px rgb(0, 0, 0);
 width: 300px;
 height: 78px;
 z-index: 1;
@@ -2302,9 +2290,9 @@ letter-spacing: -1000px!important;
 
 .markup-2BOw-j .anchor-3Z-8Bb[href="https://discordapp.com/invite/D4cAkXX" i]:after {
 content:'This theme does not support BetterDocs.';
-color: #f04747 !important;
+color: rgb(240, 71, 71) !important;
 font-weight: bold;
-text-shadow:0 0 12px black;
+text-shadow:0 0 12px rgb(0, 0, 0);
 pointer-events:none;
 letter-spacing: 0;
 }
